@@ -9,6 +9,7 @@ import Image from "next/future/image";
 const Accordion = styled((props) => (
   <MuiAccordion elevation={0} square {...props} />
 ))(({ theme }) => ({
+  paddingInline: "1rem",
   "&:before": {
     display: "none",
   },
@@ -27,9 +28,11 @@ const AccordionSummary = styled((props) => (
   flexDirection: "row-reverse",
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
     transform: "rotate(90deg)",
-    marginRight: "0px",
   },
   "& .MuiAccordionSummary-content": {
+    marginLeft: theme.spacing(1),
+  },
+  "& .MuiAccordionSummary-content.Mui-expanded": {
     marginLeft: theme.spacing(1),
   },
 }));
@@ -37,7 +40,7 @@ const AccordionSummary = styled((props) => (
 const CustomAccordian = ({ title, icon, children }) => {
   return (
     <Accordion>
-      <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
+      <AccordionSummary aria-controls="panel-content" id="panel-header">
         <div class="flex gap-2 items-center">
           <Image
             draggable={false}
@@ -49,7 +52,7 @@ const CustomAccordian = ({ title, icon, children }) => {
           {title}
         </div>
       </AccordionSummary>
-      <Box className="p-8 flex flex-row justify-evenly"></Box>
+      <div class="mt-2">{children}</div>
     </Accordion>
   );
 };

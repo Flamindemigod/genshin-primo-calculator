@@ -1,10 +1,11 @@
 import Hero from "../components/Hero";
-import Accordion from "../components/Accordian";
+import Quests from "../components/Quests";
+
 export default function Home() {
   return (
     <div>
       <Hero />
-      <Accordion title={"Archon Quests"} icon={"/ArchonQuestIcon.webp"} />
+      <Quests />
     </div>
   );
 }
