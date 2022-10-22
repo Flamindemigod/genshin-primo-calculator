@@ -11,8 +11,8 @@ export default function Document() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
         />
-        <meta name="theme-color" content="#42a5f5" />
-        <meta property="og:site_name" content="Primo Pain" />
+        <meta name="theme-color" content="#29c9e5" />
+        <meta property="og:site_name" content="Primo Planner" />
       </Head>
       <body>
         <Main />
