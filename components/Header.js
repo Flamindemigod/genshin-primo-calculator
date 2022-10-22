@@ -6,7 +6,12 @@ const Header = () => {
     <div className="flex justify-between items-center">
       <Link href="/">
         <div class="flex items-center gap-2">
-          <Image src="/PaimonGivingPrimo.png" width={64} height={64} />
+          <Image
+            draggable={false}
+            src="/PaimonGivingPrimo.png"
+            width={64}
+            height={64}
+          />
           <div className="text-2xl font-sans">Genshin Primo Planner</div>
         </div>
       </Link>

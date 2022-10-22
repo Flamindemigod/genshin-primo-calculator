@@ -1,5 +1,10 @@
-import { Button } from "@mui/material";
-
+import Hero from "../components/Hero";
+import Accordion from "../components/Accordian";
 export default function Home() {
-  return <div className="text-3xl">Test</div>;
+  return (
+    <div>
+      <Hero />
+      <Accordion title={"Archon Quests"} icon={"/ArchonQuestIcon.webp"} />
+    </div>
+  );
 }

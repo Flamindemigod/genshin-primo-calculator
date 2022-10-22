@@ -3,10 +3,8 @@ import { Button } from "@mui/material";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-offWhite-700 text-offWhite-100 flex p-8 flex-col sm:flex-row justify-between">
+    <div className="w-full bg-black bg-opacity-50 text-offWhite-100 flex p-8 flex-col sm:flex-row justify-between">
       <div>
-        <div>Eat Cheesecake at the Néapolitan Café</div>
-        <div>Be a friendly triangle like Deltoid</div>
         <Button href={"https://ko-fi.com/flamindemigod"} variant="contained">
           <img
             width={32}
