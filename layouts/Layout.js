@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 const Layout = ({ children }) => {
   return (
-    <div class="">
+    <div>
       <Box
         className="flex flex-col"
         sx={{ minHeight: "100vh", flex: "1 0 100%", overflowX: "hidden" }}
