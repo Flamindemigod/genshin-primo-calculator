@@ -41,7 +41,7 @@ const CustomAccordian = ({ title, icon, children }) => {
   return (
     <Accordion>
       <AccordionSummary aria-controls="panel-content" id="panel-header">
-        <div class="flex gap-2 items-center">
+        <div className="flex gap-2 items-center">
           <Image
             draggable={false}
             src={icon}
@@ -52,7 +52,7 @@ const CustomAccordian = ({ title, icon, children }) => {
           {title}
         </div>
       </AccordionSummary>
-      <div class="mt-2">{children}</div>
+      <div className="mt-2">{children}</div>
     </Accordion>
   );
 };

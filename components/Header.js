@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center">
       <Link href="/">
-        <div class="flex items-center gap-2">
+        <div className="flex items-center gap-2">
           <Image
             draggable={false}
             src="/PaimonGivingPrimo.png"

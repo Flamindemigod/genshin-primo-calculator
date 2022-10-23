@@ -42,7 +42,7 @@ const QuestContainer = ({
         </div>
         <div className="flex gap-2 items-center flex-shrink-0">
           <div className="flex gap-1 items-center">
-            <div class="text-xl">{primos}</div>
+            <div className="text-xl">{primos}</div>
             <Image
               draggable={false}
               src={"/Item_Primogem.webp"}

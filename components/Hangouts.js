@@ -5,9 +5,9 @@ import quests from "../quests";
 import QuestSection from "./QuestSection";
 const StoryQuests = () => {
   return (
-    <Accordion title={"Story Quests"} icon={"/StoryQuestIcon.webp"}>
+    <Accordion title={"Hangouts"} icon={"/HangoutIcon.webp"}>
       <Box className="p-8 w-full grid lg:grid-cols-2 xl:grid-cols-3 justify-center gap-4">
-        {quests.story.map((quest) =>
+        {quests.hangouts.map((quest) =>
           quest.section ? (
             <QuestSection key={quest.section} title={quest.section} />
           ) : (
