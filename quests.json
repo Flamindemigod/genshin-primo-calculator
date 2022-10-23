@@ -355,6 +355,19 @@
       "subtitle": "Wellspring of Healing",
       "icon": "/Barbara.webp",
       "primos": 60
-    }
+    },
+    { "section": "Noelle" },
+    {
+      "title": "Hangout Event: Noelle - Act I",
+      "subtitle": "Chivalric Training",
+      "icon": "/Noelle.webp",
+      "primos": 60
+    },
+    {
+      "title": "Hangout Event: Noelle - Act II",
+      "subtitle": "Knightly Exam Prep",
+      "icon": "/Noelle.webp",
+      "primos": 60
+    },
   ]
 }
