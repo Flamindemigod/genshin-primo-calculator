@@ -446,6 +446,48 @@
       "icon": "/ShikanoinHeizou.webp",
       "primos": 60
     }
-  ]
-
+  ],
+  "World Quests Series": [
+    { "section": "Inazuma" },
+    {
+      "title": "Sakura Cleansing Ritual",
+      "icon": "WorldQuest.webp",
+      "primos": 170
+    },
+    { "section": "Inazuma" },
+    {
+      "title": "The Moon-Bathed Deep",
+      "icon": "WorldQuest.webp",
+      "primos": 160
+    },
+    { "section": "Inazuma" },
+    {
+      "title": "Seirai Stormchasers",
+      "icon": "WorldQuest.webp",
+      "primos": 150
+    },
+    { "section": "Inazuma" },
+    {
+      "title": "Tatara Tales",
+      "icon": "WorldQuest.webp",
+      "primos": 220
+    },
+    { "section": "Inazuma" },
+    {
+      "title": "Orobashi's Legacy",
+      "icon": "WorldQuest.webp",
+      "primos": 210
+    },
+    { "section": "Inazuma" },
+    {
+      "title": "Through the Mists",
+      "icon": "WorldQuest.webp",
+      "primos": 180
+    },
+    { "section": "Liyue" },
+    {
+      "title": "The Chasm Delvers",
+      "icon": "WorldQuest.webp",
+      "primos": 170
+    }
 }
