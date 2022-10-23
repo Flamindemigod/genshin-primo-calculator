@@ -243,7 +243,7 @@
       "icon": "/Albedo.webp",
       "primos": 60
     },
-    { "section": "Hutao" },
+    { "section": "Hu Tao" },
     {
       "title": "Papilio Charontis Chapter: Act I",
       "subtitle": "Yet The Butterfly Flutters Away",
@@ -369,5 +369,83 @@
       "icon": "/Noelle.webp",
       "primos": 60
     },
+    { "section": "Chongyun" },
+    {
+      "title": "Hangout Event: Chongyun - Act I",
+      "subtitle": "signs of Evil",
+      "icon": "/Chongyun.webp",
+      "primos": 60
+    },
+    { "section": "Bennett" },
+    {
+      "title": "Hangout Event: Bennett - Act I",
+      "subtitle": "Fantastic Voyage",
+      "icon": "/Bennett.webp",
+      "primos": 60
+    },
+    { "section": "Diona" },
+    {
+      "title": "Hangout Event: Diona - Act I",
+      "subtitle": "The Cat and the Cocktail",
+      "icon": "/Diona.webp",
+      "primos": 60
+    },
+    { "section": "Beidou" },
+    {
+      "title": "Hangout Event: Beidou - Act I",
+      "subtitle": "When the Crux Shines Bright",
+      "icon": "/Beidou.webp",
+      "primos": 60
+    },
+    { "section": "Thoma" },
+    {
+      "title": "Hangout Event: Thoma - Act I",
+      "subtitle": "A Housekeeper's Daily Chores",
+      "icon": "/Thoma.webp",
+      "primos": 60
+    },
+    { "section": "Sayu" },
+    {
+      "title": "Hangout Event: Sayu - Act I",
+      "subtitle": "Yoohoo Art: Seichou no Jutsu",
+      "icon": "/Sayu.webp",
+      "primos": 60
+    },
+    { "section": "Gorou" },
+    {
+      "title": "Hangout Event: Gorou - Act I",
+      "subtitle": "The Canine General's Special Operations",
+      "icon": "/Gorou.webp",
+      "primos": 60
+    },
+    { "section": "Yun Jin" },
+    {
+      "title": "Hangout Event: Yun Jin - Act I",
+      "subtitle": "A Song That Knows Grace",
+      "icon": "/YunJin.webp",
+      "primos": 60
+    },
+    { "section": "Ningguang" },
+    {
+      "title": "Hangout Event: Ningguang - Act I",
+      "subtitle": "The Jade Chamber's Returning Guest",
+      "icon": "/Ningguang.webp",
+      "primos": 60
+    },
+    { "section": "Kuki Shinobu" },
+    {
+      "title": "Hangout Event: Kuki Shinobu - Act I",
+      "subtitle": "The Gang's Daily Deeds",
+      "icon": "/KukiShinobu.webp",
+      "primos": 60
+    },
+    { "section": "Shikanoin Heizou" },
+    {
+      "title": "Hangout Event: Shikanoin Heizou - Act I",
+      "subtitle": "Trap Em' by Storm",
+      "icon": "/ShikanoinHeizou.webp",
+      "primos": 60
+    },
   ]
+  
 }
