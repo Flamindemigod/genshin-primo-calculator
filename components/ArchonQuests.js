@@ -9,9 +9,10 @@ const ArchonQuests = () => {
       <Box className="p-8 w-full grid lg:grid-cols-2 xl:grid-cols-3 justify-center gap-4">
         {quests.archon.map((quest) =>
           quest.section ? (
-            <QuestSection title={quest.section} />
+            <QuestSection key={quest.section} title={quest.section} />
           ) : (
             <QuestContainer
+              key={quest.title}
               title={quest.title}
               subTitle={quest.subtitle}
               primos={quest.primos}
