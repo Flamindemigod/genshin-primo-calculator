@@ -347,5 +347,14 @@
       "icon": "/Nilou.webp",
       "primos": 60
     }
+  ],
+  "hangouts": [
+    { "section": "Barbara" },
+    {
+      "title": "Hangout Event: Barbara - Act I",
+      "subtitle": "Wellspring of Healing",
+      "icon": "/Barbara.webp",
+      "primos": 60
+    }
   ]
 }
