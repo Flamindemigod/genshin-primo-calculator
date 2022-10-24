@@ -122,3 +122,12 @@ select {
     translate: 0;
 }
 
+/* Disabled Arrows on Number TextField */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
