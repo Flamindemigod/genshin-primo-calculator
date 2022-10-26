@@ -26,7 +26,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
           InputProps={{
             endAdornment: (
-              <InputAdornment position="center">
+              <InputAdornment position="end">
                 <Image
                   draggable={false}
                   src={"/Item_Primogem.webp"}
@@ -47,7 +47,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
           InputProps={{
             endAdornment: (
-              <InputAdornment position="center">
+              <InputAdornment position="end">
                 <Image
                   draggable={false}
                   src={"/Item_Genesis_Crystal.webp"}
@@ -68,7 +68,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
           InputProps={{
             endAdornment: (
-              <InputAdornment position="center">
+              <InputAdornment position="end">
                 <Image
                   draggable={false}
                   src={"/Item_Intertwined_Fate.webp"}
@@ -89,7 +89,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
           InputProps={{
             endAdornment: (
-              <InputAdornment position="center">
+              <InputAdornment position="end">
                 <Image
                   draggable={false}
                   src={"/Item_Masterless_Starglitter.webp"}

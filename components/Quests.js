@@ -4,6 +4,7 @@ import Accordion from "./Accordian";
 import StoryQuests from "./StoryQuests";
 import Hangouts from "./Hangouts";
 import WorldQuestSeries from "./WorldQuestsSeries";
+import WorldQuest from "./WorldQuest";
 const Quests = () => {
   return (
     <Accordion title={"Quests"} icon={"/Quests.webp"}>
@@ -11,6 +12,7 @@ const Quests = () => {
       <StoryQuests />
       <Hangouts />
       <WorldQuestSeries />
+      <WorldQuest />
     </Accordion>
   );
 };
