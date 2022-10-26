@@ -770,6 +770,12 @@
         "primos": 30
       },
       {
+        "title": "Garcia's Paean",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 20
+      },
+      {
         "title": "Valor's Afterglow",
         "subtitle": "",
         "icon": "/ChasmMines.webp",
@@ -870,6 +876,79 @@
         "title": "Says He Who Seeks Stone",
         "subtitle": "",
         "icon": "/ChasmMines.webp",
+        "primos": 20
+      },
+      { "section": "Inazuma" },
+      {
+        "title": "Sakura Arborism",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 60
+      },
+      {
+        "title": "Dreams of Sword Art",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 40
+      },
+      {
+        "title": "Treatment on the Island",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 30
+      },
+      {
+        "title": "Gazing Three Thousand Miles Away",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 30
+      },
+      {
+        "title": "Hiromi's Watch",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 30
+      },
+      {
+        "title": "Divine Plant of the Depths",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 30
+      },
+      {
+        "title": "Solitary Sea-Beast",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 40
+      },
+      {
+        "title": "The Seventh Samurai",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 30
+      },
+      {
+        "title": "Fate of a Fighter",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 40
+      },
+      {
+        "title": "Relics of Seirai",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 50
+      },
+      {
+        "title": "Reminiscence of Seirai",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 30
+      },
+      {
+        "title": "Neko Is A Cat: Shrine Cleanup",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
         "primos": 20
       }
       ]
