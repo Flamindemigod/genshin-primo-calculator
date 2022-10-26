@@ -1,5 +1,5 @@
 import { Box, Paper } from "@mui/material";
-import { useEffect, useReducer } from "react";
+import { useEffect, useReducer, useState } from "react";
 import Hero from "../components/Hero";
 import InputForm from "../components/InputForm";
 import Quests from "../components/Quests";
@@ -56,6 +56,17 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
     initialParamsReducer,
     initalParamsState
   );
+
+  const [questPrimos, setQuestPrimos] = useState(0);
+
+  const [output, setOutput] = useState({
+    primogems: 0,
+    fates: 0,
+    starglitter: 0,
+    probability5StarGuaranteed: "0%",
+    probability5Star: "0%",
+  });
+
   return (
     <div>
       <Hero />
@@ -68,7 +79,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
           }}
         >
           <InputForm params={initialParams} dispatch={initialParamsDispatch} />
-          <Quests />
+          <Quests setPrimos={setQuestPrimos} />
         </Box>
         <Box sx={{ flex: "1 1 25%", width: "-webkit-fill-available" }}>
           <Paper className="p-4" elevation={3}>
@@ -78,26 +89,36 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
                   Total Number of Primos{" "}
                   <span className="text-xs">(excluding Pity)</span>:
                 </div>
-                <div className="font-semibold text-primary-500">23840</div>
+                <div className="font-semibold text-primary-500">
+                  {output.primogems}
+                </div>
               </div>
               <div className="flex justify-between">
                 <div>
                   Total Number of Wishes{" "}
                   <span className="text-xs">(including Pity)</span>:
                 </div>
-                <div className="font-semibold text-primary-500">151</div>
+                <div className="font-semibold text-primary-500">
+                  {output.fates}
+                </div>
               </div>
               <div className="flex justify-between">
                 <div>Starglitter Generated:</div>
-                <div className="font-semibold text-primary-500">62</div>
+                <div className="font-semibold text-primary-500">
+                  {output.starglitter}
+                </div>
               </div>
               <div className="flex justify-between">
                 <div>Probabilty of Getting 5 Star if Guaranteed:</div>
-                <div className="font-semibold text-primary-500">100%</div>
+                <div className="font-semibold text-primary-500">
+                  {output.probability5StarGuaranteed}
+                </div>
               </div>
               <div className="flex justify-between">
                 <div>Probabilty of Getting 5 Star if not Guaranteed:</div>
-                <div className="font-semibold text-primary-500">78.51%</div>
+                <div className="font-semibold text-primary-500">
+                  {output.probability5Star}
+                </div>
               </div>
             </div>
           </Paper>

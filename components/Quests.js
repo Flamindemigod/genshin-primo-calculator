@@ -5,14 +5,14 @@ import StoryQuests from "./StoryQuests";
 import Hangouts from "./Hangouts";
 import WorldQuestSeries from "./WorldQuestsSeries";
 import WorldQuest from "./WorldQuest";
-const Quests = () => {
+const Quests = ({ setPrimos }) => {
   return (
     <Accordion title={"Quests"} icon={"/Quests.webp"}>
-      <ArchonQuests />
-      <StoryQuests />
-      <Hangouts />
-      <WorldQuestSeries />
-      <WorldQuest />
+      <ArchonQuests setPrimos={setPrimos} />
+      <StoryQuests setPrimos={setPrimos} />
+      <Hangouts setPrimos={setPrimos} />
+      <WorldQuestSeries setPrimos={setPrimos} />
+      <WorldQuest setPrimos={setPrimos} />
     </Accordion>
   );
 };
