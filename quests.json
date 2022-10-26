@@ -631,6 +631,12 @@
         "primos": 100
       },
       {
+        "title": "Time and Wind",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 60
+      },
+      {
         "title": "The Great Mountain Survey",
         "subtitle": "",
         "icon": "/Dragonspine.webp",
@@ -738,6 +744,78 @@
         "subtitle": "",
         "icon": "/Liyue.webp",
         "primos": 40
+      },
+      {
+        "title": "Nine Pillars of Peace",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 150
+      },
+      {
+        "title": "Luhua Landscape",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 50
+      },
+      {
+        "title": "A Little Game",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 30
+      },
+      {
+        "title": "No Restoring This Past Land of Beauty",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 30
+      },
+      {
+        "title": "Lost in a Foreign Land",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "Lost in a Foreign Land Seeking",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+        {
+        "title": "Dimming Mushroom's Call for Help",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 40
+      },
+      {
+        "title": "A Company Vanishing Into The Deep",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 40
+      },
+      {
+        "title": "A Cliff-Side Hero's Past",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "The Millennial Mountains",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 40
+      },
+      {
+        "title": "Stolen, by the Rightful Owner",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "Says He Who Seeks Stone",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 20
       }
     ]
 }
