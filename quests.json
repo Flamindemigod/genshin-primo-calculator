@@ -453,7 +453,7 @@
       "title": "The Chasm Delvers",
       "subtitle": "",
       "icon": "/Liyue.webp",
-      "primos": 170
+      "primos": 270
     },
     { "section": "Inazuma" },
     {
@@ -770,6 +770,61 @@
         "primos": 30
       },
       {
+        "title": "Valor's Afterglow",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "Valor's Afterglow: Return by Sundown",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "Valor's Afterglow: The Faint Light Remembered",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "Mycological Investigation in The Chasm",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 20
+      },
+      {
+        "title": "HydrologicalInvestigation in The Chasm",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "Paleontological Investigation in The Chasm",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "Undetected Infliration",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "The Chasm's Bounty",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "The Missing Miner",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+
+      {
         "title": "Lost in a Foreign Land",
         "subtitle": "",
         "icon": "/ChasmMines.webp",
@@ -817,23 +872,5 @@
         "icon": "/ChasmMines.webp",
         "primos": 20
       },
-      {
-        "title": "Valor's Afterglow",
-        "subtitle": "",
-        "icon": "/ChasmMines.webp",
-        "primos": 30
-      },
-      {
-        "title": "Valor's Afterglow: Return by Sundown",
-        "subtitle": "",
-        "icon": "/ChasmMines.webp",
-        "primos": 30
-      },
-      {
-        "title": "Valor's Afterglow: The Faint Light Remembered",
-        "subtitle": "",
-        "icon": "/ChasmMines.webp",
-        "primos": 30
-      }
-    ]
+          ]
 }
