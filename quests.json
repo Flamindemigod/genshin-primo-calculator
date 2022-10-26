@@ -922,7 +922,7 @@
         "primos": 40
       },
       {
-        "title": "The Seventh Samurai",
+        "title": "\"The Seventh Samurai\"",
         "subtitle": "",
         "icon": "/Inazuma.webp",
         "primos": 30
@@ -946,10 +946,157 @@
         "primos": 30
       },
       {
-        "title": "Neko Is A Cat: Shrine Cleanup",
+        "title": "Gourmet Supremos, Assemble!",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },
+      {
+        "title": "The Gourmet Supremos: Of Shrines and Sakura",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },
+      {
+        "title": "The Gourmet Supremos: The Seashore Strider",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },
+      {
+        "title": "The Gourmet Supremos: The Deep Divers",
         "subtitle": "",
         "icon": "/Inazuma.webp",
         "primos": 20
       }
+      {
+        "title": "Neko Is A Cat: Shrine Cleanup",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },    {
+        "title": "Neko Is A Cat: Wooden Shelf",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },    {
+        "title": "Neko Is A Cat: The Children",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },    {
+        "title": "Neko Is A Cat: Shrine Recipe",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },    {
+        "title": "Neko Is A Cat: Cat and Stone",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },    {
+        "title": "Neko Is A Cat: Stone Human's Troubles",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },    {
+        "title": "Neko Is A Cat: Shrine Canteen",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },    {
+        "title": "Neko Is A Cat: Ding-a-Ling Metal Ball",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },
+      {
+        "title": "Neko Is A Cat: A \"Good Turn\" Comes Late", 
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },
+      {
+        "title": "The Saga of Mr. Forgetful", 
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },
+      {
+        "title": "Temaria Game", 
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 20
+      },
+      {
+        "title": "The Farmer's Treasure", 
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 60
+      },
+      {
+        "title": "Clean House", 
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 30
+      },
+      {
+        "title": "The Still Water's Flow", 
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 30
+      },      
+      {
+        "title": "Collection of Dragons and Snakes", 
+        "subtitle": "",
+        "icon": "/Enka.webp",
+        "primos": 20
+      },
+      {
+        "title": "Tricolor File", 
+        "subtitle": "",
+        "icon": "/Enka.webp",
+        "primos": 30
+      },
+      {
+        "title": "Antigonus", 
+        "subtitle": "",
+        "icon": "/Enka.webp",
+        "primos": 40
+      },
+      {
+        "title": "Lotus Eater", 
+        "subtitle": "",
+        "icon": "/Enka.webp",
+        "primos": 30
+      },
+      {
+        "title": "Date's Challenge", 
+        "subtitle": "",
+        "icon": "/Enka.webp",
+        "primos": 30
+      },    
+      {
+        "title": "The Phaethons' Syrtos", 
+        "subtitle": "",
+        "icon": "/Enka.webp",
+        "primos": 30
+      }
+      
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      
       ]
 }
