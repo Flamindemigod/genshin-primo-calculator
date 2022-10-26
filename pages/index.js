@@ -111,6 +111,20 @@ function getNumberOfDays(endDate) {
   return diffrenceDays;
 }
 
+//https://stackoverflow.com/questions/45309447/calculating-median-javascript
+function median(values) {
+  if (values.length === 0) throw new Error("No inputs");
+
+  values.sort(function (a, b) {
+    return a - b;
+  });
+
+  var half = Math.floor(values.length / 2);
+
+  if (values.length % 2) return values[half];
+
+  return (values[half - 1] + values[half]) / 2.0;
+}
 export default function Home({ wishDistribution, cumalativeWishDistribution }) {
   const [initialParams, initialParamsDispatch] = useReducer(
     initialParamsReducer,
@@ -127,7 +141,6 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
     primogems: 0,
     fates: 0,
     wishes: 0,
-    starglitter: 0,
     probability5StarGuaranteed: 0,
     probability5Star: 0,
   });
@@ -164,6 +177,9 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
 
     const fates =
       (initialParams.fates ? initialParams.fates : 0) +
+      (initialParams.starglitter
+        ? parseInt(initialParams.starglitter / 5)
+        : 0) +
       (initialParams.battlePass ? (initialParams.patchesBetween + 1) * 4 : 0) +
       (initialParams.numShopResets ? initialParams.numShopResets * 5 : 0) +
       (explorationParams.opsFBT6 ? 2 : 0) +
@@ -182,11 +198,18 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
       parseInt(primos / 160) +
       parseInt(fates) +
       parseInt(initialParams.pity ? initialParams.pity : 0);
+
+    const probability5StarGuaranteed =
+      cumalativeWishDistribution[median([0, wishes, 90])];
+    const probability5Star =
+      cumalativeWishDistribution[median([0, wishes, 180])] / 2;
     setOutput((state) => ({
       ...state,
       primogems: primos,
       fates: fates,
       wishes: wishes,
+      probability5StarGuaranteed: probability5StarGuaranteed,
+      probability5Star: probability5Star,
     }));
   }, [initialParams, questPrimos, explorationParams]);
 
@@ -239,22 +262,17 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
                   {output.wishes}
                 </div>
               </div>
-              <div className="flex justify-between">
-                <div>Starglitter Generated:</div>
-                <div className="font-semibold text-primary-500">
-                  {output.starglitter}
-                </div>
-              </div>
+
               <div className="flex justify-between">
                 <div>Probabilty of Getting 5 Star if Guaranteed:</div>
                 <div className="font-semibold text-primary-500">
-                  {output.probability5StarGuaranteed}%
+                  {Math.round(output.probability5StarGuaranteed * 100) / 100}%
                 </div>
               </div>
               <div className="flex justify-between">
                 <div>Probabilty of Getting 5 Star if not Guaranteed:</div>
                 <div className="font-semibold text-primary-500">
-                  {output.probability5Star}%
+                  {Math.round(output.probability5Star * 100) / 100}%
                 </div>
               </div>
             </div>
@@ -283,6 +301,7 @@ export const getStaticProps = async () => {
   const cumalativewishDistribution = cumalativeWishes.map(
     (datapoint) => (datapoint / totalWishes) * 100 * 2
   );
+  console.log(slicedData.map((e) => (e / totalWishes) * 10000));
   return {
     props: {
       wishDistribution: slicedData,
