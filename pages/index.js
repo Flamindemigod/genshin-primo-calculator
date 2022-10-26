@@ -13,6 +13,7 @@ const initalParamsState = {
   welkin: false,
   endDate: new Date(),
   numBannersTestRuns: null,
+  numShopResets: null,
   spiralAbyssValue18: null,
   spiralAbyssValue912: null,
   spiralAbyssResets: null,
@@ -39,10 +40,14 @@ function initialParamsReducer(state, action) {
       return { ...state, spiralAbyssValue18: action.value };
     case "setAbyss912":
       return { ...state, spiralAbyssValue912: action.value };
+    case "setSpiralAbyssReset":
+      return { ...state, spiralAbyssResets: action.value };
     case "setBanners":
       return { ...state, numBannersTestRuns: action.value };
     case "setPatches":
       return { ...state, patchesBetween: action.value };
+    case "setShopReset":
+      return { ...state, numShopResets: action.value };
   }
 }
 
