@@ -17,8 +17,9 @@ const InputForm = ({ params, dispatch }) => {
   return (
     <Paper className="p-4">
       <div className="text-xl font-sans">Input Parameters</div>
-      <div className="p-4 flex gap-4 flex-wrap justify-center items-start">
+      <div className="p-4 grid md:grid-cols-2 xl:grid-cols-4 gap-4 items-start">
         <TextField
+          fullWidth
           label={"Primogems"}
           type="number"
           sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
@@ -42,6 +43,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
         />
         <TextField
+          fullWidth
           label={"Genesis Crystals"}
           type="number"
           sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
@@ -64,6 +66,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
         />
         <TextField
+          fullWidth
           label={"Intertwined Fates"}
           type="number"
           sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
@@ -87,6 +90,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
         />
         <TextField
+          fullWidth
           label={"Masterless Starglitter"}
           type="number"
           sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
@@ -110,7 +114,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
         />
         <TextField
-          sx={{ width: 250 }}
+          fullWidth
           label={"Current Pity"}
           InputProps={{
             inputProps: { min: 0 },
@@ -122,7 +126,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
         />
         <TextField
-          sx={{ width: 250 }}
+          fullWidth
           label={"No. of Test Runs"}
           type="number"
           InputProps={{
@@ -134,7 +138,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
         />
         <TextField
-          sx={{ width: 250 }}
+          fullWidth
           label={"No. of Shop Resets"}
           type="number"
           InputProps={{
@@ -146,7 +150,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
         />
         <TextField
-          sx={{ width: 250 }}
+          fullWidth
           label={"No. of Future Patches"}
           type="number"
           InputProps={{
@@ -214,7 +218,7 @@ const InputForm = ({ params, dispatch }) => {
           </FormControl>
         </Box>
 
-        <div className="flex gap-4 items-center md:flex-row flex-col flex-wrap justify-center">
+        <div className="col-span-full flex gap-4 items-center md:flex-row flex-col flex-wrap justify-center">
           <Typography>Spiral Abyss Primos</Typography>
           <FormControl sx={{ width: 300 }}>
             <FormControlLabel

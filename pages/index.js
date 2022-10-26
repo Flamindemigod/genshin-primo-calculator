@@ -81,10 +81,10 @@ const initialExplortaionState = {
   numSOS: null,
   numDomains: null,
   numDomainOneTime: null,
-  sosMond: [0, 10],
-  sosLiyue: [0, 10],
-  sosInazuma: [0, 10],
-  sosSumeru: [0, 10],
+  sosMond: [1, 1],
+  sosLiyue: [1, 1],
+  sosInazuma: [1, 1],
+  sosSumeru: [1, 1],
   opsFBT6: false,
   opsLA8: false,
   opsSSF10: false,
@@ -146,11 +146,38 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
       initialParams.spiralAbyssValue912 *
         (initialParams.spiralAbyssResets + 1) +
       getNumberOfDays(initialParams.endDate) * 60 +
-      (initialParams.welkin ? getNumberOfDays(initialParams.endDate) * 90 : 0);
+      (initialParams.welkin ? getNumberOfDays(initialParams.endDate) * 90 : 0) +
+      (explorationParams.numTeleports
+        ? parseInt(explorationParams.numTeleports) * 5
+        : 0) +
+      (explorationParams.numSOS ? parseInt(explorationParams.numSOS) * 5 : 0) +
+      (explorationParams.numDomains
+        ? parseInt(explorationParams.numDomains) * 5
+        : 0) +
+      (explorationParams.numDomainOneTime
+        ? parseInt(explorationParams.numDomainOneTime) * 40
+        : 0) +
+      (explorationParams.sosMond[1] - explorationParams.sosMond[0]) * 10 +
+      (explorationParams.sosLiyue[1] - explorationParams.sosLiyue[0]) * 10 +
+      (explorationParams.sosInazuma[1] - explorationParams.sosInazuma[0]) * 10 +
+      (explorationParams.sosSumeru[1] - explorationParams.sosSumeru[0]) * 10;
+
     const fates =
       (initialParams.fates ? initialParams.fates : 0) +
       (initialParams.battlePass ? (initialParams.patchesBetween + 1) * 4 : 0) +
-      (initialParams.numShopResets ? initialParams.numShopResets * 5 : 0);
+      (initialParams.numShopResets ? initialParams.numShopResets * 5 : 0) +
+      (explorationParams.opsFBT6 ? 2 : 0) +
+      (explorationParams.opsLA8 ? 2 : 0) +
+      (explorationParams.opsSSF10 ? 2 : 0) +
+      (explorationParams.opsSSF20 ? 2 : 0) +
+      (explorationParams.opsSSF30 ? 2 : 0) +
+      (explorationParams.opsSSF40 ? 2 : 0) +
+      (explorationParams.opsSSF50 ? 2 : 0) +
+      (explorationParams.opsVF10 ? 2 : 0) +
+      (explorationParams.opsVF20 ? 2 : 0) +
+      (explorationParams.opsVF30 ? 2 : 0) +
+      (explorationParams.opsVF40 ? 2 : 0) +
+      (explorationParams.opsVF50 ? 2 : 0);
     const wishes =
       parseInt(primos / 160) +
       parseInt(fates) +
@@ -161,7 +188,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
       fates: fates,
       wishes: wishes,
     }));
-  }, [initialParams, questPrimos]);
+  }, [initialParams, questPrimos, explorationParams]);
 
   return (
     <div>

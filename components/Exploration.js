@@ -17,7 +17,7 @@ const Exploration = ({ params, dispatch }) => {
       <Typography className="font-sans text-xl">Exploration</Typography>
       <Box className="p-4">
         <Typography>Unlockables</Typography>
-        <Box className="py-4 flex flex-wrap justify-center gap-4">
+        <Box className="py-4 grid lg:grid-cols-3 gap-4">
           <TextField
             label={"Teleports"}
             type="number"
@@ -89,7 +89,7 @@ const Exploration = ({ params, dispatch }) => {
         </Box>
         <Box>
           <Typography>Completion</Typography>
-          <Box className="py-4 flex justify-center">
+          <Box className="py-4 grid ">
             <Tooltip title="Only One-time Domains" arrow>
               <TextField
                 label={"Domains"}
