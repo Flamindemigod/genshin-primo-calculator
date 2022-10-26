@@ -10,13 +10,16 @@ const QuestContainer = ({
   icon,
 }) => {
   const [checked, setChecked] = useState(false);
-
+  const [clicked, setClicked] = useState(false);
   useEffect(() => {
-    if (checked) {
-      setPrimo((state) => state + primos);
-    } else {
-      setPrimo((state) => state - primos);
+    if (clicked) {
+      if (checked) {
+        setPrimo((state) => state + primos);
+      } else {
+        setPrimo((state) => state - primos);
+      }
     }
+    setClicked(false);
   }, [checked]);
   return (
     <a
@@ -24,6 +27,7 @@ const QuestContainer = ({
       onClick={(e) => {
         e.preventDefault();
         setChecked((state) => !state);
+        setClicked(true);
       }}
     >
       <Paper

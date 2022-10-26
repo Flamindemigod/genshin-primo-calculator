@@ -4,13 +4,14 @@ import Hero from "../components/Hero";
 import InputForm from "../components/InputForm";
 import Quests from "../components/Quests";
 
-const initalParamsState = {
+const initialParamsState = {
   primos: null,
   genesis: null,
   fates: null,
   starglitter: null,
   battlePass: false,
   welkin: false,
+  pity: null,
   endDate: new Date(),
   numBannersTestRuns: null,
   numShopResets: null,
@@ -23,13 +24,16 @@ const initalParamsState = {
 function initialParamsReducer(state, action) {
   switch (action.type) {
     case "setPrimos":
-      return { ...state, primos: action.value };
+      return { ...state, primos: parseInt(action.value ? action.value : 0) };
     case "setGenesis":
-      return { ...state, genesis: action.value };
+      return { ...state, genesis: parseInt(action.value ? action.value : 0) };
     case "setFates":
-      return { ...state, fates: action.value };
+      return { ...state, fates: parseInt(action.value ? action.value : 0) };
     case "setStarglitter":
-      return { ...state, starglitter: action.value };
+      return {
+        ...state,
+        starglitter: parseInt(action.value ? action.value : 0),
+      };
     case "setEndDate":
       return { ...state, endDate: action.value };
     case "setBattlePass":
@@ -37,24 +41,50 @@ function initialParamsReducer(state, action) {
     case "setWelkin":
       return { ...state, welkin: action.value };
     case "setAbyss18":
-      return { ...state, spiralAbyssValue18: action.value };
+      return {
+        ...state,
+        spiralAbyssValue18: parseInt(action.value ? action.value : 0),
+      };
     case "setAbyss912":
-      return { ...state, spiralAbyssValue912: action.value };
+      return {
+        ...state,
+        spiralAbyssValue912: parseInt(action.value ? action.value : 0),
+      };
     case "setSpiralAbyssReset":
-      return { ...state, spiralAbyssResets: action.value };
+      return {
+        ...state,
+        spiralAbyssResets: parseInt(action.value ? action.value : 0),
+      };
     case "setBanners":
-      return { ...state, numBannersTestRuns: action.value };
+      return {
+        ...state,
+        numBannersTestRuns: parseInt(action.value ? action.value : 0),
+      };
     case "setPatches":
-      return { ...state, patchesBetween: action.value };
+      return {
+        ...state,
+        patchesBetween: parseInt(action.value ? action.value : 0),
+      };
     case "setShopReset":
-      return { ...state, numShopResets: action.value };
+      return {
+        ...state,
+        numShopResets: parseInt(action.value ? action.value : 0),
+      };
+    case "setPity":
+      return { ...state, pity: action.value };
   }
+}
+
+function getNumberOfDays(endDate) {
+  const diffrence = endDate.getTime() - new Date().getTime();
+  const diffrenceDays = parseInt(diffrence / (1000 * 3600 * 24));
+  return diffrenceDays;
 }
 
 export default function Home({ wishDistribution, cumalativeWishDistribution }) {
   const [initialParams, initialParamsDispatch] = useReducer(
     initialParamsReducer,
-    initalParamsState
+    initialParamsState
   );
 
   const [questPrimos, setQuestPrimos] = useState(0);
@@ -62,10 +92,39 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
   const [output, setOutput] = useState({
     primogems: 0,
     fates: 0,
+    wishes: 0,
     starglitter: 0,
     probability5StarGuaranteed: "0%",
     probability5Star: "0%",
   });
+
+  useEffect(() => {
+    setOutput((state) => ({
+      ...state,
+      primogems:
+        (initialParams.primos ? initialParams.primos : 0) +
+        (initialParams.genesis ? initialParams.genesis : 0) +
+        questPrimos +
+        initialParams.numBannersTestRuns * 20 +
+        initialParams.patchesBetween * 300 +
+        (initialParams.battlePass
+          ? (initialParams.patchesBetween + 1) * 680
+          : 0) +
+        initialParams.spiralAbyssValue18 +
+        initialParams.spiralAbyssValue912 *
+          (initialParams.spiralAbyssResets + 1) +
+        getNumberOfDays(initialParams.endDate) * 60 +
+        (initialParams.welkin
+          ? getNumberOfDays(initialParams.endDate) * 90
+          : 0),
+      fates:
+        (initialParams.fates ? initialParams.fates : 0) +
+        (initialParams.battlePass
+          ? (initialParams.patchesBetween + 1) * 4
+          : 0) +
+        (initialParams.numShopResets ? initialParams.numShopResets * 5 : 0),
+    }));
+  }, [initialParams, questPrimos]);
 
   return (
     <div>
@@ -95,11 +154,20 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
               </div>
               <div className="flex justify-between">
                 <div>
+                  Total Number of Fates{" "}
+                  <span className="text-xs">(excluding Pity)</span>:
+                </div>
+                <div className="font-semibold text-primary-500">
+                  {output.fates}
+                </div>
+              </div>
+              <div className="flex justify-between">
+                <div>
                   Total Number of Wishes{" "}
                   <span className="text-xs">(including Pity)</span>:
                 </div>
                 <div className="font-semibold text-primary-500">
-                  {output.fates}
+                  {output.wishes}
                 </div>
               </div>
               <div className="flex justify-between">

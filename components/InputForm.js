@@ -104,6 +104,15 @@ const InputForm = ({ params, dispatch }) => {
         />
         <TextField
           sx={{ width: 250 }}
+          label={"Current Pity"}
+          type="number"
+          value={params.pity}
+          onChange={(e) => {
+            dispatch({ type: "setPity", value: e.target.value });
+          }}
+        />
+        <TextField
+          sx={{ width: 250 }}
           label={"No. of Test Runs"}
           type="number"
           value={params.numBannersTestRuns}
@@ -133,6 +142,7 @@ const InputForm = ({ params, dispatch }) => {
         <DatePicker
           id="counterEndDate"
           label="End date"
+          minDate={new Date()}
           inputFormat="dd/MM/yyyy"
           value={params.endDate}
           onChange={(date) => {
