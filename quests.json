@@ -816,6 +816,24 @@
         "subtitle": "",
         "icon": "/ChasmMines.webp",
         "primos": 20
+      },
+      {
+        "title": "Valor's Afterglow",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "Valor's Afterglow: Return by Sundown",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
+      },
+      {
+        "title": "Valor's Afterglow: The Faint Light Remembered",
+        "subtitle": "",
+        "icon": "/ChasmMines.webp",
+        "primos": 30
       }
     ]
 }
