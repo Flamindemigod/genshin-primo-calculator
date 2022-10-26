@@ -12,16 +12,11 @@ const initalParamsState = {
   battlePass: false,
   welkin: false,
   endDate: new Date(),
-  mondSOSLevel: [0, 8],
-  liyueSOSLevel: [0, 8],
-  inazumaSOSLevel: [0, 10],
-  sumeruSOSLevel: [0, 10],
   numBannersTestRuns: null,
-  spiralAbyssValue17: null,
-  spiralAbyssValue812: null,
+  spiralAbyssValue18: null,
+  spiralAbyssValue912: null,
   spiralAbyssResets: null,
   patchesBetween: null,
-  webEvents: null,
 };
 
 function initialParamsReducer(state, action) {
@@ -40,10 +35,14 @@ function initialParamsReducer(state, action) {
       return { ...state, battlePass: action.value };
     case "setWelkin":
       return { ...state, welkin: action.value };
-    case "setAbyss17":
-      return { ...state, spiralAbyssValue17: action.value };
-    case "setAbyss812":
-      return { ...state, spiralAbyssValue812: action.value };
+    case "setAbyss18":
+      return { ...state, spiralAbyssValue18: action.value };
+    case "setAbyss912":
+      return { ...state, spiralAbyssValue912: action.value };
+    case "setBanners":
+      return { ...state, numBannersTestRuns: action.value };
+    case "setPatches":
+      return { ...state, patchesBetween: action.value };
   }
 }
 

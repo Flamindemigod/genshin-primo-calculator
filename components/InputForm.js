@@ -7,6 +7,7 @@ import {
   FormControlLabel,
   Slider,
   Typography,
+  Tooltip,
 } from "@mui/material";
 import { DatePicker } from "@mui/x-date-pickers";
 import Image from "next/future/image";
@@ -100,6 +101,24 @@ const InputForm = ({ params, dispatch }) => {
             ),
           }}
         />
+        <TextField
+          sx={{ width: 250 }}
+          label={"No. of Test Runs"}
+          type="number"
+          value={params.numBannersTestRuns}
+          onChange={(e) => {
+            dispatch({ type: "setBanners", value: e.target.value });
+          }}
+        />
+        <TextField
+          sx={{ width: 250 }}
+          label={"No. of Future Patches"}
+          type="number"
+          value={params.patchesBetween}
+          onChange={(e) => {
+            dispatch({ type: "setPatches", value: e.target.value });
+          }}
+        />
         <DatePicker
           id="counterEndDate"
           label="End date"
@@ -133,32 +152,36 @@ const InputForm = ({ params, dispatch }) => {
         </FormControl>
         {/* Battle Pass */}
         <FormControl>
-          <FormControlLabel
-            sx={{ height: 56 }}
-            label={"Battle Pass"}
-            labelPlacement={"end"}
-            control={
-              <Checkbox
-                checked={params.battlePass}
-                onChange={(e) => {
-                  dispatch({ type: "setBattlePass", value: e.target.checked });
-                }}
-              />
-            }
-          />
+          <Tooltip title="Paid version of Battle Pass">
+            <FormControlLabel
+              sx={{ height: 56 }}
+              label={"Gnostic Hymn"}
+              labelPlacement={"end"}
+              control={
+                <Checkbox
+                  checked={params.battlePass}
+                  onChange={(e) => {
+                    dispatch({
+                      type: "setBattlePass",
+                      value: e.target.checked,
+                    });
+                  }}
+                />
+              }
+            />
+          </Tooltip>
         </FormControl>
         <div className="flex gap-4 items-center md:flex-row flex-col">
           <Typography>Spiral Abyss Primos</Typography>
           <FormControl sx={{ width: 300 }}>
             <FormControlLabel
-              sx={{ height: 56 }}
-              label={"Floor 1 to 7"}
+              label={"Floor 1 to 8"}
               labelPlacement={"bottom"}
               control={
                 <Slider
                   step={100}
                   min={0}
-                  max={2100}
+                  max={2400}
                   sx={{
                     "& .MuiSlider-valueLabel": {
                       lineHeight: 1.2,
@@ -183,9 +206,9 @@ const InputForm = ({ params, dispatch }) => {
                     },
                   }}
                   marks
-                  value={params.spiralAbyssValue17}
+                  value={params.spiralAbyssValue18}
                   onChange={(e, newVal) => {
-                    dispatch({ type: "setAbyss17", value: newVal });
+                    dispatch({ type: "setAbyss18", value: newVal });
                   }}
                   valueLabelDisplay="auto"
                 />
@@ -194,14 +217,13 @@ const InputForm = ({ params, dispatch }) => {
           </FormControl>
           <FormControl sx={{ width: 300 }}>
             <FormControlLabel
-              sx={{ height: 56 }}
-              label={"Floor 8 to 12"}
+              label={"Floor 9 to 12"}
               labelPlacement={"bottom"}
               control={
                 <Slider
                   step={50}
                   min={0}
-                  max={300}
+                  max={600}
                   marks
                   sx={{
                     "& .MuiSlider-valueLabel": {
@@ -226,17 +248,15 @@ const InputForm = ({ params, dispatch }) => {
                       },
                     },
                   }}
+                  value={params.spiralAbyssValue912}
                   valueLabelDisplay="auto"
                   onChange={(e, newVal) => {
-                    dispatch({ type: "setAbyss812", value: newVal });
+                    dispatch({ type: "setAbyss912", value: newVal });
                   }}
                 />
               }
             />
           </FormControl>
-        </div>
-        <div>
-          <Typography>Mondstat Statue of the Seven</Typography>
         </div>
       </div>
     </Paper>
