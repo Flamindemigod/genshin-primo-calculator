@@ -8,6 +8,7 @@ import {
   Slider,
   Typography,
   Tooltip,
+  Box,
 } from "@mui/material";
 import { DatePicker } from "@mui/x-date-pickers";
 import Image from "next/future/image";
@@ -144,7 +145,7 @@ const InputForm = ({ params, dispatch }) => {
             />
           )}
         />
-        <div>
+        <Box className="flex justify-center" sx={{ width: 250 }}>
           {/* Welkin */}
           <FormControl>
             <FormControlLabel
@@ -182,7 +183,7 @@ const InputForm = ({ params, dispatch }) => {
               />
             </Tooltip>
           </FormControl>
-        </div>
+        </Box>
 
         <div className="flex gap-4 items-center md:flex-row flex-col flex-wrap">
           <Typography>Spiral Abyss Primos</Typography>
