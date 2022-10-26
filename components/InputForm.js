@@ -8,6 +8,7 @@ import {
   Slider,
   Typography,
   Tooltip,
+  Box,
 } from "@mui/material";
 import { DatePicker } from "@mui/x-date-pickers";
 import Image from "next/future/image";
@@ -112,6 +113,15 @@ const InputForm = ({ params, dispatch }) => {
         />
         <TextField
           sx={{ width: 250 }}
+          label={"No. of Shop Resets"}
+          type="number"
+          value={params.numShopReset}
+          onChange={(e) => {
+            dispatch({ type: "setShopReset", value: e.target.value });
+          }}
+        />
+        <TextField
+          sx={{ width: 250 }}
           label={"No. of Future Patches"}
           type="number"
           value={params.patchesBetween}
@@ -119,6 +129,7 @@ const InputForm = ({ params, dispatch }) => {
             dispatch({ type: "setPatches", value: e.target.value });
           }}
         />
+
         <DatePicker
           id="counterEndDate"
           label="End date"
@@ -134,44 +145,47 @@ const InputForm = ({ params, dispatch }) => {
             />
           )}
         />
-        {/* Welkin */}
-        <FormControl>
-          <FormControlLabel
-            sx={{ height: 56 }}
-            label={"Welkin"}
-            labelPlacement={"end"}
-            control={
-              <Checkbox
-                checked={params.welkin}
-                onChange={(e) => {
-                  dispatch({ type: "setWelkin", value: e.target.checked });
-                }}
-              />
-            }
-          />
-        </FormControl>
-        {/* Battle Pass */}
-        <FormControl>
-          <Tooltip title="Paid version of Battle Pass">
+        <Box className="flex justify-center" sx={{ width: 250 }}>
+          {/* Welkin */}
+          <FormControl>
             <FormControlLabel
               sx={{ height: 56 }}
-              label={"Gnostic Hymn"}
+              label={"Welkin"}
               labelPlacement={"end"}
               control={
                 <Checkbox
-                  checked={params.battlePass}
+                  checked={params.welkin}
                   onChange={(e) => {
-                    dispatch({
-                      type: "setBattlePass",
-                      value: e.target.checked,
-                    });
+                    dispatch({ type: "setWelkin", value: e.target.checked });
                   }}
                 />
               }
             />
-          </Tooltip>
-        </FormControl>
-        <div className="flex gap-4 items-center md:flex-row flex-col">
+          </FormControl>
+          {/* Battle Pass */}
+          <FormControl>
+            <Tooltip title="Paid version of Battle Pass" arrow>
+              <FormControlLabel
+                sx={{ height: 56 }}
+                label={"Gnostic Hymn"}
+                labelPlacement={"end"}
+                control={
+                  <Checkbox
+                    checked={params.battlePass}
+                    onChange={(e) => {
+                      dispatch({
+                        type: "setBattlePass",
+                        value: e.target.checked,
+                      });
+                    }}
+                  />
+                }
+              />
+            </Tooltip>
+          </FormControl>
+        </Box>
+
+        <div className="flex gap-4 items-center md:flex-row flex-col flex-wrap">
           <Typography>Spiral Abyss Primos</Typography>
           <FormControl sx={{ width: 300 }}>
             <FormControlLabel
@@ -215,6 +229,7 @@ const InputForm = ({ params, dispatch }) => {
               }
             />
           </FormControl>
+
           <FormControl sx={{ width: 300 }}>
             <FormControlLabel
               label={"Floor 9 to 12"}
@@ -257,6 +272,15 @@ const InputForm = ({ params, dispatch }) => {
               }
             />
           </FormControl>
+          <TextField
+            sx={{ width: 250 }}
+            label={"No. of Spiral Abyss Resets"}
+            type="number"
+            value={params.spiralAbyssResets}
+            onChange={(e) => {
+              dispatch({ type: "setSpiralAbyssReset", value: e.target.value });
+            }}
+          />
         </div>
       </div>
     </Paper>
