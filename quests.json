@@ -585,5 +585,27 @@
       "icon": "/SumeruDesert.webp",
       "primos": 200
     }
-  ]
+    ],
+    "worldQuests": [
+      { "section": "Mondstat" },
+      {
+        "title": "New Horizons of Adventure",
+        "subtitle": "",
+        "icon": "/WorldQuest.webp",
+        "primos": 40
+      },
+      { "section": "Mondstat" },
+      {
+        "title": "Welcome to the Adventures' Guild",
+        "subtitle": "",
+        "icon": "/WorldQuest.webp",
+        "primos": 20
+      },
+      {
+        "title": "Every Day a New Adventure",
+        "subtitle": "",
+        "icon": "/WorldQuest.webp",
+        "primos": 20
+      }
+    ]
 }
