@@ -642,6 +642,24 @@
         "icon": "/Mondstat.webp",
         "primos": 40
       },
+      {
+        "title": "Ah, Fresh Meat!",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 40
+      },
+      {
+        "title": "Low-Temperature Warning",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 20
+      },
+      {
+        "title": "A Land Entombed",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 50
+      },
       { "section": "Liyue" },
       {
         "title": "Overstretched",
