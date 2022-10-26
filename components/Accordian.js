@@ -9,7 +9,6 @@ import Image from "next/future/image";
 const Accordion = styled((props) => (
   <MuiAccordion elevation={0} square {...props} />
 ))(({ theme }) => ({
-  paddingInline: "1rem",
   "&:before": {
     display: "none",
   },

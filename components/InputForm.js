@@ -27,6 +27,8 @@ const InputForm = ({ params, dispatch }) => {
             dispatch({ type: "setPrimos", value: e.target.value });
           }}
           InputProps={{
+            inputProps: { min: 0 },
+
             endAdornment: (
               <InputAdornment position="end">
                 <Image
@@ -48,6 +50,7 @@ const InputForm = ({ params, dispatch }) => {
             dispatch({ type: "setGenesis", value: e.target.value });
           }}
           InputProps={{
+            inputProps: { min: 0 },
             endAdornment: (
               <InputAdornment position="end">
                 <Image
@@ -69,6 +72,8 @@ const InputForm = ({ params, dispatch }) => {
             dispatch({ type: "setFates", value: e.target.value });
           }}
           InputProps={{
+            inputProps: { min: 0 },
+
             endAdornment: (
               <InputAdornment position="end">
                 <Image
@@ -90,6 +95,8 @@ const InputForm = ({ params, dispatch }) => {
             dispatch({ type: "setStarglitter", value: e.target.value });
           }}
           InputProps={{
+            inputProps: { min: 0 },
+
             endAdornment: (
               <InputAdornment position="end">
                 <Image
@@ -105,6 +112,9 @@ const InputForm = ({ params, dispatch }) => {
         <TextField
           sx={{ width: 250 }}
           label={"Current Pity"}
+          InputProps={{
+            inputProps: { min: 0 },
+          }}
           type="number"
           value={params.pity}
           onChange={(e) => {
@@ -115,6 +125,9 @@ const InputForm = ({ params, dispatch }) => {
           sx={{ width: 250 }}
           label={"No. of Test Runs"}
           type="number"
+          InputProps={{
+            inputProps: { min: 0 },
+          }}
           value={params.numBannersTestRuns}
           onChange={(e) => {
             dispatch({ type: "setBanners", value: e.target.value });
@@ -124,6 +137,9 @@ const InputForm = ({ params, dispatch }) => {
           sx={{ width: 250 }}
           label={"No. of Shop Resets"}
           type="number"
+          InputProps={{
+            inputProps: { min: 0 },
+          }}
           value={params.numShopReset}
           onChange={(e) => {
             dispatch({ type: "setShopReset", value: e.target.value });
@@ -133,6 +149,9 @@ const InputForm = ({ params, dispatch }) => {
           sx={{ width: 250 }}
           label={"No. of Future Patches"}
           type="number"
+          InputProps={{
+            inputProps: { min: 0 },
+          }}
           value={params.patchesBetween}
           onChange={(e) => {
             dispatch({ type: "setPatches", value: e.target.value });
@@ -174,7 +193,7 @@ const InputForm = ({ params, dispatch }) => {
           </FormControl>
           {/* Battle Pass */}
           <FormControl>
-            <Tooltip title="Paid version of Battle Pass" arrow>
+            <Tooltip title="Paid Tier of Battle Pass" arrow>
               <FormControlLabel
                 sx={{ height: 56 }}
                 label={"Gnostic Hymn"}
@@ -195,7 +214,7 @@ const InputForm = ({ params, dispatch }) => {
           </FormControl>
         </Box>
 
-        <div className="flex gap-4 items-center md:flex-row flex-col flex-wrap">
+        <div className="flex gap-4 items-center md:flex-row flex-col flex-wrap justify-center">
           <Typography>Spiral Abyss Primos</Typography>
           <FormControl sx={{ width: 300 }}>
             <FormControlLabel
@@ -286,6 +305,9 @@ const InputForm = ({ params, dispatch }) => {
             sx={{ width: 250 }}
             label={"No. of Spiral Abyss Resets"}
             type="number"
+            InputProps={{
+              inputProps: { min: 0 },
+            }}
             value={params.spiralAbyssResets}
             onChange={(e) => {
               dispatch({ type: "setSpiralAbyssReset", value: e.target.value });

@@ -10,6 +10,9 @@ module.exports = {
       sans: `"Open Sans", "sans-serif"`,
     },
     extend: {
+      gridTemplateRows: {
+        8: "repeat(8, minmax(0, 1fr))",
+      },
       colors: {
         primary: {
           100: "#d4f4fa",

@@ -1,5 +1,7 @@
 import { Box, Paper } from "@mui/material";
+import { max } from "date-fns";
 import { useEffect, useReducer, useState } from "react";
+import Exploration from "../components/Exploration";
 import Hero from "../components/Hero";
 import InputForm from "../components/InputForm";
 import Quests from "../components/Quests";
@@ -74,9 +76,37 @@ function initialParamsReducer(state, action) {
       return { ...state, pity: action.value };
   }
 }
+const initialExplortaionState = {
+  numTeleports: null,
+  numSOS: null,
+  numDomains: null,
+  numDomainOneTime: null,
+  sosMond: [0, 10],
+  sosLiyue: [0, 10],
+  sosInazuma: [0, 10],
+  sosSumeru: [0, 10],
+  opsFBT6: false,
+  opsLA8: false,
+  opsSSF10: false,
+  opsSSF20: false,
+  opsSSF30: false,
+  opsSSF40: false,
+  opsSSF50: false,
+  opsVF10: false,
+  opsVF20: false,
+  opsVF30: false,
+  opsVF40: false,
+  opsVF50: false,
+};
+
+function ExplortaionReducer(state, action) {
+  return { ...state, ...action };
+}
 
 function getNumberOfDays(endDate) {
-  const diffrence = endDate.getTime() - new Date().getTime();
+  const today = new Date().setHours(0, 0, 0, 0);
+  console.log(today);
+  const diffrence = endDate.getTime() - today;
   const diffrenceDays = parseInt(diffrence / (1000 * 3600 * 24));
   return diffrenceDays;
 }
@@ -86,6 +116,10 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
     initialParamsReducer,
     initialParamsState
   );
+  const [explorationParams, explorationParamsDispatch] = useReducer(
+    ExplortaionReducer,
+    initialExplortaionState
+  );
 
   const [questPrimos, setQuestPrimos] = useState(0);
 
@@ -94,35 +128,38 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
     fates: 0,
     wishes: 0,
     starglitter: 0,
-    probability5StarGuaranteed: "0%",
-    probability5Star: "0%",
+    probability5StarGuaranteed: 0,
+    probability5Star: 0,
   });
 
   useEffect(() => {
+    const primos =
+      (initialParams.primos ? initialParams.primos : 0) +
+      (initialParams.genesis ? initialParams.genesis : 0) +
+      questPrimos +
+      initialParams.numBannersTestRuns * 20 +
+      initialParams.patchesBetween * 300 +
+      (initialParams.battlePass
+        ? (initialParams.patchesBetween + 1) * 680
+        : 0) +
+      initialParams.spiralAbyssValue18 +
+      initialParams.spiralAbyssValue912 *
+        (initialParams.spiralAbyssResets + 1) +
+      getNumberOfDays(initialParams.endDate) * 60 +
+      (initialParams.welkin ? getNumberOfDays(initialParams.endDate) * 90 : 0);
+    const fates =
+      (initialParams.fates ? initialParams.fates : 0) +
+      (initialParams.battlePass ? (initialParams.patchesBetween + 1) * 4 : 0) +
+      (initialParams.numShopResets ? initialParams.numShopResets * 5 : 0);
+    const wishes =
+      parseInt(primos / 160) +
+      parseInt(fates) +
+      parseInt(initialParams.pity ? initialParams.pity : 0);
     setOutput((state) => ({
       ...state,
-      primogems:
-        (initialParams.primos ? initialParams.primos : 0) +
-        (initialParams.genesis ? initialParams.genesis : 0) +
-        questPrimos +
-        initialParams.numBannersTestRuns * 20 +
-        initialParams.patchesBetween * 300 +
-        (initialParams.battlePass
-          ? (initialParams.patchesBetween + 1) * 680
-          : 0) +
-        initialParams.spiralAbyssValue18 +
-        initialParams.spiralAbyssValue912 *
-          (initialParams.spiralAbyssResets + 1) +
-        getNumberOfDays(initialParams.endDate) * 60 +
-        (initialParams.welkin
-          ? getNumberOfDays(initialParams.endDate) * 90
-          : 0),
-      fates:
-        (initialParams.fates ? initialParams.fates : 0) +
-        (initialParams.battlePass
-          ? (initialParams.patchesBetween + 1) * 4
-          : 0) +
-        (initialParams.numShopResets ? initialParams.numShopResets * 5 : 0),
+      primogems: primos,
+      fates: fates,
+      wishes: wishes,
     }));
   }, [initialParams, questPrimos]);
 
@@ -131,6 +168,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
       <Hero />
       <div className="flex flex-wrap flex-col lg:flex-row p-4 gap-4">
         <Box
+          className="flex flex-col gap-2"
           sx={{
             flex: "1 1 60%",
             overflow: "hidden",
@@ -138,6 +176,10 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
           }}
         >
           <InputForm params={initialParams} dispatch={initialParamsDispatch} />
+          <Exploration
+            params={explorationParams}
+            dispatch={explorationParamsDispatch}
+          />
           <Quests setPrimos={setQuestPrimos} />
         </Box>
         <Box sx={{ flex: "1 1 25%", width: "-webkit-fill-available" }}>
@@ -179,13 +221,13 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
               <div className="flex justify-between">
                 <div>Probabilty of Getting 5 Star if Guaranteed:</div>
                 <div className="font-semibold text-primary-500">
-                  {output.probability5StarGuaranteed}
+                  {output.probability5StarGuaranteed}%
                 </div>
               </div>
               <div className="flex justify-between">
                 <div>Probabilty of Getting 5 Star if not Guaranteed:</div>
                 <div className="font-semibold text-primary-500">
-                  {output.probability5Star}
+                  {output.probability5Star}%
                 </div>
               </div>
             </div>
@@ -214,7 +256,6 @@ export const getStaticProps = async () => {
   const cumalativewishDistribution = cumalativeWishes.map(
     (datapoint) => (datapoint / totalWishes) * 100 * 2
   );
-  console.log(slicedData);
   return {
     props: {
       wishDistribution: slicedData,
