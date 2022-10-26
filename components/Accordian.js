@@ -43,6 +43,7 @@ const CustomAccordian = ({ title, icon, children }) => {
       <AccordionSummary aria-controls="panel-content" id="panel-header">
         <div className="flex gap-2 items-center">
           <Image
+            className="object-contain"
             draggable={false}
             src={icon}
             width={32}
