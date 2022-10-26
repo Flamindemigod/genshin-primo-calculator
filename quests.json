@@ -633,32 +633,44 @@
       {
         "title": "The Great Mountain Survey",
         "subtitle": "",
-        "icon": "/Mondstat.webp",
+        "icon": "/Dragonspine.webp",
         "primos": 40
       },
       {
         "title": "The Great Mountain Survey II",
         "subtitle": "",
-        "icon": "/Mondstat.webp",
+        "icon": "/Dragonspine.webp",
         "primos": 40
       },
       {
         "title": "Ah, Fresh Meat!",
         "subtitle": "",
-        "icon": "/Mondstat.webp",
+        "icon": "/Dragonspine.webp",
         "primos": 40
       },
       {
         "title": "Low-Temperature Warning",
         "subtitle": "",
-        "icon": "/Mondstat.webp",
+        "icon": "/Dragonspine.webp",
         "primos": 20
       },
       {
         "title": "A Land Entombed",
         "subtitle": "",
-        "icon": "/Mondstat.webp",
+        "icon": "/Dragonspine.webp",
         "primos": 50
+      },
+      {
+        "title": "Lost in the Snow",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 40
+      },
+      {
+        "title": "In the Mountains",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 60
       },
       { "section": "Liyue" },
       {
