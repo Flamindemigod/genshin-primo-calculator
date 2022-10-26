@@ -5,6 +5,8 @@ import {
   Checkbox,
   FormControl,
   FormControlLabel,
+  Slider,
+  Typography,
 } from "@mui/material";
 import { DatePicker } from "@mui/x-date-pickers";
 import Image from "next/future/image";
@@ -24,7 +26,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
           InputProps={{
             endAdornment: (
-              <InputAdornment position="center">
+              <InputAdornment position="end">
                 <Image
                   draggable={false}
                   src={"/Item_Primogem.webp"}
@@ -45,7 +47,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
           InputProps={{
             endAdornment: (
-              <InputAdornment position="center">
+              <InputAdornment position="end">
                 <Image
                   draggable={false}
                   src={"/Item_Genesis_Crystal.webp"}
@@ -66,7 +68,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
           InputProps={{
             endAdornment: (
-              <InputAdornment position="center">
+              <InputAdornment position="end">
                 <Image
                   draggable={false}
                   src={"/Item_Intertwined_Fate.webp"}
@@ -87,7 +89,7 @@ const InputForm = ({ params, dispatch }) => {
           }}
           InputProps={{
             endAdornment: (
-              <InputAdornment position="center">
+              <InputAdornment position="end">
                 <Image
                   draggable={false}
                   src={"/Item_Masterless_Starglitter.webp"}
@@ -119,10 +121,14 @@ const InputForm = ({ params, dispatch }) => {
             sx={{ height: 56 }}
             label={"Welkin"}
             labelPlacement={"end"}
-            control={<Checkbox checked={params.welkin} />}
-            onChange={(e) => {
-              dispatch({ type: "setWelkin", value: e.target.checked });
-            }}
+            control={
+              <Checkbox
+                checked={params.welkin}
+                onChange={(e) => {
+                  dispatch({ type: "setWelkin", value: e.target.checked });
+                }}
+              />
+            }
           />
         </FormControl>
         {/* Battle Pass */}
@@ -131,12 +137,107 @@ const InputForm = ({ params, dispatch }) => {
             sx={{ height: 56 }}
             label={"Battle Pass"}
             labelPlacement={"end"}
-            control={<Checkbox checked={params.battlePass} />}
-            onChange={(e) => {
-              dispatch({ type: "setBattlePass", value: e.target.checked });
-            }}
+            control={
+              <Checkbox
+                checked={params.battlePass}
+                onChange={(e) => {
+                  dispatch({ type: "setBattlePass", value: e.target.checked });
+                }}
+              />
+            }
           />
         </FormControl>
+        <div className="flex gap-4 items-center md:flex-row flex-col">
+          <Typography>Spiral Abyss Primos</Typography>
+          <FormControl sx={{ width: 300 }}>
+            <FormControlLabel
+              sx={{ height: 56 }}
+              label={"Floor 1 to 7"}
+              labelPlacement={"bottom"}
+              control={
+                <Slider
+                  step={100}
+                  min={0}
+                  max={2100}
+                  sx={{
+                    "& .MuiSlider-valueLabel": {
+                      lineHeight: 1.2,
+                      fontSize: 12,
+                      background: "unset",
+                      padding: 0,
+                      width: 32,
+                      height: 32,
+                      borderRadius: "50% 50% 50% 0",
+                      backgroundColor: "#29c9e5",
+                      transformOrigin: "bottom left",
+                      transform:
+                        "translate(50%, -100%) rotate(-45deg) scale(0)",
+                      "&:before": { display: "none" },
+                      "&.MuiSlider-valueLabelOpen": {
+                        transform:
+                          "translate(50%, -100%) rotate(-45deg) scale(1)",
+                      },
+                      "& > *": {
+                        transform: "rotate(45deg)",
+                      },
+                    },
+                  }}
+                  marks
+                  value={params.spiralAbyssValue17}
+                  onChange={(e, newVal) => {
+                    dispatch({ type: "setAbyss17", value: newVal });
+                  }}
+                  valueLabelDisplay="auto"
+                />
+              }
+            />
+          </FormControl>
+          <FormControl sx={{ width: 300 }}>
+            <FormControlLabel
+              sx={{ height: 56 }}
+              label={"Floor 8 to 12"}
+              labelPlacement={"bottom"}
+              control={
+                <Slider
+                  step={50}
+                  min={0}
+                  max={300}
+                  marks
+                  sx={{
+                    "& .MuiSlider-valueLabel": {
+                      lineHeight: 1.2,
+                      fontSize: 12,
+                      background: "unset",
+                      padding: 0,
+                      width: 32,
+                      height: 32,
+                      borderRadius: "50% 50% 50% 0",
+                      backgroundColor: "#29c9e5",
+                      transformOrigin: "bottom left",
+                      transform:
+                        "translate(50%, -100%) rotate(-45deg) scale(0)",
+                      "&:before": { display: "none" },
+                      "&.MuiSlider-valueLabelOpen": {
+                        transform:
+                          "translate(50%, -100%) rotate(-45deg) scale(1)",
+                      },
+                      "& > *": {
+                        transform: "rotate(45deg)",
+                      },
+                    },
+                  }}
+                  valueLabelDisplay="auto"
+                  onChange={(e, newVal) => {
+                    dispatch({ type: "setAbyss812", value: newVal });
+                  }}
+                />
+              }
+            />
+          </FormControl>
+        </div>
+        <div>
+          <Typography>Mondstat Statue of the Seven</Typography>
+        </div>
       </div>
     </Paper>
   );

@@ -452,135 +452,137 @@
     {
       "title": "The Chasm Delvers",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Liyue.webp",
       "primos": 170
     },
     { "section": "Inazuma" },
     {
       "title": "Sakura Cleansing Ritual",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Inazuma.webp",
       "primos": 170
     },
     {
       "title": "The Moon-Bathed Deep",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Inazuma.webp",
       "primos": 160
     },
     {
       "title": "Seirai Stormchasers",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Inazuma.webp",
       "primos": 150
     },
     {
       "title": "Tatara Tales",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Inazuma.webp",
       "primos": 220
     },
     {
       "title": "Orobashi's Legacy",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Inazuma.webp",
       "primos": 210
     },
     {
       "title": "Through the Mists",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Inazuma.webp",
       "primos": 180
     },
     {
       "title": "From Dusk to Dawn in Byakuyakoku",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Inazuma.webp",
       "primos": 70
     },
     {
       "title": "The Very Special Fortune Slip",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Inazuma.webp",
       "primos": 120
+    },
+    {
+      "title": "FilmNotes",
+      "subtitle": "",
+      "icon": "/Inazuma.webp",
+      "primos": 70
     },
     {
       "title": "Erebos's Secret",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Enka.webp",
       "primos": 40
     },
     {
       "title": "Hyperion's Dirge",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Enka.webp",
       "primos": 30
     },
+
     { "section": "Sumeru" },
     {
       "title": "An Unwavering Culinary Dream",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Sumeru.webp",
       "primos": 160
     },
     {
       "title": "Vimana Agama",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Sumeru.webp",
       "primos": 210
     },
     {
       "title": "Varuna Gatha",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Sumeru.webp",
       "primos": 200
     },
     {
       "title": "Woodland Encounter",
       "subtitle": "Aranyaka: Part I",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Sumeru.webp",
       "primos": 130
     },
     {
       "title": "Dream Nursery",
       "subtitle": "Aranyaka: Part II",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Sumeru.webp",
       "primos": 340
     },
     {
       "title": "Nursery of Lost Dreams",
       "subtitle": "Aranyaka: Part III",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Sumeru.webp",
       "primos": 150
     },
     {
       "title": "In the End, the Forest Will Remember",
       "subtitle": "Aranyaka: Part IV",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Sumeru.webp",
       "primos": 20
     },
     {
       "title": "Agnihotra Sutra",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/Sumeru.webp",
       "primos": 130
     },
     {
       "title": "Golden Slumber",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/SumeruDesert.webp",
       "primos": 190
     },
-    {
-      "title": "Inazuma",
-      "subtitle": "",
-      "icon": "/WorldQuest.webp",
-      "primos": 70
-    },
+
     {
       "title": "Old Notes and New Friends",
       "subtitle": "",
-      "icon": "/WorldQuest.webp",
+      "icon": "/SumeruDesert.webp",
       "primos": 200
     }
     ],
@@ -589,19 +591,19 @@
       {
         "title": "New Horizons of Adventure",
         "subtitle": "",
-        "icon": "/WorldQuest.webp",
+        "icon": "/Mondstat.webp",
         "primos": 40
       },
       {
         "title": "Welcome to the Adventures' Guild",
         "subtitle": "",
-        "icon": "/WorldQuest.webp",
+        "icon": "/Mondstat.webp",
         "primos": 20
       },
       {
         "title": "Every Day a New Adventure",
         "subtitle": "",
-        "icon": "/WorldQuest.webp",
+        "icon": "/Mondstat.webp",
         "primos": 20
       }
     ]
