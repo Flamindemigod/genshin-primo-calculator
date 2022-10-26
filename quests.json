@@ -968,7 +968,7 @@
         "subtitle": "",
         "icon": "/Inazuma.webp",
         "primos": 20
-      }
+      },
       {
         "title": "Neko Is A Cat: Shrine Cleanup",
         "subtitle": "",
@@ -1081,6 +1081,26 @@
         "subtitle": "",
         "icon": "/Enka.webp",
         "primos": 30
+      },
+      {
+        "title": "\"Outlander Brigade\"", 
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 30
+      },
+      {
+        "title": "Mushounin", 
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 40
+      },
+      { "section": "Sumeru" },
+      {
+        "title": "A Short Encounter with a Rare Bird", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 30
       }
-      ]
+
+    ]
 }
