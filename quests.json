@@ -585,27 +585,129 @@
       "icon": "/SumeruDesert.webp",
       "primos": 200
     }
-  ],
-  "worldQuests": [
-    { "section": "Mondstat" },
-    {
-      "title": "New Horizons of Adventure",
-      "subtitle": "",
-      "icon": "/Mondstat.webp",
-      "primos": 40
-    },
-    { "section": "Mondstat" },
-    {
-      "title": "Welcome to the Adventures' Guild",
-      "subtitle": "",
-      "icon": "/Mondstat.webp",
-      "primos": 20
-    },
-    {
-      "title": "Every Day a New Adventure",
-      "subtitle": "",
-      "icon": "/Mondstat.webp",
-      "primos": 20
-    }
-  ]
+    ],
+    "worldQuests": [
+      { "section": "Mondstat" },
+      {
+        "title": "New Horizons of Adventure",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 40
+      },
+      {
+        "title": "Welcome to the Adventures' Guild",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 20
+      },
+      {
+        "title": "Every Day a New Adventure",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 20
+      },
+      {
+        "title": "Adventure Rank Ascension I",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 100
+      },
+      {
+        "title": "Adventure Rank Ascension II",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 100
+      },
+      {
+        "title": "Adventure Rank Ascension III",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 100
+      },
+      {
+        "title": "Adventure Rank Ascension IV",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 100
+      },
+      {
+        "title": "The Great Mountain Survey",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 40
+      },
+      {
+        "title": "The Great Mountain Survey II",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 40
+      },
+      { "section": "Liyue" },
+      {
+        "title": "Overstretched",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 20
+      },
+      {
+        "title": "Treasure Lost, Treasure Found",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 80
+      },
+      {
+        "title": "The Tree that Stands Alone",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 50
+      },
+      {
+        "title": "Old Tastes Die Hard",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 20
+      },
+      {
+        "title": "Book in the Woods",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 20
+      },
+      {
+        "title": "Share Not Your Treasures",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 30
+      },
+      {
+        "title": "The Chi of Yore",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 60
+      },
+      {
+        "title": "A Provisional Arrangement",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 20
+      },
+      {
+        "title": "Big Business",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 30
+      },
+      {
+        "title": "The Yaksha's Wish",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 30
+      },
+      {
+        "title": "And This Treasure Goes To...",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 40
+      }
+    ]
 }
