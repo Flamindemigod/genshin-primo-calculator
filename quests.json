@@ -522,8 +522,14 @@
       "icon": "/Enka.webp",
       "primos": 30
     },
-
     { "section": "Sumeru" },
+
+    {
+      "title": "Agnihotra Sutra",
+      "subtitle": "",
+      "icon": "/Sumeru.webp",
+      "primos": 130
+    },
     {
       "title": "An Unwavering Culinary Dream",
       "subtitle": "",
@@ -531,16 +537,16 @@
       "primos": 160
     },
     {
-      "title": "Vimana Agama",
-      "subtitle": "",
-      "icon": "/Sumeru.webp",
-      "primos": 210
-    },
-    {
       "title": "Varuna Gatha",
       "subtitle": "",
       "icon": "/Sumeru.webp",
       "primos": 200
+    },
+    {
+      "title": "Vimana Agama",
+      "subtitle": "",
+      "icon": "/Sumeru.webp",
+      "primos": 210
     },
     {
       "title": "Woodland Encounter",
@@ -567,18 +573,11 @@
       "primos": 20
     },
     {
-      "title": "Agnihotra Sutra",
-      "subtitle": "",
-      "icon": "/Sumeru.webp",
-      "primos": 130
-    },
-    {
       "title": "Golden Slumber",
       "subtitle": "",
       "icon": "/SumeruDesert.webp",
       "primos": 190
     },
-
     {
       "title": "Old Notes and New Friends",
       "subtitle": "",
@@ -812,7 +811,7 @@
         "primos": 30
       },
       {
-        "title": "Undetected Infliration",
+        "title": "Undetected Inflitration",
         "subtitle": "",
         "icon": "/ChasmMines.webp",
         "primos": 30
