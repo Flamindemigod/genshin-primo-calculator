@@ -463,16 +463,16 @@
       "primos": 70
     },
     {
+      "title": "Orobashi's Legacy",
+      "subtitle": "",
+      "icon": "/Inazuma.webp",
+      "primos": 210
+    },
+    {
       "title": "Sakura Cleansing Ritual",
       "subtitle": "",
       "icon": "/Inazuma.webp",
       "primos": 170
-    },
-    {
-      "title": "The Moon-Bathed Deep",
-      "subtitle": "",
-      "icon": "/Inazuma.webp",
-      "primos": 160
     },
     {
       "title": "Seirai Stormchasers",
@@ -487,10 +487,16 @@
       "primos": 220
     },
     {
-      "title": "Orobashi's Legacy",
+      "title": "The Moon-Bathed Deep",
       "subtitle": "",
       "icon": "/Inazuma.webp",
-      "primos": 210
+      "primos": 160
+    },
+    {
+      "title": "The Very Special Fortune Slip",
+      "subtitle": "",
+      "icon": "/Inazuma.webp",
+      "primos": 120
     },
     {
       "title": "Through the Mists",
@@ -499,23 +505,16 @@
       "primos": 180
     },
     {
-      "title": "From Dusk to Dawn in Byakuyakoku",
-      "subtitle": "",
-      "icon": "/Enka.webp",
-      "primos": 70
-    },
-    {
-      "title": "The Very Special Fortune Slip",
-      "subtitle": "",
-      "icon": "/Inazuma.webp",
-      "primos": 120
-    },
- 
-    {
       "title": "Erebos's Secret",
       "subtitle": "",
       "icon": "/Enka.webp",
       "primos": 40
+    },
+    {
+      "title": "From Dusk to Dawn in Byakuyakoku",
+      "subtitle": "",
+      "icon": "/Enka.webp",
+      "primos": 70
     },
     {
       "title": "Hyperion's Dirge",
