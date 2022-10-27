@@ -1,5 +1,4 @@
 import { Box, Paper } from "@mui/material";
-import { max } from "date-fns";
 import { useEffect, useReducer, useState } from "react";
 import Exploration from "../components/Exploration";
 import Hero from "../components/Hero";

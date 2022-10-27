@@ -10,7 +10,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
   return (
     <Box className="p-4 grid md:grid-cols-4 justify-center gap-4 gap-y-12">
       <div>
-        <Typography>Frostbearing Tree's Gratitude</Typography>
+        <Typography>Frostbearing Tree&apos;s Gratitude</Typography>
         <Box className="px-4 flex flex-col gap-4">
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
@@ -47,7 +47,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
         </Box>
       </div>
       <div>
-        <Typography>Sacred Sakura's Favor</Typography>
+        <Typography>Sacred Sakura&apos;s Favor</Typography>
         <Box className="px-4 flex flex-col gap-4">
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
@@ -117,7 +117,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
         </Box>
       </div>
       <div>
-        <Typography>Vanarana's Favor</Typography>
+        <Typography>Vanarana&apos;s Favor</Typography>
         <Box className="px-4 flex flex-col gap-4">
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel

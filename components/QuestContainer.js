@@ -39,11 +39,11 @@ const QuestContainer = ({
           maxWidth: "40rem",
           transition: "background-image ease 2s",
           backgroundSize: "200% 100%",
-          backgroundPositionX: "100%",
+          backgroundPositionX: "30%",
           "&[data-checked=true]": { backgroundPositionX: 0 },
           "&:hover, &:focus-within": { backgroundPositionX: 0 },
 
-          transition: "all 0.2s ease",
+          transition: "all 200ms linear",
           backgroundImage:
             "linear-gradient(90deg, var(--clr-primary-500), rgba(255, 255, 255, 0.07) 15% )",
         }}
