@@ -457,6 +457,12 @@
     },
     { "section": "Inazuma" },
     {
+      "title": "Film Notes",
+      "subtitle": "",
+      "icon": "/Inazuma.webp",
+      "primos": 70
+    },
+    {
       "title": "Sakura Cleansing Ritual",
       "subtitle": "",
       "icon": "/Inazuma.webp",
@@ -495,7 +501,7 @@
     {
       "title": "From Dusk to Dawn in Byakuyakoku",
       "subtitle": "",
-      "icon": "/Inazuma.webp",
+      "icon": "/Enka.webp",
       "primos": 70
     },
     {
@@ -504,12 +510,7 @@
       "icon": "/Inazuma.webp",
       "primos": 120
     },
-    {
-      "title": "FilmNotes",
-      "subtitle": "",
-      "icon": "/Inazuma.webp",
-      "primos": 70
-    },
+ 
     {
       "title": "Erebos's Secret",
       "subtitle": "",
@@ -589,24 +590,6 @@
     "worldQuests": [
       { "section": "Mondstat" },
       {
-        "title": "New Horizons of Adventure",
-        "subtitle": "",
-        "icon": "/Mondstat.webp",
-        "primos": 40
-      },
-      {
-        "title": "Welcome to the Adventures' Guild",
-        "subtitle": "",
-        "icon": "/Mondstat.webp",
-        "primos": 20
-      },
-      {
-        "title": "Every Day a New Adventure",
-        "subtitle": "",
-        "icon": "/Mondstat.webp",
-        "primos": 20
-      },
-      {
         "title": "Adventure Rank Ascension I",
         "subtitle": "",
         "icon": "/Mondstat.webp",
@@ -631,10 +614,58 @@
         "primos": 100
       },
       {
+        "title": "Every Day a New Adventure",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 20
+      },
+      {
+        "title": "New Horizons of Adventure",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 40
+      },
+      {
         "title": "Time and Wind",
         "subtitle": "",
         "icon": "/Mondstat.webp",
         "primos": 60
+      },
+      {
+        "title": "Welcome to the Adventures' Guild",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 20
+      },
+      {
+        "title": "Ah, Fresh Meat!",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 40
+      },
+      {
+        "title": "A Land Entombed",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 50
+      },
+      {
+        "title": "In the Mountains",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 60
+      },
+      {
+        "title": "Lost in the Snow",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 40
+      },
+      {
+        "title": "Low-Temperature Warning",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 20
       },
       {
         "title": "The Great Mountain Survey",
@@ -647,36 +678,6 @@
         "subtitle": "",
         "icon": "/Dragonspine.webp",
         "primos": 40
-      },
-      {
-        "title": "Ah, Fresh Meat!",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 40
-      },
-      {
-        "title": "Low-Temperature Warning",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 20
-      },
-      {
-        "title": "A Land Entombed",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 50
-      },
-      {
-        "title": "Lost in the Snow",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 40
-      },
-      {
-        "title": "In the Mountains",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 60
       },
       { "section": "Liyue" },
       {
