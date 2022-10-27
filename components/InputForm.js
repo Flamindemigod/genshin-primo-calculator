@@ -144,7 +144,7 @@ const InputForm = ({ params, dispatch }) => {
           InputProps={{
             inputProps: { min: 0 },
           }}
-          value={params.numShopReset}
+          value={params.numShopResets}
           onChange={(e) => {
             dispatch({ type: "setShopReset", value: e.target.value });
           }}
