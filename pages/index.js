@@ -7,20 +7,20 @@ import InputForm from "../components/InputForm";
 import Quests from "../components/Quests";
 
 const initialParamsState = {
-  primos: null,
-  genesis: null,
-  fates: null,
-  starglitter: null,
+  primos: "",
+  genesis: "",
+  fates: "",
+  starglitter: "",
   battlePass: false,
   welkin: false,
-  pity: null,
+  pity: "",
   endDate: new Date(),
-  numBannersTestRuns: null,
-  numShopResets: null,
-  spiralAbyssValue18: null,
-  spiralAbyssValue912: null,
-  spiralAbyssResets: null,
-  patchesBetween: null,
+  numBannersTestRuns: "",
+  numShopResets: "",
+  spiralAbyssValue18: 0,
+  spiralAbyssValue912: 0,
+  spiralAbyssResets: "",
+  patchesBetween: "",
 };
 
 function initialParamsReducer(state, action) {
@@ -77,10 +77,10 @@ function initialParamsReducer(state, action) {
   }
 }
 const initialExplortaionState = {
-  numTeleports: null,
-  numSOS: null,
-  numDomains: null,
-  numDomainOneTime: null,
+  numTeleports: "",
+  numSOS: "",
+  numDomains: "",
+  numDomainOneTime: "",
   sosMond: [1, 1],
   sosLiyue: [1, 1],
   sosInazuma: [1, 1],
@@ -232,8 +232,11 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
           />
           <Quests setPrimos={setQuestPrimos} />
         </Box>
-        <Box sx={{ flex: "1 1 25%", width: "-webkit-fill-available" }}>
-          <Paper className="p-4" elevation={3}>
+        <Box
+          className="block h-full"
+          sx={{ flex: "1 1 25%", width: "-webkit-fill-available" }}
+        >
+          <Paper className="p-4 sticky top-0" elevation={3}>
             <div className="flex flex-col gap-2 text-lg ">
               <div className="flex justify-between">
                 <div>
@@ -301,7 +304,6 @@ export const getStaticProps = async () => {
   const cumalativewishDistribution = cumalativeWishes.map(
     (datapoint) => (datapoint / totalWishes) * 100 * 2
   );
-  console.log(slicedData.map((e) => (e / totalWishes) * 10000));
   return {
     props: {
       wishDistribution: slicedData,

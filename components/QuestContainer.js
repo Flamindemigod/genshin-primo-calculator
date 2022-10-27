@@ -32,10 +32,21 @@ const QuestContainer = ({
     >
       <Paper
         elevation={2}
-        className={`flex justify-between p-4 items-center gap-2 ${
-          checked && "bg-primary-500"
-        }`}
-        sx={{ width: "95%", maxWidth: "40rem" }}
+        className={`flex justify-between p-4 items-center gap-2 `}
+        data-checked={checked}
+        sx={{
+          width: "95%",
+          maxWidth: "40rem",
+          transition: "background-image ease 2s",
+          backgroundSize: "200% 100%",
+          backgroundPositionX: "100%",
+          "&[data-checked=true]": { backgroundPositionX: 0 },
+          "&:hover, &:focus-within": { backgroundPositionX: 0 },
+
+          transition: "all 0.2s ease",
+          backgroundImage:
+            "linear-gradient(90deg, var(--clr-primary-500), rgba(255, 255, 255, 0.07) 15% )",
+        }}
       >
         <div className="flex gap-2 items-center">
           <Image src={icon} width={52} height={52} alt={title} />
