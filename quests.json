@@ -1170,7 +1170,7 @@
       {
         "title": "The Exile: Sprouting", 
         "subtitle": "",
-        "icon": "/Sumeru.webp",
+        "icon": "/SumeruDesert.webp",
         "primos": 30
       },
       {
@@ -1178,12 +1178,42 @@
         "subtitle": "",
         "icon": "/SumeruDesert.webp",
         "primos": 30
+      },
+      {
+        "title": "A Gifted Rose: Prickly as Thorns", 
+        "subtitle": "",
+        "icon": "/SumeruDesert.webp",
+        "primos": 40
+      },
+      {
+        "title": "A Gifted Rose: Long Day Ahead", 
+        "subtitle": "",
+        "icon": "/SumeruDesert.webp",
+        "primos": 30
       }
-
-
-      
-
-      
-
+      {
+        "title": "A Gifted Rose: Can Stones Bloom", 
+        "subtitle": "",
+        "icon": "/SumeruDesert.webp",
+        "primos": 30
+      },
+      {
+        "title": "A Gifted Rose: Ballad of Days Gone By", 
+        "subtitle": "",
+        "icon": "/SumeruDesert.webp",
+        "primos": 30
+      },
+      {
+        "title": "A Gifted Rose: Some People Never Fade Away", 
+        "subtitle": "",
+        "icon": "/SumeruDesert.webp",
+        "primos": 30
+      }
+      {
+        "title": "Trees of Dreams", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 20
+      }
     ]
 }
