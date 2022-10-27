@@ -1100,7 +1100,90 @@
         "subtitle": "",
         "icon": "/Sumeru.webp",
         "primos": 30
+      },
+      {
+        "title": "The Foolish Fatuus", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 50
+      },
+      {
+        "title": "Aranaga's Memory", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 30
+      },
+      {
+        "title": "Aranakin's Old Friend", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 30
+      },
+      {
+        "title": "Aragaru's Drawing", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 30
+      },
+      {
+        "title": "Memory's Final Chapter", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 20
+      },
+      {
+        "title": "Until Vana is Healed", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 40
+      },
+      {
+        "title": "Courage is the Heart", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 30
+      },
+      {
+        "title": "Giving Flowers", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 20
+      },
+      {
+        "title": "Legends of the Stone Lock", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 30
+      },
+      {
+        "title": "A Child From Beyond the Forest", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 30
+      },
+      {
+        "title": "Afratu's Dilemma", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 50
+      },
+      {
+        "title": "The Exile: Sprouting", 
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 30
+      },
+      {
+        "title": "The Exile: Blooming", 
+        "subtitle": "",
+        "icon": "/SumeruDesert.webp",
+        "primos": 30
       }
+
+
+      
+
+      
 
     ]
 }
