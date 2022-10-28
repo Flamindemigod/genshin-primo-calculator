@@ -457,16 +457,22 @@
     },
     { "section": "Inazuma" },
     {
+      "title": "Film Notes",
+      "subtitle": "",
+      "icon": "/Inazuma.webp",
+      "primos": 70
+    },
+    {
+      "title": "Orobashi's Legacy",
+      "subtitle": "",
+      "icon": "/Inazuma.webp",
+      "primos": 210
+    },
+    {
       "title": "Sakura Cleansing Ritual",
       "subtitle": "",
       "icon": "/Inazuma.webp",
       "primos": 170
-    },
-    {
-      "title": "The Moon-Bathed Deep",
-      "subtitle": "",
-      "icon": "/Inazuma.webp",
-      "primos": 160
     },
     {
       "title": "Seirai Stormchasers",
@@ -481,22 +487,10 @@
       "primos": 220
     },
     {
-      "title": "Orobashi's Legacy",
+      "title": "The Moon-Bathed Deep",
       "subtitle": "",
       "icon": "/Inazuma.webp",
-      "primos": 210
-    },
-    {
-      "title": "Through the Mists",
-      "subtitle": "",
-      "icon": "/Inazuma.webp",
-      "primos": 180
-    },
-    {
-      "title": "From Dusk to Dawn in Byakuyakoku",
-      "subtitle": "",
-      "icon": "/Inazuma.webp",
-      "primos": 70
+      "primos": 160
     },
     {
       "title": "The Very Special Fortune Slip",
@@ -505,10 +499,10 @@
       "primos": 120
     },
     {
-      "title": "FilmNotes",
+      "title": "Through the Mists",
       "subtitle": "",
       "icon": "/Inazuma.webp",
-      "primos": 70
+      "primos": 180
     },
     {
       "title": "Erebos's Secret",
@@ -517,13 +511,25 @@
       "primos": 40
     },
     {
+      "title": "From Dusk to Dawn in Byakuyakoku",
+      "subtitle": "",
+      "icon": "/Enka.webp",
+      "primos": 70
+    },
+    {
       "title": "Hyperion's Dirge",
       "subtitle": "",
       "icon": "/Enka.webp",
       "primos": 30
     },
-
     { "section": "Sumeru" },
+
+    {
+      "title": "Agnihotra Sutra",
+      "subtitle": "",
+      "icon": "/Sumeru.webp",
+      "primos": 130
+    },
     {
       "title": "An Unwavering Culinary Dream",
       "subtitle": "",
@@ -531,16 +537,16 @@
       "primos": 160
     },
     {
-      "title": "Vimana Agama",
-      "subtitle": "",
-      "icon": "/Sumeru.webp",
-      "primos": 210
-    },
-    {
       "title": "Varuna Gatha",
       "subtitle": "",
       "icon": "/Sumeru.webp",
       "primos": 200
+    },
+    {
+      "title": "Vimana Agama",
+      "subtitle": "",
+      "icon": "/Sumeru.webp",
+      "primos": 210
     },
     {
       "title": "Woodland Encounter",
@@ -567,18 +573,11 @@
       "primos": 20
     },
     {
-      "title": "Agnihotra Sutra",
-      "subtitle": "",
-      "icon": "/Sumeru.webp",
-      "primos": 130
-    },
-    {
       "title": "Golden Slumber",
       "subtitle": "",
       "icon": "/SumeruDesert.webp",
       "primos": 190
     },
-
     {
       "title": "Old Notes and New Friends",
       "subtitle": "",
@@ -588,24 +587,6 @@
     ],
     "worldQuests": [
       { "section": "Mondstat" },
-      {
-        "title": "New Horizons of Adventure",
-        "subtitle": "",
-        "icon": "/Mondstat.webp",
-        "primos": 40
-      },
-      {
-        "title": "Welcome to the Adventures' Guild",
-        "subtitle": "",
-        "icon": "/Mondstat.webp",
-        "primos": 20
-      },
-      {
-        "title": "Every Day a New Adventure",
-        "subtitle": "",
-        "icon": "/Mondstat.webp",
-        "primos": 20
-      },
       {
         "title": "Adventure Rank Ascension I",
         "subtitle": "",
@@ -631,10 +612,58 @@
         "primos": 100
       },
       {
+        "title": "Every Day a New Adventure",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 20
+      },
+      {
+        "title": "New Horizons of Adventure",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 40
+      },
+      {
         "title": "Time and Wind",
         "subtitle": "",
         "icon": "/Mondstat.webp",
         "primos": 60
+      },
+      {
+        "title": "Welcome to the Adventures' Guild",
+        "subtitle": "",
+        "icon": "/Mondstat.webp",
+        "primos": 20
+      },
+      {
+        "title": "Ah, Fresh Meat!",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 40
+      },
+      {
+        "title": "A Land Entombed",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 50
+      },
+      {
+        "title": "In the Mountains",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 60
+      },
+      {
+        "title": "Lost in the Snow",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 40
+      },
+      {
+        "title": "Low-Temperature Warning",
+        "subtitle": "",
+        "icon": "/Dragonspine.webp",
+        "primos": 20
       },
       {
         "title": "The Great Mountain Survey",
@@ -647,36 +676,6 @@
         "subtitle": "",
         "icon": "/Dragonspine.webp",
         "primos": 40
-      },
-      {
-        "title": "Ah, Fresh Meat!",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 40
-      },
-      {
-        "title": "Low-Temperature Warning",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 20
-      },
-      {
-        "title": "A Land Entombed",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 50
-      },
-      {
-        "title": "Lost in the Snow",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 40
-      },
-      {
-        "title": "In the Mountains",
-        "subtitle": "",
-        "icon": "/Dragonspine.webp",
-        "primos": 60
       },
       { "section": "Liyue" },
       {
@@ -812,7 +811,7 @@
         "primos": 30
       },
       {
-        "title": "Undetected Infliration",
+        "title": "Undetected Inflitration",
         "subtitle": "",
         "icon": "/ChasmMines.webp",
         "primos": 30
