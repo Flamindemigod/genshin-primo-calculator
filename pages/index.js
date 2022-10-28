@@ -1,5 +1,6 @@
 import { Box, Paper } from "@mui/material";
 import { useEffect, useReducer, useState } from "react";
+import Events from "../components/Events";
 import Exploration from "../components/Exploration";
 import Hero from "../components/Hero";
 import InputForm from "../components/InputForm";
@@ -104,7 +105,6 @@ function ExplortaionReducer(state, action) {
 
 function getNumberOfDays(endDate) {
   const today = new Date().setHours(0, 0, 0, 0);
-  console.log(today);
   const diffrence = endDate.getTime() - today;
   const diffrenceDays = parseInt(diffrence / (1000 * 3600 * 24));
   return diffrenceDays;
@@ -135,6 +135,8 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
   );
 
   const [questPrimos, setQuestPrimos] = useState(0);
+  const [eventPrimos, setEventPrimos] = useState(0);
+  const [eventFates, setEventFates] = useState(0);
 
   const [output, setOutput] = useState({
     primogems: 0,
@@ -149,6 +151,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
       (initialParams.primos ? initialParams.primos : 0) +
       (initialParams.genesis ? initialParams.genesis : 0) +
       questPrimos +
+      eventPrimos +
       initialParams.numBannersTestRuns * 20 +
       initialParams.patchesBetween * 300 +
       (initialParams.battlePass
@@ -176,6 +179,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
 
     const fates =
       (initialParams.fates ? initialParams.fates : 0) +
+      parseInt(eventFates) +
       (initialParams.starglitter
         ? parseInt(initialParams.starglitter / 5)
         : 0) +
@@ -210,10 +214,10 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
       probability5StarGuaranteed: probability5StarGuaranteed,
       probability5Star: probability5Star,
     }));
-  }, [initialParams, questPrimos, explorationParams]);
+  }, [initialParams, questPrimos, explorationParams, eventPrimos, eventFates]);
 
   return (
-    <div>
+    <Box>
       <Hero />
       <div className="flex flex-wrap flex-col lg:flex-row p-4 gap-4">
         <Box
@@ -225,6 +229,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
           }}
         >
           <InputForm params={initialParams} dispatch={initialParamsDispatch} />
+          <Events setPrimo={setEventPrimos} setFate={setEventFates} />
           <Exploration
             params={explorationParams}
             dispatch={explorationParamsDispatch}
@@ -281,7 +286,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
           </Paper>
         </Box>
       </div>
-    </div>
+    </Box>
   );
 }
 
