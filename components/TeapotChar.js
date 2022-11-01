@@ -50,6 +50,7 @@ const TeapotChar = ({ char, setPrimos }) => {
           height={64}
           alt={char.name}
           draggable={false}
+          className={"object-contain"}
         />
         <div>{char.name}</div>
       </div>

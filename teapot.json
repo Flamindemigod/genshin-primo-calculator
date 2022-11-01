@@ -1,5 +1,368 @@
 {
-  "outdoor": [],
+  "outdoor": [
+    {
+      "name": "Weapon Forging Station",
+      "image": "/Furnishing_Set_Weapon_Forging_Station_Display.webp",
+      "characters": [
+        {
+          "name": "Bennett",
+          "image": "/Character_Bennett_Thumb.webp"
+        },
+        {
+          "name": "Diluc",
+          "image": "/Character_Diluc_Thumb.webp"
+        },
+        {
+          "name": "Diona",
+          "image": "/Character_Diona_Thumb.webp"
+        },
+        {
+          "name": "Noelle",
+          "image": "/Character_Noelle_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Idyllic Town",
+      "image": "/Furnishing_Set_Idyllic_Town_Display.webp",
+      "characters": [
+        {
+          "name": "Amber",
+          "image": "/Character_Amber_Thumb.webp"
+        },
+        {
+          "name": "Diona",
+          "image": "/Character_Diona_Thumb.webp"
+        },
+        {
+          "name": "Razor",
+          "image": "/Character_Razor_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Bird and Blossom Park",
+      "image": "/Furnishing_Set_Bird_and_Blossom_Park_Display.webp",
+      "characters": [
+        {
+          "name": "Barbara",
+          "image": "/Character_Barbara_Thumb.webp"
+        },
+        {
+          "name": "Jean",
+          "image": "/Character_Jean_Thumb.webp"
+        },
+        {
+          "name": "Kaeya",
+          "image": "/Character_Kaeya_Thumb.webp"
+        },
+        {
+          "name": "Rosaria",
+          "image": "/Character_Rosaria_Thumb.webp"
+        },
+        {
+          "name": "Venti",
+          "image": "/Character_Venti_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Gathering of Gourmets",
+      "image": "/Furnishing_Set_Gathering_of_Gourmets_Display.webp",
+      "characters": [
+        {
+          "name": "Beidou",
+          "image": "/Character_Beidou_Thumb.webp"
+        },
+        {
+          "name": "Ganyu",
+          "image": "/Character_Ganyu_Thumb.webp"
+        },
+        {
+          "name": "Tartaglia",
+          "image": "/Character_Tartaglia_Thumb.webp"
+        },
+        {
+          "name": "Xiangling",
+          "image": "/Character_Xiangling_Thumb.webp"
+        },
+        {
+          "name": "Xinyan",
+          "image": "/Character_Xinyan_Thumb.webp"
+        },
+        {
+          "name": "Yelan",
+          "image": "/Character_Yelan_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Glittering Street",
+      "image": "/Furnishing_Set_Glittering_Street_Display.webp",
+      "characters": [
+        {
+          "name": "Keqing",
+          "image": "/Character_Keqing_Thumb.webp"
+        },
+        {
+          "name": "Ningguang",
+          "image": "/Character_Ningguang_Thumb.webp"
+        },
+        {
+          "name": "Shenhe",
+          "image": "/Character_Shenhe_Thumb.webp"
+        },
+        {
+          "name": "Xingqiu",
+          "image": "/Character_Xingqiu_Thumb.webp"
+        },
+        {
+          "name": "Yanfei",
+          "image": "/Character_Yanfei_Thumb.webp"
+        },
+        {
+          "name": "Yun Jin",
+          "image": "/Character_Yun_Jin_Thumb.webp"
+        },
+        {
+          "name": "Zhongli",
+          "image": "/Character_Zhongli_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Qingce Cloud Residence",
+      "image": "/Furnishing_Set_Qingce_Cloud_Residence_Display.webp",
+      "characters": [
+        {
+          "name": "Hu Tao",
+          "image": "/Character_Hu_Tao_Thumb.webp"
+        },
+        {
+          "name": "Qiqi",
+          "image": "/Character_Qiqi_Thumb.webp"
+        },
+        {
+          "name": "Xiao",
+          "image": "/Character_Xiao_Thumb.webp"
+        },
+        {
+          "name": "Xinyan",
+          "image": "/Character_Xinyan_Thumb.webp"
+        },
+        {
+          "name": "Shenhe",
+          "image": "/Character_Shenhe_Thumb.webp"
+        },
+        {
+          "name": "Yelan",
+          "image": "/Character_Yelan_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Of Hunting and Dancing",
+      "image": "/Furnishing_Set_Of_Hunting_and_Dancing_Display.webp",
+      "characters": [
+        {
+          "name": "Aloy",
+          "image": "/Character_Aloy_Thumb.webp"
+        },
+        {
+          "name": "Amber",
+          "image": "/Character_Amber_Thumb.webp"
+        },
+        {
+          "name": "Beidou",
+          "image": "/Character_Beidou_Thumb.webp"
+        },
+        {
+          "name": "Klee",
+          "image": "/Character_Klee_Thumb.webp"
+        },
+        {
+          "name": "Sucrose",
+          "image": "/Character_Sucrose_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Iter Ad Astra Abyssosque",
+      "image": "/Furnishing_Set_Iter_Ad_Astra_Abyssosque_Display.webp",
+      "characters": [
+        {
+          "name": "Albedo",
+          "image": "/Character_Albedo_Thumb.webp"
+        },
+        {
+          "name": "Aloy",
+          "image": "/Character_Aloy_Thumb.webp"
+        },
+        {
+          "name": "Bennett",
+          "image": "/Character_Bennett_Thumb.webp"
+        },
+        {
+          "name": "Chongyun",
+          "image": "/Character_Chongyun_Thumb.webp"
+        },
+        {
+          "name": "Fischl",
+          "image": "/Character_Fischl_Thumb.webp"
+        },
+        {
+          "name": "Qiqi",
+          "image": "/Character_Qiqi_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Dawn Orchard",
+      "image": "/Furnishing_Set_Dawn_Orchard_Display.webp",
+      "characters": [
+        {
+          "name": "Diluc",
+          "image": "/Character_Diluc_Thumb.webp"
+        },
+        {
+          "name": "Kaeya",
+          "image": "/Character_Kaeya_Thumb.webp"
+        },
+        {
+          "name": "Rosaria",
+          "image": "/Character_Rosaria_Thumb.webp"
+        },
+        {
+          "name": "Venti",
+          "image": "/Character_Venti_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Court of the Upright",
+      "image": "/Furnishing_Set_Court_of_the_Upright_Display.webp",
+      "characters": [
+        {
+          "name": "Kujou Sara",
+          "image": "/Character_Kujou_Sara_Thumb.webp"
+        },
+        {
+          "name": "Kamisato Ayato",
+          "image": "/Character_Kamisato_Ayato_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Wakeful Spring",
+      "image": "/Furnishing_Set_Wakeful_Spring_Display.webp",
+      "characters": [
+        {
+          "name": "Yoimiya",
+          "image": "/Character_Yoimiya_Thumb.webp"
+        },
+        {
+          "name": "Yae Miko",
+          "image": "/Character_Yae_Miko_Thumb.webp"
+        },
+        {
+          "name": "Gorou",
+          "image": "/Character_Gorou_Thumb.webp"
+        },
+        {
+          "name": "Shikanoin Heizou",
+          "image": "/Character_Shikanoin_Heizou_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Rural Concealment",
+      "image": "/Furnishing_Set_Rural_Concealment_Display.webp",
+      "characters": [
+        {
+          "name": "Sayu",
+          "image": "/Character_Sayu_Thumb.webp"
+        },
+        {
+          "name": "Gorou",
+          "image": "/Character_Gorou_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Branch Shrine",
+      "image": "/Furnishing_Set_Ancient_Branch_Shrine_Display.webp",
+      "characters": [
+        {
+          "name": "Raiden Shogun",
+          "image": "/Character_Raiden_Shogun_Thumb.webp"
+        },
+        {
+          "name": "Yae Miko",
+          "image": "/Character_Yae_Miko_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Military Exercise Grounds",
+      "image": "/Furnishing_Set_Military_Exercise_Grounds_Display.webp",
+      "characters": [
+        {
+          "name": "Kujou Sara",
+          "image": "/Character_Kujou_Sara_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Jade Wilds",
+      "image": "/Furnishing_Set_Jade_Wilds_Display.webp",
+      "characters": [
+        {
+          "name": "Kaedehara Kazuha",
+          "image": "/Character_Kaedehara_Kazuha_Thumb.webp"
+        },
+        {
+          "name": "Arataki Itto",
+          "image": "/Character_Arataki_Itto_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Summer Night's Recollection",
+      "image": "/Furnishing_Set_Summer_Nights_Recollection_Display.webp",
+      "characters": [
+        {
+          "name": "Kamisato Ayaka",
+          "image": "/Character_Kamisato_Ayaka_Thumb.webp"
+        },
+        {
+          "name": "Arataki Itto",
+          "image": "/Character_Arataki_Itto_Thumb.webp"
+        },
+        {
+          "name": "Kamisato Ayato",
+          "image": "/Character_Kamisato_Ayato_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Sakura-Hued Street",
+      "image": "/Furnishing_Set_Sakura-Hued_Street_Display.webp",
+      "characters": [
+        {
+          "name": "Yoimiya",
+          "image": "/Character_Yoimiya_Thumb.webp"
+        },
+        {
+          "name": "Thoma",
+          "image": "/Character_Thoma_Thumb.webp"
+        },
+        {
+          "name": "Kuki Shinobu",
+          "image": "/Character_Kuki_Shinobu_Thumb.webp"
+        }
+      ]
+    }
+  ],
   "indoor": [
     {
       "name": "Amidst Poetic Pondering",

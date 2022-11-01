@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Genshin Primo Planner</title>
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.ico" />
         {/* Roboto Font for Mui */}

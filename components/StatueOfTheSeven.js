@@ -1,9 +1,12 @@
 import { Box, Typography, Slider } from "@mui/material";
 import React from "react";
+function valuetext(value) {
+  return `Level ${value}`;
+}
 
 const StatueOfTheSeven = ({ params, dispatch }) => {
   return (
-    <Box className="p-4 grid grid-rows-8 grid-flow-col gap-2">
+    <Box className="p-4 grid grid-rows-8 grid-flow-col items-center gap-x-2 gap-y-0">
       <Typography>Mondstat</Typography>
       <Slider
         step={1}
@@ -13,6 +16,7 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
         getAriaLabel={() => {
           "Mondstat Statue of the Seven Level";
         }}
+        getAriaValueText={valuetext}
         sx={{
           width: 250,
           "& .MuiSlider-valueLabel": {
@@ -50,6 +54,7 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
         getAriaLabel={() => {
           "Liyue Statue of the Seven Level";
         }}
+        getAriaValueText={valuetext}
         sx={{
           width: 250,
           "& .MuiSlider-valueLabel": {
@@ -86,6 +91,7 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
         getAriaLabel={() => {
           "Inazuma Statue of the Seven Level";
         }}
+        getAriaValueText={valuetext}
         marks
         sx={{
           width: 250,
@@ -124,6 +130,7 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
         getAriaLabel={() => {
           "Sumeru Statue of the Seven Level";
         }}
+        getAriaValueText={valuetext}
         sx={{
           width: 250,
           "& .MuiSlider-valueLabel": {

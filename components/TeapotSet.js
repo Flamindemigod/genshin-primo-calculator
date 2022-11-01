@@ -9,7 +9,7 @@ const TeapotSet = ({ set, setPrimos }) => {
       elevation={1}
       className="flex flex-col md:flex-row w-full justify-between gap-4 p-4 px-16"
     >
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 flex-col md:flex-row">
         <Image
           src={set.image}
           width={200}

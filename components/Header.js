@@ -11,6 +11,7 @@ const Header = () => {
             src="/PaimonGivingPrimo.png"
             width={64}
             height={64}
+            alt={"GPP Logo"}
           />
           <div className="text-2xl font-sans">Genshin Primo Planner</div>
         </div>

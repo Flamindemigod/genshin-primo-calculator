@@ -1,10 +1,10 @@
 import Head from "next/head";
 import { SERVER } from "../config";
 const Meta = ({
-  title = "Primo",
+  title = "Genshin Primo Planner",
   url = "https://primos.flamindemigod.com",
   image = `${SERVER}/Item_Primogem.webp`,
-  description = "A Genshin Impact Primogem Calculator made by Flamindemigod and Delta45321",
+  description = "A Genshin Impact Primogem Calculator made by Delta45321 and Flamindemigod. It accounts for almost all sources of primogems, other than Chests and Redeemable Codes",
 }) => {
   return (
     <Head>

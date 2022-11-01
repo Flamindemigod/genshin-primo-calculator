@@ -4,6 +4,7 @@ import Events from "../components/Events";
 import Exploration from "../components/Exploration";
 import Hero from "../components/Hero";
 import InputForm from "../components/InputForm";
+import Meta from "../components/Meta";
 import Quests from "../components/Quests";
 import Teapot from "../components/Teapot";
 
@@ -231,8 +232,9 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
 
   return (
     <Box>
+      <Meta />
       <Hero />
-      <div className="flex flex-wrap flex-col lg:flex-row p-4 gap-4">
+      <div className="flex flex-wrap flex-col lg:flex-row p-4 gap-4 w-screen">
         <Box
           className="flex flex-col gap-2"
           sx={{

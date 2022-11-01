@@ -1,4 +1,5 @@
 import { ArrowDownward } from "@mui/icons-material";
+import Image from "next/future/image";
 
 const Hero = () => {
   return (
@@ -12,12 +13,16 @@ const Hero = () => {
           <ArrowDownward className="animate-bounce" />
         </div>
       </div>
-      <div className="">
-        <img
+      <div
+        className="relative flex-grow"
+        style={{ height: "60vh", minWidth: "30rem" }}
+      >
+        <Image
           draggable={false}
           src="/BG.png"
           className="object-contain "
-          style={{ height: "60vh" }}
+          fill
+          alt={"Zhongli and Aether Asking for Mora and Primos respectively"}
         />
       </div>
     </div>
