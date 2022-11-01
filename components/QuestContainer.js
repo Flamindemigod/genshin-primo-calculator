@@ -44,7 +44,7 @@ const QuestContainer = ({
         backgroundSize: "200% 100%",
         backgroundPositionX: "30%",
         "&[data-checked=true]": { backgroundPositionX: 0 },
-        "&:hover, &:focus-within": { backgroundPositionX: 0 },
+        "&:hover, &:focus-visible": { backgroundPositionX: 0 },
 
         transition: "all 200ms linear",
         backgroundImage:

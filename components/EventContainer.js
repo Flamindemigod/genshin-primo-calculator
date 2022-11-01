@@ -48,7 +48,7 @@ const EventContainer = ({
         backgroundSize: "150%",
         backgroundPositionX: "50%",
         transition: "all 200ms linear",
-        "&[data-clicked=true], &:hover, &:focus-within": {
+        "&[data-clicked=true], &:hover, &:focus-visible": {
           backgroundPositionX: 0,
         },
       }}
