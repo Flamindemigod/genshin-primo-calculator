@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
         <link rel="icon" href="/favicon.ico" />
         {/* Roboto Font for Mui */}
         <link
