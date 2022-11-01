@@ -39,7 +39,7 @@ const AccordionSummary = styled((props) => (
 const CustomAccordian = ({ title, icon, children }) => {
   return (
     <Accordion>
-      <AccordionSummary aria-controls="panel-content" id="panel-header">
+      <AccordionSummary aria-controls={`${title}-content`} id={title}>
         <div className="flex gap-2 items-center">
           <Image
             className="object-contain"

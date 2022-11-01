@@ -37,6 +37,7 @@ const InputForm = ({ params, dispatch }) => {
                   src={"/Item_Primogem.webp"}
                   width={32}
                   height={32}
+                  alt={"Primogems"}
                 />
               </InputAdornment>
             ),
@@ -60,6 +61,7 @@ const InputForm = ({ params, dispatch }) => {
                   src={"/Item_Genesis_Crystal.webp"}
                   width={32}
                   height={32}
+                  alt={"Genesis Crystal"}
                 />
               </InputAdornment>
             ),
@@ -84,6 +86,7 @@ const InputForm = ({ params, dispatch }) => {
                   src={"/Item_Intertwined_Fate.webp"}
                   width={32}
                   height={32}
+                  alt={"Intertwined Fate"}
                 />
               </InputAdornment>
             ),
@@ -108,6 +111,7 @@ const InputForm = ({ params, dispatch }) => {
                   src={"/Item_Masterless_Starglitter.webp"}
                   width={32}
                   height={32}
+                  alt={"Masterless Starglitter"}
                 />
               </InputAdornment>
             ),

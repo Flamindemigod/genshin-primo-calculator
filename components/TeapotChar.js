@@ -18,7 +18,14 @@ const TeapotChar = ({ char, setPrimos }) => {
   return (
     <Paper
       elevation={6}
+      tabIndex={0}
       className="flex gap-2 items-center justify-between p-4 w-72 cursor-pointer"
+      onKeyDown={(e) => {
+        if (e.key == "Enter") {
+          setChecked((state) => !state);
+          setClicked(true);
+        }
+      }}
       onClick={(e) => {
         setChecked((state) => !state);
         setClicked(true);

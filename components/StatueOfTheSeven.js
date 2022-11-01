@@ -10,6 +10,9 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
         min={1}
         max={10}
         marks
+        getAriaLabel={() => {
+          "Mondstat Statue of the Seven Level";
+        }}
         sx={{
           width: 250,
           "& .MuiSlider-valueLabel": {
@@ -44,6 +47,9 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
         min={1}
         max={10}
         marks
+        getAriaLabel={() => {
+          "Liyue Statue of the Seven Level";
+        }}
         sx={{
           width: 250,
           "& .MuiSlider-valueLabel": {
@@ -77,6 +83,9 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
         step={1}
         min={1}
         max={10}
+        getAriaLabel={() => {
+          "Inazuma Statue of the Seven Level";
+        }}
         marks
         sx={{
           width: 250,
@@ -112,6 +121,9 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
         min={1}
         max={10}
         marks
+        getAriaLabel={() => {
+          "Sumeru Statue of the Seven Level";
+        }}
         sx={{
           width: 250,
           "& .MuiSlider-valueLabel": {

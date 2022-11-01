@@ -24,6 +24,12 @@ const QuestContainer = ({
   return (
     <Paper
       tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key == "Enter") {
+          setChecked((state) => !state);
+          setClicked(true);
+        }
+      }}
       onClick={(e) => {
         setChecked((state) => !state);
         setClicked(true);

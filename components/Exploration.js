@@ -35,6 +35,7 @@ const Exploration = ({ params, dispatch }) => {
                     src={"/Teleport.webp"}
                     width={32}
                     height={32}
+                    alt={"Teleport Waypoints"}
                   />
                 </InputAdornment>
               ),
@@ -57,6 +58,7 @@ const Exploration = ({ params, dispatch }) => {
                     src={"/StatueOfTheSeven.webp"}
                     width={32}
                     height={32}
+                    alt={"Statues of the Seven"}
                   />
                 </InputAdornment>
               ),
@@ -80,6 +82,7 @@ const Exploration = ({ params, dispatch }) => {
                       src={"/Domain.webp"}
                       width={32}
                       height={32}
+                      alt={"Domain Waypoints"}
                     />
                   </InputAdornment>
                 ),
@@ -108,6 +111,7 @@ const Exploration = ({ params, dispatch }) => {
                         src={"/DomainOneTime.webp"}
                         width={32}
                         height={32}
+                        alt={"Domains Completed"}
                       />
                     </InputAdornment>
                   ),

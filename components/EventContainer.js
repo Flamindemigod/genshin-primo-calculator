@@ -33,6 +33,12 @@ const EventContainer = ({
       tabIndex={0}
       data-clicked={checked}
       className="p-4 relative isolate flex justify-between cursor-pointer"
+      onKeyDown={(e) => {
+        if (e.key == "Enter") {
+          setChecked((state) => !state);
+          setClicked(true);
+        }
+      }}
       onClick={() => {
         setChecked((state) => !state);
         setClicked(true);
@@ -42,17 +48,26 @@ const EventContainer = ({
         backgroundSize: "150%",
         backgroundPositionX: "50%",
         transition: "all 200ms linear",
-        "&[data-clicked=true], &:hover": { backgroundPositionX: 0 },
+        "&[data-clicked=true], &:hover, &:focus-within": {
+          backgroundPositionX: 0,
+        },
       }}
     >
+      <Box
+        className="absolute inset-0 -z-[5]"
+        sx={{
+          backgroundImage: "linear-gradient(90deg, transparent, #00000070 70%)",
+        }}
+      ></Box>
       <Image
         draggable={false}
-        className="object-none object-right -z-[1]"
+        className="object-none object-right -z-[10]"
         style={{
           WebkitMask: "linear-gradient(90deg, #0000 70%, #ffff)",
         }}
         src={bgImage}
         fill
+        alt={name}
       />
       <div className="flex flex-col">
         <div className="text-xl font-sans">{name}</div>
@@ -96,6 +111,7 @@ const EventContainer = ({
             e.stopPropagation();
             window.open(hoyolabLink);
           }}
+          aria-label="More Info on Hoyolab"
         >
           <Info fontSize="large" />
         </IconButton>
