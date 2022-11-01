@@ -1,0 +1,205 @@
+{
+  "outdoor": [],
+  "indoor": [
+    {
+      "name": "Amidst Poetic Pondering",
+      "image": "/Furnishing_Set_Amidst_Poetic_Pondering_Display.webp",
+      "characters": [
+        {
+          "name": "Eula",
+          "image": "/Character_Eula_Thumb.webp"
+        },
+        {
+          "name": "Fischl",
+          "image": "/Character_Fischl_Thumb.webp"
+        },
+        {
+          "name": "Jean",
+          "image": "/Character_Jean_Thumb.webp"
+        },
+        {
+          "name": "Lisa",
+          "image": "/Character_Lisa_Thumb.webp"
+        },
+        {
+          "name": "Mona",
+          "image": "/Character_Mona_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Amidst Whispering Winds",
+      "image": "/Furnishing_Set_Amidst_Whispering_Winds_Display.webp",
+      "characters": [
+        {
+          "name": "Eula",
+          "image": "/Character_Eula_Thumb.webp"
+        },
+        {
+          "name": "Barbara",
+          "image": "/Character_Barbara_Thumb.webp"
+        },
+        {
+          "name": "Noelle",
+          "image": "/Character_Noelle_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Feiyun Study Room",
+      "image": "/Furnishing_Set_Feiyun_Study_Room_Display.webp",
+      "characters": [
+        {
+          "name": "Ningguang",
+          "image": "/Character_Ningguang_Thumb.webp"
+        },
+        {
+          "name": "Xingqiu",
+          "image": "/Character_Xingqiu_Thumb.webp"
+        },
+        {
+          "name": "Yun Jin",
+          "image": "/Character_Yun_Jin_Thumb.webp"
+        },
+        {
+          "name": "Zhongli",
+          "image": "/Character_Zhongli_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Cloudy Haze Dream-Court",
+      "image": "/Furnishing_Set_Cloudy_Haze_Dream-Court_Display.webp",
+      "characters": [
+        {
+          "name": "Chongyun",
+          "image": "/Character_Chongyun_Thumb.webp"
+        },
+        {
+          "name": "Ganyu",
+          "image": "/Character_Ganyu_Thumb.webp"
+        },
+        {
+          "name": "Keqing",
+          "image": "/Character_Keqing_Thumb.webp"
+        },
+        {
+          "name": "Hu Tao",
+          "image": "/Character_Hu_Tao_Thumb.webp"
+        },
+        {
+          "name": "Yanfei",
+          "image": "/Character_Yanfei_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Secret Research Lab",
+      "image": "/Furnishing_Set_Cloudy_Haze_Dream-Court_Display.webp",
+      "characters": [
+        {
+          "name": "Albedo",
+          "image": "/Character_Albedo_Thumb.webp"
+        },
+        {
+          "name": "Klee",
+          "image": "/Character_Klee_Thumb.webp"
+        },
+        {
+          "name": "Lisa",
+          "image": "/Character_Lisa_Thumb.webp"
+        },
+        {
+          "name": "Sucrose",
+          "image": "/Character_Sucrose_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Cottage Kitchen",
+      "image": "/Furnishing_Set_Cloudy_Haze_Dream-Court_Display.webp",
+      "characters": [
+        {
+          "name": "Mona",
+          "image": "/Character_Mona_Thumb.webp"
+        },
+        {
+          "name": "Razor",
+          "image": "/Character_Razor_Thumb.webp"
+        },
+        {
+          "name": "Tartaglia",
+          "image": "/Character_Tartaglia_Thumb.webp"
+        },
+        {
+          "name": "Xiangling",
+          "image": "/Character_Xiangling_Thumb.webp"
+        },
+        {
+          "name": "Xiao",
+          "image": "/Character_Xiao_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Eternal Domain of Fleeting Dreams",
+      "image": "/Furnishing_Set_Eternal_Domain_of_Fleeting_Dreams_Display.webp",
+      "characters": [
+        {
+          "name": "Sayu",
+          "image": "/Character_Sayu_Thumb.webp"
+        },
+        {
+          "name": "Sangonomiya Kokomi",
+          "image": "/Character_Sangonomiya_Kokomi_Thumb.webp"
+        },
+        {
+          "name": "Shikanoin Heizou",
+          "image": "/Character_Shikanoin_Heizou_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "A Thousand Swings",
+      "image": "/Furnishing_Set_A_Thousand_Swings_Display.webp",
+      "characters": [
+        {
+          "name": "Raiden Shogun",
+          "image": "/Character_Raiden_Shogun_Thumb.webp"
+        },
+        {
+          "name": "Kamisato Ayaka",
+          "image": "/Character_Kamisato_Ayaka_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Scholarly Trove",
+      "image": "/Furnishing_Set_Scholarly_Trove_Display.webp",
+      "characters": [
+        {
+          "name": "Sangonomiya Kokomi",
+          "image": "/Character_Sangonomiya_Kokomi_Thumb.webp"
+        },
+        {
+          "name": "Kuki Shinobu",
+          "image": "/Character_Kuki_Shinobu_Thumb.webp"
+        }
+      ]
+    },
+    {
+      "name": "Of Maple and Tea Scents Entwined",
+      "image": "/Furnishing_Set_Of_Maple_and_Tea_Scents_Entwined_Display.webp",
+      "characters": [
+        {
+          "name": "Thoma",
+          "image": "/Character_Thoma_Thumb.webp"
+        },
+        {
+          "name": "Kaedehara Kazuha",
+          "image": "/Character_Kaedehara_Kazuha_Thumb.webp"
+        }
+      ]
+    }
+  ]
+}

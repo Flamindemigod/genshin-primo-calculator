@@ -1,40 +1,40 @@
 [
   {
     "name": "Fabulous Fungus Frenzy",
-    "image": "/3.2Placeholder.jpg",
-    "link": "https://act.hoyolab.com/puzzle/bbs/pz_fKWaqWI9U4/index.html?game_biz=bbs_oversea&mhy_presentation_style=fullscreen&mhy_auth_required=true&utm_source=hoyolab&utm_medium=web&utm_campaign=post",
-    "start": "Thu, 29 Sep 2022",
-    "end": "Mon, 31 Oct 2022",
-    "colour": "#fcae2d",
-    "primos": 990,
+    "image": "/fabulous_fungus_frenzy_temp.jpg",
+    "link": "https://www.hoyolab.com/article/13249651",
+    "start": "Thu, 10 Nov 2022",
+    "end": "Mon, 28 Nov 2022",
+    "colour": "#666f4f",
+    "primos": 1020,
     "fates": 0
   },
   {
     "name": "Adventurer's Trials",
-    "image": "/3.2Placeholder.jpg",
-    "link": "https://act.hoyolab.com/puzzle/bbs/pz_fKWaqWI9U4/index.html?game_biz=bbs_oversea&mhy_presentation_style=fullscreen&mhy_auth_required=true&utm_source=hoyolab&utm_medium=web&utm_campaign=post",
-    "start": "Fri, 21 Oct 2022",
-    "end": "Mon, 31 Oct 2022",
-    "colour": "#c60eed",
+    "image": "/AdventuresTrials.jpg",
+    "link": "https://www.hoyolab.com/article/13249651",
+    "start": "Fri, 4 Nov 2022",
+    "end": "Mon, 21 Nov 2022",
+    "colour": "#62417a",
     "primos": 420,
     "fates": 0
   },
   {
     "name": "Hypostatic Symphony",
     "image": "/3.2Placeholder.jpg",
-    "link": "https://act.hoyolab.com/puzzle/bbs/pz_fKWaqWI9U4/index.html?game_biz=bbs_oversea&mhy_presentation_style=fullscreen&mhy_auth_required=true&utm_source=hoyolab&utm_medium=web&utm_campaign=post",
-    "start": "Fri, 21 Oct 2022",
-    "end": "Mon, 31 Oct 2022",
-    "colour": "#dd392c",
+    "link": "https://www.hoyolab.com/article/12924127",
+    "start": "",
+    "end": "Available in 3.2 Phase II",
+    "colour": "#64723a",
     "primos": 420,
     "fates": 0
   },
   {
     "name": "Outside the Canvas, Inside the Lens: Greenery Chapter",
     "image": "/3.2Placeholder.jpg",
-    "link": "https://act.hoyolab.com/puzzle/bbs/pz_fKWaqWI9U4/index.html?game_biz=bbs_oversea&mhy_presentation_style=fullscreen&mhy_auth_required=true&utm_source=hoyolab&utm_medium=web&utm_campaign=post",
-    "start": "Fri, 21 Oct 2022",
-    "end": "Mon, 31 Oct 2022",
+    "link": "https://www.hoyolab.com/article/12924127",
+    "start": "",
+    "end": "Available in 3.2 Phase II",
     "colour": "#6a1970",
     "primos": 420,
     "fates": 0
@@ -42,11 +42,10 @@
   {
     "name": "Marvelous Merchandise",
     "image": "/Marvelous_Merchandise_Event.webp",
-    "link": "https://act.hoyolab.com/puzzle/bbs/pz_fKWaqWI9U4/index.html?game_biz=bbs_oversea&mhy_presentation_style=fullscreen&mhy_auth_required=true&utm_source=hoyolab&utm_medium=web&utm_campaign=post",
-    "start": "Fri, 21 Oct 2022",
-    "end": "Mon, 31 Oct 2022",
+    "link": "https://www.hoyolab.com/article/12924127",
+    "start": "",
+    "end": "Available in 3.2 Phase II",
     "colour": "#95af85",
-    "primos": 380,
-    "fates": 10
+    "primos": 380
   }
 ]

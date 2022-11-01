@@ -5,6 +5,7 @@ import Exploration from "../components/Exploration";
 import Hero from "../components/Hero";
 import InputForm from "../components/InputForm";
 import Quests from "../components/Quests";
+import Teapot from "../components/Teapot";
 
 const initialParamsState = {
   primos: "",
@@ -137,6 +138,8 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
   const [questPrimos, setQuestPrimos] = useState(0);
   const [eventPrimos, setEventPrimos] = useState(0);
   const [eventFates, setEventFates] = useState(0);
+  const [teapotPrimos, setTeapotPrimos] = useState(0);
+  const [trustRank, setTrustRank] = useState([0, 0]);
 
   const [output, setOutput] = useState({
     primogems: 0,
@@ -150,6 +153,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
     const primos =
       (initialParams.primos ? initialParams.primos : 0) +
       (initialParams.genesis ? initialParams.genesis : 0) +
+      teapotPrimos +
       questPrimos +
       eventPrimos +
       initialParams.numBannersTestRuns * 20 +
@@ -172,6 +176,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
       (explorationParams.numDomainOneTime
         ? parseInt(explorationParams.numDomainOneTime) * 40
         : 0) +
+      (trustRank[1] - trustRank[0]) * 60 +
       (explorationParams.sosMond[1] - explorationParams.sosMond[0]) * 10 +
       (explorationParams.sosLiyue[1] - explorationParams.sosLiyue[0]) * 10 +
       (explorationParams.sosInazuma[1] - explorationParams.sosInazuma[0]) * 10 +
@@ -214,7 +219,15 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
       probability5StarGuaranteed: probability5StarGuaranteed,
       probability5Star: probability5Star,
     }));
-  }, [initialParams, questPrimos, explorationParams, eventPrimos, eventFates]);
+  }, [
+    initialParams,
+    questPrimos,
+    explorationParams,
+    eventPrimos,
+    eventFates,
+    teapotPrimos,
+    trustRank,
+  ]);
 
   return (
     <Box>
@@ -233,6 +246,11 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
           <Exploration
             params={explorationParams}
             dispatch={explorationParamsDispatch}
+          />
+          <Teapot
+            setPrimos={setTeapotPrimos}
+            trustRank={trustRank}
+            setTrustRank={setTrustRank}
           />
           <Quests setPrimos={setQuestPrimos} />
         </Box>

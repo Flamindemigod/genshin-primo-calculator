@@ -49,7 +49,7 @@ const EventContainer = ({
         draggable={false}
         className="object-none object-right -z-[1]"
         style={{
-          WebkitMask: "linear-gradient(90deg, #0000 60%, #ffff)",
+          WebkitMask: "linear-gradient(90deg, #0000 70%, #ffff)",
         }}
         src={bgImage}
         fill
@@ -96,7 +96,6 @@ const EventContainer = ({
             e.stopPropagation();
             window.open(hoyolabLink);
           }}
-          style={{ color: gradientColor }}
         >
           <Info fontSize="large" />
         </IconButton>
