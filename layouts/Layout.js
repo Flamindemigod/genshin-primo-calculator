@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
           <Header />
         </header>
         <main
-          className="flex relative justify-center align-center w-full flex-grow"
+          className="flex relative align-center w-screen flex-grow overflow-auto"
           id="main"
         >
           <a

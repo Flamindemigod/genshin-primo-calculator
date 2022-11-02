@@ -15,14 +15,16 @@ import Image from "next/future/image";
 import React from "react";
 const InputForm = ({ params, dispatch }) => {
   return (
-    <Paper className="p-4">
+    <Paper className="p-2">
       <div className="text-xl font-sans">Input Parameters</div>
-      <div className="p-4 grid md:grid-cols-2 xl:grid-cols-4 gap-4 items-start">
+      <div className="p-2 grid md:grid-cols-2 xl:grid-cols-4 gap-4 items-start">
         <TextField
           fullWidth
           label={"Primogems"}
           type="number"
-          sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
+          sx={{
+            "& .MuiInputAdornment-root": { flexShrink: 0 },
+          }}
           value={params.primos}
           onChange={(e) => {
             dispatch({ type: "setPrimos", value: e.target.value });

@@ -14,8 +14,8 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="relative flex-grow"
-        style={{ height: "60vh", minWidth: "30rem" }}
+        className="relative flex-grow h-[30vh] md:h-[60vh]"
+        style={{ minWidth: "320px" }}
       >
         <Image
           draggable={false}

@@ -44,7 +44,7 @@ const EventContainer = ({
         setClicked(true);
       }}
       sx={{
-        backgroundImage: `linear-gradient(90deg,var(--clr-primary-500), ${gradientColor}, transparent 70%)`,
+        backgroundImage: `linear-gradient(90deg,var(--clr-primary-500), ${gradientColor}, transparent 75%)`,
         backgroundSize: "150%",
         backgroundPositionX: "50%",
         transition: "all 200ms linear",
@@ -56,19 +56,21 @@ const EventContainer = ({
       <Box
         className="absolute inset-0 -z-[5]"
         sx={{
-          backgroundImage: "linear-gradient(90deg, transparent, #00000070 70%)",
+          backgroundImage: "linear-gradient(90deg, transparent 80%, #00000070)",
         }}
-      ></Box>
-      <Image
-        draggable={false}
-        className="object-none object-right -z-[10]"
-        style={{
-          WebkitMask: "linear-gradient(90deg, #0000 70%, #ffff)",
-        }}
-        src={bgImage}
-        fill
-        alt={name}
       />
+      <div className="absolute left-3/4 right-0 top-0 bottom-0 -z-10">
+        <Image
+          draggable={false}
+          className="object-cover object-right "
+          style={{
+            WebkitMask: "linear-gradient(90deg, #0000 0%, #ffff)",
+          }}
+          src={bgImage}
+          fill
+          alt={name}
+        />
+      </div>
       <div className="flex flex-col">
         <div className="text-xl font-sans">{name}</div>
         <div>
