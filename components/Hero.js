@@ -1,12 +1,17 @@
 import { ArrowDownward } from "@mui/icons-material";
 import Image from "next/future/image";
+import ExplainationDialog from "./ExplainationDialog";
 
 const Hero = () => {
   return (
-    <div className="flex flex-wrap justify-around items-center gap-4 p-8">
-      <div className="flex flex-col gap-2">
+    <div className="flex flex-wrap justify-around items-center gap-2 p-8">
+      <div className="flex flex-col gap-1">
         <div className="text-3xl font-sans">
           Welcome to Delta and Flamin&apos;s Genshin Primo Planner
+        </div>
+        <div className="flex gap-2 items-center text-lg">
+          First time here?
+          <ExplainationDialog />
         </div>
         <div className="text-base">
           Scroll Down to get Started{" "}
