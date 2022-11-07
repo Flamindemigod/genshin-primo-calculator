@@ -1,0 +1,146 @@
+[
+  {
+    "Liyue": [
+      {
+        "title": "The Chasm Delvers",
+        "subtitle": "",
+        "icon": "/Liyue.webp",
+        "primos": 270
+      }
+    ]
+  },
+  {
+    "Inazuma": [
+      {
+        "title": "Film Notes",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 70
+      },
+      {
+        "title": "Orobashi's Legacy",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 210
+      },
+      {
+        "title": "Sakura Cleansing Ritual",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 170
+      },
+      {
+        "title": "Seirai Stormchasers",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 150
+      },
+      {
+        "title": "Tatara Tales",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 220
+      },
+      {
+        "title": "The Moon-Bathed Deep",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 160
+      },
+      {
+        "title": "The Very Special Fortune Slip",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 120
+      },
+      {
+        "title": "Through the Mists",
+        "subtitle": "",
+        "icon": "/Inazuma.webp",
+        "primos": 180
+      },
+      {
+        "title": "Erebos's Secret",
+        "subtitle": "",
+        "icon": "/Enka.webp",
+        "primos": 40
+      },
+      {
+        "title": "From Dusk to Dawn in Byakuyakoku",
+        "subtitle": "",
+        "icon": "/Enka.webp",
+        "primos": 70
+      },
+      {
+        "title": "Hyperion's Dirge",
+        "subtitle": "",
+        "icon": "/Enka.webp",
+        "primos": 30
+      }
+    ]
+  },
+  {
+    "Sumeru": [
+      {
+        "title": "Agnihotra Sutra",
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 130
+      },
+      {
+        "title": "An Unwavering Culinary Dream",
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 160
+      },
+      {
+        "title": "Varuna Gatha",
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 200
+      },
+      {
+        "title": "Vimana Agama",
+        "subtitle": "",
+        "icon": "/Sumeru.webp",
+        "primos": 210
+      },
+      {
+        "title": "Woodland Encounter",
+        "subtitle": "Aranyaka: Part I",
+        "icon": "/Sumeru.webp",
+        "primos": 130
+      },
+      {
+        "title": "Dream Nursery",
+        "subtitle": "Aranyaka: Part II",
+        "icon": "/Sumeru.webp",
+        "primos": 340
+      },
+      {
+        "title": "Nursery of Lost Dreams",
+        "subtitle": "Aranyaka: Part III",
+        "icon": "/Sumeru.webp",
+        "primos": 150
+      },
+      {
+        "title": "In the End, the Forest Will Remember",
+        "subtitle": "Aranyaka: Part IV",
+        "icon": "/Sumeru.webp",
+        "primos": 20
+      },
+      {
+        "title": "Golden Slumber",
+        "subtitle": "",
+        "icon": "/SumeruDesert.webp",
+        "primos": 190
+      },
+      {
+        "title": "Old Notes and New Friends",
+        "subtitle": "",
+        "icon": "/SumeruDesert.webp",
+        "primos": 200
+      }
+    ]
+  }
+]

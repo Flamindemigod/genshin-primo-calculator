@@ -6,12 +6,11 @@ const ExplainationDialog = () => {
   return (
     <>
       <Button
-        variant="contained"
         onClick={() => {
           setOpen(true);
         }}
       >
-        Click Me
+        First time here?
       </Button>
       <Dialog
         fullWidth
@@ -25,8 +24,8 @@ const ExplainationDialog = () => {
         <DialogContent>
           <Box className="flex flex-col ">
             <div className="flex gap-2 items-center">
-              Primogems. Shiny stars every Genshin player wishes they have more
-              besides spending money to obtain.{" "}
+              Primogems. Shiny stars every Genshin player wishes they had more
+              of besides spending money to obtain.
               <Image
                 src="/MonaMora.png"
                 alt="Mona Finds Mora"

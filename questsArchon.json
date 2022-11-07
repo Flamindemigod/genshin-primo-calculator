@@ -1,0 +1,154 @@
+[
+  {
+    "Mondstadt": [
+      {
+        "title": "Prologue: Act I",
+        "subtitle": "The Outlander Who Caught the Wind",
+        "icon": "/Mondstat.webp",
+        "primos": 120
+      },
+      {
+        "title": "Prologue: Act II",
+        "subtitle": "For a Tomorrow Without Tears",
+        "icon": "/Mondstat.webp",
+        "primos": 100
+      },
+      {
+        "title": "Prologue: Act III",
+        "subtitle": "Song of the Dragon and Freedom",
+        "icon": "/Mondstat.webp",
+        "primos": 80
+      }
+    ]
+  },
+  {
+    "Liyue": [
+      {
+        "title": "Chapter I: Act I",
+        "subtitle": "Of the Land Amidst Monoliths",
+        "icon": "/Liyue.webp",
+        "primos": 60
+      },
+      {
+        "title": "Chapter I: Act II",
+        "subtitle": "Farewell, Archaic Lord",
+        "icon": "/Liyue.webp",
+        "primos": 120
+      },
+      {
+        "title": "Chapter I: Act III",
+        "subtitle": "A New Star Approaches",
+        "icon": "/Liyue.webp",
+        "primos": 120
+      }
+    ]
+  },
+  {
+    "Traveller": [
+      {
+        "title": "Chapter I: Act IV",
+        "subtitle": "We Will Be Reunited",
+        "icon": "/Traveler.webp",
+        "primos": 60
+      },
+      {
+        "title": "Chapter I: Act IV Prelude",
+        "subtitle": "Dainsleif",
+        "icon": "/Traveler.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Inazuma": [
+      {
+        "title": "Chapter II: Prologue",
+        "subtitle": "Autumn Winds, Scarlet Leaves",
+        "icon": "/Inazuma.webp",
+        "primos": 60
+      },
+      {
+        "title": "Chapter II: Act I",
+        "subtitle": "The Immovable God and the Eternal Euthymia",
+        "icon": "/Inazuma.webp",
+        "primos": 120
+      },
+      {
+        "title": "Chapter II: Act II",
+        "subtitle": "Stillness, the Sublimation of Shadow",
+        "icon": "/Inazuma.webp",
+        "primos": 60
+      },
+      {
+        "title": "Chapter II: Act III",
+        "subtitle": "Omnipresence Over Mortals",
+        "icon": "/Inazuma.webp",
+        "primos": 120
+      }
+    ]
+  },
+  {
+    "Interlude Chapter": [
+      {
+        "title": "Interlude Chapter: Act I",
+        "subtitle": "The Crane Returns on the Wind",
+        "icon": "/JadeChamber.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Traveller": [
+      {
+        "title": "Chapter II: Act IV",
+        "subtitle": "Requiem of the Echoing Depths",
+        "icon": "/Traveler.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Interlude Chapter": [
+      {
+        "title": "Interlude Chapter: Act II",
+        "subtitle": "Perilous Trail",
+        "icon": "/Chasm.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Sumeru": [
+      {
+        "title": "Chapter III: Act I",
+        "subtitle": "Through Mists of Smoke and Forests Dark",
+        "icon": "/Sumeru.webp",
+        "primos": 60
+      },
+      {
+        "title": "Chapter III: Act II",
+        "subtitle": "The Morn a Thousand Roses Brings",
+        "icon": "/Sumeru.webp",
+        "primos": 90
+      },
+      {
+        "title": "Chapter III: Act III",
+        "subtitle": "Dreams, Emptiness, Deception",
+        "icon": "/Sumeru.webp",
+        "primos": 30
+      },
+      {
+        "title": "Chapter III: Act IV",
+        "subtitle": "King Deshret and the Three Magi",
+        "icon": "/Sumeru.webp",
+        "primos": 30
+      },
+      {
+        "title": "Chapter III: Act V",
+        "subtitle": "Akasha Pulses, the Kalpa Flame Rises",
+        "icon": "/Sumeru.webp",
+        "primos": 90
+      }
+    ]
+  }
+]

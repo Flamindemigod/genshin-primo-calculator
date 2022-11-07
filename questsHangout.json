@@ -1,0 +1,138 @@
+[
+  {
+    "Barbara": [
+      {
+        "title": "Hangout Event: Barbara - Act I",
+        "subtitle": "Wellspring of Healing",
+        "icon": "/Barbara.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Noelle": [
+      {
+        "title": "Hangout Event: Noelle - Act I",
+        "subtitle": "Chivalric Training",
+        "icon": "/Noelle.webp",
+        "primos": 60
+      },
+      {
+        "title": "Hangout Event: Noelle - Act II",
+        "subtitle": "Knightly Exam Prep",
+        "icon": "/Noelle.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Chongyun": [
+      {
+        "title": "Hangout Event: Chongyun - Act I",
+        "subtitle": "signs of Evil",
+        "icon": "/Chongyun.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Bennett": [
+      {
+        "title": "Hangout Event: Bennett - Act I",
+        "subtitle": "Fantastic Voyage",
+        "icon": "/Bennett.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Diona": [
+      {
+        "title": "Hangout Event: Diona - Act I",
+        "subtitle": "The Cat and the Cocktail",
+        "icon": "/Diona.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Beido": [
+      {
+        "title": "Hangout Event: Beidou - Act I",
+        "subtitle": "When the Crux Shines Bright",
+        "icon": "/Beidou.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Thoma": [
+      {
+        "title": "Hangout Event: Thoma - Act I",
+        "subtitle": "A Housekeeper's Daily Chores",
+        "icon": "/Thoma.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Sayu": [
+      {
+        "title": "Hangout Event: Sayu - Act I",
+        "subtitle": "Yoohoo Art: Seichou no Jutsu",
+        "icon": "/Sayu.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Gorou": [
+      {
+        "title": "Hangout Event: Gorou - Act I",
+        "subtitle": "The Canine General's Special Operations",
+        "icon": "/Gorou.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Yun Jin": [
+      {
+        "title": "Hangout Event: Yun Jin - Act I",
+        "subtitle": "A Song That Knows Grace",
+        "icon": "/YunJin.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Ningguang": [
+      {
+        "title": "Hangout Event: Ningguang - Act I",
+        "subtitle": "The Jade Chamber's Returning Guest",
+        "icon": "/Ningguang.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Kuki Shinobu": [
+      {
+        "title": "Hangout Event: Kuki Shinobu - Act I",
+        "subtitle": "The Gang's Daily Deeds",
+        "icon": "/KukiShinobu.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Shikanoin Heizou": [
+      {
+        "title": "Hangout Event: Shikanoin Heizou - Act I",
+        "subtitle": "Trap Em' by Storm",
+        "icon": "/ShikanoinHeizou.webp",
+        "primos": 60
+      }
+    ]
+  }
+]

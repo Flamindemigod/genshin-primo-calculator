@@ -9,11 +9,10 @@ const Hero = () => {
         <div className="text-3xl font-sans">
           Welcome to Delta and Flamin&apos;s Genshin Primo Planner
         </div>
-        <div className="flex gap-2 items-center text-lg">
-          First time here?
+        <div>
           <ExplainationDialog />
         </div>
-        <div className="text-base">
+        <div className="flex gap-2 text-base items-center px-2">
           Scroll Down to get Started{" "}
           <ArrowDownward className="animate-bounce" />
         </div>
@@ -22,6 +21,16 @@ const Hero = () => {
         className="relative flex-grow h-[30vh] md:h-[60vh]"
         style={{ minWidth: "320px" }}
       >
+        <Image
+          draggable={false}
+          src="/BG.png"
+          style={{ filter: "blur(5px)" }}
+          className="object-contain"
+          fill
+          priority
+          image
+          alt={"Blur"}
+        />
         <Image
           draggable={false}
           src="/BG.png"

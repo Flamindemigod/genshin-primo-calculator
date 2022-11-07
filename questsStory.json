@@ -1,0 +1,324 @@
+[
+  {
+    "Kaeya": [
+      {
+        "title": "Pavo Ocellus Chapter: Act I",
+        "subtitle": "Secret Pirate Treasure",
+        "icon": "/Kaeya.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Diluc": [
+      {
+        "title": "Noctua Chapter: Act I",
+        "subtitle": "Darknight Hero's Alibi",
+        "icon": "/Diluc.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Amber": [
+      {
+        "title": "Lepus Chapter: Act I",
+        "subtitle": "Wind, Courage, and Wings",
+        "icon": "/Amber.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Lisa": [
+      {
+        "title": "Tempus Fugit Chapter: Act I",
+        "subtitle": "Troublesome Work",
+        "icon": "/Lisa.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Razor": [
+      {
+        "title": "Lupus Minor Chapter: Act I",
+        "subtitle": "The Meaning of Lupical",
+        "icon": "/Razor.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Jean": [
+      {
+        "title": "Leo Minor Chaptere: Act I",
+        "subtitle": "Master's Day Off",
+        "icon": "/Razor.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Xiangling": [
+      {
+        "title": "Trulla Chapter: Act I",
+        "subtitle": "Mondstadt Gastronomy Trip",
+        "icon": "/Xiangling.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Xingqiu": [
+      {
+        "title": "Fabulae Textile Chapter: Act I",
+        "subtitle": "Bookworm Swordsman",
+        "icon": "/Xingqiu.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Klee": [
+      {
+        "title": "Trifolium Chapter: Act I",
+        "subtitle": "True Treasure",
+        "icon": "/Xingqiu.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Mona": [
+      {
+        "title": "Astrolabos Chapter: Act I",
+        "subtitle": "Beyond This World's Stars",
+        "icon": "/Mona.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Xiao": [
+      {
+        "title": "Alatus Chapter: Act I",
+        "subtitle": "Butterfly's Dream",
+        "icon": "/Xiao.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Tartaglia": [
+      {
+        "title": "Monoceros Caeli Chapter: Act I",
+        "subtitle": "Mighty Cyclops' Adventure",
+        "icon": "/Tartaglia.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Venti": [
+      {
+        "title": "Carmen Dei Chapter: Act I",
+        "subtitle": "Should You Be Trapped in a Windless Land",
+        "icon": "/Venti.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Zhongli": [
+      {
+        "title": "Historia Antiqua Chapter: Act I",
+        "subtitle": "Sal Flore",
+        "icon": "/Zhongli.webp",
+        "primos": 60
+      },
+      {
+        "title": "Historia Antiqua Chapter: Act II",
+        "subtitle": "No Mere Stone",
+        "icon": "/Zhongli.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Ganyu": [
+      {
+        "title": "Sinae Unicornis Chapter: Act I",
+        "subtitle": "Sea of Clouds, Sea of People",
+        "icon": "/Ganyu.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Albedo": [
+      {
+        "title": "Princeps Cretaceus Chapter: Act I",
+        "subtitle": "Traveler Observation Report",
+        "icon": "/Albedo.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Hu Tao": [
+      {
+        "title": "Papilio Charontis Chapter: Act I",
+        "subtitle": "Yet The Butterfly Flutters Away",
+        "icon": "/Hutao.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Eula": [
+      {
+        "title": "Aphros Delos Chapter: Act I",
+        "subtitle": "The Spindrift Shall Never Return to the Sea",
+        "icon": "/Eula.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Yoimiya": [
+      {
+        "title": "Carassius Auratus Chapter: Act I",
+        "subtitle": "Dreamlike Timelessness",
+        "icon": "/Yoimiya.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Kamisato Ayaka": [
+      {
+        "title": "Grus Nivis Chapter: Act I",
+        "subtitle": "The Whispers of the Crane and the White Rabbit",
+        "icon": "/KamisatoAyaka.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Raiden Shogun": [
+      {
+        "title": "Imperatrix Umbrosa Chapter: Act I",
+        "subtitle": "Reflections of Mortality",
+        "icon": "/RaidenShogun.webp",
+        "primos": 60
+      },
+      {
+        "title": "Imperatrix Umbrosa Chapter: Act II",
+        "subtitle": "Transient Dreams",
+        "icon": "/RaidenShogun.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Sangonomiya Kokomi": [
+      {
+        "title": "Dracaena Somnolenta Chapter: Act I",
+        "subtitle": "Warriors' Dreams Like Spring Grass Reneweing",
+        "icon": "/SangonomiyaKokomi.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Yae Miko": [
+      {
+        "title": "Divina Vulpes Chapter: Act I",
+        "subtitle": "The Great Narukami Offering",
+        "icon": "/YaeMiko.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Arataki Itto": [
+      {
+        "title": "Taurus Iracundus Chapter: Act I",
+        "subtitle": "Rise Up, Golden Soul",
+        "icon": "/AratakiItto.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Kamisato Ayato": [
+      {
+        "title": "Cypressus Custos Chapter: Act I",
+        "subtitle": "The Firmiana Leaf Falls",
+        "icon": "/KamisatoAyato.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Yelan": [
+      {
+        "title": "Umbrabilis Orchis Chapter: Act I",
+        "subtitle": "Calculated Gambit",
+        "icon": "/Yelan.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Tighnari": [
+      {
+        "title": "Vulpes Zerda Chapter: Act I",
+        "subtitle": "The Unanswerable Problems",
+        "icon": "/Tighnari.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Kaedehara Kazuha": [
+      {
+        "title": "Acer Palmatum Chapter: Act I",
+        "subtitle": "A Strange and Friendless Road",
+        "icon": "/KaedeharaKazuha.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Cyno": [
+      {
+        "title": "Lupus Aureus Chapter: Act I",
+        "subtitle": "Sands of Solitude",
+        "icon": "/Cyno.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Nilou": [
+      {
+        "title": "Lotos Somno Chapter: Act I",
+        "subtitle": "To the Wise",
+        "icon": "/Nilou.webp",
+        "primos": 60
+      }
+    ]
+  },
+  {
+    "Nahida": [
+      {
+        "title": "Sapientia Oromasdis Chapter: Act I",
+        "subtitle": "Lingering Warmth",
+        "icon": "/Nahida.webp",
+        "primos": 60
+      }
+    ]
+  }
+]
