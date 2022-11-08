@@ -24,7 +24,7 @@ const Hero = () => {
         <Image
           draggable={false}
           src="/BG.png"
-          style={{ filter: "blur(5px)" }}
+          style={{ filter: "blur(20px)" }}
           className="object-contain"
           fill
           priority
@@ -37,7 +37,9 @@ const Hero = () => {
           className="object-contain "
           fill
           priority
-          alt={"Zhongli and Aether Asking for Mora and Primos respectively"}
+          alt={
+            "Raiden, Zhongli, and Venti holding a banner of Dangos please, Mora please, Wine please and lumine holding a tablet with a qiqi. with a sign next to her that says primos please"
+          }
         />
       </div>
     </div>
