@@ -24,7 +24,7 @@ const Hero = () => {
         <Image
           draggable={false}
           src="/BG.png"
-          style={{ filter: "blur(20px)" }}
+          style={{ filter: "blur(10px)" }}
           className="object-contain"
           fill
           priority

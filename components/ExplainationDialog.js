@@ -20,7 +20,7 @@ const ExplainationDialog = () => {
           setOpen(false);
         }}
       >
-        <DialogTitle>Welcome to Genshin Primo Planner</DialogTitle>
+        <DialogTitle>Welcome to Genshin Primo Planner (WIP)</DialogTitle>
         <DialogContent>
           <Box className="flex flex-col ">
             <div className="flex gap-2 items-center">
