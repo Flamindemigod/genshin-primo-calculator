@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-black bg-opacity-50 text-offWhite-100 flex p-8 flex-col sm:flex-row justify-between">
       <div className="flex items-center">
-        Genshin Primo Planner is not affiliated with or endorsed by miHoYo.
+        Genshin Primo Planner is not affiliated with or endorsed by HoYoverse.
       </div>
       <div>
         <div className="flex flex-col gap-2 justify-end">
