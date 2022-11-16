@@ -7,7 +7,7 @@ const Teapot = ({ setPrimos, trustRank, setTrustRank }) => {
   return (
     <>
       <Paper elevation={3} className="p-4">
-        <div className="text-xl font-sans">Serenitea Pot</div>
+        <div className="text-xl font-sans">Serenitea Teapot</div>
         <div className="p-4">
           <div className="flex gap-4 items-center">
             <Typography>Trust Rank</Typography>

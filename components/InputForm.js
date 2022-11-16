@@ -311,18 +311,26 @@ const InputForm = ({ params, dispatch }) => {
               }
             />
           </FormControl>
-          <TextField
-            sx={{ width: 250 }}
-            label={"No. of Spiral Abyss Resets"}
-            type="number"
-            InputProps={{
-              inputProps: { min: 0 },
-            }}
-            value={params.spiralAbyssResets}
-            onChange={(e) => {
-              dispatch({ type: "setSpiralAbyssReset", value: e.target.value });
-            }}
-          />
+          <Tooltip
+            title="If you have completed the current abyss rotation reduce this value by 1"
+            arrow
+          >
+            <TextField
+              sx={{ width: 250 }}
+              label={"No. of Spiral Abyss Resets"}
+              type="number"
+              InputProps={{
+                inputProps: { min: 0 },
+              }}
+              value={params.spiralAbyssResets}
+              onChange={(e) => {
+                dispatch({
+                  type: "setSpiralAbyssReset",
+                  value: e.target.value,
+                });
+              }}
+            />
+          </Tooltip>
         </div>
       </div>
     </Paper>

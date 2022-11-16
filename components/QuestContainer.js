@@ -11,6 +11,7 @@ const QuestContainer = ({
 }) => {
   const [checked, setChecked] = useState(false);
   const [clicked, setClicked] = useState(false);
+  const [showOutline, setShowOutline] = useState(false);
   useEffect(() => {
     if (clicked) {
       if (checked) {
@@ -28,11 +29,19 @@ const QuestContainer = ({
         if (e.key == "Enter") {
           setChecked((state) => !state);
           setClicked(true);
+          setShowOutline(true);
+          setTimeout(() => {
+            setShowOutline(false);
+          }, 500);
         }
       }}
       onClick={(e) => {
         setChecked((state) => !state);
         setClicked(true);
+        setShowOutline(true);
+        setTimeout(() => {
+          setShowOutline(false);
+        }, 500);
       }}
       elevation={2}
       className={`flex justify-between p-4 items-center gap-2 cursor-pointer `}
@@ -45,7 +54,7 @@ const QuestContainer = ({
         backgroundPositionX: "30%",
         "&[data-checked=true]": { backgroundPositionX: 0 },
         "&:hover, &:focus-visible": { backgroundPositionX: 0 },
-
+        outline: showOutline ? "2px solid var(--clr-primary-500)" : "revert",
         transition: "all 200ms linear",
         backgroundImage:
           "linear-gradient(90deg, var(--clr-primary-500), rgba(255, 255, 255, 0.07) 15% )",

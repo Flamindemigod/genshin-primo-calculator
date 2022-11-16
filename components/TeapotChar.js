@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 const TeapotChar = ({ char, setPrimos }) => {
   const [checked, setChecked] = useState(false);
   const [clicked, setClicked] = useState(false);
+  const [showOutline, setShowOutline] = useState(false);
   useEffect(() => {
     if (clicked) {
       if (checked) {
@@ -24,11 +25,19 @@ const TeapotChar = ({ char, setPrimos }) => {
         if (e.key == "Enter") {
           setChecked((state) => !state);
           setClicked(true);
+          setShowOutline(true);
+          setTimeout(() => {
+            setShowOutline(false);
+          }, 500);
         }
       }}
       onClick={(e) => {
         setChecked((state) => !state);
         setClicked(true);
+        setShowOutline(true);
+        setTimeout(() => {
+          setShowOutline(false);
+        }, 500);
       }}
       data-checked={checked}
       sx={{
@@ -37,7 +46,7 @@ const TeapotChar = ({ char, setPrimos }) => {
         backgroundPositionX: "30%",
         "&[data-checked=true]": { backgroundPositionX: 0 },
         "&:hover, &:focus-visible": { backgroundPositionX: 0 },
-
+        outline: showOutline ? "2px solid var(--clr-primary-500)" : "revert",
         transition: "all 200ms linear",
         backgroundImage:
           "linear-gradient(90deg, var(--clr-primary-500), rgba(255, 255, 255, 0.07) 15% )",

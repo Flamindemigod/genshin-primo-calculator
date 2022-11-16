@@ -16,6 +16,8 @@ const EventContainer = ({
 }) => {
   const [clicked, setClicked] = useState(false);
   const [checked, setChecked] = useState(false);
+  const [showOutline, setShowOutline] = useState(false);
+
   useEffect(() => {
     if (clicked) {
       if (checked) {
@@ -37,16 +39,25 @@ const EventContainer = ({
         if (e.key == "Enter") {
           setChecked((state) => !state);
           setClicked(true);
+          setShowOutline(true);
+          setTimeout(() => {
+            setShowOutline(false);
+          }, 500);
         }
       }}
       onClick={() => {
         setChecked((state) => !state);
         setClicked(true);
+        setShowOutline(true);
+        setTimeout(() => {
+          setShowOutline(false);
+        }, 500);
       }}
       sx={{
         backgroundImage: `linear-gradient(90deg,var(--clr-primary-500), ${gradientColor}, transparent 75%)`,
         backgroundSize: "150%",
         backgroundPositionX: "50%",
+        outline: showOutline ? "2px solid var(--clr-primary-500)" : "revert",
         transition: "all 200ms linear",
         "&[data-clicked=true], &:hover, &:focus-visible": {
           backgroundPositionX: 0,
