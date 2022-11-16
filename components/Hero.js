@@ -23,18 +23,9 @@ const Hero = () => {
       >
         <Image
           draggable={false}
-          src="/BG.png"
-          style={{ filter: "blur(10px)" }}
-          className="object-contain"
-          fill
-          priority
-          image
-          alt={"Blur"}
-        />
-        <Image
-          draggable={false}
-          src="/BG.png"
+          src="/BG.webp"
           className="object-contain "
+          style={{ imageRendering: "-webkit-optimize-contrast" }}
           fill
           priority
           alt={
