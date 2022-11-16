@@ -69,14 +69,14 @@ const ExplainationDialog = () => {
               <br />
               When inputting data into Input Parameters most of the parameters
               can be found either in the wishing menu or in the shop. For the
-              End Date param, it assumes you've done your dailies for the day
-              and starts counting from the next day on.
+              End Date param, it assumes you&apos;ve done your dailies for the
+              day and starts counting from the next day on.
               <br />
               As for the rest of the Input column, you can select events, quests
-              and gift sets you're going to do. And for text fields and sliders
-              you should be inputting how many you are going to do. Most of the
-              sliders allow you to set a minimum value (What you've done) and a
-              maximum value (What you're going to do).
+              and gift sets you&apos;re going to do. And for text fields and
+              sliders you should be inputting how many you are going to do. Most
+              of the sliders allow you to set a minimum value (What you&apos;ve
+              done) and a maximum value (What you&apos;re going to do).
             </div>
             <div>
               And thats about it. If you got any questions or suggestions feel
