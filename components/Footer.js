@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex flex-col gap-2 justify-end">
           <div className="flex items-center gap-1">
             Made for you with <Favorite sx={{ color: "#ff1000" }} /> by
-            Flamindemigod and Delta45321.
+            Delta45321 and Flamindemigod.
           </div>
           <Button href={"https://ko-fi.com/flamindemigod"} variant="contained">
             <Image
