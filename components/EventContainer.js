@@ -1,5 +1,5 @@
 import { Info } from "@mui/icons-material";
-import { Box, IconButton } from "@mui/material";
+import { Box, IconButton, Paper } from "@mui/material";
 import Image from "next/future/image";
 import { useState, useEffect } from "react";
 const EventContainer = ({
@@ -31,7 +31,8 @@ const EventContainer = ({
     setClicked(false);
   }, [checked]);
   return (
-    <Box
+    <Paper
+      elevation={3}
       tabIndex={0}
       data-clicked={checked}
       className="p-4 relative isolate flex justify-between cursor-pointer"
@@ -54,12 +55,15 @@ const EventContainer = ({
         }, 500);
       }}
       sx={{
-        backgroundImage: `linear-gradient(90deg,var(--clr-primary-500), ${gradientColor}, transparent 75%)`,
+        backgroundImage: `linear-gradient(90deg,var(--clr-primary-500), transparent 65%)`,
         backgroundSize: "150%",
-        backgroundPositionX: "50%",
+        backgroundPositionX: "100%",
         outline: showOutline ? "2px solid var(--clr-primary-500)" : "revert",
         transition: "all 200ms linear",
-        "&[data-clicked=true], &:hover, &:focus-visible": {
+        "&:hover, &:focus-visible": {
+          backgroundPositionX: "50%",
+        },
+        "&[data-clicked=true]": {
           backgroundPositionX: 0,
         },
       }}
@@ -129,7 +133,7 @@ const EventContainer = ({
           <Info fontSize="large" />
         </IconButton>
       </div>
-    </Box>
+    </Paper>
   );
 };
 

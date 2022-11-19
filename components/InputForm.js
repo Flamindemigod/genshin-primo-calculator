@@ -244,7 +244,7 @@ const InputForm = ({ params, dispatch }) => {
                       width: 32,
                       height: 32,
                       borderRadius: "50% 50% 50% 0",
-                      backgroundColor: "#29c9e5",
+                      backgroundColor: "var(--clr-primary-500)",
                       transformOrigin: "bottom left",
                       transform:
                         "translate(50%, -100%) rotate(-45deg) scale(0)",
@@ -288,7 +288,7 @@ const InputForm = ({ params, dispatch }) => {
                       width: 32,
                       height: 32,
                       borderRadius: "50% 50% 50% 0",
-                      backgroundColor: "#29c9e5",
+                      backgroundColor: "var(--clr-primary-500)",
                       transformOrigin: "bottom left",
                       transform:
                         "translate(50%, -100%) rotate(-45deg) scale(0)",

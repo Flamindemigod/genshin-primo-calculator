@@ -4,7 +4,7 @@ const Meta = ({
   title = "Genshin Primo Planner",
   url = "https://primos.flamindemigod.com",
   image = `${SERVER}/Item_Primogem.webp`,
-  description = "A Genshin Impact Primogem Calculator made by Delta45321 and Flamindemigod. It accounts for almost all sources of primogems, other than Chests and Redeemable Codes",
+  description = "A Genshin Impact Primogem Calculator made by Delta45321 and Flamindemigod. It accounts for almost all sources of primogems, other than Chests, Achievements and Redeemable Codes",
 }) => {
   return (
     <Head>

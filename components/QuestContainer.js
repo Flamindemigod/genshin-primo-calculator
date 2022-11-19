@@ -51,13 +51,13 @@ const QuestContainer = ({
         maxWidth: "40rem",
         transition: "background-image ease 2s",
         backgroundSize: "200% 100%",
-        backgroundPositionX: "30%",
+        backgroundPositionX: "100%",
+        "&:hover, &:focus-visible": { backgroundPositionX: "75%" },
         "&[data-checked=true]": { backgroundPositionX: 0 },
-        "&:hover, &:focus-visible": { backgroundPositionX: 0 },
         outline: showOutline ? "2px solid var(--clr-primary-500)" : "revert",
         transition: "all 200ms linear",
         backgroundImage:
-          "linear-gradient(90deg, var(--clr-primary-500), rgba(255, 255, 255, 0.07) 15% )",
+          "linear-gradient(90deg, var(--clr-primary-500), transparent 75% )",
       }}
     >
       <div className="flex gap-2 items-center">
