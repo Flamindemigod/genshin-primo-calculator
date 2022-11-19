@@ -7,7 +7,12 @@ import QuestContainer from "../components/QuestContainer";
 import { Box } from "@mui/material";
 import Image from "next/future/image";
 const Accordion = styled((props) => (
-  <MuiAccordion elevation={0} square {...props} />
+  <MuiAccordion
+    TransitionProps={{ unmountOnExit: true }}
+    elevation={0}
+    square
+    {...props}
+  />
 ))(({ theme }) => ({
   "&:before": {
     display: "none",
