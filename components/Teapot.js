@@ -1,9 +1,16 @@
 import { Paper, Slider, Typography } from "@mui/material";
 import React from "react";
 import CustomAccordian from "./Accordian";
-import sets from "../teapot";
-import TeapotSet from "./TeapotSet";
+import dynamic from "next/dynamic";
+import { Suspense } from "react";
+
 const Teapot = ({ setPrimos, trustRank, setTrustRank }) => {
+  const DynamicIndoorSets = dynamic(() => import("./IndoorSets"), {
+    suspense: true,
+  });
+  const DynamicOutdoorSets = dynamic(() => import("./OutdoorSets"), {
+    suspense: true,
+  });
   return (
     <>
       <Paper elevation={3} className="p-4">
@@ -49,18 +56,14 @@ const Teapot = ({ setPrimos, trustRank, setTrustRank }) => {
       </Paper>
       <CustomAccordian title={"List of Gift Sets"} icon={"/GiftSet.webp"}>
         <CustomAccordian title={"Indoor"} icon={"/GiftSet.webp"}>
-          <div className="flex flex-col gap-4 p-4">
-            {sets.indoor.map((set) => (
-              <TeapotSet set={set} key={set.name} setPrimos={setPrimos} />
-            ))}
-          </div>
+          <Suspense fallback="Loading....">
+            <DynamicIndoorSets setPrimos={setPrimos} />
+          </Suspense>
         </CustomAccordian>
         <CustomAccordian title={"Outdoor"} icon={"/GiftSet.webp"}>
-          <div className="flex flex-col gap-4 p-4">
-            {sets.outdoor.map((set) => (
-              <TeapotSet set={set} key={set.name} setPrimos={setPrimos} />
-            ))}
-          </div>
+          <Suspense fallback="Loading....">
+            <DynamicOutdoorSets setPrimos={setPrimos} />
+          </Suspense>
         </CustomAccordian>
       </CustomAccordian>
     </>
