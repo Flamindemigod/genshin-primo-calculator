@@ -7,7 +7,6 @@ import InputForm from "../components/InputForm";
 import Meta from "../components/Meta";
 import Quests from "../components/Quests";
 import Teapot from "../components/Teapot";
-
 const initialParamsState = {
   primos: "",
   genesis: "",
@@ -231,7 +230,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
   ]);
 
   return (
-    <Box>
+    <Box className="relative">
       <Meta />
       <Hero />
       <div className="flex flex-wrap flex-col lg:flex-row p-4 gap-4 w-screen">

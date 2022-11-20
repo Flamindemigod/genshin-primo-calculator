@@ -14,8 +14,12 @@ const Accordion = styled((props) => (
     {...props}
   />
 ))(({ theme }) => ({
+  backgroundColor: "transparent",
   "&:before": {
     display: "none",
+  },
+  "& > .MuiCollapse-root": {
+    backgroundColor: "transparent",
   },
 }));
 
@@ -25,11 +29,11 @@ const AccordionSummary = styled((props) => (
     {...props}
   />
 ))(({ theme }) => ({
-  backgroundColor:
-    theme.palette.mode === "dark"
-      ? "rgba(255, 255, 255, .05)"
-      : "rgba(0, 0, 0, .03)",
+  backgroundColor: "#121212",
+  backgroundImage:
+    "linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08))",
   flexDirection: "row-reverse",
+
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
     transform: "rotate(90deg)",
   },
@@ -57,7 +61,7 @@ const CustomAccordian = ({ title, icon, children }) => {
           {title}
         </div>
       </AccordionSummary>
-      <div className="mt-2">{children}</div>
+      <div className="mt-2 bg-transparent">{children}</div>
     </Accordion>
   );
 };

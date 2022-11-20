@@ -4,12 +4,10 @@ import { createTheme, ThemeProvider, CssBaseline } from "@mui/material";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import Layout from "../layouts/Layout";
-import { red } from "@mui/material/colors";
 
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
-
     primary: {
       main: "#008080",
     },

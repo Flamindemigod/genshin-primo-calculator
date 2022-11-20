@@ -1,14 +1,18 @@
 import { Box } from "@mui/material";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Background from "../components/Background";
+
 const Layout = ({ children }) => {
   return (
     <Box>
       <Box
-        className="flex flex-col"
+        className="flex flex-col relative "
         sx={{ minHeight: "100vh", flex: "1 0 100%", overflowX: "hidden" }}
       >
-        <header>
+        <Background />
+
+        <header className="z-50 bg-black bg-opacity-30">
           <Header />
         </header>
         <main
@@ -23,7 +27,7 @@ const Layout = ({ children }) => {
           </a>
           {children}
         </main>
-        <footer id="footer">
+        <footer id="footer" className="z-50 bg-black bg-opacity-30">
           <Footer />
         </footer>
       </Box>

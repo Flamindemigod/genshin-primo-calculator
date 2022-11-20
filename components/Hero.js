@@ -4,7 +4,7 @@ import ExplainationDialog from "./ExplainationDialog";
 
 const Hero = () => {
   return (
-    <div className="flex flex-wrap justify-around items-center gap-2 p-8">
+    <div className="flex flex-wrap justify-start items-center gap-2 p-8 h-[30vh] md:h-[60vh]">
       <div className="flex flex-col gap-1">
         <div className="text-3xl font-sans">
           Welcome to Delta and Flamin&apos;s Genshin Primo Planner
@@ -16,22 +16,6 @@ const Hero = () => {
           Scroll Down to get Started{" "}
           <ArrowDownward className="animate-bounce" />
         </div>
-      </div>
-      <div
-        className="relative flex-grow h-[30vh] md:h-[60vh]"
-        style={{ minWidth: "320px" }}
-      >
-        <Image
-          draggable={false}
-          src="/BG.webp"
-          className="object-contain "
-          style={{ imageRendering: "-webkit-optimize-contrast" }}
-          fill
-          priority
-          alt={
-            "Raiden, Zhongli, and Venti holding a banner of Dangos please, Mora please, Wine please and lumine holding a tablet with a qiqi. with a sign next to her that says primos please"
-          }
-        />
       </div>
     </div>
   );

@@ -43,7 +43,7 @@ const QuestContainer = ({
           setShowOutline(false);
         }, 500);
       }}
-      elevation={2}
+      elevation={5}
       className={`flex justify-between p-4 items-center gap-2 cursor-pointer `}
       data-checked={checked}
       sx={{

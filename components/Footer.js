@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div>
         <div className="flex flex-col gap-2 justify-end">
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 flex-wrap">
             Made for you with <Favorite sx={{ color: "#ff1000" }} /> by
             Delta45321 and Flamindemigod.
           </div>

@@ -6,6 +6,7 @@ const ExplainationDialog = () => {
   return (
     <>
       <Button
+        variant="contained"
         onClick={() => {
           setOpen(true);
         }}
@@ -13,6 +14,7 @@ const ExplainationDialog = () => {
         First time here? Click me!
       </Button>
       <Dialog
+        disableScrollLock={true}
         fullWidth
         maxWidth={"xl"}
         open={open}
@@ -82,6 +84,18 @@ const ExplainationDialog = () => {
               And thats about it. If you got any questions or suggestions feel
               free to hit me up on Discord at{" "}
               <span className="text-primary-500">FlaminDemigod#2754</span>
+            </div>
+            <div className="w-full h-72 md:h-[32rem] relative">
+              <Image
+                fill
+                src={"/BG.webp"}
+                draggable={false}
+                sizes={"80vw"}
+                className="object-contain"
+                alt={
+                  "Raiden, Venti, Zhongli and Lumine asking for Dango, Wine, Mora and Primogems respectively"
+                }
+              />
             </div>
           </Box>
         </DialogContent>
