@@ -1,5 +1,5 @@
 import { Box, Paper } from "@mui/material";
-import { useEffect, useReducer, useState } from "react";
+import { useContext, useEffect, useReducer, useState } from "react";
 import Events from "../components/Events";
 import Exploration from "../components/Exploration";
 import Hero from "../components/Hero";
@@ -7,6 +7,7 @@ import InputForm from "../components/InputForm";
 import Meta from "../components/Meta";
 import Quests from "../components/Quests";
 import Teapot from "../components/Teapot";
+import { LangContext } from "../contexts/LangContext";
 const initialParamsState = {
   primos: "",
   genesis: "",
@@ -126,6 +127,7 @@ function median(values) {
   return (values[half - 1] + values[half]) / 2.0;
 }
 export default function Home({ wishDistribution, cumalativeWishDistribution }) {
+  const langContext = useContext(LangContext);
   const [initialParams, initialParamsDispatch] = useReducer(
     initialParamsReducer,
     initialParamsState
@@ -263,8 +265,11 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
             <div className="flex flex-col gap-2 text-lg ">
               <div className="flex justify-between">
                 <div>
-                  Total Number of Primos{" "}
-                  <span className="text-xs">(excluding Pity)</span>:
+                  {langContext.output.line1}{" "}
+                  <span className="text-xs">
+                    ({langContext.output.excludingPity})
+                  </span>
+                  :
                 </div>
                 <div className="font-semibold text-primary-500">
                   {output.primogems}
@@ -272,8 +277,11 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
               </div>
               <div className="flex justify-between">
                 <div>
-                  Total Number of Fates{" "}
-                  <span className="text-xs">(excluding Pity)</span>:
+                  {langContext.output.line2}{" "}
+                  <span className="text-xs">
+                    ({langContext.output.excludingPity})
+                  </span>
+                  :
                 </div>
                 <div className="font-semibold text-primary-500">
                   {output.fates}
@@ -281,8 +289,11 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
               </div>
               <div className="flex justify-between">
                 <div>
-                  Total Number of Wishes{" "}
-                  <span className="text-xs">(including Pity)</span>:
+                  {langContext.output.line3}{" "}
+                  <span className="text-xs">
+                    ({langContext.output.includingPity})
+                  </span>
+                  :
                 </div>
                 <div className="font-semibold text-primary-500">
                   {output.wishes}
@@ -290,13 +301,13 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
               </div>
 
               <div className="flex justify-between">
-                <div>Probabilty of Getting 5 Star if Guaranteed:</div>
+                <div>{langContext.output.line4}:</div>
                 <div className="font-semibold text-primary-500">
                   {Math.round(output.probability5StarGuaranteed * 100) / 100}%
                 </div>
               </div>
               <div className="flex justify-between">
-                <div>Probabilty of Getting 5 Star if not Guaranteed:</div>
+                <div>{langContext.output.line5}:</div>
                 <div className="font-semibold text-primary-500">
                   {Math.round(output.probability5Star * 100) / 100}%
                 </div>

@@ -1,16 +1,18 @@
 import { Paper, Slider, Typography } from "@mui/material";
-import React from "react";
+import React, { useContext } from "react";
 import CustomAccordian from "./Accordian";
 import sets from "../teapot";
 import TeapotSet from "./TeapotSet";
+import { LangContext } from "../contexts/LangContext";
 const Teapot = ({ setPrimos, trustRank, setTrustRank }) => {
+  const langContext = useContext(LangContext);
   return (
     <>
       <Paper elevation={3} className="p-4">
-        <div className="text-xl font-sans">Serenitea Teapot</div>
+        <div className="text-xl font-sans">{langContext.teapot}</div>
         <div className="p-4">
           <div className="flex gap-4 items-center">
-            <Typography>Trust Rank</Typography>
+            <Typography>{langContext.trustRank}</Typography>
             <Slider
               min={0}
               step={1}
@@ -47,15 +49,18 @@ const Teapot = ({ setPrimos, trustRank, setTrustRank }) => {
           </div>
         </div>
       </Paper>
-      <CustomAccordian title={"List of Gift Sets"} icon={"/GiftSet.webp"}>
-        <CustomAccordian title={"Indoor"} icon={"/GiftSet.webp"}>
+      <CustomAccordian
+        title={langContext.listOfGiftSets}
+        icon={"/GiftSet.webp"}
+      >
+        <CustomAccordian title={langContext.indoor} icon={"/GiftSet.webp"}>
           <div className="flex flex-col gap-4 p-4">
             {sets.indoor.map((set) => (
               <TeapotSet set={set} key={set.name} setPrimos={setPrimos} />
             ))}
           </div>
         </CustomAccordian>
-        <CustomAccordian title={"Outdoor"} icon={"/GiftSet.webp"}>
+        <CustomAccordian title={langContext.outdoor} icon={"/GiftSet.webp"}>
           <div className="flex flex-col gap-4 p-4">
             {sets.outdoor.map((set) => (
               <TeapotSet set={set} key={set.name} setPrimos={setPrimos} />

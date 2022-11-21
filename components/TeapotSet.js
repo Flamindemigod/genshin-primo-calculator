@@ -1,9 +1,11 @@
 import { Paper } from "@mui/material";
 import Image from "next/future/image";
-import React from "react";
+import React, { useContext } from "react";
+import { LangContext } from "../contexts/LangContext";
 import TeapotChar from "./TeapotChar";
 
 const TeapotSet = ({ set, setPrimos }) => {
+  const langContext = useContext(LangContext);
   return (
     <Paper
       elevation={1}
@@ -18,12 +20,12 @@ const TeapotSet = ({ set, setPrimos }) => {
           className={"rounded-sm"}
           draggable={false}
         />
-        <div className="text-xl font-sans">{set.name}</div>
+        <div className="text-xl font-sans">{set.name[langContext.lang]}</div>
       </div>
       <div className="flex flex-row md:flex-col gap-2 flex-wrap justify-center">
         {set.characters.map((char) => (
           <TeapotChar
-            key={`${set.name}-${char.name}`}
+            key={`${set.name[langContext.lang]}-${char.name[langContext.lang]}`}
             char={char}
             setPrimos={setPrimos}
           />

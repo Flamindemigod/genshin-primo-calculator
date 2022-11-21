@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Background from "../components/Background";
 
-const Layout = ({ children }) => {
+const Layout = ({ setLang, children }) => {
   return (
     <Box>
       <Box
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
         <Background />
 
         <header className="z-50 bg-black bg-opacity-30">
-          <Header />
+          <Header setLang={setLang} />
         </header>
         <main
           className="flex relative align-center w-screen flex-grow overflow-auto"

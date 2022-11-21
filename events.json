@@ -1,51 +1,37 @@
 [
   {
-    "name": "Fabulous Fungus Frenzy",
+    "name": { "en": "Fabulous Fungus Frenzy" },
     "image": "/fabulous_fungus_frenzy_temp.jpg",
     "link": "https://www.hoyolab.com/article/13615037",
-    "start": "Thu, 10 Nov 2022",
-    "end": "Mon, 28 Nov 2022",
-    "colour": "#666f4f",
+    "start": { "en": "Thu, 10 Nov 2022" },
+    "end": { "en": "Mon, 28 Nov 2022" },
     "primos": 1020,
     "fates": 0
   },
   {
-    "name": "Adventurer's Trials",
-    "image": "/AdventuresTrials.jpg",
-    "link": "https://www.hoyolab.com/article/13334367",
-    "start": "Fri, 4 Nov 2022",
-    "end": "Mon, 21 Nov 2022",
-    "colour": "#62417a",
-    "primos": 420,
-    "fates": 0
-  },
-  {
-    "name": "Hypostatic Symphony",
+    "name": { "en": "Hypostatic Symphony: Dissonant Verse" },
     "image": "/hypostatic_symphony_temp.jpg",
     "link": "https://www.hoyolab.com/article/13736970",
-    "start": "Thur, 24 Nov 2022",
-    "end": "Mon, 5 Dec 2022",
-    "colour": "#64723a",
+    "start": { "en": "Thur, 24 Nov 2022" },
+    "end": { "en": "Mon, 5 Dec 2022" },
     "primos": 420,
     "fates": 0
   },
   {
-    "name": "Outside the Canvas, Inside the Lens: Greenery Chapter",
+    "name": { "en": "Outside the Canvas, Inside the Lens: Greenery Chapter" },
     "image": "/27fc29223ecfb9c24996ed7e0224059a_1087079389391647107.jpg",
     "link": "https://www.hoyolab.com/article/13718763",
-    "start": "Wed, 16 Nov 2022",
-    "end": "Mon, 5 Dec 2022",
-    "colour": "#a4bba1",
+    "start": { "en": "Wed, 16 Nov 2022" },
+    "end": { "en": "Mon, 5 Dec 2022" },
     "primos": 420,
     "fates": 0
   },
   {
-    "name": "Marvelous Merchandise",
+    "name": { "en": "Marvelous Merchandise" },
     "image": "/Marvelous_Merchandise_Event.webp",
     "link": "https://www.hoyolab.com/article/13736970",
-    "start": "Mon, 28 Nov 2022",
-    "end": "Mon, 5 Dec 2022",
-    "colour": "#deb620",
+    "start": { "en": "Mon, 28 Nov 2022" },
+    "end": { "en": "Mon, 5 Dec 2022" },
     "primos": 380,
     "fates": 0
   }

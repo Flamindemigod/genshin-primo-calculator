@@ -1,10 +1,10 @@
 import "../styles/globals.css";
-
+import { useState, useEffect } from "react";
 import { createTheme, ThemeProvider, CssBaseline } from "@mui/material";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import Layout from "../layouts/Layout";
-
+import { LangContextProvider, langs } from "../contexts/LangContext";
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
@@ -21,13 +21,19 @@ const darkTheme = createTheme({
 });
 
 function MyApp({ Component, pageProps }) {
+  const [lang, setLang] = useState("en");
+  useEffect(() => {
+    setLang(localStorage.getItem("lang") || "en");
+  }, []);
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
       <ThemeProvider theme={darkTheme}>
-        <CssBaseline />
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <LangContextProvider lang={langs[lang]}>
+          <CssBaseline />
+          <Layout setLang={setLang}>
+            <Component {...pageProps} />
+          </Layout>
+        </LangContextProvider>
       </ThemeProvider>
     </LocalizationProvider>
   );

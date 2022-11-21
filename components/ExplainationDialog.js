@@ -1,7 +1,9 @@
 import { Box, Button, Dialog, DialogContent, DialogTitle } from "@mui/material";
 import Image from "next/future/image";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { LangContext } from "../contexts/LangContext";
 const ExplainationDialog = () => {
+  const langContext = useContext(LangContext);
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -11,7 +13,7 @@ const ExplainationDialog = () => {
           setOpen(true);
         }}
       >
-        First time here? Click me!
+        {langContext.explainationButton}
       </Button>
       <Dialog
         disableScrollLock={true}
@@ -22,12 +24,11 @@ const ExplainationDialog = () => {
           setOpen(false);
         }}
       >
-        <DialogTitle>Welcome to Genshin Primo Planner</DialogTitle>
+        <DialogTitle>{langContext.explaination.title}</DialogTitle>
         <DialogContent>
           <Box className="flex flex-col gap-2">
             <div className="flex gap-2 items-center">
-              Primogems. Shiny stars every Genshin player wishes they had more
-              of besides spending money to obtain.
+              {langContext.explaination.para1line1}
               <Image
                 src="/MonaMora.png"
                 alt="Mona Finds Mora"
@@ -36,24 +37,16 @@ const ExplainationDialog = () => {
               />
             </div>
             <div>
-              This website aims to provide players with an exact amount of
-              primogems obtainable in the current patch or an estimated amount
-              in future patches. Providing a tool for players to clear as much
-              in-game content to fullfil their wishing desires.
+              {langContext.explaination.para2line1}
               <span className="text-primary-500">
-                This tool however does not account for primogems from Redeemable
-                Codes, Achievements and Chests.
+                {langContext.explaination.para2line1highlight}
               </span>
             </div>
             <div className="flex flex-col md:flex-row gap-2 justify-between items-center">
               <div>
-                For Desktop Users, The site has an Input Column and an Output
-                Column. <br />
-                For Mobile Users, the Output is situated at the bottom of the
-                page. <br />
-                The Output column contains information such as how many primos
-                collected, total fates collected, total number of wishes, and
-                probabilites of geting featured 5 star. <br />
+                {langContext.explaination.para3line1} <br />
+                {langContext.explaination.para3line2} <br />
+                {langContext.explaination.para3line3} <br />
               </div>
               <Image
                 src="/Annotation 2022-11-16 204609.png"
@@ -63,27 +56,18 @@ const ExplainationDialog = () => {
               />
             </div>
             <div>
-              The Input column is split into categories such as Input
-              Parameters, Events, Exploration, Serenitea Teapot, List of Gift
-              Sets, and Quests. <br />
-              The Output panel automatically updates when you update the Input
-              Column.
+              {langContext.explaination.para4line1} <br />
+              {langContext.explaination.para4line2}
               <br />
-              When inputting data into Input Parameters most of the parameters
-              can be found either in the wishing menu or in the shop. For the
-              End Date param, it assumes you&apos;ve done your dailies for the
-              day and starts counting from the next day on.
+              {langContext.explaination.para4line3}
               <br />
-              As for the rest of the Input column, you can select events, quests
-              and gift sets you&apos;re going to do. And for text fields and
-              sliders you should be inputting how many you are going to do. Most
-              of the sliders allow you to set a minimum value (What you&apos;ve
-              done) and a maximum value (What you&apos;re going to do).
+              {langContext.explaination.para4line4}
             </div>
             <div>
-              And thats about it. If you got any questions or suggestions feel
-              free to hit me up on Discord at{" "}
-              <span className="text-primary-500">FlaminDemigod#2754</span>
+              {langContext.explaination.para5line1}
+              <span className="text-primary-500">
+                {langContext.explaination.para5line1highlight}
+              </span>
             </div>
             <div className="w-full h-72 md:h-[32rem] relative">
               <Image

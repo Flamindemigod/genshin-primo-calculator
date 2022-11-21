@@ -1,11 +1,13 @@
 import { Paper } from "@mui/material";
 import Image from "next/future/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import { LangContext } from "../contexts/LangContext";
 
 const TeapotChar = ({ char, setPrimos }) => {
   const [checked, setChecked] = useState(false);
   const [clicked, setClicked] = useState(false);
   const [showOutline, setShowOutline] = useState(false);
+  const langContext = useContext(LangContext);
   useEffect(() => {
     if (clicked) {
       if (checked) {
@@ -56,11 +58,11 @@ const TeapotChar = ({ char, setPrimos }) => {
           src={char.image}
           width={64}
           height={64}
-          alt={char.name}
+          alt={char.name[langContext.lang]}
           draggable={false}
           className={"object-contain"}
         />
-        <div>{char.name}</div>
+        <div>{char.name[langContext.lang]}</div>
       </div>
       <div className="flex gap-1 items-center">
         <div className="text-xl">20</div>

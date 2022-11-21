@@ -12,15 +12,17 @@ import {
 } from "@mui/material";
 import { DatePicker } from "@mui/x-date-pickers";
 import Image from "next/future/image";
-import React from "react";
+import React, { useContext } from "react";
+import { LangContext } from "../contexts/LangContext";
 const InputForm = ({ params, dispatch }) => {
+  const langContext = useContext(LangContext);
   return (
     <Paper className="p-4">
-      <div className="text-xl font-sans">Input Parameters</div>
+      <div className="text-xl font-sans">{langContext.inputParams}</div>
       <div className="p-4 grid md:grid-cols-2 xl:grid-cols-4 gap-4 items-start">
         <TextField
           fullWidth
-          label={"Primogems"}
+          label={langContext.primogems}
           type="number"
           sx={{
             "& .MuiInputAdornment-root": { flexShrink: 0 },
@@ -39,7 +41,7 @@ const InputForm = ({ params, dispatch }) => {
                   src={"/Item_Primogem.webp"}
                   width={32}
                   height={32}
-                  alt={"Primogems"}
+                  alt={langContext.primogems}
                 />
               </InputAdornment>
             ),
@@ -47,7 +49,7 @@ const InputForm = ({ params, dispatch }) => {
         />
         <TextField
           fullWidth
-          label={"Genesis Crystals"}
+          label={langContext.genesisCrystals}
           type="number"
           sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
           value={params.genesis}
@@ -63,7 +65,7 @@ const InputForm = ({ params, dispatch }) => {
                   src={"/Item_Genesis_Crystal.webp"}
                   width={32}
                   height={32}
-                  alt={"Genesis Crystal"}
+                  alt={langContext.genesisCrystals}
                 />
               </InputAdornment>
             ),
@@ -71,7 +73,7 @@ const InputForm = ({ params, dispatch }) => {
         />
         <TextField
           fullWidth
-          label={"Intertwined Fates"}
+          label={langContext.intertwinedFates}
           type="number"
           sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
           value={params.fates}
@@ -88,7 +90,7 @@ const InputForm = ({ params, dispatch }) => {
                   src={"/Item_Intertwined_Fate.webp"}
                   width={32}
                   height={32}
-                  alt={"Intertwined Fate"}
+                  alt={langContext.intertwinedFates}
                 />
               </InputAdornment>
             ),
@@ -96,7 +98,7 @@ const InputForm = ({ params, dispatch }) => {
         />
         <TextField
           fullWidth
-          label={"Masterless Starglitter"}
+          label={langContext.masterlessStarglitter}
           type="number"
           sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
           value={params.starglitter}
@@ -113,7 +115,7 @@ const InputForm = ({ params, dispatch }) => {
                   src={"/Item_Masterless_Starglitter.webp"}
                   width={32}
                   height={32}
-                  alt={"Masterless Starglitter"}
+                  alt={langContext.masterlessStarglitter}
                 />
               </InputAdornment>
             ),
@@ -121,7 +123,7 @@ const InputForm = ({ params, dispatch }) => {
         />
         <TextField
           fullWidth
-          label={"Current Pity"}
+          label={langContext.currentPity}
           InputProps={{
             inputProps: { min: 0 },
           }}
@@ -133,7 +135,7 @@ const InputForm = ({ params, dispatch }) => {
         />
         <TextField
           fullWidth
-          label={"No. of Test Runs"}
+          label={langContext.noTestRuns}
           type="number"
           InputProps={{
             inputProps: { min: 0 },
@@ -145,7 +147,7 @@ const InputForm = ({ params, dispatch }) => {
         />
         <TextField
           fullWidth
-          label={"No. of Shop Resets"}
+          label={langContext.noShopReset}
           type="number"
           InputProps={{
             inputProps: { min: 0 },
@@ -157,7 +159,7 @@ const InputForm = ({ params, dispatch }) => {
         />
         <TextField
           fullWidth
-          label={"No. of Future Patches"}
+          label={langContext.noFuturePatch}
           type="number"
           InputProps={{
             inputProps: { min: 0 },
@@ -170,7 +172,7 @@ const InputForm = ({ params, dispatch }) => {
 
         <DatePicker
           id="counterEndDate"
-          label="End date"
+          label={langContext.endDate}
           minDate={new Date()}
           inputFormat="dd/MM/yyyy"
           value={params.endDate}
@@ -184,12 +186,12 @@ const InputForm = ({ params, dispatch }) => {
             />
           )}
         />
-        <Box className="flex justify-center" sx={{ width: 250 }}>
+        <Box className="flex justify-center">
           {/* Welkin */}
           <FormControl>
             <FormControlLabel
               sx={{ height: 56 }}
-              label={"Welkin"}
+              label={langContext.welkin}
               labelPlacement={"end"}
               control={
                 <Checkbox
@@ -203,10 +205,10 @@ const InputForm = ({ params, dispatch }) => {
           </FormControl>
           {/* Battle Pass */}
           <FormControl>
-            <Tooltip title="Paid Tier of Battle Pass" arrow>
+            <Tooltip title={langContext.bpTooltip} arrow>
               <FormControlLabel
                 sx={{ height: 56 }}
-                label={"Gnostic Hymn"}
+                label={langContext.gnosticHymn}
                 labelPlacement={"end"}
                 control={
                   <Checkbox
@@ -225,10 +227,10 @@ const InputForm = ({ params, dispatch }) => {
         </Box>
 
         <div className="col-span-full flex gap-4 items-center md:flex-row flex-col flex-wrap justify-center">
-          <Typography>Spiral Abyss Primos</Typography>
+          <Typography>{langContext.spiralAbyssPrimos}</Typography>
           <FormControl sx={{ width: 300 }}>
             <FormControlLabel
-              label={"Floor 1 to 8"}
+              label={langContext.floor1to8}
               labelPlacement={"bottom"}
               control={
                 <Slider
@@ -271,7 +273,7 @@ const InputForm = ({ params, dispatch }) => {
 
           <FormControl sx={{ width: 300 }}>
             <FormControlLabel
-              label={"Floor 9 to 12"}
+              label={langContext.floor9to12}
               labelPlacement={"bottom"}
               control={
                 <Slider
@@ -311,13 +313,10 @@ const InputForm = ({ params, dispatch }) => {
               }
             />
           </FormControl>
-          <Tooltip
-            title="If you have completed the current abyss rotation reduce this value by 1"
-            arrow
-          >
+          <Tooltip title={langContext.saTooltip} arrow>
             <TextField
               sx={{ width: 250 }}
-              label={"No. of Spiral Abyss Resets"}
+              label={langContext.noSpiralAbyssResets}
               type="number"
               InputProps={{
                 inputProps: { min: 0 },

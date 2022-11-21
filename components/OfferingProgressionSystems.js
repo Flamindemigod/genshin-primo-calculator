@@ -5,16 +5,19 @@ import {
   FormControlLabel,
   Typography,
 } from "@mui/material";
+import { useContext } from "react";
+import { LangContext } from "../contexts/LangContext";
 
 const OfferingProgressionSystems = ({ params, dispatch }) => {
+  const langContext = useContext(LangContext);
   return (
     <Box className="p-4 grid md:grid-cols-4 justify-center gap-4 gap-y-12">
       <div>
-        <Typography>Frostbearing Tree&apos;s Gratitude</Typography>
+        <Typography>{langContext.fbt}</Typography>
         <Box className="px-4 flex flex-col gap-4">
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 6"}
+              label={`${langContext.level} 6`}
               control={
                 <Checkbox
                   checked={params.opsFBT6}
@@ -29,11 +32,11 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
       </div>
 
       <div>
-        <Typography>Enhance The Lumestone Adjuvant</Typography>
+        <Typography>{langContext.lma}</Typography>
         <Box className="px-4 flex flex-col gap-4">
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 8"}
+              label={`${langContext.level} 8`}
               control={
                 <Checkbox
                   checked={params.opsLA8}
@@ -47,11 +50,11 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
         </Box>
       </div>
       <div>
-        <Typography>Sacred Sakura&apos;s Favor</Typography>
+        <Typography>{langContext.ssf}</Typography>
         <Box className="px-4 flex flex-col gap-4">
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 10"}
+              label={`${langContext.level} 10`}
               control={
                 <Checkbox
                   checked={params.opsSSF10}
@@ -64,7 +67,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
           </FormControl>
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 20"}
+              label={`${langContext.level} 20`}
               control={
                 <Checkbox
                   checked={params.opsSSF20}
@@ -77,7 +80,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
           </FormControl>
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 30"}
+              label={`${langContext.level} 30`}
               control={
                 <Checkbox
                   checked={params.opsSSF30}
@@ -90,7 +93,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
           </FormControl>
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 40"}
+              label={`${langContext.level} 40`}
               control={
                 <Checkbox
                   checked={params.opsSSF40}
@@ -103,7 +106,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
           </FormControl>
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 50"}
+              label={`${langContext.level} 50`}
               control={
                 <Checkbox
                   checked={params.opsSSF50}
@@ -117,11 +120,11 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
         </Box>
       </div>
       <div>
-        <Typography>Vanarana&apos;s Favor</Typography>
+        <Typography>{langContext.vrf}</Typography>
         <Box className="px-4 flex flex-col gap-4">
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 10"}
+              label={`${langContext.level} 10`}
               control={
                 <Checkbox
                   checked={params.opsVF10}
@@ -134,7 +137,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
           </FormControl>
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 20"}
+              label={`${langContext.level} 20`}
               control={
                 <Checkbox
                   checked={params.opsVF20}
@@ -147,7 +150,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
           </FormControl>
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 30"}
+              label={`${langContext.level} 30`}
               control={
                 <Checkbox
                   checked={params.opsVF30}
@@ -160,7 +163,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
           </FormControl>
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 40"}
+              label={`${langContext.level} 40`}
               control={
                 <Checkbox
                   checked={params.opsVF40}
@@ -173,7 +176,7 @@ const OfferingProgressionSystems = ({ params, dispatch }) => {
           </FormControl>
           <FormControl sx={{ width: 250 }}>
             <FormControlLabel
-              label={"Level 50"}
+              label={`${langContext.level} 50`}
               control={
                 <Checkbox
                   checked={params.opsVF50}

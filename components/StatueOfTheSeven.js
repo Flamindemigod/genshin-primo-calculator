@@ -1,20 +1,22 @@
 import { Box, Typography, Slider } from "@mui/material";
-import React from "react";
-function valuetext(value) {
-  return `Level ${value}`;
-}
+import { useContext } from "react";
+import { LangContext } from "../contexts/LangContext";
 
 const StatueOfTheSeven = ({ params, dispatch }) => {
+  const langContext = useContext(LangContext);
+  function valuetext(value) {
+    return `${langContext.level} ${value}`;
+  }
   return (
     <Box className="p-4 grid grid-rows-8 grid-flow-col items-center gap-x-2 gap-y-0">
-      <Typography>Mondstat</Typography>
+      <Typography>{langContext.mond}</Typography>
       <Slider
         step={1}
         min={1}
         max={10}
         marks
         getAriaLabel={() => {
-          "Mondstat Statue of the Seven Level";
+          `${langContext.mond} ${langContext.sos} ${langContext.level}`;
         }}
         getAriaValueText={valuetext}
         sx={{
@@ -45,14 +47,14 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
           dispatch({ sosMond: newVal });
         }}
       />
-      <Typography>Liyue</Typography>
+      <Typography>{langContext.liyue}</Typography>
       <Slider
         step={1}
         min={1}
         max={10}
         marks
         getAriaLabel={() => {
-          "Liyue Statue of the Seven Level";
+          `${langContext.liyue} ${langContext.sos} ${langContext.level}`;
         }}
         getAriaValueText={valuetext}
         sx={{
@@ -83,13 +85,13 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
           dispatch({ sosLiyue: newVal });
         }}
       />
-      <Typography>Inazuma</Typography>
+      <Typography>{langContext.inazuma}</Typography>
       <Slider
         step={1}
         min={1}
         max={10}
         getAriaLabel={() => {
-          "Inazuma Statue of the Seven Level";
+          `${langContext.inazuma} ${langContext.sos} ${langContext.level}`;
         }}
         getAriaValueText={valuetext}
         marks
@@ -121,14 +123,14 @@ const StatueOfTheSeven = ({ params, dispatch }) => {
           dispatch({ sosInazuma: newVal });
         }}
       />
-      <Typography>Sumeru</Typography>
+      <Typography>{langContext.sumeru}</Typography>
       <Slider
         step={1}
         min={1}
         max={10}
         marks
         getAriaLabel={() => {
-          "Sumeru Statue of the Seven Level";
+          `${langContext.sumeru} ${langContext.sos} ${langContext.level}`;
         }}
         getAriaValueText={valuetext}
         sx={{

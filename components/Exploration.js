@@ -7,19 +7,23 @@ import {
   Tooltip,
 } from "@mui/material";
 import Image from "next/future/image";
-import React from "react";
+import React, { useContext } from "react";
+import { LangContext } from "../contexts/LangContext";
 import OfferingProgressionSystems from "./OfferingProgressionSystems";
 import StatueOfTheSeven from "./StatueOfTheSeven";
 
 const Exploration = ({ params, dispatch }) => {
+  const langContext = useContext(LangContext);
   return (
     <Paper elevation={3} className="p-4">
-      <Typography className="font-sans text-xl">Exploration</Typography>
+      <Typography className="font-sans text-xl">
+        {langContext.exploration}
+      </Typography>
       <Box className="p-4">
-        <Typography>Unlockables</Typography>
+        <Typography>{langContext.unlockables}</Typography>
         <Box className="py-4 grid lg:grid-cols-3 gap-4">
           <TextField
-            label={"Teleports"}
+            label={langContext.teleports}
             type="number"
             sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
             value={params.numTeleports}
@@ -35,14 +39,14 @@ const Exploration = ({ params, dispatch }) => {
                     src={"/Teleport.webp"}
                     width={32}
                     height={32}
-                    alt={"Teleport Waypoints"}
+                    alt={langContext.teleports}
                   />
                 </InputAdornment>
               ),
             }}
           />
           <TextField
-            label={"Statues of the Seven"}
+            label={langContext.sos}
             type="number"
             sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
             value={params.numSOS}
@@ -58,15 +62,15 @@ const Exploration = ({ params, dispatch }) => {
                     src={"/StatueOfTheSeven.webp"}
                     width={32}
                     height={32}
-                    alt={"Statues of the Seven"}
+                    alt={langContext.sos}
                   />
                 </InputAdornment>
               ),
             }}
           />
-          <Tooltip title="Including Resin and One-time Domains" arrow>
+          <Tooltip title={langContext.do} arrow>
             <TextField
-              label={"Domains"}
+              label={langContext.domain}
               type="number"
               sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
               value={params.numDomains}
@@ -82,7 +86,7 @@ const Exploration = ({ params, dispatch }) => {
                       src={"/Domain.webp"}
                       width={32}
                       height={32}
-                      alt={"Domain Waypoints"}
+                      alt={langContext.domain}
                     />
                   </InputAdornment>
                 ),
@@ -93,9 +97,9 @@ const Exploration = ({ params, dispatch }) => {
         <Box>
           <Typography>Completion</Typography>
           <Box className="py-4 grid ">
-            <Tooltip title="Only One-time Domains" arrow>
+            <Tooltip title={langContext.domaintooltip2} arrow>
               <TextField
-                label={"Domains"}
+                label={langContext.domain}
                 type="number"
                 sx={{ "& .MuiInputAdornment-root": { flexShrink: 0 } }}
                 value={params.numDomainOneTime}
@@ -111,7 +115,7 @@ const Exploration = ({ params, dispatch }) => {
                         src={"/DomainOneTime.webp"}
                         width={32}
                         height={32}
-                        alt={"Domains Completed"}
+                        alt={langContext.domain}
                       />
                     </InputAdornment>
                   ),
@@ -121,11 +125,11 @@ const Exploration = ({ params, dispatch }) => {
           </Box>
         </Box>
         <Box>
-          <Typography>Statue of The Seven Progression</Typography>
+          <Typography>{langContext.sosProgression}</Typography>
           <StatueOfTheSeven params={params} dispatch={dispatch} />
         </Box>
         <Box>
-          <Typography>Offering Progression Systems</Typography>
+          <Typography>{langContext.ops}</Typography>
           <OfferingProgressionSystems params={params} dispatch={dispatch} />
         </Box>
       </Box>

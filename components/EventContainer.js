@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 const EventContainer = ({
   name,
   bgImage,
-  gradientColor,
   hoyolabLink,
   startDate,
   endDate,
