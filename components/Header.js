@@ -50,6 +50,7 @@ const Header = ({ setLang }) => {
         >
           {Object.keys(langs).map((lang) => (
             <MenuItem
+              key={lang}
               onClick={() => {
                 setLang(lang);
                 localStorage.setItem("lang", lang);
