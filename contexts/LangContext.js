@@ -222,7 +222,7 @@ const langs = {
       para5line1:
         "Et c'est à peu près tout. Si vous avez des questions ou des suggestions, contactez moi sur discord",
       para5line1highlight: "FlaminDemigod#2754",
-      specialThanks: "Merci à Néa pour la traduction",
+      specialThanks: "Merci à Néa(L'Empereure du Café) pour la traduction",
     },
     scrollDown: "Descendez pour commencer",
     inputParams: "Entrée des données",
