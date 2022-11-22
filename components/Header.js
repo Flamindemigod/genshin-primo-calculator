@@ -24,7 +24,7 @@ const Header = ({ setLang }) => {
             height={64}
             alt={"GPP Logo"}
           />
-          <div className="text-2xl font-sans">Genshin Primo Planner</div>
+          <div className="text-2xl font-sans">{langContext.siteTitle}</div>
         </div>
       </Link>
       <div>

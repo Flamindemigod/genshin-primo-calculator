@@ -8,7 +8,7 @@ import { LangContext } from "../contexts/LangContext";
 const ArchonQuests = ({ setPrimos }) => {
   const langContext = useContext(LangContext);
   return (
-    <Accordion title={"Archon Quests"} icon={"/ArchonQuestIcon.webp"}>
+    <Accordion title={langContext.archonQuests} icon={"/ArchonQuestIcon.webp"}>
       <Box className="p-8 w-full grid lg:grid-cols-2 xl:grid-cols-3 justify-center gap-4">
         {quests.map((section, index) => {
           let questList = section

@@ -1,655 +1,853 @@
 [
   [
-    { "chapterTitle": { "en": "Mondstadt" } },
+    { "chapterTitle": { "fr": "Mondstadt", "en": "Mondstadt" } },
     {
-      "title": { "en": "Adventure Rank Ascension I" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Élévation du Niveau d'aventure - 1",
+        "en": "Adventure Rank Ascension I"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Mondstat.webp",
       "primos": 100
     },
     {
-      "title": { "en": "Adventure Rank Ascension II" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Élévation du Niveau d'aventure - 2",
+        "en": "Adventure Rank Ascension II"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Mondstat.webp",
       "primos": 100
     },
     {
-      "title": { "en": "Adventure Rank Ascension III" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Élévation du Niveau d'aventure - 3",
+        "en": "Adventure Rank Ascension III"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Mondstat.webp",
       "primos": 100
     },
     {
-      "title": { "en": "Adventure Rank Ascension IV" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Élévation du Niveau d'aventure - 4",
+        "en": "Adventure Rank Ascension IV"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Mondstat.webp",
       "primos": 100
     },
     {
-      "title": { "en": "Every Day a New Adventure" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Chaque jour est une aventure",
+        "en": "Every Day a New Adventure"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Mondstat.webp",
       "primos": 20
     },
     {
-      "title": { "en": "New Horizons of Adventure" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Hors des sentiers battus",
+        "en": "New Horizons of Adventure"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Mondstat.webp",
       "primos": 40
     },
     {
-      "title": { "en": "Time and Wind" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Le temps et le vent", "en": "Time and Wind" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Mondstat.webp",
       "primos": 60
     },
     {
-      "title": { "en": "Welcome to the Adventures' Guild" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Bienvenue à la Guilde des aventuriers",
+        "en": "Welcome to the Adventures' Guild"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Mondstat.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Ah, Fresh Meat!" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Viande (assez) fraîche", "en": "Ah, Fresh Meat!" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Dragonspine.webp",
       "primos": 40
     },
     {
-      "title": { "en": "A Land Entombed" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Royaume sous les neiges", "en": "A Land Entombed" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Dragonspine.webp",
       "primos": 50
     },
     {
-      "title": { "en": "In the Mountains" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "La créature des montagnes", "en": "In the Mountains" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Dragonspine.webp",
       "primos": 60
     },
     {
-      "title": { "en": "Lost in the Snow" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Richesses de Dosdragon", "en": "Lost in the Snow" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Dragonspine.webp",
       "primos": 40
     },
     {
-      "title": { "en": "Low-Temperature Warning" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Attention, c'est froid !",
+        "en": "Low-Temperature Warning"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Dragonspine.webp",
       "primos": 20
     },
     {
-      "title": { "en": "The Festering Fang" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Dent suppurante", "en": "The Festering Fang" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Dragonspine.webp",
       "primos": 50
     },
     {
-      "title": { "en": "The Great Mountain Survey" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Enquête alpestre", "en": "The Great Mountain Survey" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Dragonspine.webp",
       "primos": 40
     },
     {
-      "title": { "en": "The Great Mountain Survey II" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Enquête alpestre, bis",
+        "en": "The Great Mountain Survey II"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Dragonspine.webp",
       "primos": 40
     }
   ],
   [
-    { "chapterTitle": { "en": "Liyue" } },
+    { "chapterTitle": { "fr": "Liyue", "en": "Liyue" } },
     {
-      "title": { "en": "Overstretched" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "À plusieurs c'est plus facile", "en": "Overstretched" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Treasure Lost, Treasure Found" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Le trésor des Plaines Guili",
+        "en": "Treasure Lost, Treasure Found"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 80
     },
     {
-      "title": { "en": "The Tree that Stands Alone" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "L'arbre sans la forêt",
+        "en": "The Tree that Stands Alone"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 50
     },
     {
-      "title": { "en": "Old Tastes Die Hard" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Le goût inoubliable du passé",
+        "en": "Old Tastes Die Hard"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Book in the Woods" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Un livre dans les bois", "en": "Book in the Woods" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Share Not Your Treasures" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "À chacun son trésor",
+        "en": "Share Not Your Treasures"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 30
     },
     {
-      "title": { "en": "The Chi of Yore" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Le secret de Chi", "en": "The Chi of Yore" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 60
     },
     {
-      "title": { "en": "A Provisional Arrangement" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Passage encombré", "en": "A Provisional Arrangement" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Big Business" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Une bonne affaire", "en": "Big Business" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 30
     },
     {
-      "title": { "en": "The Yaksha's Wish" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Message d'un ancien gardien",
+        "en": "The Yaksha's Wish"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 30
     },
     {
-      "title": { "en": "And This Treasure Goes To..." },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Qui mettra la main sur le trésor ?",
+        "en": "And This Treasure Goes To..."
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 40
     },
     {
-      "title": { "en": "Nine Pillars of Peace" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Neuf piliers", "en": "Nine Pillars of Peace" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 150
     },
     {
-      "title": { "en": "Luhua Landscape" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Estampe à Luhua", "en": "Luhua Landscape" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 50
     },
     {
-      "title": { "en": "A Little Game" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Nous allons jouer à un petit jeu",
+        "en": "A Little Game"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 30
     },
     {
-      "title": { "en": "No Restoring This Past Land of Beauty" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Magnificence passée",
+        "en": "No Restoring This Past Land of Beauty"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Garcia's Paean" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "L'hymne de Garcia", "en": "Garcia's Paean" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Valor's Afterglow" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Rémanence de courage", "en": "Valor's Afterglow" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Valor's Afterglow: Return by Sundown" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Rémanence de courage : Retour au couchant",
+        "en": "Valor's Afterglow: Return by Sundown"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Valor's Afterglow: The Faint Light Remembered" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Rémanence de courage : Souvenir d'une faible lueur",
+        "en": "Valor's Afterglow: The Faint Light Remembered"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Mycological Investigation in The Chasm" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Enquête mycologique dans le Gouffre",
+        "en": "Mycological Investigation in The Chasm"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Hydrological Investigation in The Chasm" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Enquête hydrologique dans le Gouffre",
+        "en": "Hydrological Investigation in The Chasm"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Paleontological Investigation in The Chasm" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Enquête paléontologique dans le Gouffre",
+        "en": "Paleontological Investigation in The Chasm"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Undetected Inflitration" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Infiltration réussie",
+        "en": "Undetected Inflitration"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "The Chasm's Bounty" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Le don du Gouffre", "en": "The Chasm's Bounty" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "The Missing Miner" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Le mineur disparu", "en": "The Missing Miner" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
 
     {
-      "title": { "en": "Lost in a Foreign Land" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Dans un pays étranger...",
+        "en": "Lost in a Foreign Land"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Lost in a Foreign Land Seeking" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Dans un pays étranger : Sur la piste",
+        "en": "Lost in a Foreign Land Seeking"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Dimming Mushroom's Call for Help" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "L'appel à l'aide d'un champignon affaibli",
+        "en": "Dimming Mushroom's Call for Help"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 40
     },
     {
-      "title": { "en": "A Company Vanishing Into The Deep" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Une unité disparue dans le Gouffre",
+        "en": "A Company Vanishing Into The Deep"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 40
     },
     {
-      "title": { "en": "A Cliff-Side Hero's Past" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Le passé du chevalier des cimes",
+        "en": "A Cliff-Side Hero's Past"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "The Millennial Mountains" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Les montagnes millénaires",
+        "en": "The Millennial Mountains"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 40
     },
     {
-      "title": { "en": "Stolen, by the Rightful Owner" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Volé... par le propriétaire légitime",
+        "en": "Stolen, by the Rightful Owner"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Says He Who Seeks Stone" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Les paroles d'un chercheur de pierres",
+        "en": "Says He Who Seeks Stone"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/ChasmMines.webp",
       "primos": 20
     }
   ],
   [
-    { "chapterTitle": { "en": "Inazuma" } },
+    { "chapterTitle": { "fr": "Inazuma", "en": "Inazuma" } },
     {
-      "title": { "en": "Sakura Arborism" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Sakurologie", "en": "Sakura Arborism" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 60
     },
     {
-      "title": { "en": "Dreams of Sword Art" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Rêves d'un épéiste", "en": "Dreams of Sword Art" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 40
     },
     {
-      "title": { "en": "Treatment on the Island" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Traitement de l'île", "en": "Treatment on the Island" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Gazing Three Thousand Miles Away" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Contempler trois mille lieues au loin",
+        "en": "Gazing Three Thousand Miles Away"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Hiromi's Watch" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "La garde d'Hiromi", "en": "Hiromi's Watch" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Divine Plant of the Depths" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "La plante divine des profondeurs",
+        "en": "Divine Plant of the Depths"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Solitary Sea-Beast" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Créature des mers solitaire",
+        "en": "Solitary Sea-Beast"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 40
     },
     {
-      "title": { "en": "\"The Seventh Samurai\"" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "« Le septième samouraï »",
+        "en": "\"The Seventh Samurai\""
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Fate of a Fighter" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Le destin d'un guerrier", "en": "Fate of a Fighter" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 40
     },
     {
-      "title": { "en": "Relics of Seirai" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Reliques de Seirai", "en": "Relics of Seirai" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 50
     },
     {
-      "title": { "en": "Reminiscence of Seirai" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Souvenirs de Seirai", "en": "Reminiscence of Seirai" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Gourmet Supremos, Assemble!" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Les Gourmets suprêmes !",
+        "en": "Gourmet Supremos, Assemble!"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "The Gourmet Supremos: Of Shrines and Sakura" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Les Gourmets suprêmes : Sanctuaire et cerisier",
+        "en": "The Gourmet Supremos: Of Shrines and Sakura"
+      },
+      "subtitle": {
+        "fr": "",
+        "en": ""
+      },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "The Gourmet Supremos: The Seashore Strider" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Les Gourmets suprêmes : Les promeneurs du bord de mer",
+        "en": "The Gourmet Supremos: The Seashore Strider"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "The Gourmet Supremos: The Deep Divers" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Les Gourmets suprêmes : Les plongeurs des profondeurs",
+        "en": "The Gourmet Supremos: The Deep Divers"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Neko Is A Cat: Shrine Cleanup" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Neko est un chat : Grand ménage",
+        "en": "Neko Is A Cat: Shrine Cleanup"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Neko Is A Cat: Wooden Shelf" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Neko est un chat : Support en bois",
+        "en": "Neko Is A Cat: Wooden Shelf"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Neko Is A Cat: The Children" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Neko est un chat : Les petits",
+        "en": "Neko Is A Cat: The Children"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Neko Is A Cat: Shrine Recipe" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Neko est un chat : Recette du sanctuaire",
+        "en": "Neko Is A Cat: Shrine Recipe"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Neko Is A Cat: Cat and Stone" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Neko est un chat : Le chat et la pierre",
+        "en": "Neko Is A Cat: Cat and Stone"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Neko Is A Cat: Stone Human's Troubles" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Neko est un chat : Problèmes de sculpteur de pierre",
+        "en": "Neko Is A Cat: Stone Human's Troubles"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Neko Is A Cat: Shrine Canteen" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Neko est un chat : Cantine du sanctuaire",
+        "en": "Neko Is A Cat: Shrine Canteen"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Neko Is A Cat: Ding-a-Ling Metal Ball" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Neko est un chat : La balle en métal qui sonne",
+        "en": "Neko Is A Cat: Ding-a-Ling Metal Ball"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Neko Is A Cat: A \"Good Turn\" Comes Late" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Neko est un chat : Une bonne action en retard",
+        "en": "Neko Is A Cat: A \"Good Turn\" Comes Late"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "The Saga of Mr. Forgetful" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "La saga de M. tête-en-l'air",
+        "en": "The Saga of Mr. Forgetful"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Temaria Game" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Le jeu de Temari", "en": "Temaria Game" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 20
     },
     {
-      "title": { "en": "The Farmer's Treasure" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Le trésor d'un paysan", "en": "The Farmer's Treasure" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 60
     },
     {
-      "title": { "en": "Clean House" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Le grand nettoyage", "en": "Clean House" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 30
     },
     {
-      "title": { "en": "The Still Water's Flow" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Le flot des eaux calmes",
+        "en": "The Still Water's Flow"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Collection of Dragons and Snakes" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Recueils des dragons et serpents",
+        "en": "Collection of Dragons and Snakes"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Tricolor File" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Fichier tricolore", "en": "Tricolor File" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Antigonus" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Antigonus", "en": "Antigonus" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 40
     },
     {
-      "title": { "en": "Lotus Eater" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Mangeur de lotus", "en": "Lotus Eater" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Date's Challenge" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Le défi de Date", "en": "Date's Challenge" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 30
     },
     {
-      "title": { "en": "The Phaethons' Syrtos" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Syrtos des Phaétons", "en": "The Phaethons' Syrtos" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 30
     },
     {
-      "title": { "en": "\"Outlander Brigade\"" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "La brigade pérégrine !!",
+        "en": "\"Outlander Brigade\""
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 30
     },
     {
-      "title": { "en": "Mushounin" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Mushounin", "en": "Mushounin" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 40
     }
   ],
   [
-    { "chapterTitle": { "en": "Sumeru" } },
+    { "chapterTitle": { "fr": "Sumeru", "en": "Sumeru" } },
     {
-      "title": { "en": "A Short Encounter with a Rare Bird" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Brève rencontre avec un oiseau rare",
+        "en": "A Short Encounter with a Rare Bird"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 30
     },
     {
-      "title": { "en": "The Foolish Fatuus" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 50
-    },
-    {
-      "title": { "en": "Aranaga's Memory" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 30
-    },
-    {
-      "title": { "en": "Aranakin's Old Friend" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 30
-    },
-    {
-      "title": { "en": "Aragaru's Drawing" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 30
-    },
-    {
-      "title": { "en": "Memory's Final Chapter" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 20
-    },
-    {
-      "title": { "en": "Until Vana is Healed" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 40
-    },
-    {
-      "title": { "en": "Courage is the Heart" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 30
-    },
-    {
-      "title": { "en": "Giving Flowers" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 20
-    },
-    {
-      "title": { "en": "Legends of the Stone Lock" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 30
-    },
-    {
-      "title": { "en": "A Child From Beyond the Forest" },
-      "subtitle": { "en": "" },
-      "icon": "/Sumeru.webp",
-      "primos": 30
-    },
-    {
-      "title": { "en": "Afratu's Dilemma" },
-      "subtitle": { "en": "" },
+      "title": { "fr": "Les machines des Fatui", "en": "The Foolish Fatuus" },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 50
     },
     {
-      "title": { "en": "The Exile: Sprouting" },
-      "subtitle": { "en": "" },
-      "icon": "/SumeruDesert.webp",
+      "title": { "fr": "Les souvenirs d'Aranaga", "en": "Aranaga's Memory" },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
       "primos": 30
     },
     {
-      "title": { "en": "The Exile: Blooming" },
-      "subtitle": { "en": "" },
-      "icon": "/SumeruDesert.webp",
+      "title": {
+        "fr": "Un vieil ami d'Aranakin",
+        "en": "Aranakin's Old Friend"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
       "primos": 30
     },
     {
-      "title": { "en": "A Gifted Rose: Prickly as Thorns" },
-      "subtitle": { "en": "" },
-      "icon": "/SumeruDesert.webp",
-      "primos": 40
-    },
-    {
-      "title": { "en": "A Gifted Rose: Long Day Ahead" },
-      "subtitle": { "en": "" },
-      "icon": "/SumeruDesert.webp",
+      "title": { "fr": "Les symboles d'Aragaru", "en": "Aragaru's Drawing" },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
       "primos": 30
     },
     {
-      "title": { "en": "A Gifted Rose: Can Stones Bloom" },
-      "subtitle": { "en": "" },
-      "icon": "/SumeruDesert.webp",
-      "primos": 30
-    },
-    {
-      "title": { "en": "A Gifted Rose: Ballad of Days Gone By" },
-      "subtitle": { "en": "" },
-      "icon": "/SumeruDesert.webp",
-      "primos": 30
-    },
-    {
-      "title": { "en": "A Gifted Rose: Some People Never Fade Away" },
-      "subtitle": { "en": "" },
-      "icon": "/SumeruDesert.webp",
-      "primos": 30
-    },
-    {
-      "title": { "en": "Trees of Dreams" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Le chapitre final des souvenirs",
+        "en": "Memory's Final Chapter"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 20
     },
     {
-      "title": { "en": "Next Times, On King of Innvocations" },
-      "subtitle": { "en": "" },
+      "title": {
+        "fr": "Jusqu'à la guérison de la vana",
+        "en": "Until Vana is Healed"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
+      "primos": 40
+    },
+    {
+      "title": {
+        "fr": "Un cœur plein de courage",
+        "en": "Courage is the Heart"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
+      "primos": 30
+    },
+    {
+      "title": { "fr": "Cadeau de fleurs", "en": "Giving Flowers" },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
+      "primos": 20
+    },
+    {
+      "title": {
+        "fr": "Légende du verrou de pierre",
+        "en": "Legends of the Stone Lock"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
+      "primos": 30
+    },
+    {
+      "title": {
+        "fr": "Les enfants d'au-delà de la forêt",
+        "en": "A Child From Beyond the Forest"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
+      "primos": 30
+    },
+    {
+      "title": { "fr": "Le dilemme d'Afratu", "en": "Afratu's Dilemma" },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
+      "primos": 50
+    },
+    {
+      "title": { "fr": "Les exilés : Germe", "en": "The Exile: Sprouting" },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/SumeruDesert.webp",
+      "primos": 30
+    },
+    {
+      "title": { "fr": "Les exilés : Fleuraison", "en": "The Exile: Blooming" },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/SumeruDesert.webp",
+      "primos": 30
+    },
+    {
+      "title": {
+        "fr": "Une rose en cadeau : Piquant comme une épine",
+        "en": "A Gifted Rose: Prickly as Thorns"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/SumeruDesert.webp",
+      "primos": 40
+    },
+    {
+      "title": {
+        "fr": "Une rose en cadeau : Une longue journée à venir",
+        "en": "A Gifted Rose: Long Day Ahead"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/SumeruDesert.webp",
+      "primos": 30
+    },
+    {
+      "title": {
+        "fr": "Une rose en cadeau : Une pierre qui fleurit ?",
+        "en": "A Gifted Rose: Can Stones Bloom"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/SumeruDesert.webp",
+      "primos": 30
+    },
+    {
+      "title": {
+        "fr": "Une rose en cadeau : Ballade des jours passés",
+        "en": "A Gifted Rose: Ballad of Days Gone By"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/SumeruDesert.webp",
+      "primos": 30
+    },
+    {
+      "title": {
+        "fr": "Une rose en cadeau : Certains ne disparaissent jamais",
+        "en": "A Gifted Rose: Some People Never Fade Away"
+      },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/SumeruDesert.webp",
+      "primos": 30
+    },
+    {
+      "title": { "fr": "Arbre et rêve", "en": "Trees of Dreams" },
+      "subtitle": { "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
+      "primos": 20
+    },
+    {
+      "title": {
+        "fr": "La prochaine fois, dans « Le roi des invocations »...",
+        "en": "Next Times, On King of Innvocations"
+      },
+      "subtitle": { "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 20
     }

@@ -64,11 +64,12 @@ const ExplainationDialog = () => {
               {langContext.explaination.para4line4}
             </div>
             <div>
-              {langContext.explaination.para5line1}
+              {langContext.explaination.para5line1}{" "}
               <span className="text-primary-500">
                 {langContext.explaination.para5line1highlight}
               </span>
             </div>
+            <div>{langContext.explaination.specialThanks}</div>
             <div className="w-full h-72 md:h-[32rem] relative">
               <Image
                 fill

@@ -1,291 +1,449 @@
 [
   [
-    { "chapterTitle": { "en": "Kaeya" } },
+    { "chapterTitle": { "fr": "Kaeya", "en": "Kaeya" } },
     {
-      "title": { "en": "Pavo Ocellus Chapter: Act I" },
-      "subtitle": { "en": "Secret Pirate Treasure" },
+      "title": {
+        "fr": "Pavo Ocellus - Acte 1",
+        "en": "Pavo Ocellus Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Trésor secret de pirate",
+        "en": "Secret Pirate Treasure"
+      },
       "icon": "/Kaeya.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Diluc" } },
+    { "chapterTitle": { "fr": "Diluc", "en": "Diluc" } },
     {
-      "title": { "en": "Noctua Chapter: Act I" },
-      "subtitle": { "en": "Darknight Hero's Alibi" },
+      "title": { "fr": "Noctua - Acte 1", "en": "Noctua Chapter: Act I" },
+      "subtitle": {
+        "fr": "Alibi du Héros de la Nuit",
+        "en": "Darknight Hero's Alibi"
+      },
       "icon": "/Diluc.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Amber" } },
+    { "chapterTitle": { "fr": "Amber", "en": "Amber" } },
     {
-      "title": { "en": "Lepus Chapter: Act I" },
-      "subtitle": { "en": "Wind, Courage, and Wings" },
+      "title": { "fr": "Lepus - Acte 1", "en": "Lepus Chapter: Act I" },
+      "subtitle": {
+        "fr": "Vents, Courage & Ailes",
+        "en": "Wind, Courage, and Wings"
+      },
       "icon": "/Amber.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Lisa" } },
+    { "chapterTitle": { "fr": "Lisa", "en": "Lisa" } },
     {
-      "title": { "en": "Tempus Fugit Chapter: Act I" },
-      "subtitle": { "en": "Troublesome Work" },
+      "title": {
+        "fr": "Tempus Fugit - Acte 1",
+        "en": "Tempus Fugit Chapter: Act I"
+      },
+      "subtitle": { "fr": "Tâche ingrate", "en": "Troublesome Work" },
       "icon": "/Lisa.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Razor" } },
+    { "chapterTitle": { "fr": "Razor", "en": "Razor" } },
     {
-      "title": { "en": "Lupus Minor Chapter: Act I" },
-      "subtitle": { "en": "The Meaning of Lupical" },
+      "title": {
+        "fr": "Lupus Minor - Acte 1",
+        "en": "Lupus Minor Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "La signification de lupical",
+        "en": "The Meaning of Lupical"
+      },
       "icon": "/Razor.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Razor" } },
+    { "chapterTitle": { "fr": "Jean", "en": "Jean" } },
     {
-      "title": { "en": "Leo Minor Chaptere: Act I" },
-      "subtitle": { "en": "Master's Day Off" },
+      "title": {
+        "fr": "Leo Minor - Acte 1",
+        "en": "Leo Minor Chaptere: Act I"
+      },
+      "subtitle": {
+        "fr": "Journée de repos pour la Grande Maîtresse",
+        "en": "Master's Day Off"
+      },
       "icon": "/Jean.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Xiangling" } },
+    { "chapterTitle": { "fr": "Xiangling", "en": "Xiangling" } },
     {
-      "title": { "en": "Trulla Chapter: Act I" },
-      "subtitle": { "en": "Mondstadt Gastronomy Trip" },
+      "title": { "fr": "Trulla - Acte 1", "en": "Trulla Chapter: Act I" },
+      "subtitle": {
+        "fr": "Voyage gastronomique à Mondstadt",
+        "en": "Mondstadt Gastronomy Trip"
+      },
       "icon": "/Xiangling.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Xingqiu" } },
+    { "chapterTitle": { "fr": "Xingqiu", "en": "Xingqiu" } },
     {
-      "title": { "en": "Fabulae Textile Chapter: Act I" },
-      "subtitle": { "en": "Bookworm Swordsman" },
+      "title": {
+        "fr": "Fabulae Textile - Acte 1",
+        "en": "Fabulae Textile Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Un combattant féru de lecture",
+        "en": "Bookworm Swordsman"
+      },
       "icon": "/Xingqiu.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Klee" } },
+    { "chapterTitle": { "fr": "Klee", "en": "Klee" } },
     {
-      "title": { "en": "Trifolium Chapter: Act I" },
-      "subtitle": { "en": "True Treasure" },
+      "title": { "fr": "Trifolium - Acte 1", "en": "Trifolium Chapter: Act I" },
+      "subtitle": { "fr": "Le vrai trésor", "en": "True Treasure" },
       "icon": "/Klee.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Mona" } },
+    { "chapterTitle": { "fr": "Mona", "en": "Mona" } },
     {
-      "title": { "en": "Astrolabos Chapter: Act I" },
-      "subtitle": { "en": "Beyond This World's Stars" },
+      "title": {
+        "fr": "Astrolabos - Acte 1",
+        "en": "Astrolabos Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Au-delà du ciel étoilé",
+        "en": "Beyond This World's Stars"
+      },
       "icon": "/Mona.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Xiao" } },
+    { "chapterTitle": { "fr": "Xiao", "en": "Xiao" } },
     {
-      "title": { "en": "Alatus Chapter: Act I" },
-      "subtitle": { "en": "Butterfly's Dream" },
+      "title": {
+        "fr": "Alatus Nemeseos - Acte 1",
+        "en": "Alatus Chapter: Act I"
+      },
+      "subtitle": { "fr": "Papillons en origami", "en": "Butterfly's Dream" },
       "icon": "/Xiao.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Tartaglia" } },
+    { "chapterTitle": { "fr": "Tartaglia", "en": "Tartaglia" } },
     {
-      "title": { "en": "Monoceros Caeli Chapter: Act I" },
-      "subtitle": { "en": "Mighty Cyclops' Adventure" },
+      "title": {
+        "fr": "Monoceros Caeli - Acte 1",
+        "en": "Monoceros Caeli Chapter: Act I"
+      },
+      "subtitle": { "fr": "Mobilisation", "en": "Mighty Cyclops' Adventure" },
       "icon": "/Tartaglia.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Venti" } },
+    { "chapterTitle": { "fr": "Venti", "en": "Venti" } },
     {
-      "title": { "en": "Carmen Dei Chapter: Act I" },
-      "subtitle": { "en": "Should You Be Trapped in a Windless Land" },
+      "title": {
+        "fr": "Carmen Dei - Acte 1",
+        "en": "Carmen Dei Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Perdu en un lieu sans vent",
+        "en": "Should You Be Trapped in a Windless Land"
+      },
       "icon": "/Venti.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Zhongli" } },
+    { "chapterTitle": { "fr": "Zhongli", "en": "Zhongli" } },
     {
-      "title": { "en": "Historia Antiqua Chapter: Act I" },
-      "subtitle": { "en": "Sal Flore" },
+      "title": {
+        "fr": "Historia Antiqua – Acte 1",
+        "en": "Historia Antiqua Chapter: Act I"
+      },
+      "subtitle": { "fr": "Sal Flore", "en": "Sal Flore" },
       "icon": "/Zhongli.webp",
       "primos": 60
     },
     {
-      "title": { "en": "Historia Antiqua Chapter: Act II" },
-      "subtitle": { "en": "No Mere Stone" },
+      "title": {
+        "fr": "Historia Antiqua – Acte 2",
+        "en": "Historia Antiqua Chapter: Act II"
+      },
+      "subtitle": { "fr": "Plus qu'une simple pierre", "en": "No Mere Stone" },
       "icon": "/Zhongli.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Ganyu" } },
+    { "chapterTitle": { "fr": "Ganyu", "en": "Ganyu" } },
     {
-      "title": { "en": "Sinae Unicornis Chapter: Act I" },
-      "subtitle": { "en": "Sea of Clouds, Sea of People" },
+      "title": {
+        "fr": "Sinae Unicornis - Acte 1",
+        "en": "Sinae Unicornis Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Mer de nuages, mer d'hommes",
+        "en": "Sea of Clouds, Sea of People"
+      },
       "icon": "/Ganyu.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Albedo" } },
+    { "chapterTitle": { "fr": "Albedo", "en": "Albedo" } },
     {
-      "title": { "en": "Princeps Cretaceus Chapter: Act I" },
-      "subtitle": { "en": "Traveler Observation Report" },
+      "title": {
+        "fr": "Princeps Cretaceus - Acte 1",
+        "en": "Princeps Cretaceus Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Rapport d'observation de voyage",
+        "en": "Traveler Observation Report"
+      },
       "icon": "/Albedo.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Hutao" } },
+    { "chapterTitle": { "fr": "Hutao", "en": "Hutao" } },
     {
-      "title": { "en": "Papilio Charontis Chapter: Act I" },
-      "subtitle": { "en": "Yet The Butterfly Flutters Away" },
+      "title": {
+        "fr": "Papilio Charontis - Acte 1",
+        "en": "Papilio Charontis Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Volent les papillons",
+        "en": "Yet The Butterfly Flutters Away"
+      },
       "icon": "/Hutao.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Eula" } },
+    { "chapterTitle": { "fr": "Eula", "en": "Eula" } },
     {
-      "title": { "en": "Aphros Delos Chapter: Act I" },
-      "subtitle": { "en": "The Spindrift Shall Never Return to the Sea" },
+      "title": {
+        "fr": "Aphros Delos - Acte 1",
+        "en": "Aphros Delos Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Vagues à la mer",
+        "en": "The Spindrift Shall Never Return to the Sea"
+      },
       "icon": "/Eula.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Yoimiya" } },
+    { "chapterTitle": { "fr": "Yoimiya", "en": "Yoimiya" } },
     {
-      "title": { "en": "Carassius Auratus Chapter: Act I" },
-      "subtitle": { "en": "Dreamlike Timelessness" },
+      "title": {
+        "fr": "Carassius Auratus - Acte 1",
+        "en": "Carassius Auratus Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Intemporalité onirique",
+        "en": "Dreamlike Timelessness"
+      },
       "icon": "/Yoimiya.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Kamisato Ayaka" } },
+    { "chapterTitle": { "fr": "Kamisato Ayaka", "en": "Kamisato Ayaka" } },
     {
-      "title": { "en": "Grus Nivis Chapter: Act I" },
-      "subtitle": { "en": "The Whispers of the Crane and the White Rabbit" },
+      "title": {
+        "fr": "Grus Nivis - Acte 1",
+        "en": "Grus Nivis Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Les murmures de la grue et du lapin blanc",
+        "en": "The Whispers of the Crane and the White Rabbit"
+      },
       "icon": "/KamisatoAyaka.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Raiden Shogun" } },
+    { "chapterTitle": { "fr": "Shogun Raiden", "en": "Raiden Shogun" } },
     {
-      "title": { "en": "Imperatrix Umbrosa Chapter: Act I" },
-      "subtitle": { "en": "Reflections of Mortality" },
+      "title": {
+        "fr": "Imperatrix Umbrosa - Acte 1",
+        "en": "Imperatrix Umbrosa Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Reflets de la mortalité",
+        "en": "Reflections of Mortality"
+      },
       "icon": "/RaidenShogun.webp",
       "primos": 60
     },
     {
-      "title": { "en": "Imperatrix Umbrosa Chapter: Act II" },
-      "subtitle": { "en": "Transient Dreams" },
+      "title": {
+        "fr": "Imperatrix Umbrosa - Acte 2",
+        "en": "Imperatrix Umbrosa Chapter: Act II"
+      },
+      "subtitle": { "fr": "Rêves éphémères", "en": "Transient Dreams" },
       "icon": "/RaidenShogun.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Sangonomiya Kokomi" } },
     {
-      "title": { "en": "Dracaena Somnolenta Chapter: Act I" },
-      "subtitle": { "en": "Warriors' Dreams Like Spring Grass Reneweing" },
+      "chapterTitle": { "fr": "Sangonomiya Kokomi", "en": "Sangonomiya Kokomi" }
+    },
+    {
+      "title": {
+        "fr": "Dracaena Somnolenta - Acte 1",
+        "en": "Dracaena Somnolenta Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Le renouveau des rêves d'un guerrier",
+        "en": "Warriors' Dreams Like Spring Grass Reneweing"
+      },
       "icon": "/SangonomiyaKokomi.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Yae Miko" } },
+    { "chapterTitle": { "fr": "Yae Miko", "en": "Yae Miko" } },
     {
-      "title": { "en": "Divina Vulpes Chapter: Act I" },
-      "subtitle": { "en": "The Great Narukami Offering" },
+      "title": {
+        "fr": "Divina Vulpes - Acte 1",
+        "en": "Divina Vulpes Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "La grande offrande de Narukami",
+        "en": "The Great Narukami Offering"
+      },
       "icon": "/YaeMiko.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Arataki Itto" } },
+    { "chapterTitle": { "fr": "Arataki Itto", "en": "Arataki Itto" } },
     {
-      "title": { "en": "Taurus Iracundus Chapter: Act I" },
-      "subtitle": { "en": "Rise Up, Golden Soul" },
+      "title": {
+        "fr": "Taurus Iracundus - Acte 1",
+        "en": "Taurus Iracundus Chapter: Act I"
+      },
+      "subtitle": { "fr": "Un vrai cœur d'or", "en": "Rise Up, Golden Soul" },
       "icon": "/AratakiItto.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Kamisato Ayato" } },
+    { "chapterTitle": { "fr": "Kamisato Ayato", "en": "Kamisato Ayato" } },
     {
-      "title": { "en": "Cypressus Custos Chapter: Act I" },
-      "subtitle": { "en": "The Firmiana Leaf Falls" },
+      "title": {
+        "fr": "Cypressus Custos - Acte 1",
+        "en": "Cypressus Custos Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Chute d'une feuille de firmiana",
+        "en": "The Firmiana Leaf Falls"
+      },
       "icon": "/KamisatoAyato.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Yelan" } },
+    { "chapterTitle": { "fr": "Yelan", "en": "Yelan" } },
     {
-      "title": { "en": "Umbrabilis Orchis Chapter: Act I" },
-      "subtitle": { "en": "Calculated Gambit" },
+      "title": {
+        "fr": "Umbrabilis Orchis - Acte 1",
+        "en": "Umbrabilis Orchis Chapter: Act I"
+      },
+      "subtitle": { "fr": "Pari calculé", "en": "Calculated Gambit" },
       "icon": "/Yelan.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Tighnari" } },
+    { "chapterTitle": { "fr": "Tighnari", "en": "Tighnari" } },
     {
-      "title": { "en": "Vulpes Zerda Chapter: Act I" },
-      "subtitle": { "en": "The Unanswerable Problems" },
+      "title": {
+        "fr": "Vulpes Zerda - Acte 1",
+        "en": "Vulpes Zerda Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Les problèmes sans réponse",
+        "en": "The Unanswerable Problems"
+      },
       "icon": "/Tighnari.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Kaedehara Kazuha" } },
+    { "chapterTitle": { "fr": "Kaedehara Kazuha", "en": "Kaedehara Kazuha" } },
     {
-      "title": { "en": "Acer Palmatum Chapter: Act I" },
-      "subtitle": { "en": "A Strange and Friendless Road" },
+      "title": {
+        "fr": "Acer Palmatum - Acte 1",
+        "en": "Acer Palmatum Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Une route sans amis",
+        "en": "A Strange and Friendless Road"
+      },
       "icon": "/KaedeharaKazuha.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Cyno" } },
+    { "chapterTitle": { "fr": "Cyno", "en": "Cyno" } },
     {
-      "title": { "en": "Lupus Aureus Chapter: Act I" },
-      "subtitle": { "en": "Sands of Solitude" },
+      "title": {
+        "fr": "Lupus Aureus - Acte 1",
+        "en": "Lupus Aureus Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "Les sables de la solitude",
+        "en": "Sands of Solitude"
+      },
       "icon": "/Cyno.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Nilou" } },
+    { "chapterTitle": { "fr": "Nilou", "en": "Nilou" } },
     {
-      "title": { "en": "Lotos Somno Chapter: Act I" },
-      "subtitle": { "en": "To the Wise" },
+      "title": {
+        "fr": "Lotos Somno - Acte 1",
+        "en": "Lotos Somno Chapter: Act I"
+      },
+      "subtitle": {
+        "fr": "À la recherche de l'illumination",
+        "en": "To the Wise"
+      },
       "icon": "/Nilou.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "en": "Nahida" } },
+    { "chapterTitle": { "fr": "Nahida", "en": "Nahida" } },
     {
-      "title": { "en": "Sapientia Oromasdis Chapter: Act I" },
-      "subtitle": { "en": "Lingering Warmth" },
+      "title": {
+        "fr": "Sapientia Oromasdis - Acte 1",
+        "en": "Sapientia Oromasdis Chapter: Act I"
+      },
+      "subtitle": { "fr": "Chaleur persistante", "en": "Lingering Warmth" },
       "icon": "/Nahida.webp",
       "primos": 60
     }

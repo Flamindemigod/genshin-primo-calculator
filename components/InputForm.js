@@ -186,7 +186,7 @@ const InputForm = ({ params, dispatch }) => {
             />
           )}
         />
-        <Box className="flex justify-center">
+        <Box className="flex justify-center md:col-span-2">
           {/* Welkin */}
           <FormControl>
             <FormControlLabel

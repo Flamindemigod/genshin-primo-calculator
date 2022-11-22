@@ -8,7 +8,7 @@ import { LangContext } from "../contexts/LangContext";
 const WorldQuest = ({ setPrimos }) => {
   const langContext = useContext(LangContext);
   return (
-    <Accordion title={"World Quests"} icon={"/WorldQuestIcon.webp"}>
+    <Accordion title={langContext.worldQuests} icon={"/WorldQuestIcon.webp"}>
       <Box className="p-8 w-full grid lg:grid-cols-2 xl:grid-cols-3 justify-center gap-4">
         {quests.map((section, index) => {
           let questList = section

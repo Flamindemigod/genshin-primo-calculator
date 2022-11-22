@@ -233,7 +233,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
 
   return (
     <Box className="relative">
-      <Meta />
+      <Meta title={langContext.siteTitle} />
       <Hero />
       <div className="flex flex-wrap flex-col lg:flex-row p-4 gap-4 w-screen">
         <Box

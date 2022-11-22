@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import Accordion from "./Accordian";
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
+import { LangContext } from "../contexts/LangContext";
 
 const Quests = ({ setPrimos }) => {
   const ArchonQuests = dynamic(() => import("./ArchonQuests"), {
@@ -19,9 +20,9 @@ const Quests = ({ setPrimos }) => {
   const WorldQuest = dynamic(() => import("./WorldQuest"), {
     suspense: true,
   });
-
+  const langContext = useContext(LangContext);
   return (
-    <Accordion title={"Quests"} icon={"/Quests.webp"}>
+    <Accordion title={langContext.quests} icon={"/Quests.webp"}>
       <Suspense fallback="Loading....">
         <ArchonQuests setPrimos={setPrimos} />
       </Suspense>
