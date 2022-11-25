@@ -8,7 +8,7 @@ import { Box } from "@mui/material";
 import Image from "next/future/image";
 const Accordion = styled((props) => (
   <MuiAccordion
-    TransitionProps={{ unmountOnExit: true }}
+    // TransitionProps={{ unmountOnExit: true }}
     elevation={0}
     square
     {...props}
