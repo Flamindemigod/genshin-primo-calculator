@@ -598,7 +598,7 @@
         "en": "Secret Research Lab",
         "fr": "Laboratoire de recherche secret"
       },
-      "image": "/Furnishing_Set_Cloudy_Haze_Dream-Court_Display.webp",
+      "image": "/Furnishing_Set_Secret_Research_Lab_Display.webp",
       "characters": [
         {
           "name": { "en": "Albedo", "fr": "Albedo" },
@@ -620,7 +620,7 @@
     },
     {
       "name": { "en": "Cottage Kitchen", "fr": "Maison de fumée de bois" },
-      "image": "/Furnishing_Set_Cloudy_Haze_Dream-Court_Display.webp",
+      "image": "/Furnishing_Set_Cottage_Kitchen_Display.webp",
       "characters": [
         {
           "name": { "en": "Mona", "fr": "Mona" },
