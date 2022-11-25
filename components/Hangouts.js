@@ -5,7 +5,7 @@ import quests from "../questsHangout";
 import QuestSection from "./QuestSection";
 import { useContext } from "react";
 import { LangContext } from "../contexts/LangContext";
-const StoryQuests = ({ setPrimos }) => {
+const Hangouts = ({ setPrimos }) => {
   const langContext = useContext(LangContext);
   return (
     <Accordion title={langContext.hangouts} icon={"/HangoutIcon.webp"}>
@@ -40,4 +40,4 @@ const StoryQuests = ({ setPrimos }) => {
   );
 };
 
-export default StoryQuests;
+export default Hangouts;
