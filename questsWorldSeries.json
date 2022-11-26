@@ -1,6 +1,6 @@
 [
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Liyue", "en": "Liyue" } },
+    { "chapterTitle": { "chs": "璃月", "de": "", "fr": "Liyue", "en": "Liyue" } },
     {
       "title": {
         "chs": "",
@@ -15,7 +15,7 @@
   ],
   [
     {
-      "chapterTitle": { "chs": "", "de": "", "fr": "Inazuma", "en": "Inazuma" }
+      "chapterTitle": { "chs": "稻妻", "de": "", "fr": "Inazuma", "en": "Inazuma" }
     },
     {
       "title": {
@@ -140,7 +140,7 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Sumeru", "en": "Sumeru" } },
+    { "chapterTitle": { "chs": "须弥", "de": "", "fr": "Sumeru", "en": "Sumeru" } },
     {
       "title": {
         "chs": "",
