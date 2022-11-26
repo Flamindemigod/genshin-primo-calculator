@@ -10,6 +10,11 @@ const Meta = ({
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta
+        name="keywords"
+        content="Genshin, Genshin Impact, Primogem, Calculator, Flamindemigod, Delta45321"
+      />
+      <meta name="robots" content="index, follow" />
       <meta property="og:title" content={title} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
