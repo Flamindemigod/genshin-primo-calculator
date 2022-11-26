@@ -2,7 +2,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "蒙德",
         "de": "",
         "fr": "Mondstadt",
         "en": "Mondstadt"
@@ -10,13 +10,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "序章 第一幕",
         "de": "",
         "fr": "Prologue - Acte 1",
         "en": "Prologue: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "捕风的异乡人",
         "de": "",
         "fr": "Le voyageur qui attrapa le vent",
         "en": "The Outlander Who Caught the Wind"
@@ -26,13 +26,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "序章 第二幕",
         "de": "",
         "fr": "Prologue - Acte 2",
         "en": "Prologue: Act II"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "为了没有眼泪的明天",
         "de": "",
         "fr": "Pour un avenir sans larmes",
         "en": "For a Tomorrow Without Tears"
@@ -42,13 +42,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "序章 第三幕",
         "de": "",
         "fr": "Prologue - Acte 3",
         "en": "Prologue: Act III"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "巨龙与自由之歌",
         "de": "",
         "fr": "Chanson du dragon et de la liberté",
         "en": "Song of the Dragon and Freedom"
@@ -58,17 +58,17 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Liyue", "en": "Liyue" } },
+    { "chapterTitle": { "chs": "璃月", "de": "", "fr": "Liyue", "en": "Liyue" } },
 
     {
       "title": {
-        "chs": "",
+        "chs": "第一章 第一幕",
         "de": "",
         "fr": "Chapitre I - Acte 1",
         "en": "Chapter I: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "浮世浮生千岩间",
         "de": "",
         "fr": "La terre mystique aux mille rochers",
         "en": "Of the Land Amidst Monoliths"
@@ -78,13 +78,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第一章 第二幕",
         "de": "",
         "fr": "Chapitre I - Acte 2",
         "en": "Chapter I: Act II"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "辞行久远之躯",
         "de": "",
         "fr": "Adieu à l'Exuvia",
         "en": "Farewell, Archaic Lord"
@@ -94,13 +94,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第一章 第三幕",
         "de": "",
         "fr": "Chapitre I - Acte 3",
         "en": "Chapter I: Act III"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "迫近的客星",
         "de": "",
         "fr": "Une étoile en approche",
         "en": "A New Star Approaches"
@@ -113,7 +113,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "旅人",
         "de": "",
         "fr": "Voyageur / Voyageuse",
         "en": "Traveller"
@@ -122,13 +122,13 @@
 
     {
       "title": {
-        "chs": "",
+        "chs": "第一章 第四幕",
         "de": "",
         "fr": "Chapitre I - Acte 4",
         "en": "Chapter I: Act IV"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "我们终将重逢",
         "de": "",
         "fr": "Nous serons enfin réunis",
         "en": "We Will Be Reunited"
@@ -138,12 +138,12 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第一章 第四幕·报幕",
         "de": "",
         "fr": "Chapitre I - Acte 4",
         "en": "Chapter I: Act IV Prelude"
       },
-      "subtitle": { "chs": "", "de": "", "fr": "Dainsleif", "en": "Dainsleif" },
+      "subtitle": { "chs": "戴因斯雷布", "de": "", "fr": "Dainsleif", "en": "Dainsleif" },
       "icon": "/Traveler.webp",
       "primos": 60
     }
@@ -151,17 +151,17 @@
 
   [
     {
-      "chapterTitle": { "chs": "", "de": "", "fr": "Inazuma", "en": "Inazuma" }
+      "chapterTitle": { "chs": "稻妻", "de": "", "fr": "Inazuma", "en": "Inazuma" }
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第二章 序幕",
         "de": "",
         "fr": "Chapitre II - Prologue",
         "en": "Chapter II: Prologue"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "振袖秋风问红叶",
         "de": "",
         "fr": "Vent d'automne et feuilles écarlates",
         "en": "Autumn Winds, Scarlet Leaves"
@@ -171,13 +171,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第二章 第一幕",
         "de": "",
         "fr": "Chapitre II - Acte 1",
         "en": "Chapter II: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "不动鸣神，恒常乐土",
         "de": "",
         "fr": "Divinité impitoyable et euthymie éternelle",
         "en": "The Immovable God and the Eternal Euthymia"
@@ -187,13 +187,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第二章 第二幕",
         "de": "",
         "fr": "Chapitre II - Acte 2",
         "en": "Chapter II: Act II"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "无念无想，泡影断灭",
         "de": "",
         "fr": "Quiétude, la sublimation de l'ombre",
         "en": "Stillness, the Sublimation of Shadow"
@@ -203,13 +203,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第二章 第三幕",
         "de": "",
         "fr": "Chapitre II - Acte 3",
         "en": "Chapter II: Act III"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "千手百眼，天下人间",
         "de": "",
         "fr": "Omniprésence sur les mortels",
         "en": "Omnipresence Over Mortals"
@@ -221,7 +221,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "间章",
         "de": "",
         "fr": "Intermède",
         "en": "Interlude Chapter"
@@ -229,13 +229,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "间章 第一幕",
         "de": "",
         "fr": "Intermède - Acte 1",
         "en": "Interlude Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "风起鹤归",
         "de": "",
         "fr": "Retour de la grue dans le vent",
         "en": "The Crane Returns on the Wind"
@@ -247,7 +247,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "旅人",
         "de": "",
         "fr": "Voyageur / Voyageuse",
         "en": "Traveller"
@@ -255,13 +255,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第二章 第四幕",
         "de": "",
         "fr": "Chapitre II - Acte 4",
         "en": "Chapter II: Act IV"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "回响渊底的安魂曲",
         "de": "",
         "fr": "Requiem des profondeurs résonnantes",
         "en": "Requiem of the Echoing Depths"
@@ -274,7 +274,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "间章",
         "de": "",
         "fr": "Intermède",
         "en": "Interlude Chapter"
@@ -282,13 +282,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "间章 第二幕",
         "de": "",
         "fr": "Intermède - Acte 2",
         "en": "Interlude Chapter: Act II"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "危途疑踪",
         "de": "",
         "fr": "Sentier périlleux",
         "en": "Perilous Trail"
@@ -298,16 +298,16 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Sumeru", "en": "Sumeru" } },
+    { "chapterTitle": { "chs": "须弥", "de": "", "fr": "Sumeru", "en": "Sumeru" } },
     {
       "title": {
-        "chs": "",
+        "chs": "第三章 第一幕",
         "de": "",
         "fr": "Chapitre III - Acte 1",
         "en": "Chapter III: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "穿越烟帷与暗林",
         "de": "",
         "fr": "À travers la brume et les forêts",
         "en": "Through Mists of Smoke and Forests Dark"
@@ -317,13 +317,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第三章 第二幕",
         "de": "",
         "fr": "Chapitre III - Acte 2",
         "en": "Chapter III: Act II"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "千朵玫瑰带来的黎明",
         "de": "",
         "fr": "L'aube accordant mille roses",
         "en": "The Morn a Thousand Roses Brings"
@@ -333,13 +333,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第三章 第三幕",
         "de": "",
         "fr": "Chapitre III - Acte 3",
         "en": "Chapter III: Act III"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "迷梦与空幻与欺骗",
         "de": "",
         "fr": "Rêves, futilité et tromperie",
         "en": "Dreams, Emptiness, Deception"
@@ -349,13 +349,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第三章 第四幕",
         "de": "",
         "fr": "Chapitre III - Acte 4",
         "en": "Chapter III: Act IV"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "赤土之王与三朝圣者",
         "de": "",
         "fr": "Le roi Deshret et les trois mages",
         "en": "King Deshret and the Three Magi"
@@ -365,13 +365,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "第三章 第五幕",
         "de": "",
         "fr": "Chapitre III - Acte 5",
         "en": "Chapter III: Act V"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "虚空鼓动，劫火高扬",
         "de": "",
         "fr": "Pulsation akashienne et montée de la flamme de kalpa",
         "en": "Akasha Pulses, the Kalpa Flame Rises"
