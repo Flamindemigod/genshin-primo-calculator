@@ -1,9 +1,22 @@
 [
   [
-    { "chapterTitle": { "de": "", "fr": "Mondstadt", "en": "Mondstadt" } },
     {
-      "title": { "de": "", "fr": "Prologue - Acte 1", "en": "Prologue: Act I" },
+      "chapterTitle": {
+        "chs": "",
+        "de": "",
+        "fr": "Mondstadt",
+        "en": "Mondstadt"
+      }
+    },
+    {
+      "title": {
+        "chs": "",
+        "de": "",
+        "fr": "Prologue - Acte 1",
+        "en": "Prologue: Act I"
+      },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Le voyageur qui attrapa le vent",
         "en": "The Outlander Who Caught the Wind"
@@ -13,11 +26,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Prologue - Acte 2",
         "en": "Prologue: Act II"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Pour un avenir sans larmes",
         "en": "For a Tomorrow Without Tears"
@@ -27,11 +42,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Prologue - Acte 3",
         "en": "Prologue: Act III"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Chanson du dragon et de la liberté",
         "en": "Song of the Dragon and Freedom"
@@ -41,15 +58,17 @@
     }
   ],
   [
-    { "chapterTitle": { "de": "", "fr": "Liyue", "en": "Liyue" } },
+    { "chapterTitle": { "chs": "", "de": "", "fr": "Liyue", "en": "Liyue" } },
 
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre I - Acte 1",
         "en": "Chapter I: Act I"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "La terre mystique aux mille rochers",
         "en": "Of the Land Amidst Monoliths"
@@ -59,11 +78,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre I - Acte 2",
         "en": "Chapter I: Act II"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Adieu à l'Exuvia",
         "en": "Farewell, Archaic Lord"
@@ -73,11 +94,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre I - Acte 3",
         "en": "Chapter I: Act III"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Une étoile en approche",
         "en": "A New Star Approaches"
@@ -90,6 +113,7 @@
   [
     {
       "chapterTitle": {
+        "chs": "",
         "de": "",
         "fr": "Voyageur / Voyageuse",
         "en": "Traveller"
@@ -98,11 +122,13 @@
 
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre I - Acte 4",
         "en": "Chapter I: Act IV"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Nous serons enfin réunis",
         "en": "We Will Be Reunited"
@@ -112,25 +138,30 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre I - Acte 4",
         "en": "Chapter I: Act IV Prelude"
       },
-      "subtitle": { "de": "", "fr": "Dainsleif", "en": "Dainsleif" },
+      "subtitle": { "chs": "", "de": "", "fr": "Dainsleif", "en": "Dainsleif" },
       "icon": "/Traveler.webp",
       "primos": 60
     }
   ],
 
   [
-    { "chapterTitle": { "de": "", "fr": "Inazuma", "en": "Inazuma" } },
+    {
+      "chapterTitle": { "chs": "", "de": "", "fr": "Inazuma", "en": "Inazuma" }
+    },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre II - Prologue",
         "en": "Chapter II: Prologue"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Vent d'automne et feuilles écarlates",
         "en": "Autumn Winds, Scarlet Leaves"
@@ -140,11 +171,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre II - Acte 1",
         "en": "Chapter II: Act I"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Divinité impitoyable et euthymie éternelle",
         "en": "The Immovable God and the Eternal Euthymia"
@@ -154,11 +187,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre II - Acte 2",
         "en": "Chapter II: Act II"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Quiétude, la sublimation de l'ombre",
         "en": "Stillness, the Sublimation of Shadow"
@@ -168,11 +203,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre II - Acte 3",
         "en": "Chapter II: Act III"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Omniprésence sur les mortels",
         "en": "Omnipresence Over Mortals"
@@ -183,15 +220,22 @@
   ],
   [
     {
-      "chapterTitle": { "de": "", "fr": "Intermède", "en": "Interlude Chapter" }
+      "chapterTitle": {
+        "chs": "",
+        "de": "",
+        "fr": "Intermède",
+        "en": "Interlude Chapter"
+      }
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Intermède - Acte 1",
         "en": "Interlude Chapter: Act I"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Retour de la grue dans le vent",
         "en": "The Crane Returns on the Wind"
@@ -203,6 +247,7 @@
   [
     {
       "chapterTitle": {
+        "chs": "",
         "de": "",
         "fr": "Voyageur / Voyageuse",
         "en": "Traveller"
@@ -210,11 +255,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre II - Acte 4",
         "en": "Chapter II: Act IV"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Requiem des profondeurs résonnantes",
         "en": "Requiem of the Echoing Depths"
@@ -226,15 +273,22 @@
 
   [
     {
-      "chapterTitle": { "de": "", "fr": "Intermède", "en": "Interlude Chapter" }
+      "chapterTitle": {
+        "chs": "",
+        "de": "",
+        "fr": "Intermède",
+        "en": "Interlude Chapter"
+      }
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Intermède - Acte 2",
         "en": "Interlude Chapter: Act II"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Sentier périlleux",
         "en": "Perilous Trail"
@@ -244,14 +298,16 @@
     }
   ],
   [
-    { "chapterTitle": { "de": "", "fr": "Sumeru", "en": "Sumeru" } },
+    { "chapterTitle": { "chs": "", "de": "", "fr": "Sumeru", "en": "Sumeru" } },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre III - Acte 1",
         "en": "Chapter III: Act I"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "À travers la brume et les forêts",
         "en": "Through Mists of Smoke and Forests Dark"
@@ -261,11 +317,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre III - Acte 2",
         "en": "Chapter III: Act II"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "L'aube accordant mille roses",
         "en": "The Morn a Thousand Roses Brings"
@@ -275,11 +333,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre III - Acte 3",
         "en": "Chapter III: Act III"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Rêves, futilité et tromperie",
         "en": "Dreams, Emptiness, Deception"
@@ -289,11 +349,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre III - Acte 4",
         "en": "Chapter III: Act IV"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Le roi Deshret et les trois mages",
         "en": "King Deshret and the Three Magi"
@@ -303,11 +365,13 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chapitre III - Acte 5",
         "en": "Chapter III: Act V"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Pulsation akashienne et montée de la flamme de kalpa",
         "en": "Akasha Pulses, the Kalpa Flame Rises"

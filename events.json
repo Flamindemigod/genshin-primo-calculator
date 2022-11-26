@@ -1,53 +1,97 @@
 [
   {
     "name": {
+      "chs": "",
       "de": "",
       "fr": "Chahut de Fongus",
       "en": "Fabulous Fungus Frenzy"
     },
     "image": "/fabulous_fungus_frenzy_temp.jpg",
     "link": "https://www.hoyolab.com/article/13615037",
-    "start": { "de": "", "fr": "Jeu, 10 Nov 2022", "en": "Thu, 10 Nov 2022" },
-    "end": { "de": "", "fr": "Lun, 28 Nov 2022", "en": "Mon, 28 Nov 2022" },
+    "start": {
+      "chs": "",
+      "de": "",
+      "fr": "Jeu, 10 Nov 2022",
+      "en": "Thu, 10 Nov 2022"
+    },
+    "end": {
+      "chs": "",
+      "de": "",
+      "fr": "Lun, 28 Nov 2022",
+      "en": "Mon, 28 Nov 2022"
+    },
     "primos": 1020,
     "fates": 0
   },
   {
     "name": {
+      "chs": "",
       "de": "",
       "fr": "Symphonie Hypostase : Verset de dissonance",
       "en": "Hypostatic Symphony: Dissonant Verse"
     },
     "image": "/hypostatic_symphony_temp.jpg",
     "link": "https://www.hoyolab.com/article/13736970",
-    "start": { "de": "", "fr": "Jeu, 24 Nov 2022", "en": "Thur, 24 Nov 2022" },
-    "end": { "de": "", "fr": "lun, 5 Déc 2022", "en": "Mon, 5 Dec 2022" },
+    "start": {
+      "chs": "",
+      "de": "",
+      "fr": "Jeu, 24 Nov 2022",
+      "en": "Thur, 24 Nov 2022"
+    },
+    "end": {
+      "chs": "",
+      "de": "",
+      "fr": "lun, 5 Déc 2022",
+      "en": "Mon, 5 Dec 2022"
+    },
     "primos": 420,
     "fates": 0
   },
   {
     "name": {
+      "chs": "",
       "de": "",
       "fr": "Hors de la toile, dans l'objectif : Verdures",
       "en": "Outside the Canvas, Inside the Lens: Greenery Chapter"
     },
     "image": "/27fc29223ecfb9c24996ed7e0224059a_1087079389391647107.jpg",
     "link": "https://www.hoyolab.com/article/13718763",
-    "start": { "de": "", "fr": "Mer, 16 Nov 2022", "en": "Wed, 16 Nov 2022" },
-    "end": { "de": "", "fr": "Lun, 5 Déc 2022", "en": "Mon, 5 Dec 2022" },
+    "start": {
+      "chs": "",
+      "de": "",
+      "fr": "Mer, 16 Nov 2022",
+      "en": "Wed, 16 Nov 2022"
+    },
+    "end": {
+      "chs": "",
+      "de": "",
+      "fr": "Lun, 5 Déc 2022",
+      "en": "Mon, 5 Dec 2022"
+    },
     "primos": 420,
     "fates": 0
   },
   {
     "name": {
+      "chs": "",
       "de": "",
       "fr": "Merveilleuses marchandises",
       "en": "Marvelous Merchandise"
     },
     "image": "/Marvelous_Merchandise_Event.webp",
     "link": "https://www.hoyolab.com/article/13736970",
-    "start": { "de": "", "fr": "Lun, 28 Nov 2022", "en": "Mon, 28 Nov 2022" },
-    "end": { "de": "", "fr": "Lun, 5 Déc 2022", "en": "Mon, 5 Dec 2022" },
+    "start": {
+      "chs": "",
+      "de": "",
+      "fr": "Lun, 28 Nov 2022",
+      "en": "Mon, 28 Nov 2022"
+    },
+    "end": {
+      "chs": "",
+      "de": "",
+      "fr": "Lun, 5 Déc 2022",
+      "en": "Mon, 5 Dec 2022"
+    },
     "primos": 380,
     "fates": 0
   }

@@ -1,183 +1,231 @@
 [
   [
-    { "chapterTitle": { "de": "", "fr": "Liyue", "en": "Liyue" } },
+    { "chapterTitle": { "chs": "", "de": "", "fr": "Liyue", "en": "Liyue" } },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Voyage au centre du Gouffre",
         "en": "The Chasm Delvers"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Liyue.webp",
       "primos": 270
     }
   ],
   [
-    { "chapterTitle": { "de": "", "fr": "Inazuma", "en": "Inazuma" } },
     {
-      "title": { "de": "", "fr": "Notes de film", "en": "Film Notes" },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "chapterTitle": { "chs": "", "de": "", "fr": "Inazuma", "en": "Inazuma" }
+    },
+    {
+      "title": {
+        "chs": "",
+        "de": "",
+        "fr": "Notes de film",
+        "en": "Film Notes"
+      },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 70
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "L'héritage d'Orobashi",
         "en": "Orobashi's Legacy"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 210
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Rituel de purification du cerisier sacré",
         "en": "Sakura Cleansing Ritual"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 170
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chasseurs d'orage de Seirai",
         "en": "Seirai Stormchasers"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 150
     },
     {
-      "title": { "de": "", "fr": "Les contes de Tatara", "en": "Tatara Tales" },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "title": {
+        "chs": "",
+        "de": "",
+        "fr": "Les contes de Tatara",
+        "en": "Tatara Tales"
+      },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 220
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Les profondeurs baignées de lune",
         "en": "The Moon-Bathed Deep"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 160
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "L'omikuji très spécial",
         "en": "The Very Special Fortune Slip"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 120
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Chroniques de la mer de brouillard",
         "en": "Through the Mists"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Inazuma.webp",
       "primos": 180
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Le secret d'Erebos",
         "en": "Erebos's Secret"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 40
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Jusqu'à l'aube à Byakuyakoku",
         "en": "From Dusk to Dawn in Byakuyakoku"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 70
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Le chant funèbre d'Hypérion",
         "en": "Hyperion's Dirge"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 30
     }
   ],
   [
-    { "chapterTitle": { "de": "", "fr": "Sumeru", "en": "Sumeru" } },
+    { "chapterTitle": { "chs": "", "de": "", "fr": "Sumeru", "en": "Sumeru" } },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Soutra d'Agnihotra",
         "en": "Agnihotra Sutra"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 130
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "An Unwavering Culinary Dream",
         "en": "An Unwavering Culinary Dream"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 160
     },
     {
-      "title": { "de": "", "fr": "Varuna Gatha", "en": "Varuna Gatha" },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "title": {
+        "chs": "",
+        "de": "",
+        "fr": "Varuna Gatha",
+        "en": "Varuna Gatha"
+      },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 200
     },
     {
-      "title": { "de": "", "fr": "Vimana Agama", "en": "Vimana Agama" },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "title": {
+        "chs": "",
+        "de": "",
+        "fr": "Vimana Agama",
+        "en": "Vimana Agama"
+      },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 210
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Rencontre dans la forêt",
         "en": "Woodland Encounter"
       },
-      "subtitle": { "de": "", "fr": "Aranyaka - 1", "en": "Aranyaka: Part I" },
+      "subtitle": {
+        "chs": "",
+        "de": "",
+        "fr": "Aranyaka - 1",
+        "en": "Aranyaka: Part I"
+      },
       "icon": "/Sumeru.webp",
       "primos": 130
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Pépinière dans un rêve",
         "en": "Dream Nursery"
       },
-      "subtitle": { "de": "", "fr": "Aranyaka - 2", "en": "Aranyaka: Part II" },
+      "subtitle": {
+        "chs": "",
+        "de": "",
+        "fr": "Aranyaka - 2",
+        "en": "Aranyaka: Part II"
+      },
       "icon": "/Sumeru.webp",
       "primos": 340
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Pépinière des rêves perdus",
         "en": "Nursery of Lost Dreams"
       },
       "subtitle": {
+        "chs": "",
         "de": "",
         "fr": "Aranyaka - 3",
         "en": "Aranyaka: Part III"
@@ -187,27 +235,39 @@
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "À la fin, la forêt se souvient de tout",
         "en": "In the End, the Forest Will Remember"
       },
-      "subtitle": { "de": "", "fr": "Aranyaka - 4", "en": "Aranyaka: Part IV" },
+      "subtitle": {
+        "chs": "",
+        "de": "",
+        "fr": "Aranyaka - 4",
+        "en": "Aranyaka: Part IV"
+      },
       "icon": "/Sumeru.webp",
       "primos": 20
     },
     {
-      "title": { "de": "", "fr": "Le sommeil d'or", "en": "Golden Slumber" },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "title": {
+        "chs": "",
+        "de": "",
+        "fr": "Le sommeil d'or",
+        "en": "Golden Slumber"
+      },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/SumeruDesert.webp",
       "primos": 190
     },
     {
       "title": {
+        "chs": "",
         "de": "",
         "fr": "Vieilles notes et nouveaux amis",
         "en": "Old Notes and New Friends"
       },
-      "subtitle": { "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/SumeruDesert.webp",
       "primos": 200
     }
