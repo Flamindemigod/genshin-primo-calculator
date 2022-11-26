@@ -1,9 +1,10 @@
 [
   [
-    { "chapterTitle": { "fr": "Mondstadt", "en": "Mondstadt" } },
+    { "chapterTitle": { "de": "", "fr": "Mondstadt", "en": "Mondstadt" } },
     {
-      "title": { "fr": "Prologue - Acte 1", "en": "Prologue: Act I" },
+      "title": { "de": "", "fr": "Prologue - Acte 1", "en": "Prologue: Act I" },
       "subtitle": {
+        "de": "",
         "fr": "Le voyageur qui attrapa le vent",
         "en": "The Outlander Who Caught the Wind"
       },
@@ -11,8 +12,13 @@
       "primos": 120
     },
     {
-      "title": { "fr": "Prologue - Acte 2", "en": "Prologue: Act II" },
+      "title": {
+        "de": "",
+        "fr": "Prologue - Acte 2",
+        "en": "Prologue: Act II"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Pour un avenir sans larmes",
         "en": "For a Tomorrow Without Tears"
       },
@@ -20,8 +26,13 @@
       "primos": 100
     },
     {
-      "title": { "fr": "Prologue - Acte 3", "en": "Prologue: Act III" },
+      "title": {
+        "de": "",
+        "fr": "Prologue - Acte 3",
+        "en": "Prologue: Act III"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Chanson du dragon et de la liberté",
         "en": "Song of the Dragon and Freedom"
       },
@@ -30,11 +41,16 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Liyue", "en": "Liyue" } },
+    { "chapterTitle": { "de": "", "fr": "Liyue", "en": "Liyue" } },
 
     {
-      "title": { "fr": "Chapitre I - Acte 1", "en": "Chapter I: Act I" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre I - Acte 1",
+        "en": "Chapter I: Act I"
+      },
       "subtitle": {
+        "de": "",
         "fr": "La terre mystique aux mille rochers",
         "en": "Of the Land Amidst Monoliths"
       },
@@ -42,14 +58,27 @@
       "primos": 60
     },
     {
-      "title": { "fr": "Chapitre I - Acte 2", "en": "Chapter I: Act II" },
-      "subtitle": { "fr": "Adieu à l'Exuvia", "en": "Farewell, Archaic Lord" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre I - Acte 2",
+        "en": "Chapter I: Act II"
+      },
+      "subtitle": {
+        "de": "",
+        "fr": "Adieu à l'Exuvia",
+        "en": "Farewell, Archaic Lord"
+      },
       "icon": "/Liyue.webp",
       "primos": 120
     },
     {
-      "title": { "fr": "Chapitre I - Acte 3", "en": "Chapter I: Act III" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre I - Acte 3",
+        "en": "Chapter I: Act III"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Une étoile en approche",
         "en": "A New Star Approaches"
       },
@@ -59,11 +88,22 @@
   ],
 
   [
-    { "chapterTitle": { "fr": "Voyageur / Voyageuse", "en": "Traveller" } },
+    {
+      "chapterTitle": {
+        "de": "",
+        "fr": "Voyageur / Voyageuse",
+        "en": "Traveller"
+      }
+    },
 
     {
-      "title": { "fr": "Chapitre I - Acte 4", "en": "Chapter I: Act IV" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre I - Acte 4",
+        "en": "Chapter I: Act IV"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Nous serons enfin réunis",
         "en": "We Will Be Reunited"
       },
@@ -72,20 +112,26 @@
     },
     {
       "title": {
+        "de": "",
         "fr": "Chapitre I - Acte 4",
         "en": "Chapter I: Act IV Prelude"
       },
-      "subtitle": { "fr": "Dainsleif", "en": "Dainsleif" },
+      "subtitle": { "de": "", "fr": "Dainsleif", "en": "Dainsleif" },
       "icon": "/Traveler.webp",
       "primos": 60
     }
   ],
 
   [
-    { "chapterTitle": { "fr": "Inazuma", "en": "Inazuma" } },
+    { "chapterTitle": { "de": "", "fr": "Inazuma", "en": "Inazuma" } },
     {
-      "title": { "fr": "Chapitre II - Prologue", "en": "Chapter II: Prologue" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre II - Prologue",
+        "en": "Chapter II: Prologue"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Vent d'automne et feuilles écarlates",
         "en": "Autumn Winds, Scarlet Leaves"
       },
@@ -93,8 +139,13 @@
       "primos": 60
     },
     {
-      "title": { "fr": "Chapitre II - Acte 1", "en": "Chapter II: Act I" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre II - Acte 1",
+        "en": "Chapter II: Act I"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Divinité impitoyable et euthymie éternelle",
         "en": "The Immovable God and the Eternal Euthymia"
       },
@@ -102,8 +153,13 @@
       "primos": 120
     },
     {
-      "title": { "fr": "Chapitre II - Acte 2", "en": "Chapter II: Act II" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre II - Acte 2",
+        "en": "Chapter II: Act II"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Quiétude, la sublimation de l'ombre",
         "en": "Stillness, the Sublimation of Shadow"
       },
@@ -111,8 +167,13 @@
       "primos": 60
     },
     {
-      "title": { "fr": "Chapitre II - Acte 3", "en": "Chapter II: Act III" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre II - Acte 3",
+        "en": "Chapter II: Act III"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Omniprésence sur les mortels",
         "en": "Omnipresence Over Mortals"
       },
@@ -121,10 +182,17 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Intermède", "en": "Interlude Chapter" } },
     {
-      "title": { "fr": "Intermède - Acte 1", "en": "Interlude Chapter: Act I" },
+      "chapterTitle": { "de": "", "fr": "Intermède", "en": "Interlude Chapter" }
+    },
+    {
+      "title": {
+        "de": "",
+        "fr": "Intermède - Acte 1",
+        "en": "Interlude Chapter: Act I"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Retour de la grue dans le vent",
         "en": "The Crane Returns on the Wind"
       },
@@ -133,10 +201,21 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Voyageur / Voyageuse", "en": "Traveller" } },
     {
-      "title": { "fr": "Chapitre II - Acte 4", "en": "Chapter II: Act IV" },
+      "chapterTitle": {
+        "de": "",
+        "fr": "Voyageur / Voyageuse",
+        "en": "Traveller"
+      }
+    },
+    {
+      "title": {
+        "de": "",
+        "fr": "Chapitre II - Acte 4",
+        "en": "Chapter II: Act IV"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Requiem des profondeurs résonnantes",
         "en": "Requiem of the Echoing Depths"
       },
@@ -146,22 +225,34 @@
   ],
 
   [
-    { "chapterTitle": { "fr": "Intermède", "en": "Interlude Chapter" } },
+    {
+      "chapterTitle": { "de": "", "fr": "Intermède", "en": "Interlude Chapter" }
+    },
     {
       "title": {
+        "de": "",
         "fr": "Intermède - Acte 2",
         "en": "Interlude Chapter: Act II"
       },
-      "subtitle": { "fr": "Sentier périlleux", "en": "Perilous Trail" },
+      "subtitle": {
+        "de": "",
+        "fr": "Sentier périlleux",
+        "en": "Perilous Trail"
+      },
       "icon": "/Chasm.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "fr": "Sumeru", "en": "Sumeru" } },
+    { "chapterTitle": { "de": "", "fr": "Sumeru", "en": "Sumeru" } },
     {
-      "title": { "fr": "Chapitre III - Acte 1", "en": "Chapter III: Act I" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre III - Acte 1",
+        "en": "Chapter III: Act I"
+      },
       "subtitle": {
+        "de": "",
         "fr": "À travers la brume et les forêts",
         "en": "Through Mists of Smoke and Forests Dark"
       },
@@ -169,8 +260,13 @@
       "primos": 60
     },
     {
-      "title": { "fr": "Chapitre III - Acte 2", "en": "Chapter III: Act II" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre III - Acte 2",
+        "en": "Chapter III: Act II"
+      },
       "subtitle": {
+        "de": "",
         "fr": "L'aube accordant mille roses",
         "en": "The Morn a Thousand Roses Brings"
       },
@@ -178,8 +274,13 @@
       "primos": 90
     },
     {
-      "title": { "fr": "Chapitre III - Acte 3", "en": "Chapter III: Act III" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre III - Acte 3",
+        "en": "Chapter III: Act III"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Rêves, futilité et tromperie",
         "en": "Dreams, Emptiness, Deception"
       },
@@ -187,8 +288,13 @@
       "primos": 30
     },
     {
-      "title": { "fr": "Chapitre III - Acte 4", "en": "Chapter III: Act IV" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre III - Acte 4",
+        "en": "Chapter III: Act IV"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Le roi Deshret et les trois mages",
         "en": "King Deshret and the Three Magi"
       },
@@ -196,8 +302,13 @@
       "primos": 30
     },
     {
-      "title": { "fr": "Chapitre III - Acte 5", "en": "Chapter III: Act V" },
+      "title": {
+        "de": "",
+        "fr": "Chapitre III - Acte 5",
+        "en": "Chapter III: Act V"
+      },
       "subtitle": {
+        "de": "",
         "fr": "Pulsation akashienne et montée de la flamme de kalpa",
         "en": "Akasha Pulses, the Kalpa Flame Rises"
       },

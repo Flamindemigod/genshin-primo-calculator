@@ -1,12 +1,14 @@
 [
   [
-    { "chapterTitle": { "fr": "Barbara", "en": "Barbara" } },
+    { "chapterTitle": { "de": "", "fr": "Barbara", "en": "Barbara" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Barbara - Acte 1",
         "en": "Hangout Event: Barbara - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "Source de bienveillance",
         "en": "Wellspring of Healing"
       },
@@ -15,13 +17,15 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Noëlle", "en": "Noelle" } },
+    { "chapterTitle": { "de": "", "fr": "Noëlle", "en": "Noelle" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Noëlle - Acte 1",
         "en": "Hangout Event: Noelle - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "Entraînement à la chevalerie",
         "en": "Chivalric Training"
       },
@@ -30,10 +34,12 @@
     },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Noëlle - Acte 2",
         "en": "Hangout Event: Noelle - Act II"
       },
       "subtitle": {
+        "de": "",
         "fr": "Études de la chevalerie",
         "en": "Knightly Exam Prep"
       },
@@ -42,37 +48,49 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Chongyun", "en": "Chongyun" } },
+    { "chapterTitle": { "de": "", "fr": "Chongyun", "en": "Chongyun" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Chongyun - Acte 1",
         "en": "Hangout Event: Chongyun - Act I"
       },
-      "subtitle": { "fr": "Chasseur de fantômes", "en": "signs of Evil" },
+      "subtitle": {
+        "de": "",
+        "fr": "Chasseur de fantômes",
+        "en": "signs of Evil"
+      },
       "icon": "/Chongyun.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "fr": "Bennett", "en": "Bennett" } },
+    { "chapterTitle": { "de": "", "fr": "Bennett", "en": "Bennett" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Bennett - Acte 1",
         "en": "Hangout Event: Bennett - Act I"
       },
-      "subtitle": { "fr": "Merveilleux voyage", "en": "Fantastic Voyage" },
+      "subtitle": {
+        "de": "",
+        "fr": "Merveilleux voyage",
+        "en": "Fantastic Voyage"
+      },
       "icon": "/Bennett.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "fr": "Diona", "en": "Diona" } },
+    { "chapterTitle": { "de": "", "fr": "Diona", "en": "Diona" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Diona - Acte 1",
         "en": "Hangout Event: Diona - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "Cocktail spécial de chat",
         "en": "The Cat and the Cocktail"
       },
@@ -81,13 +99,15 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Beidou", "en": "Beidou" } },
+    { "chapterTitle": { "de": "", "fr": "Beidou", "en": "Beidou" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Beidou - Acte 1",
         "en": "Hangout Event: Beidou - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "Quand le Crux brille de mille feux",
         "en": "When the Crux Shines Bright"
       },
@@ -96,13 +116,15 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Thomas", "en": "Thoma" } },
+    { "chapterTitle": { "de": "", "fr": "Thomas", "en": "Thoma" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Thomas - Acte 1",
         "en": "Hangout Event: Thoma - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "Les tâches quotidiennes d'un serviteur",
         "en": "A Housekeeper's Daily Chores"
       },
@@ -111,13 +133,15 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Sayu", "en": "Sayu" } },
+    { "chapterTitle": { "de": "", "fr": "Sayu", "en": "Sayu" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Sayu - Acte 1",
         "en": "Hangout Event: Sayu - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "École Yoohoo : L'art de grandir",
         "en": "Yoohoo Art: Seichou no Jutsu"
       },
@@ -126,13 +150,15 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Gorou", "en": "Gorou" } },
+    { "chapterTitle": { "de": "", "fr": "Gorou", "en": "Gorou" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Gorou - Acte 1",
         "en": "Hangout Event: Gorou - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "Opérations spéciales du général canin",
         "en": "The Canine General's Special Operations"
       },
@@ -141,13 +167,15 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Yun Jin", "en": "Yun Jin" } },
+    { "chapterTitle": { "de": "", "fr": "Yun Jin", "en": "Yun Jin" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Yun Jin - Acte 1",
         "en": "Hangout Event: Yun Jin - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "Un récital d'élégance",
         "en": "A Song That Knows Grace"
       },
@@ -156,13 +184,15 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Ningguang", "en": "Ningguang" } },
+    { "chapterTitle": { "de": "", "fr": "Ningguang", "en": "Ningguang" } },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Ningguang - Acte 1",
         "en": "Hangout Event: Ningguang - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "De retour dans la Chambre de Jade",
         "en": "The Jade Chamber's Returning Guest"
       },
@@ -171,13 +201,17 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Kuki Shinobu", "en": "Kuki Shinobu" } },
+    {
+      "chapterTitle": { "de": "", "fr": "Kuki Shinobu", "en": "Kuki Shinobu" }
+    },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Kuki Shinobu - Acte 1",
         "en": "Hangout Event: Kuki Shinobu - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "Les affaires quotidiennes du gang",
         "en": "The Gang's Daily Deeds"
       },
@@ -186,13 +220,21 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Shikanoin Heizou", "en": "Shikanoin Heizou" } },
+    {
+      "chapterTitle": {
+        "de": "",
+        "fr": "Shikanoin Heizou",
+        "en": "Shikanoin Heizou"
+      }
+    },
     {
       "title": {
+        "de": "",
         "fr": "Escapade : Shikanoin Heizou - Acte 1",
         "en": "Hangout Event: Shikanoin Heizou - Act I"
       },
       "subtitle": {
+        "de": "",
         "fr": "Dans l'œil de la tempête",
         "en": "Trap Em' by Storm"
       },
