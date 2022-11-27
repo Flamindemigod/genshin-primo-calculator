@@ -24,7 +24,7 @@ const ArchonQuests = ({ setPrimos }) => {
               />
               {questList.map((quest) => (
                 <QuestContainer
-                  key={quest.title[langContext.lang]}
+                  key={quest.title[langContext.lang] + index}
                   title={quest.title[langContext.lang]}
                   subTitle={quest.subtitle[langContext.lang]}
                   primos={quest.primos}
