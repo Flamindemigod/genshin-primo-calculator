@@ -1,15 +1,17 @@
 [
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Kaeya", "en": "Kaeya" } },
+    {
+      "chapterTitle": { "chs": "凯亚", "de": "", "fr": "Kaeya", "en": "Kaeya" }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "孔雀羽之章 第一幕",
         "de": "",
         "fr": "Pavo Ocellus - Acte 1",
         "en": "Pavo Ocellus Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "海盗秘宝",
         "de": "",
         "fr": "Trésor secret de pirate",
         "en": "Secret Pirate Treasure"
@@ -19,16 +21,23 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Diluc", "en": "Diluc" } },
+    {
+      "chapterTitle": {
+        "chs": "迪卢克",
+        "de": "",
+        "fr": "Diluc",
+        "en": "Diluc"
+      }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "夜枭之章 第一幕",
         "de": "",
         "fr": "Noctua - Acte 1",
         "en": "Noctua Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "暗夜英雄的不在场证明",
         "de": "",
         "fr": "Alibi du Héros de la Nuit",
         "en": "Darknight Hero's Alibi"
@@ -38,16 +47,18 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Amber", "en": "Amber" } },
+    {
+      "chapterTitle": { "chs": "安柏", "de": "", "fr": "Amber", "en": "Amber" }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "小兔之章 第一幕",
         "de": "",
         "fr": "Lepus - Acte 1",
         "en": "Lepus Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "风、勇气和翅膀",
         "de": "",
         "fr": "Vents, Courage & Ailes",
         "en": "Wind, Courage, and Wings"
@@ -57,16 +68,16 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Lisa", "en": "Lisa" } },
+    { "chapterTitle": { "chs": "丽莎", "de": "", "fr": "Lisa", "en": "Lisa" } },
     {
       "title": {
-        "chs": "",
+        "chs": "沙漏之章 第一幕",
         "de": "",
         "fr": "Tempus Fugit - Acte 1",
         "en": "Tempus Fugit Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "麻烦的工作",
         "de": "",
         "fr": "Tâche ingrate",
         "en": "Troublesome Work"
@@ -76,16 +87,18 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Razor", "en": "Razor" } },
+    {
+      "chapterTitle": { "chs": "雷泽", "de": "", "fr": "Razor", "en": "Razor" }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "小狼之章 第一幕",
         "de": "",
         "fr": "Lupus Minor - Acte 1",
         "en": "Lupus Minor Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "卢皮卡的意义",
         "de": "",
         "fr": "La signification de lupical",
         "en": "The Meaning of Lupical"
@@ -95,16 +108,16 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Jean", "en": "Jean" } },
+    { "chapterTitle": { "chs": "琴", "de": "", "fr": "Jean", "en": "Jean" } },
     {
       "title": {
-        "chs": "",
+        "chs": "幼狮之章 第一幕",
         "de": "",
         "fr": "Leo Minor - Acte 1",
         "en": "Leo Minor Chaptere: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "骑士团长的一日假期",
         "de": "",
         "fr": "Journée de repos pour la Grande Maîtresse",
         "en": "Master's Day Off"
@@ -116,7 +129,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "香菱",
         "de": "",
         "fr": "Xiangling",
         "en": "Xiangling"
@@ -124,13 +137,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "长杓之章 第一幕",
         "de": "",
         "fr": "Trulla - Acte 1",
         "en": "Trulla Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "蒙德食遇之旅",
         "de": "",
         "fr": "Voyage gastronomique à Mondstadt",
         "en": "Mondstadt Gastronomy Trip"
@@ -141,17 +154,22 @@
   ],
   [
     {
-      "chapterTitle": { "chs": "", "de": "", "fr": "Xingqiu", "en": "Xingqiu" }
+      "chapterTitle": {
+        "chs": "行秋",
+        "de": "",
+        "fr": "Xingqiu",
+        "en": "Xingqiu"
+      }
     },
     {
       "title": {
-        "chs": "",
+        "chs": "锦织之章 第一幕",
         "de": "",
         "fr": "Fabulae Textile - Acte 1",
         "en": "Fabulae Textile Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "江湖不问出处",
         "de": "",
         "fr": "Un combattant féru de lecture",
         "en": "Bookworm Swordsman"
@@ -161,16 +179,16 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Klee", "en": "Klee" } },
+    { "chapterTitle": { "chs": "可莉", "de": "", "fr": "Klee", "en": "Klee" } },
     {
       "title": {
-        "chs": "",
+        "chs": "四叶草之章 第一幕",
         "de": "",
         "fr": "Trifolium - Acte 1",
         "en": "Trifolium Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "真正的宝物",
         "de": "",
         "fr": "Le vrai trésor",
         "en": "True Treasure"
@@ -180,16 +198,16 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Mona", "en": "Mona" } },
+    { "chapterTitle": { "chs": "莫娜", "de": "", "fr": "Mona", "en": "Mona" } },
     {
       "title": {
-        "chs": "",
+        "chs": "映天之章 第一幕",
         "de": "",
         "fr": "Astrolabos - Acte 1",
         "en": "Astrolabos Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "在此世的星空之外",
         "de": "",
         "fr": "Au-delà du ciel étoilé",
         "en": "Beyond This World's Stars"
@@ -199,16 +217,16 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Xiao", "en": "Xiao" } },
+    { "chapterTitle": { "chs": "魈", "de": "", "fr": "Xiao", "en": "Xiao" } },
     {
       "title": {
-        "chs": "",
+        "chs": "金翅鹏王之章 第一幕",
         "de": "",
         "fr": "Alatus Nemeseos - Acte 1",
         "en": "Alatus Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "槐柯胡蝶，傩佑之梦",
         "de": "",
         "fr": "Papillons en origami",
         "en": "Butterfly's Dream"
@@ -220,7 +238,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "达达利亚",
         "de": "",
         "fr": "Tartaglia",
         "en": "Tartaglia"
@@ -228,13 +246,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "鲸天之章 第一幕",
         "de": "",
         "fr": "Monoceros Caeli - Acte 1",
         "en": "Monoceros Caeli Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "独眼小宝总动员",
         "de": "",
         "fr": "Mobilisation",
         "en": "Mighty Cyclops' Adventure"
@@ -244,16 +262,18 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Venti", "en": "Venti" } },
+    {
+      "chapterTitle": { "chs": "温迪", "de": "", "fr": "Venti", "en": "Venti" }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "歌仙之章 第一幕",
         "de": "",
         "fr": "Carmen Dei - Acte 1",
         "en": "Carmen Dei Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "若你困于无风之地",
         "de": "",
         "fr": "Perdu en un lieu sans vent",
         "en": "Should You Be Trapped in a Windless Land"
@@ -264,28 +284,38 @@
   ],
   [
     {
-      "chapterTitle": { "chs": "", "de": "", "fr": "Zhongli", "en": "Zhongli" }
+      "chapterTitle": {
+        "chs": "钟离",
+        "de": "",
+        "fr": "Zhongli",
+        "en": "Zhongli"
+      }
     },
     {
       "title": {
-        "chs": "",
+        "chs": "古闻之章 第一幕",
         "de": "",
         "fr": "Historia Antiqua – Acte 1",
         "en": "Historia Antiqua Chapter: Act I"
       },
-      "subtitle": { "chs": "", "de": "", "fr": "Sal Flore", "en": "Sal Flore" },
+      "subtitle": {
+        "chs": "盐花",
+        "de": "",
+        "fr": "Sal Flore",
+        "en": "Sal Flore"
+      },
       "icon": "/Zhongli.webp",
       "primos": 60
     },
     {
       "title": {
-        "chs": "",
+        "chs": "古闻之章 第二幕",
         "de": "",
         "fr": "Historia Antiqua – Acte 2",
         "en": "Historia Antiqua Chapter: Act II"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "匪石",
         "de": "",
         "fr": "Plus qu'une simple pierre",
         "en": "No Mere Stone"
@@ -295,16 +325,18 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Ganyu", "en": "Ganyu" } },
+    {
+      "chapterTitle": { "chs": "甘雨", "de": "", "fr": "Ganyu", "en": "Ganyu" }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "仙麟之章 第一幕",
         "de": "",
         "fr": "Sinae Unicornis - Acte 1",
         "en": "Sinae Unicornis Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "云之海，人之海",
         "de": "",
         "fr": "Mer de nuages, mer d'hommes",
         "en": "Sea of Clouds, Sea of People"
@@ -314,16 +346,23 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Albedo", "en": "Albedo" } },
+    {
+      "chapterTitle": {
+        "chs": "阿贝多",
+        "de": "",
+        "fr": "Albedo",
+        "en": "Albedo"
+      }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "白垩之章 第一幕",
         "de": "",
         "fr": "Princeps Cretaceus - Acte 1",
         "en": "Princeps Cretaceus Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "旅行者观察报告",
         "de": "",
         "fr": "Rapport d'observation de voyage",
         "en": "Traveler Observation Report"
@@ -333,16 +372,18 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Hutao", "en": "Hutao" } },
+    {
+      "chapterTitle": { "chs": "胡桃", "de": "", "fr": "Hutao", "en": "Hutao" }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "引蝶之章 第一幕",
         "de": "",
         "fr": "Papilio Charontis - Acte 1",
         "en": "Papilio Charontis Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "奈何蝶飞去",
         "de": "",
         "fr": "Volent les papillons",
         "en": "Yet The Butterfly Flutters Away"
@@ -352,16 +393,16 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Eula", "en": "Eula" } },
+    { "chapterTitle": { "chs": "优菈", "de": "", "fr": "Eula", "en": "Eula" } },
     {
       "title": {
-        "chs": "",
+        "chs": "浪沫之章 第一幕",
         "de": "",
         "fr": "Aphros Delos - Acte 1",
         "en": "Aphros Delos Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "浪花不再归海",
         "de": "",
         "fr": "Vagues à la mer",
         "en": "The Spindrift Shall Never Return to the Sea"
@@ -372,17 +413,22 @@
   ],
   [
     {
-      "chapterTitle": { "chs": "", "de": "", "fr": "Yoimiya", "en": "Yoimiya" }
+      "chapterTitle": {
+        "chs": "宵宫",
+        "de": "",
+        "fr": "Yoimiya",
+        "en": "Yoimiya"
+      }
     },
     {
       "title": {
-        "chs": "",
+        "chs": "琉金之章 第一幕",
         "de": "",
         "fr": "Carassius Auratus - Acte 1",
         "en": "Carassius Auratus Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "如梦如电的隽永",
         "de": "",
         "fr": "Intemporalité onirique",
         "en": "Dreamlike Timelessness"
@@ -394,7 +440,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "神里绫华",
         "de": "",
         "fr": "Kamisato Ayaka",
         "en": "Kamisato Ayaka"
@@ -402,13 +448,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "雪鹤之章 第一幕",
         "de": "",
         "fr": "Grus Nivis - Acte 1",
         "en": "Grus Nivis Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "鹤与白兔的诉说",
         "de": "",
         "fr": "Les murmures de la grue et du lapin blanc",
         "en": "The Whispers of the Crane and the White Rabbit"
@@ -420,7 +466,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "雷电将军",
         "de": "",
         "fr": "Shogun Raiden",
         "en": "Raiden Shogun"
@@ -428,13 +474,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "天下人之章 第一幕",
         "de": "",
         "fr": "Imperatrix Umbrosa - Acte 1",
         "en": "Imperatrix Umbrosa Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "影照浮世风流",
         "de": "",
         "fr": "Reflets de la mortalité",
         "en": "Reflections of Mortality"
@@ -444,13 +490,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "天下人之章 第二幕",
         "de": "",
         "fr": "Imperatrix Umbrosa - Acte 2",
         "en": "Imperatrix Umbrosa Chapter: Act II"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "须臾百梦",
         "de": "",
         "fr": "Rêves éphémères",
         "en": "Transient Dreams"
@@ -462,7 +508,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "珊瑚宫心海",
         "de": "",
         "fr": "Sangonomiya Kokomi",
         "en": "Sangonomiya Kokomi"
@@ -470,13 +516,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "眠龙之章 第一幕",
         "de": "",
         "fr": "Dracaena Somnolenta - Acte 1",
         "en": "Dracaena Somnolenta Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "兵戈梦去，春草如茵",
         "de": "",
         "fr": "Le renouveau des rêves d'un guerrier",
         "en": "Warriors' Dreams Like Spring Grass Reneweing"
@@ -488,7 +534,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "八重神子",
         "de": "",
         "fr": "Yae Miko",
         "en": "Yae Miko"
@@ -496,13 +542,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "仙狐之章 第一幕",
         "de": "",
         "fr": "Divina Vulpes - Acte 1",
         "en": "Divina Vulpes Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "鸣神御祓祈愿祭",
         "de": "",
         "fr": "La grande offrande de Narukami",
         "en": "The Great Narukami Offering"
@@ -514,7 +560,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "荒泷一斗",
         "de": "",
         "fr": "Arataki Itto",
         "en": "Arataki Itto"
@@ -522,13 +568,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "天牛之章 第一幕",
         "de": "",
         "fr": "Taurus Iracundus - Acte 1",
         "en": "Taurus Iracundus Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "赤金魂",
         "de": "",
         "fr": "Un vrai cœur d'or",
         "en": "Rise Up, Golden Soul"
@@ -540,7 +586,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "神里绫人",
         "de": "",
         "fr": "Kamisato Ayato",
         "en": "Kamisato Ayato"
@@ -548,13 +594,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "神守柏之章 第一幕",
         "de": "",
         "fr": "Cypressus Custos - Acte 1",
         "en": "Cypressus Custos Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "梧桐一叶落",
         "de": "",
         "fr": "Chute d'une feuille de firmiana",
         "en": "The Firmiana Leaf Falls"
@@ -564,16 +610,18 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Yelan", "en": "Yelan" } },
+    {
+      "chapterTitle": { "chs": "夜兰", "de": "", "fr": "Yelan", "en": "Yelan" }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "幽客之章 第一幕",
         "de": "",
         "fr": "Umbrabilis Orchis - Acte 1",
         "en": "Umbrabilis Orchis Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "棋生断处",
         "de": "",
         "fr": "Pari calculé",
         "en": "Calculated Gambit"
@@ -585,7 +633,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "提纳里",
         "de": "",
         "fr": "Tighnari",
         "en": "Tighnari"
@@ -593,13 +641,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "郭狐之章 第一幕",
         "de": "",
         "fr": "Vulpes Zerda - Acte 1",
         "en": "Vulpes Zerda Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "没有答案的课题",
         "de": "",
         "fr": "Les problèmes sans réponse",
         "en": "The Unanswerable Problems"
@@ -611,7 +659,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "枫原万叶",
         "de": "",
         "fr": "Kaedehara Kazuha",
         "en": "Kaedehara Kazuha"
@@ -619,13 +667,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "枫红之章 第一幕",
         "de": "",
         "fr": "Acer Palmatum - Acte 1",
         "en": "Acer Palmatum Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "陌野不识故人",
         "de": "",
         "fr": "Une route sans amis",
         "en": "A Strange and Friendless Road"
@@ -635,16 +683,16 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Cyno", "en": "Cyno" } },
+    { "chapterTitle": { "chs": "赛诺", "de": "", "fr": "Cyno", "en": "Cyno" } },
     {
       "title": {
-        "chs": "",
+        "chs": "金狼之章 第一幕",
         "de": "",
         "fr": "Lupus Aureus - Acte 1",
         "en": "Lupus Aureus Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "沉沙归寂",
         "de": "",
         "fr": "Les sables de la solitude",
         "en": "Sands of Solitude"
@@ -654,16 +702,18 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Nilou", "en": "Nilou" } },
+    {
+      "chapterTitle": { "chs": "妮露", "de": "", "fr": "Nilou", "en": "Nilou" }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "睡莲之章 第一幕",
         "de": "",
         "fr": "Lotos Somno - Acte 1",
         "en": "Lotos Somno Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "致智慧者",
         "de": "",
         "fr": "À la recherche de l'illumination",
         "en": "To the Wise"
@@ -673,16 +723,23 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Nahida", "en": "Nahida" } },
+    {
+      "chapterTitle": {
+        "chs": "纳西妲",
+        "de": "",
+        "fr": "Nahida",
+        "en": "Nahida"
+      }
+    },
     {
       "title": {
-        "chs": "",
+        "chs": "智慧主之章 第一幕",
         "de": "",
         "fr": "Sapientia Oromasdis - Acte 1",
         "en": "Sapientia Oromasdis Chapter: Act I"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "余温",
         "de": "",
         "fr": "Chaleur persistante",
         "en": "Lingering Warmth"
