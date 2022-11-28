@@ -56,14 +56,22 @@ const Teapot = ({ setPrimos, trustRank, setTrustRank }) => {
         <CustomAccordian title={langContext.indoor} icon={"/GiftSet.webp"}>
           <div className="flex flex-col gap-4 p-4">
             {sets.indoor.map((set) => (
-              <TeapotSet set={set} key={set.name} setPrimos={setPrimos} />
+              <TeapotSet
+                set={set}
+                key={set.name[langContext.lang]}
+                setPrimos={setPrimos}
+              />
             ))}
           </div>
         </CustomAccordian>
         <CustomAccordian title={langContext.outdoor} icon={"/GiftSet.webp"}>
           <div className="flex flex-col gap-4 p-4">
             {sets.outdoor.map((set) => (
-              <TeapotSet set={set} key={set.name} setPrimos={setPrimos} />
+              <TeapotSet
+                set={set}
+                key={set.name[langContext.lang]}
+                setPrimos={setPrimos}
+              />
             ))}
           </div>
         </CustomAccordian>
