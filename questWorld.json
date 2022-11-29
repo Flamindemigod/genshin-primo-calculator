@@ -2,7 +2,7 @@
   [
     {
       "chapterTitle": {
-        "chs": "",
+        "chs": "蒙德",
         "de": "",
         "fr": "Mondstadt",
         "en": "Mondstadt"
@@ -10,7 +10,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "冒险等阶突破·一",
         "de": "",
         "fr": "Élévation du Niveau d'aventure - 1",
         "en": "Adventure Rank Ascension I"
@@ -21,7 +21,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "冒险等阶突破·二",
         "de": "",
         "fr": "Élévation du Niveau d'aventure - 2",
         "en": "Adventure Rank Ascension II"
@@ -32,7 +32,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "冒险等阶突破·三",
         "de": "",
         "fr": "Élévation du Niveau d'aventure - 3",
         "en": "Adventure Rank Ascension III"
@@ -43,7 +43,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "冒险等阶突破·四",
         "de": "",
         "fr": "Élévation du Niveau d'aventure - 4",
         "en": "Adventure Rank Ascension IV"
@@ -54,7 +54,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "每天都是新的冒险",
         "de": "",
         "fr": "Chaque jour est une aventure",
         "en": "Every Day a New Adventure"
@@ -65,7 +65,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "冒险要朝着远方",
         "de": "",
         "fr": "Hors des sentiers battus",
         "en": "New Horizons of Adventure"
@@ -76,7 +76,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "时与风",
         "de": "",
         "fr": "Le temps et le vent",
         "en": "Time and Wind"
@@ -87,7 +87,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "欢迎来到冒险家协会",
         "de": "",
         "fr": "Bienvenue à la Guilde des aventuriers",
         "en": "Welcome to the Adventures' Guild"
@@ -98,7 +98,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "啊，新鲜的肉！",
         "de": "",
         "fr": "Viande (assez) fraîche",
         "en": "Ah, Fresh Meat!"
@@ -109,7 +109,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "覆雪之国",
         "de": "",
         "fr": "Royaume sous les neiges",
         "en": "A Land Entombed"
@@ -120,7 +120,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "山中之物",
         "de": "",
         "fr": "La créature des montagnes",
         "en": "In the Mountains"
@@ -131,7 +131,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "雪山迷踪",
         "de": "",
         "fr": "Richesses de Dosdragon",
         "en": "Lost in the Snow"
@@ -142,7 +142,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "低温预警",
         "de": "",
         "fr": "Attention, c'est froid !",
         "en": "Low-Temperature Warning"
@@ -153,7 +153,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "腐殖之牙",
         "de": "",
         "fr": "Dent suppurante",
         "en": "The Festering Fang"
@@ -164,7 +164,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "雪山大勘测",
         "de": "",
         "fr": "Enquête alpestre",
         "en": "The Great Mountain Survey"
@@ -175,7 +175,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "雪山再勘测",
         "de": "",
         "fr": "Enquête alpestre, bis",
         "en": "The Great Mountain Survey II"
@@ -186,10 +186,10 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "", "de": "", "fr": "Liyue", "en": "Liyue" } },
+    { "chapterTitle": { "chs": "离月", "de": "", "fr": "Liyue", "en": "Liyue" } },
     {
       "title": {
-        "chs": "",
+        "chs": "独木难支",
         "de": "",
         "fr": "À plusieurs c'est plus facile",
         "en": "Overstretched"
@@ -200,7 +200,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "宝藏归离",
         "de": "",
         "fr": "Le trésor des Plaines Guili",
         "en": "Treasure Lost, Treasure Found"
@@ -211,7 +211,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "孤木孑立，无林可依",
         "de": "",
         "fr": "L'arbre sans la forêt",
         "en": "The Tree that Stands Alone"
@@ -222,7 +222,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "旧味难寻",
         "de": "",
         "fr": "Le goût inoubliable du passé",
         "en": "Old Tastes Die Hard"
@@ -233,7 +233,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "林中小书",
         "de": "",
         "fr": "Un livre dans les bois",
         "en": "Book in the Woods"
@@ -244,7 +244,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "怀宝应自珍",
         "de": "",
         "fr": "À chacun son trésor",
         "en": "Share Not Your Treasures"
@@ -255,7 +255,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "古云有「螭」",
         "de": "",
         "fr": "Le secret de Chi",
         "en": "The Chi of Yore"
@@ -266,7 +266,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "暂行之策",
         "de": "",
         "fr": "Passage encombré",
         "en": "A Provisional Arrangement"
@@ -277,7 +277,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "大生意",
         "de": "",
         "fr": "Une bonne affaire",
         "en": "Big Business"
@@ -288,7 +288,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "夜叉之愿",
         "de": "",
         "fr": "Message d'un ancien gardien",
         "en": "The Yaksha's Wish"
@@ -299,7 +299,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "灵矩有宝予何人",
         "de": "",
         "fr": "Qui mettra la main sur le trésor ?",
         "en": "And This Treasure Goes To..."
@@ -310,7 +310,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "靖世九柱",
         "de": "",
         "fr": "Neuf piliers",
         "en": "Nine Pillars of Peace"
@@ -321,7 +321,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "渌华景画",
         "de": "",
         "fr": "Estampe à Luhua",
         "en": "Luhua Landscape"
@@ -332,7 +332,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "游戏一场",
         "de": "",
         "fr": "Nous allons jouer à un petit jeu",
         "en": "A Little Game"
@@ -343,7 +343,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "恨繁囿兮作土",
         "de": "",
         "fr": "Magnificence passée",
         "en": "No Restoring This Past Land of Beauty"
@@ -354,7 +354,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "加尔恰的赞歌",
         "de": "",
         "fr": "L'hymne de Garcia",
         "en": "Garcia's Paean"
@@ -365,7 +365,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "勇气的余晖",
         "de": "",
         "fr": "Rémanence de courage",
         "en": "Valor's Afterglow"
@@ -376,7 +376,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "勇气的余晖·日落当归",
         "de": "",
         "fr": "Rémanence de courage : Retour au couchant",
         "en": "Valor's Afterglow: Return by Sundown"
@@ -387,7 +387,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "勇气的余晖·谨记微芒",
         "de": "",
         "fr": "Rémanence de courage : Souvenir d'une faible lueur",
         "en": "Valor's Afterglow: The Faint Light Remembered"
@@ -398,7 +398,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "层岩菌类调查",
         "de": "",
         "fr": "Enquête mycologique dans le Gouffre",
         "en": "Mycological Investigation in The Chasm"
@@ -409,7 +409,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "水生环境调查",
         "de": "",
         "fr": "Enquête hydrologique dans le Gouffre",
         "en": "Hydrological Investigation in The Chasm"
@@ -420,7 +420,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "古代生物调查",
         "de": "",
         "fr": "Enquête paléontologique dans le Gouffre",
         "en": "Paleontological Investigation in The Chasm"
@@ -431,7 +431,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "潜身敌营无人知",
         "de": "",
         "fr": "Infiltration réussie",
         "en": "Undetected Inflitration"
@@ -442,7 +442,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "巨渊的馈赠",
         "de": "",
         "fr": "Le don du Gouffre",
         "en": "The Chasm's Bounty"
@@ -453,7 +453,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "失踪的矿工",
         "de": "",
         "fr": "Le mineur disparu",
         "en": "The Missing Miner"
@@ -465,7 +465,7 @@
 
     {
       "title": {
-        "chs": "",
+        "chs": "他乡迷失客",
         "de": "",
         "fr": "Dans un pays étranger...",
         "en": "Lost in a Foreign Land"
@@ -476,7 +476,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "他乡迷失客·觅迹",
         "de": "",
         "fr": "Dans un pays étranger : Sur la piste",
         "en": "Lost in a Foreign Land Seeking"
@@ -487,7 +487,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "黯淡蘑菇的求救",
         "de": "",
         "fr": "L'appel à l'aide d'un champignon affaibli",
         "en": "Dimming Mushroom's Call for Help"
@@ -498,7 +498,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "连队消失在深岩",
         "de": "",
         "fr": "Une unité disparue dans le Gouffre",
         "en": "A Company Vanishing Into The Deep"
@@ -509,7 +509,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "岩巅大侠往事",
         "de": "",
         "fr": "Le passé du chevalier des cimes",
         "en": "A Cliff-Side Hero's Past"
@@ -520,7 +520,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "千年千岩",
         "de": "",
         "fr": "Les montagnes millénaires",
         "en": "The Millennial Mountains"
@@ -531,7 +531,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "物归原主又归原主",
         "de": "",
         "fr": "Volé... par le propriétaire légitime",
         "en": "Stolen, by the Rightful Owner"
@@ -542,7 +542,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "藏石者言",
         "de": "",
         "fr": "Les paroles d'un chercheur de pierres",
         "en": "Says He Who Seeks Stone"
@@ -554,11 +554,11 @@
   ],
   [
     {
-      "chapterTitle": { "chs": "", "de": "", "fr": "Inazuma", "en": "Inazuma" }
+      "chapterTitle": { "chs": "稻妻", "de": "", "fr": "Inazuma", "en": "Inazuma" }
     },
     {
       "title": {
-        "chs": "",
+        "chs": "医樱",
         "de": "",
         "fr": "Sakurologie",
         "en": "Sakura Arborism"
@@ -569,7 +569,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "刀剑成梦",
         "de": "",
         "fr": "Rêves d'un épéiste",
         "en": "Dreams of Sword Art"
@@ -968,7 +968,7 @@
         "fr": "Brève rencontre avec un oiseau rare",
         "en": "A Short Encounter with a Rare Bird"
       },
-      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
+      "subtitle": { "chs": "须弥", "de": "", "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 30
     },
@@ -1183,7 +1183,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "《召唤王·下集！是…》",
         "de": "",
         "fr": "La prochaine fois, dans « Le roi des invocations »...",
         "en": "Next Times, On King of Innvocations"
