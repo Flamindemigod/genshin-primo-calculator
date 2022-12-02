@@ -8,9 +8,8 @@ const langs = {
     title: "欢迎你【Delta】 和 【Flamin】原神 原石规划师",
     explainationButton: "第一次来这里？ 点击我!",
     explaination: {
-      title: "Welcome to Genshin Primo Planner",
-      para1line1:
-        "Primogems... Shiny stars every genshin player wishes they had more of",
+      title: "欢迎你【原神 原石规划师】",
+      para1line1: "原石... 所有旅行者们愿望有更多。",
       para2line1:
         "This website aims to provide players with an exact amount of primogems obtainable in the current patch (or an estimated amount in future patches), so that players can clear as much in-game content to fulfil their wishing desires.",
       para2line1highlight:
@@ -60,8 +59,8 @@ const langs = {
     teleports: "传送锚点",
     sos: "七天神像",
     domain: "秘境",
-    domaintooltip1: "Including Resin and One-time Domains",
-    domaintooltip2: "Only One-time Domains",
+    domaintooltip1: "原粹树脂和一次性秘境",
+    domaintooltip2: "只有一次性秘境",
     completion: "完成",
     sosProgression: "上帝的七天进展",
     level: "等级",
