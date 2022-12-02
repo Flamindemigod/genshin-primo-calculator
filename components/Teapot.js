@@ -52,6 +52,7 @@ const Teapot = ({ setPrimos, trustRank, setTrustRank }) => {
       <CustomAccordian
         title={langContext.listOfGiftSets}
         icon={"/GiftSet.webp"}
+        isMain
       >
         <CustomAccordian title={langContext.indoor} icon={"/GiftSet.webp"}>
           <div className="flex flex-col gap-4 p-4">
