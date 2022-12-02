@@ -3,7 +3,7 @@
     { "chapterTitle": { "chs": "璃月", "de": "", "fr": "Liyue", "en": "Liyue" } },
     {
       "title": {
-        "chs": "",
+        "chs": "层岩巨渊深游记",
         "de": "",
         "fr": "Voyage au centre du Gouffre",
         "en": "The Chasm Delvers"
@@ -19,7 +19,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "映影书写札记",
         "de": "",
         "fr": "Notes de film",
         "en": "Film Notes"
@@ -30,7 +30,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "远吕羽氏遗事",
         "de": "",
         "fr": "L'héritage d'Orobashi",
         "en": "Orobashi's Legacy"
@@ -41,7 +41,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "神樱大祓",
         "de": "",
         "fr": "Rituel de purification du cerisier sacré",
         "en": "Sakura Cleansing Ritual"
@@ -52,7 +52,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "清籁逐雷记",
         "de": "",
         "fr": "Chasseurs d'orage de Seirai",
         "en": "Seirai Stormchasers"
@@ -63,7 +63,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "踏鞴物语",
         "de": "",
         "fr": "Les contes de Tatara",
         "en": "Tatara Tales"
@@ -74,7 +74,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "月浴之渊",
         "de": "",
         "fr": "Les profondeurs baignées de lune",
         "en": "The Moon-Bathed Deep"
@@ -85,7 +85,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "特别的御神签",
         "de": "",
         "fr": "L'omikuji très spécial",
         "en": "The Very Special Fortune Slip"
@@ -96,7 +96,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "雾海纪行",
         "de": "",
         "fr": "Chroniques de la mer de brouillard",
         "en": "Through the Mists"
@@ -107,7 +107,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "厄瑞玻斯的秘密",
         "de": "",
         "fr": "Le secret d'Erebos",
         "en": "Erebos's Secret"
@@ -118,7 +118,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "白夜国晨昏记",
         "de": "",
         "fr": "Jusqu'à l'aube à Byakuyakoku",
         "en": "From Dusk to Dawn in Byakuyakoku"
@@ -129,7 +129,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "许伯利翁哀歌",
         "de": "",
         "fr": "Le chant funèbre d'Hypérion",
         "en": "Hyperion's Dirge"
@@ -143,7 +143,7 @@
     { "chapterTitle": { "chs": "须弥", "de": "", "fr": "Sumeru", "en": "Sumeru" } },
     {
       "title": {
-        "chs": "",
+        "chs": "正法炬书",
         "de": "",
         "fr": "Soutra d'Agnihotra",
         "en": "Agnihotra Sutra"
@@ -154,9 +154,9 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "愿为一炊之梦",
         "de": "",
-        "fr": "An Unwavering Culinary Dream",
+        "fr": "Un rêve culinaire inébranlable",
         "en": "An Unwavering Culinary Dream"
       },
       "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
@@ -165,7 +165,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "水天供书",
         "de": "",
         "fr": "Varuna Gatha",
         "en": "Varuna Gatha"
@@ -176,7 +176,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "吉祥具书",
         "de": "",
         "fr": "Vimana Agama",
         "en": "Vimana Agama"
@@ -187,13 +187,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "林中奇遇",
         "de": "",
         "fr": "Rencontre dans la forêt",
         "en": "Woodland Encounter"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "森林书 第一章",
         "de": "",
         "fr": "Aranyaka - 1",
         "en": "Aranyaka: Part I"
@@ -203,13 +203,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "梦中的苗圃",
         "de": "",
         "fr": "Pépinière dans un rêve",
         "en": "Dream Nursery"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "森林书 第二章",
         "de": "",
         "fr": "Aranyaka - 2",
         "en": "Aranyaka: Part II"
@@ -219,13 +219,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "失梦的苗圃",
         "de": "",
         "fr": "Pépinière des rêves perdus",
         "en": "Nursery of Lost Dreams"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "森林书 第三章",
         "de": "",
         "fr": "Aranyaka - 3",
         "en": "Aranyaka: Part III"
@@ -235,13 +235,13 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "最终，森林会记住一切",
         "de": "",
         "fr": "À la fin, la forêt se souvient de tout",
         "en": "In the End, the Forest Will Remember"
       },
       "subtitle": {
-        "chs": "",
+        "chs": "森林书 第四章",
         "de": "",
         "fr": "Aranyaka - 4",
         "en": "Aranyaka: Part IV"
@@ -251,7 +251,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "黄金梦乡",
         "de": "",
         "fr": "Le sommeil d'or",
         "en": "Golden Slumber"
@@ -262,7 +262,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "旧语新知",
         "de": "",
         "fr": "Vieilles notes et nouveaux amis",
         "en": "Old Notes and New Friends"
