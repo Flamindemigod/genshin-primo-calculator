@@ -49,7 +49,7 @@ const ExplainationDialog = () => {
                 {langContext.explaination.para3line3} <br />
               </div>
               <Image
-                src="/Annotation 2022-11-16 204609.png"
+                src={langContext.explaination.outputImage}
                 alt="Output field view"
                 width={300}
                 height={150}

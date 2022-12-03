@@ -8,29 +8,27 @@ const langs = {
     title: "欢迎你【Delta】 和 【Flamin】原神 原石规划师",
     explainationButton: "第一次来这里？ 点击我!",
     explaination: {
+      outputImage: "/OutputCHS.png",
       title: "欢迎你【原神 原石规划师】",
       para1line1: "原石... 所有旅行者们愿望有更多。",
       para2line1:
-        "This website aims to provide players with an exact amount of primogems obtainable in the current patch (or an estimated amount in future patches), so that players can clear as much in-game content to fulfil their wishing desires.",
+        "本网站旨在为玩家提供当前补丁中可获得的初级原石的确切数量（或估计未来补丁的数量），以便玩家能够清除多余的游戏内容以满足其愿望。",
       para2line1highlight:
-        "This tool however does not account for primogems from Redeemable Codes, Achievements and Chests.",
-      para3line1:
-        "For Desktop Users, The site has an Input Column and an Output Column.",
-      para3line2:
-        "For Mobile Users, the Output is situated at the bottom of the page.",
+        "然而，这个工具并不包括来自可兑换代码、成就、宝箱和网络活动的原石。",
+      para3line1: "对于桌上用户，本网站具有输入栏及结果栏。",
+      para3line2: "对于手机用户，结果则置于页面的底部。",
       para3line3:
-        "The Output column contains information such as how many primos collected, total fates collected, total number of wishes, and probabilites of geting featured 5 star.",
+        "结果栏包含的信息有：原石收集的数目、命运收集的总数、愿望总数以及获得特有五星角色的概率。",
       para4line1:
-        "The Input column is split into categories such as Input Parameters, Events, Exploration, Serenitea Teapot, List of Gift Sets, and Quests.",
-      para4line2:
-        "The Output panel automatically updates when you update the Input Column.",
+        "输入栏再分为不同类别，例如输入参数、事件、探索、尘歌壶、礼品套装列表和任务。",
+      para4line2: "当你更新输入栏时，结果便会自动更新。",
       para4line3:
-        "When inputting data into Input Parameters most of the parameters can be found either in the wishing menu or in the shop. For the End Date param, it assumes you've done your dailies for the day and starts counting from the next day on.",
+        "在输入参数时，大多数参数可以从【背包】里的【贵重道具】、【新愿屏幕】或【尘辉兑换】中找到。而结束日期参数则假定你已经完成了当天的每日任务，并从第二天开始计算。",
       para4line4:
-        "As for the rest of the Input column, you can select events, quests and gift sets you're going to do. And for text fields and sliders you should be inputting how many you are going to do. Most of the sliders allow you to set a minimum value (What you've done) and a maximum value (What you're going to do).",
+        "你可以于输入栏的其余部分选择要做的事件、任务和礼品套装。你亦应该于空格和滑块输入你要做的数量。大多数滑块是用來设置最小值（你已经逹成的程度）和最大值（你将要逹成的程度）。",
       para5line1:
-        "And thats about it. If you got any questions or suggestions feel free to hit me up on Discord at ",
-      para5line1highlight: "FlaminDemigod#2754",
+        "如你有任何问题或建议，请随时在Discord at FlaminDemigod#2754 上留言。",
+      para5line1highlight: "",
       specialThanks: "",
     },
     scrollDown: "向下滚动以开始",
@@ -75,8 +73,8 @@ const langs = {
     vrf: "桓那兰那的青昧",
     teapot: "尘歌壶",
     trustRank: "信任等阶",
-    resetAll: "reset all",
-    reset: "reset",
+    resetAll: "重置所有",
+    reset: "重置",
     listOfGiftSets: "礼品套装清单",
     indoor: "室内套装",
     outdoor: "室外套装",
@@ -107,6 +105,7 @@ const langs = {
     title: "Welcome to Delta and Flamin's Genshin Primo Planner",
     explainationButton: "First time here? Click me!",
     explaination: {
+      outputImage: "/Annotation 2022-11-16 204609.png",
       title: "Welcome to Genshin Primo Planner",
       para1line1:
         "Primogems... Shiny stars every genshin player wishes they had more of",
@@ -209,6 +208,7 @@ const langs = {
     title: "Bienvenue au Planificateur de Primo-gemmes de Delta et Flamin",
     explainationButton: "Première fois ici? Cliquez ici!",
     explaination: {
+      outputImage: "/OutputFr.png",
       title: "Bienvenue au Planificateur de Primo-Gemmes pour Genshin",
       para1line1:
         "Primo-gemmes... Ces pierres scintillantes que chaque joueur souhaite d'en avoir toujours plus...",
