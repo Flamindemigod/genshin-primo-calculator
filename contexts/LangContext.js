@@ -4,13 +4,12 @@ const langs = {
   chs: {
     lang: "chs",
     langFull: "简体中文",
-    siteTitle: "Genshin Primo Planner",
-    title: "Welcome to Delta and Flamin's Genshin Primo Planner",
-    explainationButton: "First time here? Click me!",
+    siteTitle: "原神原石规划师",
+    title: "欢迎你【Delta】 和 【Flamin】原神 原石规划师",
+    explainationButton: "第一次来这里？ 点击我!",
     explaination: {
-      title: "Welcome to Genshin Primo Planner",
-      para1line1:
-        "Primogems... Shiny stars every genshin player wishes they had more of",
+      title: "欢迎你【原神 原石规划师】",
+      para1line1: "原石... 所有旅行者们愿望有更多。",
       para2line1:
         "This website aims to provide players with an exact amount of primogems obtainable in the current patch (or an estimated amount in future patches), so that players can clear as much in-game content to fulfil their wishing desires.",
       para2line1highlight:
@@ -34,7 +33,7 @@ const langs = {
       para5line1highlight: "FlaminDemigod#2754",
       specialThanks: "",
     },
-    scrollDown: "Scroll down to get started",
+    scrollDown: "向下滚动以开始",
     inputParams: "输入参数",
     primogems: "原石",
     genesisCrystals: "创世结晶",
@@ -51,7 +50,7 @@ const langs = {
     spiralAbyssPrimos: "深境螺旋原石",
     floor1to8: "1-8 层",
     floor9to12: "9-12 层",
-    noSpiralAbyssResets: "No. of Spiral Abyss Resets",
+    noSpiralAbyssResets: "[深境螺旋重置]数量",
     saTooltip:
       "If you have completed the current abyss rotation reduce this value by 1",
     events: "活动",
@@ -60,8 +59,8 @@ const langs = {
     teleports: "传送锚点",
     sos: "七天神像",
     domain: "秘境",
-    domaintooltip1: "Including Resin and One-time Domains",
-    domaintooltip2: "Only One-time Domains",
+    domaintooltip1: "原粹树脂和一次性秘境",
+    domaintooltip2: "只有一次性秘境",
     completion: "完成",
     sosProgression: "上帝的七天进展",
     level: "等级",
@@ -76,6 +75,8 @@ const langs = {
     vrf: "桓那兰那的青昧",
     teapot: "尘歌壶",
     trustRank: "信任等阶",
+    resetAll: "reset all",
+    reset: "reset",
     listOfGiftSets: "礼品套装清单",
     indoor: "室内套装",
     outdoor: "室外套装",
@@ -91,14 +92,13 @@ const langs = {
       line3: "[愿望]总数",
       line4: "如果有担保，获得五星级的概率",
       line5: "如果不保证获得5颗星的概率",
-      includingPity: "including pity",
-      excludingPity: "excluding pity",
+      includingPity: "包括保证进度",
+      excludingPity: "不包括保证进度",
     },
-    footerDisclaimer:
-      "Genshin Primo Planner is not affiliated with or endorsed by HoYoverse.",
-    footerThanksPart1: "Made for you with",
-    footerThanksPart2: "by Delta45321 and Flamindemigod",
-    footerKofi: "Support me on Kofi",
+    footerDisclaimer: "原神原石规划师与米哈游无关",
+    footerThanksPart1: "由Delta45321和Flamindemigod用",
+    footerThanksPart2: "为你制作",
+    footerKofi: "在Ko-fi上支持我",
   },
   en: {
     lang: "en",
@@ -176,6 +176,8 @@ const langs = {
     vrf: "Vanarana's Favor",
     teapot: "Serenitea Teapot",
     trustRank: "Trust Rank",
+    resetAll: "reset all",
+    reset: "reset",
     listOfGiftSets: "List of Gift Sets",
     indoor: "Indoor",
     outdoor: "Outdoor",
@@ -212,7 +214,6 @@ const langs = {
         "Primo-gemmes... Ces pierres scintillantes que chaque joueur souhaite d'en avoir toujours plus...",
       para2line1:
         "Ce site vise à permettre aux joueurs de calculer le nombre exact de Primo-gemmes pouvant être obtenues pendant l'expension (ou une estimation pour la prochaine expension), pour que les joueurs puissent compléter le plus de contenu du jeu possible pour remplir leurs poches de Primo-gemmes..",
-      // "This website aims to provide players with an exact amount of primogems obtainable in the current patch or an estimated amount in future patches. Providing a tool for players to clear as much in-game content to fulfil their wishing desires.",
       para2line1highlight:
         "Ce site ne compte pas les codes, les trésors ainsi que la progression des succès.",
       para3line1:
@@ -277,6 +278,8 @@ const langs = {
     vrf: "Faveur du Vanarana",
     teapot: "Sérénitéière",
     trustRank: "Niveau de confiance",
+    resetAll: "Tout effacer",
+    reset: "Effacer",
     listOfGiftSets: "Liste des Sets cadeau",
     indoor: "Intérieur",
     outdoor: "Extérieur",
@@ -299,7 +302,7 @@ const langs = {
       "Le Planificateur de Primo-Gemmes pour Geneshin n'est aucunement affilié à Hoyoverse.",
     footerThanksPart1: "Fait pour vous avec",
     footerThanksPart2: "Delta45321 et Flamindemigod.",
-    footerKofi: "Supportez moi sur Kofi!",
+    footerKofi: "Supportez moi sur Ko-fi!",
   },
 };
 const LangContext = createContext(langs.en);
