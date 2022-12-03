@@ -679,7 +679,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "全能美食队！",
         "de": "",
         "fr": "Les Gourmets suprêmes !",
         "en": "Gourmet Supremos, Assemble!"
@@ -690,7 +690,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "全能美食队·神社的树",
         "de": "",
         "fr": "Les Gourmets suprêmes : Sanctuaire et cerisier",
         "en": "The Gourmet Supremos: Of Shrines and Sakura"
@@ -706,7 +706,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "全能美食队·海滩的横行者",
         "de": "",
         "fr": "Les Gourmets suprêmes : Les promeneurs du bord de mer",
         "en": "The Gourmet Supremos: The Seashore Strider"
@@ -717,7 +717,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "全能美食队·深潜者",
         "de": "",
         "fr": "Les Gourmets suprêmes : Les plongeurs des profondeurs",
         "en": "The Gourmet Supremos: The Deep Divers"
@@ -827,7 +827,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "健忘大王历险记",
         "de": "",
         "fr": "La saga de M. tête-en-l'air",
         "en": "The Saga of Mr. Forgetful"
@@ -838,7 +838,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "「手鞠游戏」",
         "de": "",
         "fr": "Le jeu de Temari",
         "en": "Temaria Game"
@@ -849,7 +849,7 @@
     },
     {
       "title": {
-        "chs": "",
+        "chs": "农民的宝藏",
         "de": "",
         "fr": "Le trésor d'un paysan",
         "en": "The Farmer's Treasure"
@@ -940,23 +940,6 @@
       "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 30
-    },
-    {
-      "title": {
-        "chs": "",
-        "de": "",
-        "fr": "La brigade pérégrine !!",
-        "en": "\"Outlander Brigade\""
-      },
-      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
-      "icon": "/Inazuma.webp",
-      "primos": 30
-    },
-    {
-      "title": { "chs": "", "de": "", "fr": "Mushounin", "en": "Mushounin" },
-      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
-      "icon": "/Inazuma.webp",
-      "primos": 40
     }
   ],
   [
