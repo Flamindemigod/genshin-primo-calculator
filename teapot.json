@@ -2,465 +2,653 @@
   "outdoor": [
     {
       "name": {
+        "chs": "兵刃锻造站",
+        "de": "",
         "en": "Weapon Forging Station",
         "fr": "Station de forgeage d'armes"
       },
       "image": "/Furnishing_Set_Weapon_Forging_Station_Display.webp",
       "characters": [
         {
-          "name": { "en": "Bennett", "fr": "Bennett" },
+          "name": {
+            "chs": "班尼特",
+            "de": "",
+            "en": "Bennett",
+            "fr": "Bennett"
+          },
           "image": "/Character_Bennett_Thumb.webp"
         },
         {
-          "name": { "en": "Diluc", "fr": "Diluc" },
+          "name": { "chs": "迪卢克", "de": "", "en": "Diluc", "fr": "Diluc" },
           "image": "/Character_Diluc_Thumb.webp"
         },
         {
-          "name": { "en": "Diona", "fr": "Diona" },
+          "name": { "chs": "迪奥娜", "de": "", "en": "Diona", "fr": "Diona" },
           "image": "/Character_Diona_Thumb.webp"
         },
         {
-          "name": { "en": "Noelle", "fr": "Noelle" },
+          "name": { "chs": "诺艾尔", "de": "", "en": "Noelle", "fr": "Noelle" },
           "image": "/Character_Noelle_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Idyllic Town", "fr": "Village idyllique" },
+      "name": {
+        "chs": "牧歌之镇",
+        "de": "",
+        "en": "Idyllic Town",
+        "fr": "Village idyllique"
+      },
       "image": "/Furnishing_Set_Idyllic_Town_Display.webp",
       "characters": [
         {
-          "name": { "en": "Amber", "fr": "Amber" },
+          "name": { "chs": "安柏", "de": "", "en": "Amber", "fr": "Amber" },
           "image": "/Character_Amber_Thumb.webp"
         },
         {
-          "name": { "en": "Diona", "fr": "Diona" },
+          "name": { "chs": "迪奥娜", "de": "", "en": "Diona", "fr": "Diona" },
           "image": "/Character_Diona_Thumb.webp"
         },
         {
-          "name": { "en": "Razor", "fr": "Razor" },
+          "name": { "chs": "雷泽", "de": "", "en": "Razor", "fr": "Razor" },
           "image": "/Character_Razor_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "花鸟公园",
+        "de": "",
         "en": "Bird and Blossom Park",
         "fr": "Parc à oiseaux et fleurs"
       },
       "image": "/Furnishing_Set_Bird_and_Blossom_Park_Display.webp",
       "characters": [
         {
-          "name": { "en": "Barbara", "fr": "Barbara" },
+          "name": {
+            "chs": "芭芭拉",
+            "de": "",
+            "en": "Barbara",
+            "fr": "Barbara"
+          },
           "image": "/Character_Barbara_Thumb.webp"
         },
         {
-          "name": { "en": "Jean", "fr": "Jean" },
+          "name": { "chs": "琴", "de": "", "en": "Jean", "fr": "Jean" },
           "image": "/Character_Jean_Thumb.webp"
         },
         {
-          "name": { "en": "Kaeya", "fr": "Kaeya" },
+          "name": { "chs": "凯亚", "de": "", "en": "Kaeya", "fr": "Kaeya" },
           "image": "/Character_Kaeya_Thumb.webp"
         },
         {
-          "name": { "en": "Rosaria", "fr": "Rosaria" },
+          "name": {
+            "chs": "罗莎莉亚",
+            "de": "",
+            "en": "Rosaria",
+            "fr": "Rosaria"
+          },
           "image": "/Character_Rosaria_Thumb.webp"
         },
         {
-          "name": { "en": "Venti", "fr": "Venti" },
+          "name": { "chs": "温迪", "de": "", "en": "Venti", "fr": "Venti" },
           "image": "/Character_Venti_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "千家饔飧坊",
+        "de": "",
         "en": "Gathering of Gourmets",
         "fr": "Rassemblement des gourmets"
       },
       "image": "/Furnishing_Set_Gathering_of_Gourmets_Display.webp",
       "characters": [
         {
-          "name": { "en": "Beidou", "fr": "Beidou" },
+          "name": { "chs": "北斗", "de": "", "en": "Beidou", "fr": "Beidou" },
           "image": "/Character_Beidou_Thumb.webp"
         },
         {
-          "name": { "en": "Ganyu", "fr": "Ganyu" },
+          "name": { "chs": "甘雨", "de": "", "en": "Ganyu", "fr": "Ganyu" },
           "image": "/Character_Ganyu_Thumb.webp"
         },
         {
-          "name": { "en": "Tartaglia", "fr": "Tartaglia" },
+          "name": {
+            "chs": "达达利亚",
+            "de": "",
+            "en": "Tartaglia",
+            "fr": "Tartaglia"
+          },
           "image": "/Character_Tartaglia_Thumb.webp"
         },
         {
-          "name": { "en": "Xiangling", "fr": "Xiangling" },
+          "name": {
+            "chs": "香菱",
+            "de": "",
+            "en": "Xiangling",
+            "fr": "Xiangling"
+          },
           "image": "/Character_Xiangling_Thumb.webp"
         },
         {
-          "name": { "en": "Xinyan", "fr": "Xinyan" },
+          "name": { "chs": "辛焱", "de": "", "en": "Xinyan", "fr": "Xinyan" },
           "image": "/Character_Xinyan_Thumb.webp"
         },
         {
-          "name": { "en": "Yelan", "fr": "Yelan" },
+          "name": { "chs": "夜兰", "de": "", "en": "Yelan", "fr": "Yelan" },
           "image": "/Character_Yelan_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Glittering Street", "fr": "Rue foisonnante" },
+      "name": {
+        "chs": "百里琳琅街",
+        "de": "",
+        "en": "Glittering Street",
+        "fr": "Rue foisonnante"
+      },
       "image": "/Furnishing_Set_Glittering_Street_Display.webp",
       "characters": [
         {
-          "name": { "en": "Keqing", "fr": "Keqing" },
+          "name": { "chs": "刻晴", "de": "", "en": "Keqing", "fr": "Keqing" },
           "image": "/Character_Keqing_Thumb.webp"
         },
         {
-          "name": { "en": "Ningguang", "fr": "Ningguang" },
+          "name": {
+            "chs": "凝光",
+            "de": "",
+            "en": "Ningguang",
+            "fr": "Ningguang"
+          },
           "image": "/Character_Ningguang_Thumb.webp"
         },
         {
-          "name": { "en": "Shenhe", "fr": "Shenhe" },
+          "name": { "chs": "申鹤", "de": "", "en": "Shenhe", "fr": "Shenhe" },
           "image": "/Character_Shenhe_Thumb.webp"
         },
         {
-          "name": { "en": "Xingqiu", "fr": "Xingqiu" },
+          "name": { "chs": "行秋", "de": "", "en": "Xingqiu", "fr": "Xingqiu" },
           "image": "/Character_Xingqiu_Thumb.webp"
         },
         {
-          "name": { "en": "Yanfei", "fr": "Yanfei" },
+          "name": { "chs": "烟绯", "de": "", "en": "Yanfei", "fr": "Yanfei" },
           "image": "/Character_Yanfei_Thumb.webp"
         },
         {
-          "name": { "en": "Yun Jin", "fr": "Yun Jin" },
+          "name": { "chs": "云堇", "de": "", "en": "Yun Jin", "fr": "Yun Jin" },
           "image": "/Character_Yun_Jin_Thumb.webp"
         },
         {
-          "name": { "en": "Zhongli", "fr": "Zhongli" },
+          "name": { "chs": "钟离", "de": "", "en": "Zhongli", "fr": "Zhongli" },
           "image": "/Character_Zhongli_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "轻策闲云居",
+        "de": "",
         "en": "Qingce Cloud Residence",
         "fr": "Résidence des nuages de Qingce"
       },
       "image": "/Furnishing_Set_Qingce_Cloud_Residence_Display.webp",
       "characters": [
         {
-          "name": { "en": "Hu Tao", "fr": "Hu Tao" },
+          "name": { "chs": "胡桃", "de": "", "en": "Hu Tao", "fr": "Hu Tao" },
           "image": "/Character_Hu_Tao_Thumb.webp"
         },
         {
-          "name": { "en": "Qiqi", "fr": "Qiqi" },
+          "name": { "chs": "七七", "de": "", "en": "Qiqi", "fr": "Qiqi" },
           "image": "/Character_Qiqi_Thumb.webp"
         },
         {
-          "name": { "en": "Xiao", "fr": "Xiao" },
+          "name": { "chs": "魈", "de": "", "en": "Xiao", "fr": "Xiao" },
           "image": "/Character_Xiao_Thumb.webp"
         },
         {
-          "name": { "en": "Xinyan", "fr": "Xinyan" },
+          "name": { "chs": "辛焱", "de": "", "en": "Xinyan", "fr": "Xinyan" },
           "image": "/Character_Xinyan_Thumb.webp"
         },
         {
-          "name": { "en": "Shenhe", "fr": "Shenhe" },
+          "name": { "chs": "申鹤", "de": "", "en": "Shenhe", "fr": "Shenhe" },
           "image": "/Character_Shenhe_Thumb.webp"
         },
         {
-          "name": { "en": "Yelan", "fr": "Yelan" },
+          "name": { "chs": "夜兰", "de": "", "en": "Yelan", "fr": "Yelan" },
           "image": "/Character_Yelan_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Of Hunting and Dancing", "fr": "Camp de chasse" },
+      "name": {
+        "chs": "狩猎与歌舞之营",
+        "de": "",
+        "en": "Of Hunting and Dancing",
+        "fr": "Camp de chasse"
+      },
       "image": "/Furnishing_Set_Of_Hunting_and_Dancing_Display.webp",
       "characters": [
         {
-          "name": { "en": "Aloy", "fr": "Aloy" },
+          "name": { "chs": "埃洛伊", "de": "", "en": "Aloy", "fr": "Aloy" },
           "image": "/Character_Aloy_Thumb.webp"
         },
         {
-          "name": { "en": "Amber", "fr": "Amber" },
+          "name": { "chs": "安柏", "de": "", "en": "Amber", "fr": "Amber" },
           "image": "/Character_Amber_Thumb.webp"
         },
         {
-          "name": { "en": "Beidou", "fr": "Beidou" },
+          "name": { "chs": "北斗", "de": "", "en": "Beidou", "fr": "Beidou" },
           "image": "/Character_Beidou_Thumb.webp"
         },
         {
-          "name": { "en": "Klee", "fr": "Klee" },
+          "name": { "chs": "可莉", "de": "", "en": "Klee", "fr": "Klee" },
           "image": "/Character_Klee_Thumb.webp"
         },
         {
-          "name": { "en": "Sucrose", "fr": "Sucrose" },
+          "name": { "chs": "砂糖", "de": "", "en": "Sucrose", "fr": "Sucrose" },
           "image": "/Character_Sucrose_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "星辰与深渊之旅",
+        "de": "",
         "en": "Iter Ad Astra Abyssosque",
         "fr": "« Périple vers les étoiles et au-delà »"
       },
       "image": "/Furnishing_Set_Iter_Ad_Astra_Abyssosque_Display.webp",
       "characters": [
         {
-          "name": { "en": "Albedo", "fr": "Albedo" },
+          "name": { "chs": "阿贝多", "de": "", "en": "Albedo", "fr": "Albedo" },
           "image": "/Character_Albedo_Thumb.webp"
         },
         {
-          "name": { "en": "Aloy", "fr": "Aloy" },
+          "name": { "chs": "埃洛伊", "de": "", "en": "Aloy", "fr": "Aloy" },
           "image": "/Character_Aloy_Thumb.webp"
         },
         {
-          "name": { "en": "Bennett", "fr": "Bennett" },
+          "name": {
+            "chs": "班尼特",
+            "de": "",
+            "en": "Bennett",
+            "fr": "Bennett"
+          },
           "image": "/Character_Bennett_Thumb.webp"
         },
         {
-          "name": { "en": "Chongyun", "fr": "Chongyun" },
+          "name": {
+            "chs": "重云",
+            "de": "",
+            "en": "Chongyun",
+            "fr": "Chongyun"
+          },
           "image": "/Character_Chongyun_Thumb.webp"
         },
         {
-          "name": { "en": "Fischl", "fr": "Fischl" },
+          "name": { "chs": "菲谢尔", "de": "", "en": "Fischl", "fr": "Fischl" },
           "image": "/Character_Fischl_Thumb.webp"
         },
         {
-          "name": { "en": "Qiqi", "fr": "Qiqi" },
+          "name": { "chs": "七七", "de": "", "en": "Qiqi", "fr": "Qiqi" },
           "image": "/Character_Qiqi_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Dawn Orchard", "fr": "Verger de l'Aurore" },
+      "name": {
+        "chs": "晨曦果园",
+        "de": "",
+        "en": "Dawn Orchard",
+        "fr": "Verger de l'Aurore"
+      },
       "image": "/Furnishing_Set_Dawn_Orchard_Display.webp",
       "characters": [
         {
-          "name": { "en": "Diluc", "fr": "Diluc" },
+          "name": { "chs": "迪卢克", "de": "", "en": "Diluc", "fr": "Diluc" },
           "image": "/Character_Diluc_Thumb.webp"
         },
         {
-          "name": { "en": "Kaeya", "fr": "Kaeya" },
+          "name": { "chs": "凯亚", "de": "", "en": "Kaeya", "fr": "Kaeya" },
           "image": "/Character_Kaeya_Thumb.webp"
         },
         {
-          "name": { "en": "Rosaria", "fr": "Rosaria" },
+          "name": {
+            "chs": "罗莎莉亚",
+            "de": "",
+            "en": "Rosaria",
+            "fr": "Rosaria"
+          },
           "image": "/Character_Rosaria_Thumb.webp"
         },
         {
-          "name": { "en": "Venti", "fr": "Venti" },
+          "name": { "chs": "温迪", "de": "", "en": "Venti", "fr": "Venti" },
           "image": "/Character_Venti_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Court of the Upright", "fr": "Cour d'intégrité" },
+      "name": {
+        "chs": "正格之庭",
+        "de": "",
+        "en": "Court of the Upright",
+        "fr": "Cour d'intégrité"
+      },
       "image": "/Furnishing_Set_Court_of_the_Upright_Display.webp",
       "characters": [
         {
-          "name": { "en": "Kujou Sara", "fr": "Kujou Sara" },
+          "name": {
+            "chs": "九条裟罗",
+            "de": "",
+            "en": "Kujou Sara",
+            "fr": "Kujou Sara"
+          },
           "image": "/Character_Kujou_Sara_Thumb.webp"
         },
         {
-          "name": { "en": "Kamisato Ayato", "fr": "Kamisato Ayato" },
+          "name": {
+            "chs": "神里绫人",
+            "de": "",
+            "en": "Kamisato Ayato",
+            "fr": "Kamisato Ayato"
+          },
           "image": "/Character_Kamisato_Ayato_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Wakeful Spring", "fr": "Source revigorante" },
+      "name": {
+        "chs": "醒意汤泉",
+        "de": "",
+        "en": "Wakeful Spring",
+        "fr": "Source revigorante"
+      },
       "image": "/Furnishing_Set_Wakeful_Spring_Display.webp",
       "characters": [
         {
-          "name": { "en": "Yoimiya", "fr": "Yoimiya" },
+          "name": { "chs": "宵宫", "de": "", "en": "Yoimiya", "fr": "Yoimiya" },
           "image": "/Character_Yoimiya_Thumb.webp"
         },
         {
-          "name": { "en": "Yae Miko", "fr": "Yae Miko" },
+          "name": {
+            "chs": "八重神子",
+            "de": "",
+            "en": "Yae Miko",
+            "fr": "Yae Miko"
+          },
           "image": "/Character_Yae_Miko_Thumb.webp"
         },
         {
-          "name": { "en": "Gorou", "fr": "Gorou" },
+          "name": { "chs": "五郎", "de": "", "en": "Gorou", "fr": "Gorou" },
           "image": "/Character_Gorou_Thumb.webp"
         },
         {
-          "name": { "en": "Shikanoin Heizou", "fr": "Shikanoin Heizou" },
+          "name": {
+            "chs": "鹿野院平藏",
+            "de": "",
+            "en": "Shikanoin Heizou",
+            "fr": "Shikanoin Heizou"
+          },
           "image": "/Character_Shikanoin_Heizou_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Rural Concealment", "fr": "Dissimulation rurale" },
+      "name": {
+        "chs": "村中匿影",
+        "de": "",
+        "en": "Rural Concealment",
+        "fr": "Dissimulation rurale"
+      },
       "image": "/Furnishing_Set_Rural_Concealment_Display.webp",
       "characters": [
         {
-          "name": { "en": "Sayu", "fr": "Sayu" },
+          "name": { "chs": "早柚", "de": "", "en": "Sayu", "fr": "Sayu" },
           "image": "/Character_Sayu_Thumb.webp"
         },
         {
-          "name": { "en": "Gorou", "fr": "Gorou" },
+          "name": { "chs": "五郎", "de": "", "en": "Gorou", "fr": "Gorou" },
           "image": "/Character_Gorou_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "枝社旧绪",
+        "de": "",
         "en": "Ancient Branch Shrine",
         "fr": "Sanctuaire de la branche antique"
       },
       "image": "/Furnishing_Set_Ancient_Branch_Shrine_Display.webp",
       "characters": [
         {
-          "name": { "en": "Raiden Shogun", "fr": "Raiden Shogun" },
+          "name": {
+            "chs": "雷电将军",
+            "de": "",
+            "en": "Raiden Shogun",
+            "fr": "Shogun Raiden"
+          },
           "image": "/Character_Raiden_Shogun_Thumb.webp"
         },
         {
-          "name": { "en": "Yae Miko", "fr": "Yae Miko" },
+          "name": {
+            "chs": "八重神子",
+            "de": "",
+            "en": "Yae Miko",
+            "fr": "Yae Miko"
+          },
           "image": "/Character_Yae_Miko_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "千军致戎演兵场",
+        "de": "",
         "en": "Military Exercise Grounds",
         "fr": "Terrain d'exercices militaires"
       },
       "image": "/Furnishing_Set_Military_Exercise_Grounds_Display.webp",
       "characters": [
         {
-          "name": { "en": "Kujou Sara", "fr": "Kujou Sara" },
+          "name": {
+            "chs": "九条裟罗",
+            "de": "",
+            "en": "Kujou Sara",
+            "fr": "Kujou Sara"
+          },
           "image": "/Character_Kujou_Sara_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Jade Wilds", "fr": "Nature de jade" },
+      "name": {
+        "chs": "琼片遍郁野",
+        "de": "",
+        "en": "Jade Wilds",
+        "fr": "Nature de jade"
+      },
       "image": "/Furnishing_Set_Jade_Wilds_Display.webp",
       "characters": [
         {
-          "name": { "en": "Kaedehara Kazuha", "fr": "Kaedehara Kazuha" },
+          "name": {
+            "chs": "枫原万叶",
+            "de": "",
+            "en": "Kaedehara Kazuha",
+            "fr": "Kaedehara Kazuha"
+          },
           "image": "/Character_Kaedehara_Kazuha_Thumb.webp"
         },
         {
-          "name": { "en": "Arataki Itto", "fr": "Arataki Itto" },
+          "name": {
+            "chs": "荒泷一斗",
+            "de": "",
+            "en": "Arataki Itto",
+            "fr": "Arataki Itto"
+          },
           "image": "/Character_Arataki_Itto_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "夏夜的追想",
+        "de": "",
         "en": "Summer Night's Recollection",
         "fr": "Souvenir d'une nuit d'été"
       },
       "image": "/Furnishing_Set_Summer_Nights_Recollection_Display.webp",
       "characters": [
         {
-          "name": { "en": "Kamisato Ayaka", "fr": "Kamisato Ayaka" },
+          "name": {
+            "chs": "神里绫华",
+            "de": "",
+            "en": "Kamisato Ayaka",
+            "fr": "Kamisato Ayaka"
+          },
           "image": "/Character_Kamisato_Ayaka_Thumb.webp"
         },
         {
-          "name": { "en": "Arataki Itto", "fr": "Arataki Itto" },
+          "name": {
+            "chs": "荒泷一斗",
+            "de": "",
+            "en": "Arataki Itto",
+            "fr": "Arataki Itto"
+          },
           "image": "/Character_Arataki_Itto_Thumb.webp"
         },
         {
-          "name": { "en": "Kamisato Ayato", "fr": "Kamisato Ayato" },
+          "name": {
+            "chs": "神里绫人",
+            "de": "",
+            "en": "Kamisato Ayato",
+            "fr": "Kamisato Ayato"
+          },
           "image": "/Character_Kamisato_Ayato_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Sakura-Hued Street", "fr": "Rue de teinte cerise" },
+      "name": {
+        "chs": "樱染的街巷",
+        "de": "",
+        "en": "Sakura-Hued Street",
+        "fr": "Rue de teinte cerise"
+      },
       "image": "/Furnishing_Set_Sakura-Hued_Street_Display.webp",
       "characters": [
         {
-          "name": { "en": "Yoimiya", "fr": "Yoimiya" },
+          "name": { "chs": "宵宫", "de": "", "en": "Yoimiya", "fr": "Yoimiya" },
           "image": "/Character_Yoimiya_Thumb.webp"
         },
         {
-          "name": { "en": "Thoma", "fr": "Thoma" },
+          "name": { "chs": "托马", "de": "", "en": "Thoma", "fr": "Thoma" },
           "image": "/Character_Thoma_Thumb.webp"
         },
         {
-          "name": { "en": "Kuki Shinobu", "fr": "Kuki Shinobu" },
+          "name": {
+            "chs": "久岐忍",
+            "de": "",
+            "en": "Kuki Shinobu",
+            "fr": "Kuki Shinobu"
+          },
           "image": "/Character_Kuki_Shinobu_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "繁闹畅旺的市集",
+        "de": "",
         "en": "Amidst Prospering Markets",
         "fr": "Au milieu de marchés prospères"
       },
       "image": "/Furnishing_Set_Amidst_Prospering_Markets_Display.webp",
       "characters": [
         {
-          "name": { "en": "Dori", "fr": "Dori" },
+          "name": { "chs": "多莉", "de": "", "en": "Dori", "fr": "Dori" },
           "image": "/Character_Dori_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "栖凭于清森深处",
+        "de": "",
         "en": "Deep in the Quiet Forest",
         "fr": "Au fond de la forêt tranquille"
       },
       "image": "/Furnishing_Set_Deep_in_the_Quiet_Forest_Display.webp",
       "characters": [
         {
-          "name": { "en": "Collei", "fr": "Collei" },
+          "name": { "chs": "柯莱", "de": "", "en": "Collei", "fr": "Collei" },
           "image": "/Character_Collei_Thumb.webp"
         },
         {
-          "name": { "en": "Cyno", "fr": "Cyno" },
+          "name": { "chs": "赛诺", "de": "", "en": "Cyno", "fr": "Cyno" },
           "image": "/Character_Cyno_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "翛然旋舞的姿影",
+        "de": "",
         "en": "Of Twirling Dances Unfettered",
         "fr": "Danses virevoltantes sans entraves"
       },
       "image": "/Furnishing_Set_Of_Twirling_Dances_Unfettered_Display.webp",
       "characters": [
         {
-          "name": { "en": "Nilou", "fr": "Nilou" },
+          "name": { "chs": "妮露", "de": "", "en": "Nilou", "fr": "Nilou" },
           "image": "/Character_Nilou_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "水畔的宁静时光",
+        "de": "",
         "en": "Quiet Times by the Riverbank",
         "fr": "Temps calmes au bord de la rivière"
       },
       "image": "/Furnishing_Set_Quiet_Times_by_the_Riverbank_Display.webp",
       "characters": [
         {
-          "name": { "en": "Nilou", "fr": "Nilou" },
+          "name": { "chs": "妮露", "de": "", "en": "Nilou", "fr": "Nilou" },
           "image": "/Character_Nilou_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "婉拒风蚀的聚落",
+        "de": "",
         "en": "Setekh Demurs",
         "fr": "Refus de Setekh"
       },
       "image": "/Furnishing_Set_Setekh_Demurs_Display.webp",
       "characters": [
         {
-          "name": { "en": "Candace", "fr": "Candace" },
+          "name": {
+            "chs": "坎蒂丝",
+            "de": "",
+            "en": "Candace",
+            "fr": "Candace"
+          },
           "image": "/Character_Candace_Thumb.webp"
         },
         {
-          "name": { "en": "Layla", "fr": "Layla" },
+          "name": { "chs": "莱依拉", "de": "", "en": "Layla", "fr": "Layla" },
           "image": "/Character_Layla_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "旅团的兵阵雄姿",
+        "de": "",
         "en": "The Traveling Troop's Pomp",
         "fr": "Faste de la troupe itinérante"
       },
@@ -469,26 +657,35 @@
     },
     {
       "name": {
+        "chs": "幽芳与恬谧之中",
+        "de": "",
         "en": "Amidst Scents and Serenity",
         "fr": "Entre senteurs et sérénité"
       },
       "image": "/Furnishing_Set_Amidst_Scents_and_Serenity_Display.webp",
       "characters": [
         {
-          "name": { "en": "Nahida", "fr": "Nahida" },
+          "name": { "chs": "纳西妲", "de": "", "en": "Nahida", "fr": "Nahida" },
           "image": "/Character_Nahida_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "林野与沙漠的合奏",
+        "de": "",
         "en": "Chorus of Desert and Wood",
         "fr": "Chœur du désert et des bois"
       },
       "image": "/Furnishing_Set_Chorus_of_Desert_and_Wood_Display.webp",
       "characters": [
         {
-          "name": { "en": "Tighnari", "fr": "Tighnari" },
+          "name": {
+            "chs": "提纳里",
+            "de": "",
+            "en": "Tighnari",
+            "fr": "Tighnari"
+          },
           "image": "/Character_Tighnari_Thumb.webp"
         }
       ]
@@ -497,291 +694,417 @@
   "indoor": [
     {
       "name": {
+        "chs": "诗歌沉思间",
+        "de": "",
         "en": "Amidst Poetic Pondering",
         "fr": "« Réflexion poétique »"
       },
       "image": "/Furnishing_Set_Amidst_Poetic_Pondering_Display.webp",
       "characters": [
         {
-          "name": { "en": "Eula", "fr": "Eula" },
+          "name": { "chs": "优菈", "de": "", "en": "Eula", "fr": "Eula" },
           "image": "/Character_Eula_Thumb.webp"
         },
         {
-          "name": { "en": "Fischl", "fr": "Fischl" },
+          "name": { "chs": "菲谢尔", "de": "", "en": "Fischl", "fr": "Fischl" },
           "image": "/Character_Fischl_Thumb.webp"
         },
         {
-          "name": { "en": "Jean", "fr": "Jean" },
+          "name": { "chs": "琴", "de": "", "en": "Jean", "fr": "Jean" },
           "image": "/Character_Jean_Thumb.webp"
         },
         {
-          "name": { "en": "Lisa", "fr": "Lisa" },
+          "name": { "chs": "丽莎", "de": "", "en": "Lisa", "fr": "Lisa" },
           "image": "/Character_Lisa_Thumb.webp"
         },
         {
-          "name": { "en": "Mona", "fr": "Mona" },
+          "name": { "chs": "莫娜", "de": "", "en": "Mona", "fr": "Mona" },
           "image": "/Character_Mona_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Amidst Whispering Winds", "fr": "« Vents murmurants »" },
+      "name": {
+        "chs": "柔风低语间",
+        "de": "",
+        "en": "Amidst Whispering Winds",
+        "fr": "« Vents murmurants »"
+      },
       "image": "/Furnishing_Set_Amidst_Whispering_Winds_Display.webp",
       "characters": [
         {
-          "name": { "en": "Eula", "fr": "Eula" },
+          "name": { "chs": "优菈", "de": "", "en": "Eula", "fr": "Eula" },
           "image": "/Character_Eula_Thumb.webp"
         },
         {
-          "name": { "en": "Barbara", "fr": "Barbara" },
+          "name": {
+            "chs": "芭芭拉",
+            "de": "",
+            "en": "Barbara",
+            "fr": "Barbara"
+          },
           "image": "/Character_Barbara_Thumb.webp"
         },
         {
-          "name": { "en": "Noelle", "fr": "Noelle" },
+          "name": { "chs": "诺艾尔", "de": "", "en": "Noelle", "fr": "Noelle" },
           "image": "/Character_Noelle_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Feiyun Study Room", "fr": "Salle d'étude de Feiyun" },
+      "name": {
+        "chs": "绯云文斋",
+        "de": "",
+        "en": "Feiyun Study Room",
+        "fr": "Salle d'étude de Feiyun"
+      },
       "image": "/Furnishing_Set_Feiyun_Study_Room_Display.webp",
       "characters": [
         {
-          "name": { "en": "Ningguang", "fr": "Ningguang" },
+          "name": {
+            "chs": "凝光",
+            "de": "",
+            "en": "Ningguang",
+            "fr": "Ningguang"
+          },
           "image": "/Character_Ningguang_Thumb.webp"
         },
         {
-          "name": { "en": "Xingqiu", "fr": "Xingqiu" },
+          "name": { "chs": "行秋", "de": "", "en": "Xingqiu", "fr": "Xingqiu" },
           "image": "/Character_Xingqiu_Thumb.webp"
         },
         {
-          "name": { "en": "Yun Jin", "fr": "Yun Jin" },
+          "name": { "chs": "云堇", "de": "", "en": "Yun Jin", "fr": "Yun Jin" },
           "image": "/Character_Yun_Jin_Thumb.webp"
         },
         {
-          "name": { "en": "Zhongli", "fr": "Zhongli" },
+          "name": { "chs": "钟离", "de": "", "en": "Zhongli", "fr": "Zhongli" },
           "image": "/Character_Zhongli_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "烟霞入梦阁",
+        "de": "",
         "en": "Cloudy Haze Dream-Court",
         "fr": "Pavillon des rêves de brume"
       },
       "image": "/Furnishing_Set_Cloudy_Haze_Dream-Court_Display.webp",
       "characters": [
         {
-          "name": { "en": "Chongyun", "fr": "Chongyun" },
+          "name": {
+            "chs": "重云",
+            "de": "",
+            "en": "Chongyun",
+            "fr": "Chongyun"
+          },
           "image": "/Character_Chongyun_Thumb.webp"
         },
         {
-          "name": { "en": "Ganyu", "fr": "Ganyu" },
+          "name": { "chs": "甘雨", "de": "", "en": "Ganyu", "fr": "Ganyu" },
           "image": "/Character_Ganyu_Thumb.webp"
         },
         {
-          "name": { "en": "Keqing", "fr": "Keqing" },
+          "name": { "chs": "刻晴", "de": "", "en": "Keqing", "fr": "Keqing" },
           "image": "/Character_Keqing_Thumb.webp"
         },
         {
-          "name": { "en": "Hu Tao", "fr": "Hu Tao" },
+          "name": { "chs": "胡桃", "de": "", "en": "Hu Tao", "fr": "Hu Tao" },
           "image": "/Character_Hu_Tao_Thumb.webp"
         },
         {
-          "name": { "en": "Yanfei", "fr": "Yanfei" },
+          "name": { "chs": "烟绯", "de": "", "en": "Yanfei", "fr": "Yanfei" },
           "image": "/Character_Yanfei_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "秘术研究所",
+        "de": "",
         "en": "Secret Research Lab",
         "fr": "Laboratoire de recherche secret"
       },
       "image": "/Furnishing_Set_Secret_Research_Lab_Display.webp",
       "characters": [
         {
-          "name": { "en": "Albedo", "fr": "Albedo" },
+          "name": { "chs": "阿贝多", "de": "", "en": "Albedo", "fr": "Albedo" },
           "image": "/Character_Albedo_Thumb.webp"
         },
         {
-          "name": { "en": "Klee", "fr": "Klee" },
+          "name": { "chs": "可莉", "de": "", "en": "Klee", "fr": "Klee" },
           "image": "/Character_Klee_Thumb.webp"
         },
         {
-          "name": { "en": "Lisa", "fr": "Lisa" },
+          "name": { "chs": "丽莎", "de": "", "en": "Lisa", "fr": "Lisa" },
           "image": "/Character_Lisa_Thumb.webp"
         },
         {
-          "name": { "en": "Sucrose", "fr": "Sucrose" },
+          "name": { "chs": "砂糖", "de": "", "en": "Sucrose", "fr": "Sucrose" },
           "image": "/Character_Sucrose_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Cottage Kitchen", "fr": "Maison de fumée de bois" },
+      "name": {
+        "chs": "柴烟庖屋",
+        "de": "",
+        "en": "Cottage Kitchen",
+        "fr": "Maison de fumée de bois"
+      },
       "image": "/Furnishing_Set_Cottage_Kitchen_Display.webp",
       "characters": [
         {
-          "name": { "en": "Mona", "fr": "Mona" },
+          "name": { "chs": "莫娜", "de": "", "en": "Mona", "fr": "Mona" },
           "image": "/Character_Mona_Thumb.webp"
         },
         {
-          "name": { "en": "Razor", "fr": "Razor" },
+          "name": { "chs": "雷泽", "de": "", "en": "Razor", "fr": "Razor" },
           "image": "/Character_Razor_Thumb.webp"
         },
         {
-          "name": { "en": "Tartaglia", "fr": "Tartaglia" },
+          "name": {
+            "chs": "达达利亚",
+            "de": "",
+            "en": "Tartaglia",
+            "fr": "Tartaglia"
+          },
           "image": "/Character_Tartaglia_Thumb.webp"
         },
         {
-          "name": { "en": "Xiangling", "fr": "Xiangling" },
+          "name": {
+            "chs": "香菱",
+            "de": "",
+            "en": "Xiangling",
+            "fr": "Xiangling"
+          },
           "image": "/Character_Xiangling_Thumb.webp"
         },
         {
-          "name": { "en": "Xiao", "fr": "Xiao" },
+          "name": { "chs": "魈", "de": "", "en": "Xiao", "fr": "Xiao" },
           "image": "/Character_Xiao_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "遐久瞬梦间",
+        "de": "",
         "en": "Eternal Domain of Fleeting Dreams",
         "fr": "Domaine des rêves éphémères"
       },
       "image": "/Furnishing_Set_Eternal_Domain_of_Fleeting_Dreams_Display.webp",
       "characters": [
         {
-          "name": { "en": "Sayu", "fr": "Sayu" },
+          "name": { "chs": "早柚", "de": "", "en": "Sayu", "fr": "Sayu" },
           "image": "/Character_Sayu_Thumb.webp"
         },
         {
-          "name": { "en": "Sangonomiya Kokomi", "fr": "Sangonomiya Kokomi" },
+          "name": {
+            "chs": "珊瑚宫心海",
+            "de": "",
+            "en": "Sangonomiya Kokomi",
+            "fr": "Sangonomiya Kokomi"
+          },
           "image": "/Character_Sangonomiya_Kokomi_Thumb.webp"
         },
         {
-          "name": { "en": "Shikanoin Heizou", "fr": "Shikanoin Heizou" },
+          "name": {
+            "chs": "鹿野院平藏",
+            "de": "",
+            "en": "Shikanoin Heizou",
+            "fr": "Shikanoin Heizou"
+          },
           "image": "/Character_Shikanoin_Heizou_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "A Thousand Swings", "fr": "Millier de coups" },
+      "name": {
+        "chs": "千振致业",
+        "de": "",
+        "en": "A Thousand Swings",
+        "fr": "Millier de coups"
+      },
       "image": "/Furnishing_Set_A_Thousand_Swings_Display.webp",
       "characters": [
         {
-          "name": { "en": "Raiden Shogun", "fr": "Raiden Shogun" },
+          "name": {
+            "chs": "雷电将军",
+            "de": "",
+            "en": "Raiden Shogun",
+            "fr": "Shogun Raiden"
+          },
           "image": "/Character_Raiden_Shogun_Thumb.webp"
         },
         {
-          "name": { "en": "Kamisato Ayaka", "fr": "Kamisato Ayaka" },
+          "name": {
+            "chs": "神里绫华",
+            "de": "",
+            "en": "Kamisato Ayaka",
+            "fr": "Kamisato Ayaka"
+          },
           "image": "/Character_Kamisato_Ayaka_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Scholarly Trove", "fr": "Trésor de l'érudit" },
+      "name": {
+        "chs": "沉墨书舍",
+        "de": "",
+        "en": "Scholarly Trove",
+        "fr": "Trésor de l'érudit"
+      },
       "image": "/Furnishing_Set_Scholarly_Trove_Display.webp",
       "characters": [
         {
-          "name": { "en": "Sangonomiya Kokomi", "fr": "Sangonomiya Kokomi" },
+          "name": {
+            "chs": "珊瑚宫心海",
+            "de": "",
+            "en": "Sangonomiya Kokomi",
+            "fr": "Sangonomiya Kokomi"
+          },
           "image": "/Character_Sangonomiya_Kokomi_Thumb.webp"
         },
         {
-          "name": { "en": "Kuki Shinobu", "fr": "Kuki Shinobu" },
+          "name": {
+            "chs": "久岐忍",
+            "de": "",
+            "en": "Kuki Shinobu",
+            "fr": "Kuki Shinobu"
+          },
           "image": "/Character_Kuki_Shinobu_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "枫香茶雾一室中",
+        "de": "",
         "en": "Of Maple and Tea Scents Entwined",
         "fr": "Fragrance d'érable et de thé"
       },
       "image": "/Furnishing_Set_Of_Maple_and_Tea_Scents_Entwined_Display.webp",
       "characters": [
         {
-          "name": { "en": "Thoma", "fr": "Thoma" },
+          "name": { "chs": "托马", "de": "", "en": "Thoma", "fr": "Thoma" },
           "image": "/Character_Thoma_Thumb.webp"
         },
         {
-          "name": { "en": "Kaedehara Kazuha", "fr": "Kaedehara Kazuha" },
+          "name": {
+            "chs": "枫原万叶",
+            "de": "",
+            "en": "Kaedehara Kazuha",
+            "fr": "Kaedehara Kazuha"
+          },
           "image": "/Character_Kaedehara_Kazuha_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "巡林常途的百千趣事",
+        "de": "",
         "en": "Forest Patrol Anecdotes",
         "fr": "Anecdotes de la patrouille forestière"
       },
       "image": "/Furnishing_Set_Forest_Patrol_Anecdotes_Display.webp",
       "characters": [
         {
-          "name": { "en": "Tighnari", "fr": "Tighnari" },
+          "name": {
+            "chs": "提纳里",
+            "de": "",
+            "en": "Tighnari",
+            "fr": "Tighnari"
+          },
           "image": "/Character_Tighnari_Thumb.webp"
         },
         {
-          "name": { "en": "Collei", "fr": "Collei" },
+          "name": { "chs": "柯莱", "de": "", "en": "Collei", "fr": "Collei" },
           "image": "/Character_Collei_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Coalesced Brilliance", "fr": "Brillance fusionnée" },
+      "name": {
+        "chs": "凝停的绮璨明彩",
+        "de": "",
+        "en": "Coalesced Brilliance",
+        "fr": "Brillance fusionnée"
+      },
       "image": "/Furnishing_Set_Coalesced_Brilliance_Display.webp",
       "characters": [
         {
-          "name": { "en": "Dori", "fr": "Dori" },
+          "name": { "chs": "多莉", "de": "", "en": "Dori", "fr": "Dori" },
           "image": "/Character_Dori_Thumb.webp"
         },
         {
-          "name": { "en": "Nilou", "fr": "Nilou" },
+          "name": { "chs": "妮露", "de": "", "en": "Nilou", "fr": "Nilou" },
           "image": "/Character_Nilou_Thumb.webp"
         }
       ]
     },
     {
-      "name": { "en": "Fervid Aroma", "fr": "Arôme fervent" },
+      "name": {
+        "chs": "至烈至强的醇香",
+        "de": "",
+        "en": "Fervid Aroma",
+        "fr": "Arôme fervent"
+      },
       "image": "/Furnishing_Set_Fervid_Aroma_Display.webp",
       "characters": []
     },
     {
-      "name": { "en": "Of Settled Thoughts", "fr": "Pensées arrêtées" },
+      "name": {
+        "chs": "识见沉降之地",
+        "de": "",
+        "en": "Of Settled Thoughts",
+        "fr": "Pensées arrêtées"
+      },
       "image": "/Furnishing_Set_Of_Settled_Thoughts_Display.webp",
       "characters": [
         {
-          "name": { "en": "Cyno", "fr": "Cyno" },
+          "name": { "chs": "赛诺", "de": "", "en": "Cyno", "fr": "Cyno" },
           "image": "/Character_Cyno_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "暂别喧扰与烦忧",
+        "de": "",
         "en": "A Farewell Brief to Bustle and Bother",
         "fr": "Bref d'adieu à l'agitation et la peine"
       },
       "image": "/Furnishing_Set_A_Farewell_Brief_to_Bustle_and_Bother_Display.webp",
       "characters": [
         {
-          "name": { "en": "Nahida", "fr": "Nahida" },
+          "name": { "chs": "纳西妲", "de": "", "en": "Nahida", "fr": "Nahida" },
           "image": "/Character_Nahida_Thumb.webp"
         },
         {
-          "name": { "en": "Layla", "fr": "Layla" },
+          "name": { "chs": "莱依拉", "de": "", "en": "Layla", "fr": "Layla" },
           "image": "/Character_Layla_Thumb.webp"
         }
       ]
     },
     {
       "name": {
+        "chs": "存身于尘沙之境",
+        "de": "",
         "en": "Dwelling Amidst the Sands",
         "fr": "Habitation parmi les sables"
       },
       "image": "/Furnishing_Set_Dwelling_Amidst_the_Sands_Display.webp",
       "characters": [
         {
-          "name": { "en": "Candace", "fr": "Candace" },
+          "name": {
+            "chs": "坎蒂丝",
+            "de": "",
+            "en": "Candace",
+            "fr": "Candace"
+          },
           "image": "/Character_Candace_Thumb.webp"
         }
       ]
