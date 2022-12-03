@@ -49,8 +49,7 @@ const langs = {
     floor1to8: "1-8 层",
     floor9to12: "9-12 层",
     noSpiralAbyssResets: "[深境螺旋重置]数量",
-    saTooltip:
-      "If you have completed the current abyss rotation reduce this value by 1",
+    saTooltip: "如果你已经完成了当前的深境螺旋，就把这个值减少1。",
     events: "活动",
     exploration: "勘探",
     unlockables: "可解锁的物品",
