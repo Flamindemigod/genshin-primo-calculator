@@ -29,7 +29,7 @@ const langs = {
       para5line1:
         "如你有任何问题或建议，请随时在Discord at FlaminDemigod#2754 上留言。",
       para5line1highlight: "",
-      specialThanks: "",
+      specialThanks: "谢谢Eddie Chan的翻译",
     },
     scrollDown: "向下滚动以开始",
     inputParams: "输入参数",
@@ -49,7 +49,7 @@ const langs = {
     floor1to8: "1-8 层",
     floor9to12: "9-12 层",
     noSpiralAbyssResets: "[深境螺旋重置]数量",
-    saTooltip: "如果你已经完成了当前的深境螺旋，就把这个值减少1。",
+    saTooltip: "如你完成现有的深境螺旋， 此值会扣减1点。",
     events: "活动",
     exploration: "勘探",
     unlockables: "可解锁的物品",
