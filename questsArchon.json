@@ -378,6 +378,15 @@
       },
       "icon": "/Sumeru.webp",
       "primos": 90
+    },
+    {
+      "title": { "fr": "Chapitre III - Acte 5", "en": "Interlude Chapter: Act III" },
+      "subtitle": {
+        "fr": "Pulsation akashienne et montée de la flamme de kalpa",
+        "en": "Inversion of Genesis"
+      },
+      "icon": "/Sumeru.webp",
+      "primos": 60
     }
   ]
 ]
