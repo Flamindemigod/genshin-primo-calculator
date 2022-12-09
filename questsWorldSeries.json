@@ -1,5 +1,19 @@
 [
   [
+    { "chapterTitle": { "chs": "蒙德", "de": "", "fr": "Liyue", "en": "Mondstadt" } },
+    {
+      "title": {
+        "chs": "骰子、猫与卡牌的战场",
+        "de": "",
+        "fr": "Voyage au centre du Gouffre",
+        "en": "Battlefield of Dice, Cats, and Cards"
+      },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
+      "icon": "/TCG.webp",
+      "primos": 60
+    }
+  ],
+  [
     { "chapterTitle": { "chs": "璃月", "de": "", "fr": "Liyue", "en": "Liyue" } },
     {
       "title": {
