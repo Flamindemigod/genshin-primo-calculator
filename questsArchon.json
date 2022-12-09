@@ -380,8 +380,9 @@
       "primos": 90
     },
     {
-      "title": { "fr": "Chapitre III - Acte 5", "en": "Interlude Chapter: Act III" },
+      "title": { "chs": "间章 第三幕", "fr": "Chapitre III - Acte 5", "en": "Interlude Chapter: Act III" },
       "subtitle": {
+        "chs": "倾落伽蓝",
         "fr": "Pulsation akashienne et montée de la flamme de kalpa",
         "en": "Inversion of Genesis"
       },
