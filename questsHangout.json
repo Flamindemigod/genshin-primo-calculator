@@ -1,12 +1,23 @@
 [
   [
-    { "chapterTitle": { "fr": "Barbara", "en": "Barbara" } },
+    {
+      "chapterTitle": {
+        "chs": "芭芭拉",
+        "de": "",
+        "fr": "Barbara",
+        "en": "Barbara"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·芭芭拉 第一幕",
+        "de": "",
         "fr": "Escapade : Barbara - Acte 1",
         "en": "Hangout Event: Barbara - Act I"
       },
       "subtitle": {
+        "chs": "治愈的清泉",
+        "de": "",
         "fr": "Source de bienveillance",
         "en": "Wellspring of Healing"
       },
@@ -15,13 +26,24 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Noëlle", "en": "Noelle" } },
+    {
+      "chapterTitle": {
+        "chs": "诺艾尔",
+        "de": "",
+        "fr": "Noëlle",
+        "en": "Noelle"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·诺艾尔 第一幕",
+        "de": "",
         "fr": "Escapade : Noëlle - Acte 1",
         "en": "Hangout Event: Noelle - Act I"
       },
       "subtitle": {
+        "chs": "骑士修行之道",
+        "de": "",
         "fr": "Entraînement à la chevalerie",
         "en": "Chivalric Training"
       },
@@ -30,10 +52,14 @@
     },
     {
       "title": {
+        "chs": "邀约事件·诺艾尔 第二幕",
+        "de": "",
         "fr": "Escapade : Noëlle - Acte 2",
         "en": "Hangout Event: Noelle - Act II"
       },
       "subtitle": {
+        "chs": "骑士备考之道",
+        "de": "",
         "fr": "Études de la chevalerie",
         "en": "Knightly Exam Prep"
       },
@@ -42,37 +68,76 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Chongyun", "en": "Chongyun" } },
+    {
+      "chapterTitle": {
+        "chs": "重云",
+        "de": "",
+        "fr": "Chongyun",
+        "en": "Chongyun"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·重云 第一幕",
+        "de": "",
         "fr": "Escapade : Chongyun - Acte 1",
         "en": "Hangout Event: Chongyun - Act I"
       },
-      "subtitle": { "fr": "Chasseur de fantômes", "en": "signs of Evil" },
+      "subtitle": {
+        "chs": "寻妖觅邪记",
+        "de": "",
+        "fr": "Chasseur de fantômes",
+        "en": "signs of Evil"
+      },
       "icon": "/Chongyun.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "fr": "Bennett", "en": "Bennett" } },
+    {
+      "chapterTitle": {
+        "chs": "班尼特",
+        "de": "",
+        "fr": "Bennett",
+        "en": "Bennett"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·班尼特 第一幕",
+        "de": "",
         "fr": "Escapade : Bennett - Acte 1",
         "en": "Hangout Event: Bennett - Act I"
       },
-      "subtitle": { "fr": "Merveilleux voyage", "en": "Fantastic Voyage" },
+      "subtitle": {
+        "chs": "美妙旅程",
+        "de": "",
+        "fr": "Merveilleux voyage",
+        "en": "Fantastic Voyage"
+      },
       "icon": "/Bennett.webp",
       "primos": 60
     }
   ],
   [
-    { "chapterTitle": { "fr": "Diona", "en": "Diona" } },
+    {
+      "chapterTitle": {
+        "chs": "迪奥娜",
+        "de": "",
+        "fr": "Diona",
+        "en": "Diona"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·迪奥娜 第一幕",
+        "de": "",
         "fr": "Escapade : Diona - Acte 1",
         "en": "Hangout Event: Diona - Act I"
       },
       "subtitle": {
+        "chs": "猫与特调酒",
+        "de": "",
         "fr": "Cocktail spécial de chat",
         "en": "The Cat and the Cocktail"
       },
@@ -81,13 +146,24 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Beidou", "en": "Beidou" } },
+    {
+      "chapterTitle": {
+        "chs": "北斗",
+        "de": "",
+        "fr": "Beidou",
+        "en": "Beidou"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·北斗 第一幕",
+        "de": "",
         "fr": "Escapade : Beidou - Acte 1",
         "en": "Hangout Event: Beidou - Act I"
       },
       "subtitle": {
+        "chs": "南十字闪耀时",
+        "de": "",
         "fr": "Quand le Crux brille de mille feux",
         "en": "When the Crux Shines Bright"
       },
@@ -96,13 +172,19 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Thomas", "en": "Thoma" } },
+    {
+      "chapterTitle": { "chs": "托马", "de": "", "fr": "Thomas", "en": "Thoma" }
+    },
     {
       "title": {
+        "chs": "邀约事件·托马 第一幕",
+        "de": "",
         "fr": "Escapade : Thomas - Acte 1",
         "en": "Hangout Event: Thoma - Act I"
       },
       "subtitle": {
+        "chs": "家政官的日常工作",
+        "de": "",
         "fr": "Les tâches quotidiennes d'un serviteur",
         "en": "A Housekeeper's Daily Chores"
       },
@@ -111,13 +193,17 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Sayu", "en": "Sayu" } },
+    { "chapterTitle": { "chs": "早柚", "de": "", "fr": "Sayu", "en": "Sayu" } },
     {
       "title": {
+        "chs": "邀约事件·早柚 第一幕",
+        "de": "",
         "fr": "Escapade : Sayu - Acte 1",
         "en": "Hangout Event: Sayu - Act I"
       },
       "subtitle": {
+        "chs": "呜呼流·生长之术",
+        "de": "",
         "fr": "École Yoohoo : L'art de grandir",
         "en": "Yoohoo Art: Seichou no Jutsu"
       },
@@ -126,13 +212,19 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Gorou", "en": "Gorou" } },
+    {
+      "chapterTitle": { "chs": "五郎", "de": "", "fr": "Gorou", "en": "Gorou" }
+    },
     {
       "title": {
+        "chs": "邀约事件·五郎 第一幕",
+        "de": "",
         "fr": "Escapade : Gorou - Acte 1",
         "en": "Hangout Event: Gorou - Act I"
       },
       "subtitle": {
+        "chs": "犬大将的特别行动",
+        "de": "",
         "fr": "Opérations spéciales du général canin",
         "en": "The Canine General's Special Operations"
       },
@@ -141,13 +233,24 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Yun Jin", "en": "Yun Jin" } },
+    {
+      "chapterTitle": {
+        "chs": "云堇",
+        "de": "",
+        "fr": "Yun Jin",
+        "en": "Yun Jin"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·云堇 第一幕",
+        "de": "",
         "fr": "Escapade : Yun Jin - Acte 1",
         "en": "Hangout Event: Yun Jin - Act I"
       },
       "subtitle": {
+        "chs": "弦歌知雅意",
+        "de": "",
         "fr": "Un récital d'élégance",
         "en": "A Song That Knows Grace"
       },
@@ -156,13 +259,24 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Ningguang", "en": "Ningguang" } },
+    {
+      "chapterTitle": {
+        "chs": "凝光",
+        "de": "",
+        "fr": "Ningguang",
+        "en": "Ningguang"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·凝光 第一幕",
+        "de": "",
         "fr": "Escapade : Ningguang - Acte 1",
         "en": "Hangout Event: Ningguang - Act I"
       },
       "subtitle": {
+        "chs": "玉阁归客至",
+        "de": "",
         "fr": "De retour dans la Chambre de Jade",
         "en": "The Jade Chamber's Returning Guest"
       },
@@ -171,13 +285,24 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Kuki Shinobu", "en": "Kuki Shinobu" } },
+    {
+      "chapterTitle": {
+        "chs": "久岐忍",
+        "de": "",
+        "fr": "Kuki Shinobu",
+        "en": "Kuki Shinobu"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·久岐忍 第一幕",
+        "de": "",
         "fr": "Escapade : Kuki Shinobu - Acte 1",
         "en": "Hangout Event: Kuki Shinobu - Act I"
       },
       "subtitle": {
+        "chs": "帮派的日常事务",
+        "de": "",
         "fr": "Les affaires quotidiennes du gang",
         "en": "The Gang's Daily Deeds"
       },
@@ -186,13 +311,24 @@
     }
   ],
   [
-    { "chapterTitle": { "fr": "Shikanoin Heizou", "en": "Shikanoin Heizou" } },
+    {
+      "chapterTitle": {
+        "chs": "鹿野院平藏",
+        "de": "",
+        "fr": "Shikanoin Heizou",
+        "en": "Shikanoin Heizou"
+      }
+    },
     {
       "title": {
+        "chs": "邀约事件·鹿野院平藏 第一幕",
+        "de": "",
         "fr": "Escapade : Shikanoin Heizou - Acte 1",
         "en": "Hangout Event: Shikanoin Heizou - Act I"
       },
       "subtitle": {
+        "chs": "风暴捕物帐",
+        "de": "",
         "fr": "Dans l'œil de la tempête",
         "en": "Trap Em' by Storm"
       },

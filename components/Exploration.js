@@ -95,7 +95,7 @@ const Exploration = ({ params, dispatch }) => {
           </Tooltip>
         </Box>
         <Box>
-          <Typography>Completion</Typography>
+          <Typography>{langContext.completion}</Typography>
           <Box className="py-4 grid ">
             <Tooltip title={langContext.domaintooltip2} arrow>
               <TextField

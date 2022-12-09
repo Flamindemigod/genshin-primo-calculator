@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import InputForm from "../components/InputForm";
 import Meta from "../components/Meta";
 import Quests from "../components/Quests";
+import TCG from "../components/TCG";
 import Teapot from "../components/Teapot";
 import { LangContext } from "../contexts/LangContext";
 const initialParamsState = {
@@ -142,6 +143,8 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
   const [eventFates, setEventFates] = useState(0);
   const [teapotPrimos, setTeapotPrimos] = useState(0);
   const [trustRank, setTrustRank] = useState([0, 0]);
+  const [TCGPlayerLevel, setTCGPlayerLevel] = useState([0, 0]);
+  const [TCGHandbook, setTCGHandbook] = useState([0, 0]);
 
   const [output, setOutput] = useState({
     primogems: 0,
@@ -179,6 +182,8 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
         ? parseInt(explorationParams.numDomainOneTime) * 40
         : 0) +
       (trustRank[1] - trustRank[0]) * 60 +
+      (TCGPlayerLevel[1] - TCGPlayerLevel[0]) * 60 +
+      (TCGHandbook[1] - TCGHandbook[0]) * 60 +
       (explorationParams.sosMond[1] - explorationParams.sosMond[0]) * 10 +
       (explorationParams.sosLiyue[1] - explorationParams.sosLiyue[0]) * 10 +
       (explorationParams.sosInazuma[1] - explorationParams.sosInazuma[0]) * 10 +
@@ -229,6 +234,8 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
     eventFates,
     teapotPrimos,
     trustRank,
+    TCGHandbook,
+    TCGPlayerLevel,
   ]);
 
   return (
@@ -249,6 +256,12 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
           <Exploration
             params={explorationParams}
             dispatch={explorationParamsDispatch}
+          />
+          <TCG
+            playerLevel={TCGPlayerLevel}
+            setPlayerLevel={setTCGPlayerLevel}
+            handbookLevel={TCGHandbook}
+            setHandbookLevel={setTCGHandbook}
           />
           <Teapot
             setPrimos={setTeapotPrimos}
