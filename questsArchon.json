@@ -58,7 +58,9 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "璃月", "de": "", "fr": "Liyue", "en": "Liyue" } },
+    {
+      "chapterTitle": { "chs": "璃月", "de": "", "fr": "Liyue", "en": "Liyue" }
+    },
 
     {
       "title": {
@@ -143,7 +145,12 @@
         "fr": "Chapitre I - Acte 4",
         "en": "Chapter I: Act IV Prelude"
       },
-      "subtitle": { "chs": "戴因斯雷布", "de": "", "fr": "Dainsleif", "en": "Dainsleif" },
+      "subtitle": {
+        "chs": "戴因斯雷布",
+        "de": "",
+        "fr": "Dainsleif",
+        "en": "Dainsleif"
+      },
       "icon": "/Traveler.webp",
       "primos": 60
     }
@@ -151,7 +158,12 @@
 
   [
     {
-      "chapterTitle": { "chs": "稻妻", "de": "", "fr": "Inazuma", "en": "Inazuma" }
+      "chapterTitle": {
+        "chs": "稻妻",
+        "de": "",
+        "fr": "Inazuma",
+        "en": "Inazuma"
+      }
     },
     {
       "title": {
@@ -298,7 +310,14 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "须弥", "de": "", "fr": "Sumeru", "en": "Sumeru" } },
+    {
+      "chapterTitle": {
+        "chs": "须弥",
+        "de": "",
+        "fr": "Sumeru",
+        "en": "Sumeru"
+      }
+    },
     {
       "title": {
         "chs": "第三章 第一幕",
@@ -378,12 +397,26 @@
       },
       "icon": "/Sumeru.webp",
       "primos": 90
+    }
+  ],
+  [
+    {
+      "chapterTitle": {
+        "chs": "间章",
+        "de": "",
+        "fr": "Intermède",
+        "en": "Interlude Chapter"
+      }
     },
     {
-      "title": { "chs": "间章 第三幕", "fr": "Chapitre III - Acte 5", "en": "Interlude Chapter: Act III" },
+      "title": {
+        "chs": "间章 第三幕",
+        "fr": "Intermède - Acte 3",
+        "en": "Interlude Chapter: Act III"
+      },
       "subtitle": {
         "chs": "倾落伽蓝",
-        "fr": "Pulsation akashienne et montée de la flamme de kalpa",
+        "fr": "Genèse inversée",
         "en": "Inversion of Genesis"
       },
       "icon": "/Sumeru.webp",
