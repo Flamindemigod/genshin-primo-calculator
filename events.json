@@ -1,30 +1,6 @@
 [
   {
     "name": {
-      "chs": "迷城战线·沙域篇",
-      "de": "",
-      "fr": "Cité perdue : Royaume de sable",
-      "en": "Misty Dungeon: Realm of Sand"
-    },
-    "image": "/misty_dungeon_realm_of_sand_temp.jpg",
-    "link": "https://www.hoyolab.com/article/14149689",
-    "start": {
-      "chs": "2022年12月9日，星期五",
-      "de": "",
-      "fr": "Ven, 9 Déc 2022",
-      "en": "Fri, 9 Dec 2022"
-    },
-    "end": {
-      "chs": "2022年12月19日星期一",
-      "de": "",
-      "fr": "Lun, 19 Déc 2022",
-      "en": "Mon, 19 Dec 2022"
-    },
-    "primos": 420,
-    "fates": 0
-  },
-  {
-    "name": {
       "chs": "秋津森夜试胆会",
       "de": "",
       "fr": "Kimodameshi d'Akitsu",
@@ -44,7 +20,7 @@
       "fr": "Lun, 2 Jan 2023",
       "en": "Mon, 2 Jan 2023"
     },
-    "primos": 420,
+    "primos": 990,
     "fates": 0
   },
   {
