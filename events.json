@@ -1,74 +1,146 @@
 [
   {
     "name": {
-      "chs": "秋津森夜试胆会",
+      "chs": "",
       "de": "",
-      "fr": "Kimodameshi d'Akitsu",
-      "en": "Akitsu Kimodameshi"
+      "fr": "",
+      "en": "The Exquisite Night Chimes"
     },
-    "image": "/akitsu_kimodameshi_temp.jpg",
-    "link": "https://www.hoyolab.com/article/14149689",
+    "image": "/The_Exquisite_Night_Chimes.webp",
+    "link": "https://www.hoyolab.com/article/14851531",
     "start": {
-      "chs": "2022年12月15日，星期四",
+      "chs": "",
       "de": "",
-      "fr": "Jeu, 15 Déc 2022",
-      "en": "Thu, 15 Dec 2022"
+      "fr": "",
+      "en": "Version 3.4"
     },
     "end": {
-      "chs": "2023年1月2日，星期一",
+      "chs": "",
       "de": "",
-      "fr": "Lun, 2 Jan 2023",
-      "en": "Mon, 2 Jan 2023"
+      "fr": "",
+      "en": ""
     },
-    "primos": 990,
+    "primos": 770,
     "fates": 0
   },
   {
     "name": {
-      "chs": "风行迷踪",
+      "chs": "",
       "de": "",
-      "fr": "Poursuite du vent",
-      "en": "Windtrace"
+      "fr": "",
+      "en": "Warrior's Spirit"
     },
-    "image": "/Windtrace.webp",
-    "link": "",
+    "image": "/Warrior's_Spirit.webp",
+    "link": "https://www.hoyolab.com/article/14851531",
     "start": {
-      "chs": "3.3版",
+      "chs": "",
       "de": "",
-      "fr": "Version 3.3",
-      "en": "Version 3.3"
+      "fr": "",
+      "en": "Version 3.4"
     },
     "end": {
-      "chs": "第二阶段",
+      "chs": "",
       "de": "",
-      "fr": "Phase II",
-      "en": "Phase II"
+      "fr": "",
+      "en": ""
     },
     "primos": 420,
     "fates": 0
   },
   {
     "name": {
-      "chs": "跨野寻踪",
+      "chs": "",
       "de": "",
-      "fr": "Traque dans la nature",
-      "en": "Across the Wilderness"
+      "fr": "",
+      "en": "Second Blooming"
     },
-    "image": "/8db6f770c28cfaf0755458bdd2f0819d_1957708713158266972.webp",
-    "link": "",
+    "image": "/Second_Blooming.webp",
+    "link": "https://www.hoyolab.com/article/14851531",
     "start": {
-      "chs": "3.3版",
+      "chs": "",
       "de": "",
-      "fr": "Version 3.3",
-      "en": "Version 3.3"
+      "fr": "",
+      "en": "Version 3.4"
     },
     "end": {
-      "chs": "第二阶段",
+      "chs": "",
       "de": "",
-      "fr": "Phase II",
-      "en": "Phase II"
+      "fr": "",
+      "en": ""
     },
     "primos": 420,
     "fates": 0
+  },
+  {
+    "name": {
+      "chs": "",
+      "de": "",
+      "fr": "",
+      "en": "Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl"
+    },
+    "image": "/Almighty_Arataki_Extraordinary_and_Exhilarating_Extreme_Beetle_Brawl.webp",
+    "link": "https://www.hoyolab.com/article/14851531",
+    "start": {
+      "chs": "",
+      "de": "",
+      "fr": "",
+      "en": "Version 3.4"
+    },
+    "end": {
+      "chs": "",
+      "de": "",
+      "fr": "",
+      "en": ""
+    },
+    "primos": 420,
+    "fates": 0
+  },
+  {
+    "name": {
+      "chs": "",
+      "de": "",
+      "fr": "",
+      "en": "Fortuitous Invitation"
+    },
+    "image": "/Fortuitous_Invitation.webp",
+    "link": "https://www.hoyolab.com/article/14851531",
+    "start": {
+      "chs": "",
+      "de": "",
+      "fr": "",
+      "en": "Version 3.4"
+    },
+    "end": {
+      "chs": "",
+      "de": "",
+      "fr": "",
+      "en": ""
+    },
+    "primos": 0,
+    "fates": 0
+  },
+  {
+    "name": {
+      "chs": "",
+      "de": "",
+      "fr": "",
+      "en": "Iridescent Splendor"
+    },
+    "image": "/Iridescent_Splendor.webp",
+    "link": "https://www.hoyolab.com/article/14851531",
+    "start": {
+      "chs": "",
+      "de": "",
+      "fr": "",
+      "en": "Version 3.4"
+    },
+    "end": {
+      "chs": "",
+      "de": "",
+      "fr": "",
+      "en": ""
+    },
+    "primos": 0,
+    "fates": 10
   }
 ]
