@@ -746,22 +746,6 @@
       },
       "icon": "/Nahida.webp",
       "primos": 60
-    },
-    {
-      "title": {
-        "chs": "天隼之章 第一幕",
-        "de": "",
-        "fr": "Vultur Volans - Acte 1",
-        "en": "Vultur Volans Chapter: Act I"
-      },
-      "subtitle": {
-        "chs": "乌合的虚像",
-        "de": "",
-        "fr": "Les illusions de la foule",
-        "en": "The Illusions of the Mob"
-      },
-      "icon": "/ch_2035_100.webp",
-      "primos": 60
     }
   ],
   [
