@@ -54,7 +54,7 @@ const TCG = ({
           <Slider
             min={0}
             step={1}
-            max={3}
+            max={4}
             value={handbookLevel}
             onChange={(e, newVal) => {
               setHandbookLevel(newVal);

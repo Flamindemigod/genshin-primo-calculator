@@ -10,7 +10,7 @@ const Background = () => {
         sizes="100vw"
         className="object-cover -z-10 fixed top-0 bottom-1/2"
         src={
-          "/anniversary-nahida-venti-raiden-zhongli-official-desktop-wallpaper-genshin.jpg"
+          "/__hu_tao_xiao_and_yelan_genshin_impact__009fc8dbb1348f0073631dfad4baddc4.jpg"
         }
         alt="Genshin Archons hanging out"
       />

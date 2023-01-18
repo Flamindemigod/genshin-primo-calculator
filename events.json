@@ -1,72 +1,145 @@
 [
   {
     "name": {
-      "chs": "秋津森夜试胆会",
+      "chs": "「富贵登门」",
       "de": "",
-      "fr": "Kimodameshi d'Akitsu",
-      "en": "Akitsu Kimodameshi"
+      "fr": "Richesses honorables",
+      "en": "May Fortune Find You"
     },
-    "image": "/akitsu_kimodameshi_temp.jpg",
-    "link": "https://www.hoyolab.com/article/14149689",
+    "image": "/__hu_tao_xiao_and_yelan_genshin_impact__009fc8dbb1348f0073631dfad4baddc4.jpg",
+    "link": "https://www.hoyolab.com/article/15075109",
     "start": {
-      "chs": "2022年12月15日，星期四",
+      "chs": "2023年1月19日，星期四",
       "de": "",
-      "fr": "Jeu, 15 Déc 2022",
-      "en": "Thu, 15 Dec 2022"
+      "fr": "Jeudi 19, Janvier 2023",
+      "en": "Thurs 19, January 2023"
     },
     "end": {
-      "chs": "2023年1月2日，星期一",
+      "chs": "2023年2月3日，星期五",
       "de": "",
-      "fr": "Lun, 2 Jan 2023",
-      "en": "Mon, 2 Jan 2023"
+      "fr": "Vendredi 3 Février 2023",
+      "en": "Fri 3, February 2023"
     },
-    "primos": 990,
+    "primos": 0,
+    "fates": 10
+  },
+  {
+    "name": {
+      "chs": "磬弦奏华夜",
+      "de": "",
+      "fr": "Sous les carillons de l'exquise nuit",
+      "en": "The Exquisite Night Chimes"
+    },
+    "image": "/The_Exquisite_Night_Chimes.webp",
+    "link": "https://www.hoyolab.com/article/15075109",
+    "start": {
+      "chs": "2023年2月3日，星期五",
+      "de": "",
+      "fr": "Vendredi 3 Février 2023",
+      "en": "Fri 3, February 2023"
+    },
+    "end": {
+      "chs": "2023年2月6日，星期一",
+      "de": "",
+      "fr": "Lun 6, Février 2023",
+      "en": "Mon 6, February 2023"
+    },
+    "primos": 770,
     "fates": 0
   },
   {
     "name": {
-      "chs": "风行迷踪",
+      "chs": "「虹彩华章」",
       "de": "",
-      "fr": "Poursuite du vent",
-      "en": "Windtrace"
+      "fr": "Splendeur Iridescente",
+      "en": "Iridescent Splendor"
     },
-    "image": "/Windtrace.webp",
-    "link": "",
+    "image": "/Iridescent_Splendor.webp",
+    "link": "https://sdk.hoyoverse.com/upload/ann/2022/12/28/12a987f966e07887642c02b1ae79ce6d_1748809555316057580.jpg",
     "start": {
-      "chs": "3.3版",
+      "chs": "",
       "de": "",
-      "fr": "Version 3.3",
-      "en": "Version 3.3"
+      "fr": "",
+      "en": ""
     },
     "end": {
-      "chs": "第二阶段",
+      "chs": "3.4版",
       "de": "",
-      "fr": "Phase II",
-      "en": "Phase II"
+      "fr": "Version 3.4",
+      "en": "Version 3.4"
+    },
+    "primos": 0,
+    "fates": 3
+  },
+
+  {
+    "name": {
+      "chs": "「蔷薇再开时」",
+      "de": "",
+      "fr": "Deuxième floraison",
+      "en": "Second Blooming"
+    },
+    "image": "/Second_Blooming.webp",
+    "link": "https://www.hoyolab.com/article/15075109",
+    "start": {
+      "chs": "2023年1月31日，星期二",
+      "de": "",
+      "fr": "Mardi 31 Janvier 2023",
+      "en": "Tues 31, January 2023"
+    },
+    "end": {
+      "chs": "2023年2月13日，星期一",
+      "de": "",
+      "fr": "Lun 13, Février 2023",
+      "en": "Mon 13, February 2023"
     },
     "primos": 420,
     "fates": 0
   },
   {
     "name": {
-      "chs": "跨野寻踪",
+      "chs": "「演武传心」",
       "de": "",
-      "fr": "Traque dans la nature",
-      "en": "Across the Wilderness"
+      "fr": "La voie du guerrier",
+      "en": "Warrior's Spirit"
     },
-    "image": "/8db6f770c28cfaf0755458bdd2f0819d_1957708713158266972.webp",
-    "link": "",
+    "image": "/Warrior's_Spirit.webp",
+    "link": "https://www.hoyolab.com/article/15075109",
     "start": {
-      "chs": "3.3版",
+      "chs": "2023年2月9日，星期四",
       "de": "",
-      "fr": "Version 3.3",
-      "en": "Version 3.3"
+      "fr": "Jeudi 9, Février 2023",
+      "en": "Thurs 9, February 2023"
     },
     "end": {
-      "chs": "第二阶段",
+      "chs": "2023年2月20日，星期二",
       "de": "",
-      "fr": "Phase II",
-      "en": "Phase II"
+      "fr": "Mardi 20, Février 2023",
+      "en": "Tues 20, February 2023"
+    },
+    "primos": 420,
+    "fates": 0
+  },
+  {
+    "name": {
+      "chs": "荒泷极意堂堂斗虫大试合！",
+      "de": "",
+      "fr": "L'extraordinaire et exaltante bagarre extrême de scarabées du sublime Arataki !",
+      "en": "Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl"
+    },
+    "image": "/Almighty_Arataki_Extraordinary_and_Exhilarating_Extreme_Beetle_Brawl.webp",
+    "link": "https://www.hoyolab.com/article/15075109",
+    "start": {
+      "chs": "2023年2月16日，星期四",
+      "de": "",
+      "fr": "Jeudi 16, Février 2023",
+      "en": "Thurs 16, February 2023"
+    },
+    "end": {
+      "chs": "2023年2月27日，星期一",
+      "de": "",
+      "fr": "Lun 27, Février 2023",
+      "en": "Mon 27, February 2023"
     },
     "primos": 420,
     "fates": 0

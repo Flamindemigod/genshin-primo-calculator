@@ -313,7 +313,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
                 </div>
               </div>
 
-              <div className="flex justify-between">
+              {/* <div className="flex justify-between">
                 <div>{langContext.output.line4}:</div>
                 <div className="font-semibold text-primary-500">
                   {Math.round(output.probability5StarGuaranteed * 100) / 100}%
@@ -324,7 +324,7 @@ export default function Home({ wishDistribution, cumalativeWishDistribution }) {
                 <div className="font-semibold text-primary-500">
                   {Math.round(output.probability5Star * 100) / 100}%
                 </div>
-              </div>
+              </div> */}
             </div>
           </Paper>
         </Box>
@@ -340,9 +340,10 @@ export const getStaticProps = async () => {
     (sum) => (value) =>
       (sum += value)
   )(0);
-  const data = await fetch("https://api.paimon.moe/wish?banner=200001").then(
+  let data = await fetch("https://api.paimon.moe/wish?banner=200001").then(
     (data) => data.json()
   );
+  data = { pityCount: { legendary: [] } };
   const slicedData = data.pityCount.legendary.slice(0, 91);
   const sliceCopy = slicedData.slice(1, 91);
   slicedData.push(...sliceCopy);

@@ -186,7 +186,9 @@
     }
   ],
   [
-    { "chapterTitle": { "chs": "离月", "de": "", "fr": "Liyue", "en": "Liyue" } },
+    {
+      "chapterTitle": { "chs": "离月", "de": "", "fr": "Liyue", "en": "Liyue" }
+    },
     {
       "title": {
         "chs": "独木难支",
@@ -554,7 +556,12 @@
   ],
   [
     {
-      "chapterTitle": { "chs": "稻妻", "de": "", "fr": "Inazuma", "en": "Inazuma" }
+      "chapterTitle": {
+        "chs": "稻妻",
+        "de": "",
+        "fr": "Inazuma",
+        "en": "Inazuma"
+      }
     },
     {
       "title": {
@@ -903,7 +910,12 @@
       "primos": 30
     },
     {
-      "title": { "chs": "安提戈努斯", "de": "", "fr": "Antigonus", "en": "Antigonus" },
+      "title": {
+        "chs": "安提戈努斯",
+        "de": "",
+        "fr": "Antigonus",
+        "en": "Antigonus"
+      },
       "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Enka.webp",
       "primos": 40
@@ -1163,6 +1175,39 @@
       "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
       "icon": "/Sumeru.webp",
       "primos": 20
+    },
+    {
+      "title": {
+        "chs": "已逝去的末日",
+        "de": "",
+        "fr": "Apocalypse perdue",
+        "en": "Apocalypse Lost"
+      },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
+      "icon": "/SumeruDesert.webp",
+      "primos": 40
+    },
+    {
+      "title": {
+        "chs": "比勒琪丝的哀歌",
+        "de": "",
+        "fr": "Le chant funèbre de Bilqis",
+        "en": "The Dirge of Bilqis"
+      },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
+      "icon": "/SumeruDesert.webp",
+      "primos": 290
+    },
+    {
+      "title": {
+        "chs": "仇敌仿佛众水翻腾…",
+        "de": "",
+        "fr": "Des ennemis comme l'océan tumultueux...",
+        "en": "Her Foes Rage Like Great Waters..."
+      },
+      "subtitle": { "chs": "", "de": "", "fr": "", "en": "" },
+      "icon": "/Sumeru.webp",
+      "primos": 290
     }
   ]
 ]
