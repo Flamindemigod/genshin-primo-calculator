@@ -15,6 +15,7 @@ module.exports = withPWA({
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    unoptimized: true,
     domains: ["storage.ko-fi.com"],
   },
 });
